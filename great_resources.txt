@@ -1,0 +1,217 @@
+Career / Tech
+
+https://blog.xaviershay.com/articles/avoiding-project-cancellation.html
+
+I refer to Xavier Shay's blog often - this is just a recent post I found helpful to understand high level decision-making and investment.
+
+If your project is long running with back-loaded benefits (“pay off a year down the line”): you are a high risk project.
+
+https://dev.to/baweaver/beyond-senior-progressive-influence-254g
+
+Another great blog by a former colleague Brandon Weaver about career progression in tech at the Staff level and higher.
+
+The big point of all of this is that influence is very much about using only as much power as is necessary to solve the problem at hand.
+
+https://medium.com/@saumil/avoid-the-reorg-from-hell-with-six-key-principles-f8c9cbdfb0bd
+
+Great overview of re-orgs and communication rom Saumil Mehta, a GM at Square. Their article on compensation is also super insightful.
+
+First off — any reorg will usually feature a very small group that is responsible for the actual design. A somewhat larger group may be consulted. A senior leader may be the final approver. And a much larger group would be usually informed. It is usually critical to communicate with each of these groups in order, bringing them in the know (ITK) at the right time.
+
+https://lethain.com/promo-pathologies/
+
+Great article on promotions and reasons for rejections.
+
+When working within a team, particularly a team staffed with more senior or a number of similarly senior individuals on the same problem, it’s hard to attribute impact across that team.
+
+https://staffeng.com/guides/present-to-executives/
+
+Great tips on presenting to executives. 
+
+If you show up as resistant to feedback, then they'll start swallowing their comments, and you'll get relatively little out of the meeting.
+
+Soft Skills
+
+https://blog.xaviershay.com/articles/short-mantras-to-interrupt-imposter-syndrome.html
+
+Great for anxious folks to gain some perspective.
+
+If I’m not doing a good job, someone will tell me
+
+https://medium.com/square-corner-blog/soft-skills-reading-list-a8af5a6296e5
+
+Soft skills reading list - these books formed a lot of the foundation of my own (non-therapy) soft skill development in my career for communication, collaboration, etc.
+
+Over the years, I’ve found myself returning to a core set of books that cover topics from communication and strategy to biases and leadership.
+
+https://paulgraham.com/lesson.html
+
+Great to come back to every now and then and a perspective on formal education.
+
+But wasting your time is not the worst thing the educational system does to you. The worst thing it does is to train you that the way to win is by hacking bad tests.
+
+https://www.youtube.com/watch?v=vtIzMaLkCaM
+
+Excellent video about communication & how our education often frames difficulties in it.
+
+You think writing is conveying your ideas to your readers, it's not….. It's changing their ideas.
+
+https://www.cracked.com/article_14990_what-monkeysphere.html
+
+Great overview of why humans can struggle in larger organizations.
+
+Most monkeys operate in troupes of 50 or so. But somebody slipped them a slightly larger brain and they estimated the ideal group or society for this particular animal was about 150. That brain, of course, was human.
+
+Data Science
+
+https://hbr.org/2018/12/what-great-data-analysts-do-and-why-every-organization-needs-them
+
+Excellent overview of the tradeoff between different DS specialties. 
+
+Excellence in statistics: rigor.... Excellence in machine learning: performance.... Excellence in analytics: speed
+
+https://towardsdatascience.com/the-analytics-hierarchy-of-needs-6d57d0e205e2
+
+Excellent Article by a colleague Ryan Foley on the progression of data tasks available to do. He also wrote an excellent article on a 'money tree.'
+
+The general idea of the analytics hierarchy of needs is that you should not move up the hierarchy until you’ve done the basics in the prior step (i.e. no deep analysis before metrics are defined & tracked, no dashboards built before you’ve started collecting & cleaning your data, etc).
+
+https://review.firstround.com/the-startup-founders-guide-to-hiring-a-data-scientist
+
+Great article on companies hiring their first data scientist by Mengying Li. They also have a nice interview with the first data scientist at Notion
+
+To gauge whether it’s the right time to bring your first data scientist onto your team, there are a few key points for reflection: First, has your company reached a point where you have enough data to generate quality insights? And second, do you have the right tools and support to realize the ROI from a data scientist’s insights?
+
+https://medium.com/@selwyth/will-the-real-data-scientist-please-stand-up-1e6395d467ca
+
+Great reminder to be authentic as a data scientist, written by a former colleague David Feng. Another great blog post by David on setting subscription prices.
+
+Trusting the wrong data scientist can result in no-delivery at best, decisions made on incorrect assumptions with wrong interpretations at worst.
+
+https://ianwhitestone.work/good-ds-bad-ds/
+
+Great version of the Good/Bad PM article by Ben Horowitz.
+
+Good DS is obsessed with solving business problems. They relentlessly search for them, and then bring out the right tool once found. Bad DS is obsessed with applying a specific technology or tool. They’ll orient their search for problems around the tool they are looking to use.
+
+https://blog.pragmaticengineer.com/what-is-data-engineering/
+
+Great primer of distinguishing some different data terms and high level of the infrastructure.
+
+In short, data engineers play an important role in creating core data infrastructure that allows for analysts and end-users to interact with data which is often locked up in operations systems.
+
+https://medium.com/@gokulrajaram/the-second-most-important-metric-for-every-company-df958ff8c5ec
+
+Great article by the legendary Gokul Rajaram (former exec I worked with at Square) - his linkedin, twitter, etc posts are usually very solid.
+
+The second most important metric for every company is a check metric on the NSM. It’s a metric that constrains the NSM and ensures that the NSM grows in a way that is sustainable and creates long-term value.
+
+https://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf?utm_source=substack&utm_medium=email
+
+Solid overview of production ML guidelines, granted moreso for MLEs, but still has some great gems.
+
+Rule #3: Choose machine learning over a complex heuristic
+
+Experimentation
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5506159/
+
+Great overview of p-value correction techniques for multiple hypothesis testing.
+
+Bonferroni adjustment has been well acknowledged to be much conservative especially when there are a large number of hypotheses being simultaneously tested and/or hypotheses are highly correlated.
+
+https://booking.ai/how-booking-com-increases-the-power-of-online-experiments-with-cuped-995d186fff1d
+
+Great overview of the CUPED method.
+
+An experiment is underpowered when the treatment effect is too small relative to the metric’s variance for a given sample size.
+
+https://blog.statsig.com/embracing-overlapping-a-b-tests-and-the-danger-of-isolating-experiments-cb0a69e09d3
+
+Nice refresher of different overlapping test options / tradeoffs.
+
+Even when numbers are skewed, they are in the same ballpark and result in the same decisions; overlapping experiments can be trusted to generate directionally accurate results.
+
+https://bytepawn.com/five-ways-to-reduce-variance-in-ab-testing.html
+
+Nice quick recap of reducing variance in AB testing with some nice visuals.
+
+The rewards of lower variance in A/B testing are reaped in the long term, by having more accurate measurements, making better decisions and releasing better products more quickly.
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6693672/
+
+History of why we use 0.05 for p-values. Basically Z-score is ~2.
+
+https://www.berkeleyside.org/2022/04/29/berkeley-is-analyzing-sewage-data-to-track-covid-19-as-response-shifts-in-third-year-of-pandemic
+
+Clever anecdotal story about using waste water to track Covid-19 after testing becomes less well-reported.
+
+https://blog.analytics-toolkit.com/2017/case-non-inferiority-designs-ab-testing/
+
+Good refresher on non-inferiority AB tests.
+
+The choice of a noninferiority margin, also called an equivalence margin, is key. It must be done based on objective evaluation of the magnitude that can to be considered non-significant.
+
+Coding Resources
+
+https://pgexercises.com/
+
+My go-to for someone who wants to get familiar with SQL or freshen up for a screen (besides hackerrank). Recursive, strings, and dates probably aren't really that necessary for a technical screen.
+
+https://adventofcode.com/
+
+Fun way to freshen up on any coding language (python github repo with some of my code practicing here). 
+
+https://www.kaggle.com/datasets
+
+Great datasets to work with and freshen up on ML / view notebooks, etc.
+
+https://www.youtube.com/c/joshstarmer
+
+Best overview of many, many Stats/ML concepts on the web IMO.
+
+Interesting Business Stuff
+
+https://www.nytimes.com/2022/11/19/business/media/att-time-warner-deal.html
+
+Mind-boggling waste.
+
+https://www.scarletink.com/p/how-companies-incentivize-layoffs
+
+Interesting perspective that's come up a lot in 2022 since ZIRP ended
+
+Obviously, competence (and keeping your peers / leadership happy) is important for your career as well, but it does mean that your primary career driver is not to be the best at delivery. It's to be the best at growing your team. [when promos are based on HC]
+
+https://www.brex.com/journal/the-enduring-value-of-funding-driven-fintech
+
+Great overview of ZIRP ending on fintech by Michael Tannenbaum, and exec I worked with at SoFi. Also reminds me of how a lot of funding-driven tech companies often IPO to cash out/pay the team, when really an IPO was supposed to be about opening funding to the public.
+
+However, as interest rates hovered near zero over the next decade and so much of my time was spent at SoFi (asset-based in the form of student loans, personal loans, mortgages) and Brex (fee-based in the form of charge cards and SaaS), I forgot the economic value of deposits!
+
+https://alexdanco.com/2020/02/07/debt-is-coming/
+
+Interesting view of the interplay of business and funding. 
+
+The view of production capital is exemplified by Peter Drucker: 'Securities analysts believe that companies make money. Companies make shoes.'"
+…
+However, investors and operators are often deeply misaligned: investors think in bets, while operators think in consequences.
+
+https://www.forbes.com/sites/paultassi/2023/01/17/netflix-has-created-a-self-fulfilling-cancelation-loop-with-its-new-shows/?sh=7dc05aa3784d
+
+Interesting Forbes article that highlights what I would consider Netflix running up against 'Goodhart's law' ("when a measure becomes a target, it ceases to be a good measure") - ie that targeting early viewership is resulting in shows getting cancelled early and creating a self-fulfilling loop.
+
+The idea is that since you know that Netflix cancels so many shows after one or two seasons, ending them on cliffhangers and leaving their storylines unfinished, it's almost not worth investing in a show until it's already ended, and you know it's going to have a coherent ending and finished arc.
+
+Memes & Gifs
+
+For Wednesdays
+
+https://www.youtube.com/watch?v=PE8GlPpuLuY
+
+For Fridays: https://www.youtube.com/watch?v=kfVsfOSbJY0
+
+For stakeholders with ridiculous expectations: https://www.youtube.com/watch?v=2wA-8yrjEpQ
+
+When meeting a new teammate: https://media3.giphy.com/media/3PAL5bChWnak0WJ32x/giphy-downsized.gif?cid=6104955e057b30a0cd6a1c8db8f3e8b584d59bf428c50944&rid=giphy-downsized.gif
+
+For when you submit a PR:
