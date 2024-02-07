@@ -2,7 +2,7 @@ Career / Tech
 
 https://blog.xaviershay.com/articles/avoiding-project-cancellation.html
 
-I refer to Xavier Shay's blog often - this is just a recent post I found helpful to understand high level decision-making and investment.
+Xavier Shay's has an excellent blog I review oftetn - this is just a recent post I found helpful to understand high level decision-making and investment.
 
 If your project is long running with back-loaded benefits (“pay off a year down the line”): you are a high risk project.
 
@@ -14,7 +14,7 @@ The big point of all of this is that influence is very much about using only as 
 
 https://medium.com/@saumil/avoid-the-reorg-from-hell-with-six-key-principles-f8c9cbdfb0bd
 
-Great overview of re-orgs and communication rom Saumil Mehta, a GM at Square. Their article on compensation is also super insightful.
+Great overview of re-orgs and communication from Saumil Mehta, a GM at Square. Their article on compensation is also super insightful.
 
 First off — any reorg will usually feature a very small group that is responsible for the actual design. A somewhat larger group may be consulted. A senior leader may be the final approver. And a much larger group would be usually informed. It is usually critical to communicate with each of these groups in order, bringing them in the know (ITK) at the right time.
 
@@ -76,6 +76,12 @@ Excellent Article by a colleague Ryan Foley on the progression of data tasks ava
 
 The general idea of the analytics hierarchy of needs is that you should not move up the hierarchy until you’ve done the basics in the prior step (i.e. no deep analysis before metrics are defined & tracked, no dashboards built before you’ve started collecting & cleaning your data, etc).
 
+https://developer.squareup.com/blog/product-analytics-at-square/
+
+Great overview of Product Analytics (now Product Data Science) at Square by Fan Zhang (colleague)
+
+With Square growing and its products expanding, developing, and launching, an analytics support gap emerged for our SaaS product teams. In their infancy, these new product teams needed to learn, iterate, and grow their reach. The SaaS products were not at the same scale as our payments business, which leveraged existing data infrastructure to automate decisions. Instead, product teams needed low-friction data access to make quick decisions. More importantly, they needed insightful analysis of seller behavior to drive product and marketing strategy. Addressing this gap was the catalyst for growing our Product Analytics discipline.
+
 https://review.firstround.com/the-startup-founders-guide-to-hiring-a-data-scientist
 
 Great article on companies hiring their first data scientist by Mengying Li. They also have a nice interview with the first data scientist at Notion
@@ -102,7 +108,7 @@ In short, data engineers play an important role in creating core data infrastruc
 
 https://medium.com/@gokulrajaram/the-second-most-important-metric-for-every-company-df958ff8c5ec
 
-Great article by the legendary Gokul Rajaram (former exec I worked with at Square) - his linkedin, twitter, etc posts are usually very solid.
+Great article by the legendary Gokul Rajaram (former exec I worked with at Square) - his linkedin, twitter, etc posts are usually very solid. Another great article on his SPADE framework for decision-making.
 
 The second most important metric for every company is a check metric on the NSM. It’s a metric that constrains the NSM and ensures that the NSM grows in a way that is sustainable and creates long-term value.
 
@@ -111,6 +117,12 @@ https://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf?utm_source=substack&utm
 Solid overview of production ML guidelines, granted moreso for MLEs, but still has some great gems.
 
 Rule #3: Choose machine learning over a complex heuristic
+
+https://counterfactuals.co/case-studies
+
+Nice new blog by a former colleague Tyler Hanson about end to end DS effectiveness.
+
+The perceived bottleneck for these teams is not “insights”; it’s the manipulation and preparation of data. This is where the de-facto scope of a data team becomes clear: data analysts are on a separate team and defined by their technical skillsets in manipulating and accessing data, not their analytical prowess. When analysts partner with other teams, they are called upon to solve “data-shaped problems” rather than actually conduct data analysis, because the former is what actually separates them from the rest of the business.
 
 Experimentation
 
@@ -137,6 +149,10 @@ https://bytepawn.com/five-ways-to-reduce-variance-in-ab-testing.html
 Nice quick recap of reducing variance in AB testing with some nice visuals.
 
 The rewards of lower variance in A/B testing are reaped in the long term, by having more accurate measurements, making better decisions and releasing better products more quickly.
+
+https://www.microsoft.com/en-us/research/group/experimentation-platform-exp/articles/deep-dive-into-variance-reduction/
+
+Another great article on variance reduction.
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6693672/
 
@@ -202,6 +218,20 @@ Interesting Forbes article that highlights what I would consider Netflix running
 
 The idea is that since you know that Netflix cancels so many shows after one or two seasons, ending them on cliffhangers and leaving their storylines unfinished, it's almost not worth investing in a show until it's already ended, and you know it's going to have a coherent ending and finished arc.
 
+Random Categories
+
+https://forums.t-nation.com/t/dispelling-the-glute-myth/284458
+
+This website has gone way downhill, but this article changed my athletic career. Bret Contreras introduced me to hip thrusts, which is like the bench press but for your glutes. Side note: another exercise adage I've tried to remember wrt join health: motion is lotion.
+
+Most experts don’t know shit about the glutes. Despite the fact that the gluteus maximus muscles are without a doubt the most important muscles in sports and the fact that strength coaches helped popularized “glute activation,” no one has a good understanding of glute training. Bodybuilders, powerlifters, and physical therapists think they do, but they don’t. In fact, the experts are so far off the mark that their best glute exercises can only activate half as many fibers as the glute exercises I’m about to show you.
+
+https://www.upworthy.com/bartender-explains-why-he-swiftly-kicks-nazis-out-of-his-punk-bar-even-if-theyre-not-bothering-anyone
+
+Great example for the 'tolerance paradox' - that is:
+
+Karl Popper describes the paradox as arising from the self-contradictory idea that, in order to maintain a tolerant society, the society must retain the right to be intolerant of intolerance.
+
 Memes & Gifs
 
 For Wednesdays
@@ -210,8 +240,18 @@ https://www.youtube.com/watch?v=PE8GlPpuLuY
 
 For Fridays: https://www.youtube.com/watch?v=kfVsfOSbJY0
 
+https://www.youtube.com/watch?v=kfVsfOSbJY0
+
 For stakeholders with ridiculous expectations: https://www.youtube.com/watch?v=2wA-8yrjEpQ
+
+https://www.youtube.com/watch?v=2wA-8yrjEpQ
 
 When meeting a new teammate: https://media3.giphy.com/media/3PAL5bChWnak0WJ32x/giphy-downsized.gif?cid=6104955e057b30a0cd6a1c8db8f3e8b584d59bf428c50944&rid=giphy-downsized.gif
 
-For when you submit a PR:
+https://media3.giphy.com/media/3PAL5bChWnak0WJ32x/giphy-downsized.gif?cid=6104955e057b30a0cd6a1c8db8f3e8b584d59bf428c50944&rid=giphy-downsized.gif
+
+For when you submit a PR as a DS:
+
+And lastly, the power of teamwork: https://media0.giphy.com/media/4LZMbupmy8i3NLzbW2di/giphy.gif
+
+https://media0.giphy.com/media/4LZMbupmy8i3NLzbW2di/giphy.gif
