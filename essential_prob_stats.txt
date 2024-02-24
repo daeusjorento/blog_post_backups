@@ -1,0 +1,369 @@
+Background
+
+...statistics isn't about data, but distillation, rigor, and avoiding being fooled by randomness. 
+
+Nassim Nicholas Taleb, Skin in the Game.
+
+Some people (like myself) have learned most if not all data science techniques on the job, and don't have a full statistics academic background. As such, it can be helpful to refresh some fundamentals to understand more deeply (similar to how experienced software engineers might sometimes benefit from refreshing the basics, as they are not all full computer scientists). Here I'll touch briefly on some probability fundamentals, then basic statistic concepts including going through hypothesis testing, and correlation (ending before linear regressions). Enjoy!
+
+Brief Probability Overview
+
+Mathematics is the logic of certainty; probability is the logic of uncertainty 
+
+Introduction to Probability by Joseph K. Blitzstein and Jessica Hwang
+
+Probability is the foundation and root language of statistics. It typically starts with studying games of chance, for example, rolling a die (6 possible outcomes), and picking which we think it will land on (e.g. 1), and subsequently specifying the probability of rolling that outcome (1/6). The Frequentist approach of probability is based on the 'long-run' frequency over a large number of independent repetitions (e.g. is this a fair die? Roll it 10k times to see). The Bayesian view is related to the degree of belief about the question & therefore the data distribution (e.g. is the defendant guilty, or will X team win the Super bowl) - often in situations that cannot be repeated (xkcd).
+
+Next comes conditional probability, or 'how should we evaluate likelihoods in light of evidence we observe?' This is where the power of probability and statistics comes in: not only in creating logic from uncertainty, but also in the ability to update our beliefs over time. Conditional probability is a complex field, but one major thing to consider is 'conditioning' and what beliefs we start out having about a situation, and under what conditions we would update/modify that belief.
+
+Conditioning is the soul of statistics
+
+Introduction to Probability by Joseph K. Blitzstein and Jessica Hwang
+
+Later on, we'll visit some common distributions which could be its own topic.
+
+Essential Probability Concepts
+
+Experiment: The process of observing the outcome of a chance event. An experiment is said to be random if it has more than one possible outcome, and deterministic if it has only one. A random experiment that has exactly two (mutually exclusive) possible outcomes is known as a Bernoulli trial (e.g. a coin flip).
+
+Mutual Exclusivity of Events: Two events that cannot occur simultaneously (i.e. each containing different outcomes). E.g. If you roll a die, then the events of “rolling an even number” and “rolling an odd number” are mutually exclusive.
+
+Independence of Events: the occurrence of one event does not affect the probability of occurrence of the other. E.g. If you flip a fair coin 10 times, and X is the number of times you get heads, and Y is the number of times you get tails, these events are dependent (not independent), since if you get X, you definitionally do not get Y (note: this is an extreme example where knowing X allows you to fully know Y). But if you have a fair coin, and X is the event that the first flip is heads, and Y is the event that the second flip is heads, then these are independent, since getting heads the first time doesn't affect at all the likelihood you'll get heads the second time.
+
+In many experiments it is easier to deal with a summary variable than with the original probability structure. For example, in an opinion poll, we might decide to ask 50 people whether they agree or disagree with a certain issue. If we record a "1" for agree and "0" for disagree, the sample space for this experiment has 2^50 elements, each an ordered string of 1s and 0s of length 50. We should be able to reduce this to a reasonable size! It may be that the only quantity of interest is the number of people who agree out of 50 and, if we define a variable X = number or 1s recorded out of 50, we have captured the essence of the problem. Not that the sample space for X is the set of integers {0,1,2,…,50} and is much easier to deal with than the original sample space. … A random variable is a function from a sample space S into the real numbers.
+
+Statistical Inference by George Casella and Roger L. Berger
+
+A Random Variable (r.v.) is a function assigning a real number to every possible outcome of a given experiment (e.g. X & Y above). The term 'random variable' can sometimes be misleading as it is not actually random or a variable, but rather a deterministic function from possible outcomes (e.g., the possible upper sides of a flipped coin such as heads H and Tails T in a sample space - the set {H,T}). This sounds like a vague concept, but it is a very useful definition for probability.
+
+Note: Random variables may be continuous, or discrete if they are typically obtained by measuring or counting, respectively (e.g. discrete = 1, 2, 3. continuous = taking on real number values in some interval [a, b]). 
+
+Side note: For modeling, there are 4 types of variables: Binary (e.g. True/False), Categorical (e.g. US, CA, MX, etc), Integer (discrete - e.g. number of shoes - this quantity is, in theory, able to take on any positive integer value), and continuous (e.g. revenue).
+
+Probability Distribution: is a mathematical function that gives the probabilities of occurrence of different possible events (sets of outcomes) for an experiment. Sometimes people confuse random variables and distributions. In general, for a probability distribution, the inputs are events and the outputs are probabilities. In the discrete setting, one can write out an explicit PMF (probability mass function) that assigns a probability to each outcome in the sample space (e.g. see below for the 2 dice rolls example). A PMF must sum to 1 (i.e. for a probability distribution, it must evaluate to 1 for the event consisting of all possible outcomes, where 100% of outcomes are accounted for) - and similarly the probability of any outcome is between 0 and 1 (e.g. since nothing has -10% or 110% chance of happening).
+
+Probability distributions can also be defined for continuous random variables (see examples in later sections). Whenever they exist, PDFs (probability density functions) associated with continuous random variables can be used to compute probabilities that the random variables take on values in some given area/region (by integrating the PDF over that area/region). Another way to think of a probability distribution is like a type of model that approximates histograms with an infinite amount of data.
+
+Expected Value: the weighted average of all possible outcomes (denoted E(X) for r.v. X). For example, in the discrete setting, for a coin where 1 = heads and 0 = trails, the expected value is 0.5 (= 1 * 0.5 + 0 * 0.5). (read: the infinite sum of all the values multiplied by the probabilities of each value). Said another way: Expectation is a single number summarizing the center of mass of a distribution [Introduction to Probability]. Note that expectations can be finite, infinite (e.g. random variables with Lévy distributions), or undefined (e.g. if a random variable’s positive and negative parts both have infinite expectation, e.g. random variables with Cauchy distributions).
+
+Variance: Another single-number summary of the distribution of a random variable, calculated as the weighted average of all squared deviations from the mean. More detail in the spread section of descriptive statistics below.
+
+Data Analysis: the gathering, display, and summary of data.
+
+Probability: the laws of chance, in and out of the casino.
+
+Statistical Inference: The science of drawing statistical conclusions from specific data, using a knowledge of probability.
+
+The Cartoon Guide to Statistics by Larry Gonick & Woollcott Smith.
+
+...probabilities should be determined by the sampling mechanism [with or without replacement, ordered or unordered]
+
+Statistical Inference by George Casella and Roger L. Berger
+
+Probability deals with predicting the likelihood of future events, while statistics involves the analysis of the frequency of past events. Probability is primarily a theoretical branch of mathematics, which studies the consequences of mathematical definitions. Statistics is primarily an applied branch of mathematics, which tries to make sense of observations in the real world. Article
+
+Descriptive Statistics and Distributions
+
+Descriptive Statistics is a general term that describes the characteristics of a dataset. It is a simple technique to describe, show, and summarize data in a meaningful way. There is no uncertainty involved because you are calculating various “metrics” on a deterministic dataset.
+
+In a typical setting, one would choose a group or population one is interested in, record data about the group, and then use summary statistics and various graphs (i.e. visualizations) to describe the group properties. 
+
+Summary Statistics
+
+Consider an example of 10 randomly generated numbers between 0 and 9:
+
+[3, 6, 5, 4, 8, 9, 1, 7, 9, 6]. Below are common metrics that are often referred to as “summary statistics” and can be calculated with relative ease:
+
+The Count (n) of numbers = 10. The Unique Count of numbers = 8 (since 6 and 9 each repeat twice, so 10 - 2 = 8).
+
+The Sum (total) of the numbers = 58 (3+6+....+9+6).
+
+The Mean is 5.8 (sum / count = 58/10). This is often called the average, though mean, mode, and median are technically all types of averages. Side note: the average person has <2 legs if we use the mean.
+
+The Maximum (max - highest value) is 9.
+
+The Minimum (min - lowest value) is 1.
+
+The Range (distance between largest and smallest number) is 8 (max - min = 9 - 1).
+
+The Mode (most frequent number) is 6, and 9 (since both appear twice). Making it bimodal. Side note: The mode maximizes the PMF.
+
+The Median (middle value) is 6 (sorting values to: 1, 3, 4, 5, 6, 6, 7, 8, 9, 9) and taking the middle (either the middle position if the list has an odd count, or the average of the 2 middle positions if the list has an even count, like here: (6+6)/2 = 6). The median is a value such that half the mass of the distribution falls on either side of it (or as close to half as possible). Note that a distribution can have multiple medians and multiple modes.
+
+Spread (Dispersion)
+
+The common Percentiles of the data above (25th -> first quartile, 50th -> second quartile, 75th -> third quartile) are 4.25, 6, and 7.75 respectively for the random numbers above (using numpy's quantile function). Note: There is no standard definition of percentile; however, all definitions yield similar results when the number of observations is very large and the probability distribution is continuous. Roughly, the k-th percentile is the score below which a given percentage of k of scores fall. The 50th percentile is the median (6). The 25th percentile is known as the first quartile, or put another way, the median of the lower half of the values. The 75th percentile is known as the third quartile, or the median of the higher half of the values. More detail on calculations here. You can see the values of percentiles often with test scores, let's say you got 70 out of 100 on a test, what percentile were you in (ie relative to the class)? That information gives you a better sense of where you stand.
+
+Interquartile Range (IQR): For the dataset above, the difference between the third and first quartile (7.75 - 4.25 = 3.5). This gives us information about the spread of the data, or how far from the center the data tend to range. 
+
+The information is often best displayed in a box plot, which helps show the dispersion of a dataset:
+
+IQR is the spread based on the median. Standard deviation is the spread based on the mean. You can think of standard deviation as the average distance of the data from the mean.
+
+Showing the random numbers here again: [3, 6, 5, 4, 8, 9, 1, 7, 9, 6]. Mean = 5.8
+
+Sample Variance (s^2): 6.84   = [(3-5.8)^2 +  .... + (6-5.8)^2] / (10-1). The sample variance is the average distance from the sample mean, but that distance is squared (to account for positive and negative distances from the mean). It is divided by n-1 to account for the degrees of freedom (i.e. 1 degree of freedom is used to calculate the mean - it's weird but read this article if you're curious; in the case of independent and identically distributed AKA iid random variables, the sample variance is an unbiased estimate of the true variance, assuming it exists). 
+
+Standard Deviation (s): 2.61 (the square root of the sample variance 6.84). The square root is taken to change the units back from X^2 to X to be consistent with the units of the rest of the data. 
+
+Standard Error (SE): 0.82 (2.61 / √10). It is the standard deviation divided by the square root of the sample size. If the statistic is the sample mean, it is called the standard error of the mean (SEM).
+
+Below you can see the difference of how a probability distribution could look with the same mean, but higher vs lower variance. In a few samples this is effectively a probability histogram, but as the sample increases in size, it becomes a continuous distribution (i.e. smoothed out).
+
+For fairly symmetrical histograms without outliers, the mean and standard deviation are great ways to summarize the data. Z-scores standardize how many standard deviations from the mean a value is (i.e. a Z-score of +2 means that an observation is two standard deviations above the mean). Z-score = (observation - mean) / s. (s = standard deviation).
+
+Normal Distribution
+
+The standard normal distribution (or a bell-curve due to its shape) has mean 0 and variance 1. Note how 68% of the data falls between +/- 1 standard deviation of the sample, 95.4% falls between 2 standard deviations, and 99.7% fall within 3 standard deviations. The general normal distribution with mean mu and variance sigma^2 is particularly common in statistics because it is the limiting distribution for many large sample approximations (see central limit theorem section below for more details). Details
+
+Normalization: The process of adjusting values measured on different scales to a notionally common scale - this helps compare numbers of different sizes from various data sources (Why scale variables article). A few examples in Python: 
+
+standardization (replace values by Z-scores): normalized_df=(df-df.mean())/df.std()
+
+Result: Mean of 0, standard deviation of 1
+
+mean normalization: normalized_df=(df-df.mean())/(df.max()-df.min()).
+
+Result: Mean of 0, Values between -1 and 1.
+
+min-max (linear) normalization: normalized_df=(df-df.min())/(df.max()-df.min()).
+
+Result: Values are between 0 and 1.
+
+Further reading: Different Normalization Methods | Normalization vs Standardization.
+
+An outlier is a data point that differs significantly from other observations (i.e. many standard deviations away from the mean, and observations at or more extreme than this data point have very low probability of occurrence). A common situation that can come up with revenue is if the average monthly revenue for example is $30, and then one outlier has $20K in the same time period. We don't want it to throw off our data, so sometimes we want to normalize the data (see below).
+
+One common type of normalization specifically for reducing the effect of outliers is Winsorizing (clipping), where we set all outliers to a specified percentile of the data; for example, a 90% winsorization would see all data below the 5th percentile set to the 5th percentile. Compared to 'trimming' where we exclude some of the extreme values by truncating them.
+
+Skewness
+
+Skewness is a measure of the asymmetry of the probability distribution of a real-valued random variable about its mean. The skewness value can be positive, zero, negative, or undefined.
+
+Two common measures of skew for a given dataset:
+
+Pearson's first skewness coefficient (mode skewness): mean - mode / standard deviation.
+
+Pearson's second skewness coefficient (median skewness): mean - median / standard deviation.
+
+See how skew can be interpreted from box plots below.
+
+Tails of Distributions
+
+There are also a few different ways to talk about the 'tail' of a distribution. Informally, a very skewed dataset is said to have a fat tail or heavy tail (relative to an exponential distribution). The reason this is called out is that a probability distribution with fat tails would be one in which moderately extreme outcomes were more likely than you might have expected (see image below). The most common heavy-tailed distributions have tails that decay at a power law rate (e.g. the PDF decays at a rate of 1/x^alpha for some alpha > 1; see, for example, Cauchy distribution).
+
+Relatedly, a long tail means that there are many occurrences far from the 'head' or central part of the distributions (see example below where the 'books you've never heard of' tail is long).
+
+Additional Commonly Encountered Distributions
+
+Below we can see some common distributions we might encounter in our data. Article
+
+Among the more commonly encountered distributions:
+
+The binomial distribution is a generalization of the Bernoulli distribution to n independent trials (e.g. n independent coin flips);
+
+The exponential distribution is often used to model the lifetimes of certain products (e.g. light bulbs) / inter-arrival times of customers in service systems;
+
+The geometric distribution is used to model the number of flips needed to achieve a head for the first time (in coin flip games);
+
+The Poisson distribution is often used to model the number of arrivals to a system by some time.
+
+The (continuous) uniform distribution is a fundamental quantity in simulation and can be used to “generate” other random variables via suitable inversion techniques.
+
+Inferential Statistics
+
+In Inferential Statistics, the focus is on making predictions about a large group of data based on a representative sample of the population. The accuracy of inferential statistics depends largely on the accuracy of sample data and how it represents the larger population. This can be effectively done by obtaining a random sample. Results that are based on non-random samples are usually discarded.
+
+Law of Large Numbers and the Central Limit Theorem
+
+The Law of Large Numbers (LLN) and the Central Limit Theorem (CLT) are two fundamental pillars in probability as well as in inferential statistics. The Law of Large Numbers states that the sample mean of independent and identically distributed (iid) random variables tends to the true population mean (assuming it exists) as the sample size tends to infinity. The Central Limit Theorem states that, for iid random variables, the distribution of a suitably centered and scaled  sample mean converges to a normal distribution as the sample size gets larger. That is, in many situations, for iid random variables, the sampling distribution of the standardized sample mean tends towards the standard normal distribution even if the original variables themselves are not normally distributed! Note: The terms random sample and IID are often used interchangeably in many settings. Side note: More general laws of large numbers and central limit theorems also exist for non-iid data, such as for certain types of time series and Markov processes (but these are outside the scope of this article).
+
+What is so remarkable about this? It says that regardless of the shape of the original distribution, the taking of averages results in an approximately normal distribution. In particular, to describe the approximate distribution of the sample mean when the sample size is large, it suffices to focus on the population mean and standard deviation. This theorem forms the foundation of estimating population parameters and hypothesis testing.
+
+Sampling
+
+Getting data from the full population is not always feasible, which is why we often take samples. The way to get statistically dependable results is to choose the sample at random (ie. all possible samples of n objects are equally likely -> 'unbiased' sampling, and selection of one unit has no influence on the selection of other units -> independence). Using a sample of customers for an experiment has a cost, but the benefit is what we learn about the impact of our work. Poor data collection methods can lead to sampling bias, where we don’t collect data from all the people who could be in our population on a crucial variable. This leads our sample to result in inaccurate representations of the broader population. Sampling can get deceptively complex in data science work, but is the foundation of accurate inferences.
+
+Common examples of sampling bias (selection bias) include:
+
+Self-selection bias. An example is comparing customers who sign up via public web to customers who sign up via native apps and making inferences about their different behavior. While different platforms can be used for baseline comparisons, customers self-select into these signup flows, so there is self-selection bias when comparing these samples for insights (i.e. it's okay if you are aware of the bias to dig into the data, but ignoring the bias leads to some odd conclusions, such as 'app signups cause higher intent').
+
+Survivor bias. For example, suppose we only looked at customers who successfully had a revenue transaction for onboarding flow decisions: our sample is only people who were successful so obviously things worked well enough for them, when we include customers who were not able to successfully have a revenue transaction, we see a more full picture of the sample.
+
+Nonresponse Bias. 'Churn surveys' can sometimes result in the reason for churning as 'price', but IMO most folks who churn don't respond unless they can get something out (e.g. a price reduction to stay with the business). So folks who churn for other reasons (e.g. switching products) tend to not respond to the survey, biasing our sample (I'm not sure how to avoid that, but it's something to keep in mind with churn survey results).
+
+Exclusion bias. Exclusion bias happens when the researcher intentionally excludes some subgroups in the sample population. It can affect our sample being representative, such as if we randomly sampled for an experiment, but then removed all of a certain category (on accident or on purpose). 
+
+Undercoverage bias. For example, if we want to make conclusions about a specific customer segment, and we check our sample and it's almost all from a different segment of customers. We want to make sure for key variables that we are looking at apples to apples comparisons of the samples.
+
+Survey/experiment design and random sampling tend to be the best ways to reduce sampling bias in experimentation. Side note: Multi-regression methods allow researchers to assess the strength of this relationship between an outcome (the dependent variable) and several predictor variables. If there is no relationship between the predictor variables and the group bucket (after bivariate analysis and multi-regression analysis methods), then we were not able to find any evidence of selection bias in their data collection process. However, if there is some sort of relationship between these variables, then it may be possible that there was some level of selection/sampling bias present when collecting this data. Typically if we find out bucketing wasn't random or there was some bias, we throw out that data and start again; however, if the sample is very limited, we might need to do some analysis here to try to get an apples to apples group comparison (article on different sampling methods, e.g. stratified sampling).
+
+Side note: Oversampling can be used to avoid sampling bias in situations where members of defined groups are underrepresented (undercoverage). This is a method of selecting respondents from some groups so that they make up a larger share of a sample than they actually do the population. This is more often used for ML to counter imbalanced classification, so we won't go into depth here.
+
+Confidence Intervals
+
+A confidence interval (CI) informs us of the uncertainty associated with particular summary statistics (often referred to as point estimates). Confidence intervals are often written with a margin of error or a range notation (e.g. $10 +/- $5, or $5 to $15, with 95% confidence for example). Note that, just like how the sample mean is a random variable, a confidence interval is a random interval (i.e. an interval in which the endpoints are random). In the setting of estimating a population mean, a 95% confidence interval is an interval that “covers” the true underlying mean with approximately 95% probability. Notice how the image below is using Z-scores for a standard normal distribution with mean of 0 and standard deviation of 1 to display visually what a 95% confidence interval roughly looks like, conceptually (and how 95% of the data is just under 2 standard deviations from the mean at 1.96, similar to our normal distribution section above). In practice though, the endpoints would be calculated using the actual underlying data; see later paragraphs for details.
+
+Confidence intervals are intrinsically connected to confidence levels (denoted by 1-alpha, where alpha is level of significance - to be discussed in the hypothesis testing section below). ​​As mentioned above, the confidence level represents the long-run proportion of CIs (at the given confidence level) that theoretically contain the true value of the parameter. For example, out of all intervals computed at the 95% level, 95% of them should contain the parameter's true value.
+
+The most commonly used CI formula for population mean estimation is  where x̄ is the sample mean, z is the z-score confidence level value (chosen by the modeler/analyst), s is the sample standard deviation, and n is the sample size (note: s / √n = the standard error). This formula can be derived and justified via the central limit theorem; see this link for an example. From the formula, you can see that as you increase the sample size, the sampling error decreases and the intervals become narrower (when the sample size tends to infinity, there would be no sampling error, and the confidence interval would have a width of zero and be equal to the true population parameter). Similarly, if all else remains the same but the underlying variance becomes higher, then the CI is widened. Also, as you increase the confidence level (e.g. 95% to 99%), the z-score goes up, widening the CI.
+
+Should you use a z-score or a t-score for confidence intervals? A basic heuristic / rule of thumb: If the sample sizes are larger than 30, the central limit theorem kicks in (i.e. n is sufficiently large) and we can assume a standard normal distribution and use the z-score. If the sample size is less than 30, then we would use a student's t distribution and use a t-score. The t statistics gives a wider interval as compared to z statistics, since with a Z-test we assume a known population variance and with a t-test we assume an unknown population variance (Article | Z-score vs t-score question). Note: The n > 30 heuristic is indeed just a heuristic; the effectiveness of the central limit theorem approximation will also depend largely on the underlying variance.
+
+Side note: An article on confidence intervals vs prediction intervals vs tolerance intervals.
+
+Hypothesis Testing
+
+We now turn to hypothesis testing - the area where data scientists can add a lot of value to an organization: through A/B testing (aka randomized online experiments - article). A/B tests are an implementation of the scientific method, which helps us see if our hypothesis about a particular change was correct or not (e.g. did this change cause XYZ metric to move?), and over time allows us to learn and improve our practices with statistical confidence, rather than just following gut instinct which over time can lead us astray and doesn't scale well across organizations.
+
+In general, the goal of a hypothesis test is to demonstrate that in the given condition, there is sufficient evidence supporting an alternative hypothesis instead of the null hypothesis. When comparing two different samples, the Null Hypothesis is usually formulated as a claim that no relationship exists between two sets of data or variables being analyzed. In other words, it typically asserts that any experimentally observed difference is due to chance alone, hence the term "null". The Alternative Hypothesis is that there is a real difference, plus chance variation (i.e. some errors). Effectively, only one of these outcomes can happen: either we reject the null hypothesis in favor of the alternative hypothesis (i.e. we see an effect), or we fail to reject the null hypothesis (i.e. we fail to see an effect), based on the evidence (test statistic). See an visual example below for a commonly encountered two-sample hypothesis test:
+
+Source.
+
+One of the traits of a well-defined hypothesis is that it is falsifiable (able to be proved to be false). For example, saying 'we think our. customers like the color red' is not really falsifiable, because it's true for some people and not for others. However, a falsifiable hypothesis could be: 'we think that customers are more likely to click a red button than the current blue button' where we could measure clicks and get some degree of confidence about the result after an A/B test: either there is no difference (null hypothesis), or there is a difference (alternative hypothesis), with some level of confidence.
+
+Our evidence is based on a sample of data, so we have to agree on some level of confidence in our results that we'll agree to beforehand to make the claim actually falsifiable. This is the significance level (alpha) cutoff and is what we use to decide if the result is statistically significant. The most common significance levels used are 0.05 (sometimes we use 0.10 if we are okay with less confidence, and sometimes we use 0.01 if we want to be more conservative) - which can be read as 95% confidence (or 90% confidence for 0.1, or 99% confidence for 0.01). Setting a significance level is somewhat of a judgment call, but 95% confidence is fairly standard across multiple industries.
+
+Expanding here, we look at the p-value, which is generated from the observed data and can be used to determine if the null hypothesis should be rejected, at the level of significance we decided. Said another way, it is the probability of obtaining test results at least as extreme as the result actually observed, under the assumption that the null hypothesis is correct. A very small p-value means that such an extreme observed outcome would be very unlikely under the null hypothesis. P-values and significance tests, when properly applied and interpreted, increase the rigor of the conclusions drawn from data. Often in experiments, measuring the p-value for the main success criteria is the main goal, and folks are used to hearing if something is 'statistically significant' or not to mean 'is there an effect from this change?'
+
+In hypothesis testing, there are effectively 4 possible outcomes (article):
+
+Hopefully, we either (i) correctly reject the null hypothesis - bottom right square above: true positive (we see a true effect based on our sample and reject the null hypothesis and accept the alternative hypothesis), or (ii) correctly fail to reject the null hypothesis - top left square above: true negative (we fail to see an effect when there really wasn't any). However, sometimes errors can occur where we falsely reject a true null hypothesis, bottom left square above: false positive (Type I error - which is how we set our significance threshold on the cutoff we are willing to tolerate), or we don't reject a null hypothesis that was actually false, top right square above: false negative (Type II error). 
+
+Some examples:
+
+Another good example is a fire alarm, where a Type I error is an alarm without a fire, and a type II error is a fire without an alarm. 
+
+If we increase the alpha level (e.g. from 0.05 to 0.1), we are more likely to see statistical significance in our results (with lower confidence as we move from 95% to 90% confidence threshold), which says that we are okay with more Type I errors (false positives), where we see an effect that is actually caused by chance (ie our variation/show group didn’t actually beat your control version in the long run). There is a tradeoff here between moving faster/doing more with lower confidence/more false positives vs moving slower/with more confidence/fewer false positives (see power analysis section). Sometimes data scientists need to hold others accountable to intellectual honesty about what we can and cannot know, and our risks around decision-making confidence. See: blog post on building strong partnerships as a data scientist by Ini Li.
+
+In Tech, we most often use hypothesis testing to compare two groups in a randomized A/B test, where we want to know if there is a difference between the two groups and how confident we are at the result. To do these we need to use statistical tests after our sample is all gathered and the metrics are cured to get our p-values (often we share this as confidence level, ie 1 minus the p-value or as confidence intervals), and determine whether there was a statistically significant difference between the groups in the success metrics we chose.
+
+"Statisticians have pointed to a number of measures that might help. To avoid the trap of thinking about results as significant or not significant, for example, Cumming thinks that researchers should always report effect sizes and confidence intervals. These convey what a P value does not: the magnitude and relative importance of an effect." Article
+
+Statistical Tests
+
+For the common A/B testing examples that we encounter in tech, we are typically interested in estimating the average treatment effect (ATE): the difference between the population means of the treatment group and control group. What test should we use to determine if a result was statistically significant (i.e. we reject the null hypothesis of no effect with 95%+ confidence)? There are two popular statistical tests: a two-sample Z-test and two-sample statistical t-test. Both require us to assume normally distributed data, but the Z-test assumes known variance while the t-test assumes unknown variance. Also, similar to with the confidence intervals section above, if n <= 30 we typically use a T-test, and if n > 30 we use a Z-test (10m video overview). For multivariate tests, we tend to use analysis of variance ANOVA (which falls just out of scope for this doc).
+
+Pearson's Chi-Square tests are often used in AB testing for comparing conversion rates for experiments, as well as for assessing potential experiment assignment imbalance. 
+
+These are the primary tests we use as DS to get our p-values / check for statistical significance. We are not going to go into further details here, but they can all be done in Python (Chi-Square example), and chi-square tests can sometimes be run even in Google sheets. T-tests are much harder in sheets as they require the full data to get variance and are easier in Python (t-test example). It is common to adopt chi-square tests for conversion rates, and t-test for continuous values (such as average revenue). Note: For conversion rates, it can be shown that the Z-test is in fact equivalent to the chi-square test.
+
+Note: These are all comparing between a sample vs population, or two (or more) different samples. Typically, this is between randomized control and show groups (or multiple show groups). In cases where we cannot randomly bucket the sample for an A/B test, we can try creating a synthetic control group to try to get a 'control' population / counterfactual estimate from another method (article). Regression is another option, but we are not going too deep into that given the scope of this doc.
+
+Another thing to consider: Should this be a right-tailed, left-tailed, and two-tailed test? It depends on the situation, but effectively it depends on if you want to know: is the effect greater than 0? Less than 0? or just not equal to 0? Article.
+
+Power Analysis (before the experiment)
+
+Power analyses help us estimate the sample size required to have a good chance of observing the hypothesized effect/lift with statistical significance (assuming the presence of a true effect). For a conversion rate example, we need to get the baseline conversion rate (e.g. 3%), a minimum detectable effect AKA MDE, which is a calculation that estimates the smallest improvement you are willing to be able to detect, i.e. how 'sensitive' an experiment is (e.g. 20%, which would be a a 20% lift on that 3% -> an effect of 3.6%+ in absolute terms), statistical significance (e.g. 95%), and power level (typically 80%) AKA the probability we will correctly reject the null hypothesis (statquest). These determine the sample size (calculator) like a formula, where the higher the hypothesized effect and/or the lower the confidence/power, the smaller the required sample size (and therefore the faster/easier we can reach the desired sample size). Statquest overview. Note that for t-tests, one would replace the baseline conversion by 2 additional quantities: the historical sample mean and the historical sample standard deviation for the control group. 
+
+Note: we typically only would do a power analysis before the experiment, post-hoc (after the data is gathered for the experiment), statistical power is effectively a function of the p-value (article).
+
+How do we determine the MDE?
+
+This can be a bit handwavy and has some tradeoffs of time to run vs effect we might see. Sometimes we have a predetermined value (e.g., 3-6%), but this should really be driven by two main questions: 1) what is the minimum effect that we would need to see in order to drive a business decision (case-by-case) and 2) what are reasonable estimates around what the minimum effect might be given historical data/previous experiments (primarily so that we maybe aren't wasting our time trying to detect an effect size that is likely to be way too small to detect with the time/resources we have). Article
+
+Common Issues
+
+Neutral results not being accepted. The main thing we want to avoid here is being in a situation where we hear 'let's just keep running the test until we reach significance' - which is the sign of not making a decision. We want to determine the impact of the change in a reasonable time frame. If we fail to reject a null hypothesis of no effect with a MDE of 3.5%, that means we did not see an effect >= 3.5%, so the true effect is either smaller than 3.5% and we just did not see it, or there was no noticeable effect - given the threshold we set beforehand (eg 95%). An experiment result is just information, not a decision itself. See this success metrics blog post that goes a bit more into why we test. 
+
+Just missing a cutoff. For example, if a p-value is 0.051, we fail to reject the null hypothesis with significance level 0.05, but we are really close. The 0.05 cutoff is a determination of risk tolerance of having a false positive (1 in 20). In these cases we fail to reject the null hypothesis (no statistically significant result), but share the p-value to make it clear we were close to help inform the decision. 
+
+P-hacking, where we manipulate results or interpretations to try to get that p-value below our significance level. Unfortunately, this practice is pretty common in the world (article) - and is a reflection of short-term vs long-term success tradeoffs. For example, running an experiment again (or many experiments) with a tiny variation to get another roll of the dice towards statistical significance, or looking for high performing subsets within the experimental data.
+
+Peeking early on experiment results and being fooled by randomness. Results can fluctuate a lot due to chance before they stabilize with larger sample sizes. "Repeated significance testing always increases the rate of false positives" (How not to run an AB test).
+
+Sample Ratio Mismatch (SRM) is when there is a statistically significant difference between the expect and actual ratios of treatment and control group (e.g. if the experiment was a 50-50 split, but actual data was 55-45) - which is likely a randomization failure of some kind (Article).
+
+Multiple Hypothesis Testing
+
+Multiple hypothesis p-value corrections are often needed when we look at different slices of the results of an A/B test. The general recommendation is a Bonferroni correction, which is to divide the p-value alpha by the number of hypotheses tested - e.g. if you want to split everything out by country, etc for the same A/B test). The Bonferroni correction is just one of several methods. Statisticians recommend using it when you have a smaller number of hypothesis tests that are not correlated. However, if you have many tests and/or they are correlated, the Bonferroni correction reduces statistical power too much. It is too conservative (article) - Holm adjustment can be a good alternative here
+
+Bayesian A/B Testing
+
+Article. A/B tests are expensive: they take time (gathering a large enough sample), and sometimes expose sellers to suboptimal experiences after we already know that they are suboptimal. Sometimes, we can reduce the time to a learning based on prior knowledge (e.g. past experiments), or updating knowledge. While the frequentist approach treats the population parameter for each variant as an (unknown) constant, the Bayesian approach models each parameter as a random variable with some probability distribution (article). Bayesian A/B testing focuses on the magnitude of our bad decisions instead of the false positive rate (article). Overview article. We argue this method is more about speed and cost savings (smaller sample sizes), while using some known information (priors), as opposed to 'starting from scratch' every time, which is moreso the Frequentist approach to A/B testing.
+
+Multi-Arm Bandits
+
+Sometimes we see who is going to win an experiment earlier on, wouldn't it make sense to give sellers more of that variant as soon as possible while running the experiment? This is effectively what multi-arm bandit testing does (overview article | tradeoff article).
+
+Variance Reduction
+
+"Variance reduction (as in CUPED-VR) is not a reduction in variance of underlying data such as when sample data is modified through outlier removal, capping, or log-transformation.  Instead, variance reduction refers to a change in the estimator which produces estimates of the treatment effect with lower standard error."
+
+Microsoft deep dive into variance reduction article
+
+Five ways to reduce variance in AB testing article
+
+Square Blog Posts
+
+Success metrics selection by Daeus Jorento
+
+Learnings from public web experiments by Sneha Vasanth
+
+Experiment templates by Kasia Rachuta
+
+Other Useful Concepts
+
+Data Visualizations
+
+For data visualizations, I recommend The Visual Display of Quantitative Information by Edward R. Tufte. A few principles/quotes from that book: 
+
+Graphic excellence is that which gives the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space.
+
+Graphical elegance is often found in simplicity of design and complexity of data.
+
+Lie factor = size of effect shown in graphic / size of effect shown in data. Lie factors greater than 1.05 or less than .95 indicate substantial distortion
+
+Tables are preferable to graphics for many small data sets.... Given their low data-density and failure to order numbers along a visual dimension, pie charts should never be used.
+
+Common / Useful Concepts
+
+Covariance is a single-number summary of the tendency of two random variables to move in the same direction. Note: if two random variables are independent, then they are uncorrelated, but the converse does not generally hold. Correlation (below) is a unitless, standardized version of covariance that is always between -1 and 1.
+
+Article (^ note the n-1 is because this is sample covariance, not population covariance).
+
+Correlation (or dependence) is any statistical relationship, whether causal or not, between two random variables or bivariate data. Although in the broadest sense, "correlation" may indicate any type of association, in statistics it usually refers to the degree to which a pair of variables are linearly related. Correlations are useful because they can indicate a predictive relationship that can be exploited in practice. This is a very core concept of modeling/I am just touching on it here.
+
+Note: Correlation is not causation. For example, ice cream sales and shark attacks go up in the summer. It doesn't mean ice cream causes shark attacks or vice versa; it's likely that the increase in heat results in more ice cream sales and more people going to the beach/ocean. 
+
+Monte Carlo simulations are a broad class of computational algorithms that rely on repeated random sampling to obtain numerical results. Eg. Run something many times (eg 10k+) to see how things result.
+
+Bootstrapping is any test or metric that uses random sampling with replacement, ie resampling a single data set to create a multitude of simulated samples. Bootstrapping, and resampling methods in general, are very powerful because they make fewer assumptions about the population distributions (there is no normality constraint, for example), there are typically no formulas involved and the calculations are relatively simple. 
+
+Permutation tests are used to determine whether an observed effect could reasonably be ascribed to the randomness introduced in selecting the sample(s). Basically it's like randomly sampling from a sample with replacement and seeing the impact with or without outliers randomly. 
+
+From an article comparing bootstrapping vs permutation testing:
+
+Permutation tests should be used for: Hypothesis testing for the presence (or absence) of effects (e.g. whether any effect of a certain kind is present at all, or whether some positive effect is present, or whether some negative effect is present).
+
+Bootstrapping should be used for: Quantitative hypothesis testing for specific known/expected effects (e.g. was the average life span of the car batteries actually improved by a year or more?), and determining confidence intervals non-parametrically.
+
+Simpson's paradox
+
+Goodhart's law: When a measure becomes a target, it ceases to be a good measure.
+
+Casual Inference Article
+
+Fun Facts
+
+Why do we use 0.05 as a p-value threshold? 
+
+Well, it's somewhat arbitrary (article): 
+
+The value for which P = .05, or 1 in 20, is 1.96 or nearly 2 [t-stat]; it is convenient to take this point as a limit in judging whether a deviation is to be considered significant or not. Deviations exceeding twice the standard deviation are thus formally regarded as significant. Using this criterion we should be led to follow up a negative result only once in 22 trials, even if the statistics are the only guide available. Small effects would still escape notice if the data were insufficiently numerous to bring them out, but no lowering of the standard of significance would meet this difficulty (Statistical Methods for Research Workers - Fisher 1925). 
+
+Open Debates around p-values
+
+History article: 
+
+Benefit: A p-value "offers a first-line defense against being fooled by randomness." 
+
+One particular aspect, the importance of considering effect size rather than simply statistical significance, was the crux of the difference between Fisher’s framework and Gosset’s.
+
+With regard to testing, the Bayesian approach allows a researcher to calculate the probability of a specific hypothesis given the observed data, rather than the converse, which is what the Fisher and Neyman-Pearson approaches do.
+
+The End
+
+If you have reached this far, I salute you, you brave, weird statistics soldier. I kept this article focused on non-ML topics (ie ending before regression or more causal inference stuff), and tried to keep things as digestible as I could. Please let me know if you see any missing or incorrect fundamentals and I can correct them. Thanks for reading/reviewing this stats refresher!
+
+Shout out to Rob Wang for his support and contributions to my learning in this area!
