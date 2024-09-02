@@ -56,12 +56,6 @@ Excellent video about communication & how our education often frames difficultie
 
 You think writing is conveying your ideas to your readers, it's not….. It's changing their ideas.
 
-https://www.cracked.com/article_14990_what-monkeysphere.html
-
-Great overview of why humans can struggle in larger organizations.
-
-Most monkeys operate in troupes of 50 or so. But somebody slipped them a slightly larger brain and they estimated the ideal group or society for this particular animal was about 150. That brain, of course, was human.
-
 Data Science
 
 https://hbr.org/2018/12/what-great-data-analysts-do-and-why-every-organization-needs-them
@@ -124,6 +118,12 @@ Nice new blog by a former colleague Tyler Hanson about end to end DS effectivene
 
 The perceived bottleneck for these teams is not “insights”; it’s the manipulation and preparation of data. This is where the de-facto scope of a data team becomes clear: data analysts are on a separate team and defined by their technical skillsets in manipulating and accessing data, not their analytical prowess. When analysts partner with other teams, they are called upon to solve “data-shaped problems” rather than actually conduct data analysis, because the former is what actually separates them from the rest of the business.
 
+https://www.kdnuggets.com/2021/03/ultimate-guide-acing-coding-interviews-data-scientists.html
+
+Excellent guide to data science coding interviews by my Square colleague Rob Wang! Another good followup article on product case interviews.
+
+Lots of real-world data science projects are highly collaborative, involving multiple stakeholders. Data scientists who are equipped with stronger fundamental CS skills will find it easier to work closely with engineers and other partners.
+
 Experimentation
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5506159/
@@ -134,7 +134,7 @@ Bonferroni adjustment has been well acknowledged to be much conservative especia
 
 https://booking.ai/how-booking-com-increases-the-power-of-online-experiments-with-cuped-995d186fff1d
 
-Great overview of the CUPED method.
+Great overview of the Controlled-experiment Using Pre-Existing Data (CUPED) method.
 
 An experiment is underpowered when the treatment effect is too small relative to the metric’s variance for a given sample size.
 
@@ -158,15 +158,17 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6693672/
 
 History of why we use 0.05 for p-values. Basically Z-score is ~2.
 
-https://www.berkeleyside.org/2022/04/29/berkeley-is-analyzing-sewage-data-to-track-covid-19-as-response-shifts-in-third-year-of-pandemic
-
-Clever anecdotal story about using waste water to track Covid-19 after testing becomes less well-reported.
-
 https://blog.analytics-toolkit.com/2017/case-non-inferiority-designs-ab-testing/
 
 Good refresher on non-inferiority AB tests.
 
 The choice of a noninferiority margin, also called an equivalence margin, is key. It must be done based on objective evaluation of the magnitude that can to be considered non-significant.
+
+https://medium.com/@ahmadnuraziz3/applying-delta-method-for-a-b-tests-analysis-8b1d13411c22
+
+Useful code for ratio metric p-values - where the randomized unit is the denominator (e.g. bucketing on units who have a lot of instances of an event like views & clicks). One user might be randomly bucketed and have a lot of views/clicks - which is more info than 1 data point (ie 1 user), but not as many as if every view was randomly shown (all views). Note: the delta method here is the same as econometrics cluster-robust variance estimator (article). Power analysis article.
+
+Mostly, business metrics are defined as ratios, for example, Clickthrough rate or CTR which is defined as Clicks/Views.
 
 Coding Resources
 
@@ -180,17 +182,13 @@ Fun way to freshen up on any coding language (python github repo with some of my
 
 https://www.kaggle.com/datasets
 
-Great datasets to work with and freshen up on ML / view notebooks, etc.
+Great datasets to work with and freshen up on ML / view notebooks, etc (e.g. for github).
 
 https://www.youtube.com/c/joshstarmer
 
 Best overview of many, many Stats/ML concepts on the web IMO.
 
 Interesting Business Stuff
-
-https://www.nytimes.com/2022/11/19/business/media/att-time-warner-deal.html
-
-Mind-boggling waste.
 
 https://www.scarletink.com/p/how-companies-incentivize-layoffs
 
@@ -200,7 +198,7 @@ Obviously, competence (and keeping your peers / leadership happy) is important f
 
 https://www.brex.com/journal/the-enduring-value-of-funding-driven-fintech
 
-Great overview of ZIRP ending on fintech by Michael Tannenbaum, and exec I worked with at SoFi. Also reminds me of how a lot of funding-driven tech companies often IPO to cash out/pay the team, when really an IPO was supposed to be about opening funding to the public.
+Great overview of ZIRP ending on fintech by Michael Tannenbaum, an exec I worked with at SoFi. Also reminds me of how a lot of funding-driven tech companies often IPO to cash out/pay the team, when really an IPO was supposed to be about opening funding to the public.
 
 However, as interest rates hovered near zero over the next decade and so much of my time was spent at SoFi (asset-based in the form of student loans, personal loans, mortgages) and Brex (fee-based in the form of charge cards and SaaS), I forgot the economic value of deposits!
 
@@ -243,6 +241,8 @@ For Fridays: https://www.youtube.com/watch?v=kfVsfOSbJY0
 https://www.youtube.com/watch?v=kfVsfOSbJY0
 
 For stakeholders with ridiculous expectations: https://www.youtube.com/watch?v=2wA-8yrjEpQ
+
+I want everything in one bag, but I don't want that bag to be heavy
 
 https://www.youtube.com/watch?v=2wA-8yrjEpQ
 
