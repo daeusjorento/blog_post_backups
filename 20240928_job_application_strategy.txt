@@ -1,0 +1,41 @@
+TL;DR Try to be the first referred application to the role.
+
+Overview
+
+The job market kind of sucks right now and getting a job is harder than it was a few years ago for most (blog post example of the tech industry). However, sometimes you move, get laid off, or just have to quit and need to find a job even in the hardest of markets. In this article I'm going to focus on the goal of getting an interview - i.e. a job application strategy, so I'm ignoring actual interviewing skills (staying sharp) or individual strengths (e.g. blog post on career moats). 
+
+I've noticed that there are two main strategies people employ when applying for jobs (mostly speaking of tech companies, but extends to other industries as well):
+
+Scatter apply for like 200+ roles and see what lands. The strategy is numbers/cold calls.
+
+Only apply to roles through a referral or a recruiter reaching out. The strategy is referrals/connections.
+
+The first group drives up a lot of the application numbers, because they apply to many jobs. I honestly think high applicant counts for posted roles are often the same group of people applying to many, many jobs. And in response to not getting interviews with cold applies, they apply to more jobs. With technology, the barrier to apply to a job is very low (and impersonal), so people often just apply everywhere they are even a little interested. 
+
+The second group has a network they've built up. That network might not get them the job, but it gets them the meeting / interview more often than not using that network. This network could be former coworkers, but also schoolmates, friends, family, etc. Really the best person to get you a job is a former manager you like - because they know you / have worked with you before, so their risk is low.
+
+The Hiring Manager
+
+Let's think about this from the hiring manager (HM) perspective. They have work to get done, and they get a headcount and have a role to fill. They give their best guess as to what is needed / standard in their job descriptions (which can often be very flawed and sometimes, in part, be an advertisement of cool stuff that the job might entail). Side note: a good rule of thumb I've heard is to apply to jobs where you meet about 60% of the listed qualifications. Too much more than that and you might be overqualified; too much less and you might be underqualified. Anyway, to continue the story, the HM has a job to fill, and they post a job description.
+
+The next day they look or ask their recruiter and they see they have 100 applications. Wow, that's a lot of resumes they have to go through. They just want one person, so they can afford to be picky, but they are also in a time crunch - they don't want to take 6+ months to fill a role when they need work done ASAP. So, how do you filter down? Maybe add stricter requirements to rule them out (screened by the HM, a recruiter, or maybe some algorithm). You'll inevitably have some false negatives, but that's unavoidable since you cannot hire everyone qualified. You will throw out some wheat with the chaff, but the line is long. 
+
+Now, the tradeoffs that need to be balanced are (1) speed - you want to fill the role ASAP, and (2) a bad hire - it's expensive and risky to hire someone who cannot do the role well. Interviews/screens can help reduce the odds of a bad hire, again with some false negatives, but that comes after considering the person to get an interview. How do you simplify filtering? Well, the easiest way is to see if there is anyone you know. Well, maybe not you, but someone you trust - i.e. a current employee referral. If someone is strong in the role and says 'this person is strong too, I've worked with them' isn't that better than hiring someone random? You will still, as a HM, utilize the interview process to filter out any false positives - so the risk is pretty low and the potential for a good hire is stronger. Keep in mind, you don't need to hire the perfect candidate, you just need to hire someone who is good enough to do the job (with bonus points if they are excellent). 
+
+I'm leaving out issues like withdrawn offers, miscommunications, stale job postings, etc - those inefficiencies are part of the hiring process and not personal. For example, maybe you apply to a role and are referred, but then the headcount gets retracted suddenly, or an internal hire takes the role. It wasn't anything you did, it was just the situation, and not personal. As a side note for the person referring someone to a role, make sure you actually DM the HM and speak to them directly, since sometimes recruiting software only uses referral links to tag credit to the referrer - and it doesn't actually give the candidate the bump in line from the referral...
+
+The Candidate
+
+So, what's an ideal strategy for the candidate? Be the first referred application. Apply as soon as the job is posted (or ideally before if possible / someone can give you inside info), and make sure the referrer reached out to the HM directly. At that point, all you have to do is clear all the hurdles (interviews) and the job offer is yours. It's probably the best shot you'll get at a job (unless they are filling a new role and using the secretary problem method). 
+
+Once the job has been open for a while, and the applications are high, it is probably best to move on to the next one. Don't pile in on the perfect job or think about how qualified you are or how awesome it would be to get this job. Sure, it doesn't hurt to apply, but the odds are a lot lower at this point (with people already in the pipeline) than another opening elsewhere. This is a numbers game, and being first elsewhere gives you a better shot. 
+
+Plus it's more active to talk to friends, classmates, old colleagues, etc than to go at it alone, scrolling and apply ad infinitum. There isn't really a way to scale a close network and trust built over a longer period of time. Sure, it's not the 1950's in white America where walking in with a firm handshake got you the job, but virtual cold calling is just not a great strategy. You are effectively a salesperson looking to sell your labor - it is competitive and close personal bonds stand out. For instance, IMO part of the reason referrals even work is that if a peer referred someone to the role, a HM would feel guilty if they didn't consider it, because they know someone at the company knows this person. 
+
+Earlier in my career, I actually made a choice to work at a larger company (Square) in part to expand my own network in the tech industry (highly recommended if possible). Because people who left Square went to other cool tech jobs, so I would have a connection there to learn more about the company, teams, etc. Whereas my previous job (SoFi) people often left to work at other finance jobs, and I wanted to work more in tech than finance.
+
+Recap
+
+Job applications are not fun, for either side. It's a lot of work to get a job, and even just to get an interview. Putting effort into instantly applying to hundreds of jobs is like cold calling a bunch of people: it's got a low success rate unless you happen to have a perfect impression (e.g. for an algorithm). Reaching out to friends, former colleagues, and making real connections means you not only get to learn about opportunities in more detail first hand - it means that you can keep your network fresh for next time if things don't work out. 
+
+When the market is tough, it's even more of a numbers game in job applications - until the offer is accepted, everything can disappear, so it helps to keep the job application pipeline moving. Maybe you miss the boat at one company with a referral, but that person reaches out about another similar role 3 months later and you're still looking. Or maybe years later that person needs a referral from you. The world is deceptively small and socially interconnected, despite increasing automation and the shift online.
