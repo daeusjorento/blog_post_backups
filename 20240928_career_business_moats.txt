@@ -1,0 +1,115 @@
+https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Matsumoto_castle_3.jpg/1280px-Matsumoto_castle_3.jpg
+
+What is a moat? A moat is effectively a competitive advantage, something that is difficult to replicate. Have you ever tried to lay siege to a castle with a moat? It's extremely difficult, right?! In theory, there is no long-term sustained competitive advantage, but in practice, they can last a long, long time in some cases. However, as the world gets more competitive, moats can be more difficult to create and maintain.
+
+Competitive Sports Illustration
+
+Been chopping trees. I done something new for this fight. I done wrestled with an alligator. That's right. I have wrestled with an alligator. I done tussled with a whale. I done handcuffed lightning, thrown thunder in jail - Muhammed Ali (Clip)
+
+Here's an example from my own experience in competitive swimming. Swimming is an indoor racing sport, which has a unique element because the pool and conditions are effectively the same every time (as compared to outdoor sports that are affected by weather or team sports with different rosters, etc). This means we can compare race times across the world (in the same pool format, e.g. long-course meters or short-course yards) and across time. It's fun to do when you're competing, because you may have lost a race to others, but beaten your past self by getting a best time.
+
+One of my favorite examples of competitive advantage comes from David Berkoff. He effectively changed the sport by introducing longer underwater kicking (the 'Berkoff blastoff'). That is, he would kick underwater for more than half the pool length in backstroke and set world records (1988 Olympic swimming video). Now, it wasn't just that he did it, others could copy that, it's that he trained in it... for years. He was already fast/competitive, but after discovering you could go much faster underwater, he took a risk and trained relentlessly at it. It paid off with world records. 
+
+However, as things go, the competitive advantage faded over time. About 3 years later his world record was broken by Jeff Rouse. Part of this was (1) FINA changed the rules by introducing a 10 meter limit to underwaters (later expanded to 15 meters, the rules to this day) and (2) everyone else started training in underwater swimming and caught up. But for a few years, he was utterly dominant - even though he wasn't the tallest or strongest athlete.
+
+For another analogy in boxing, specifically identifying the strength of a current moat, Muhammed Ali had a quote I saw a long time ago that was something along the lines of 'No one can beat me, I know all the big names, and a new person wouldn't come out of nowhere, they would have to work their way up.' That is a level of dominance that is particular to a sport. In swimming, in theory, a world record could come from any pool at any time (in a recorded meet/race). In boxing, you would need to set up an official fight, win, and keep winning until bigger names gave you notice to fight - all while staying healthy and strong. Then, if you beat them, Muhammed Ali would probably already be thinking of how he would beat you if you fought. He didn't need to beat someone in a fight, he had to beat them specifically in boxing to stay the champ.
+
+Business Competitive Advantage
+
+But the essential difficulty in creating strategy is not logical; it is choice itself. - Richard P. Rumelt (Good Strategy Bad Strategy).
+
+With business, there are similarly high level risks and investments to have a competitive advantage. For example, I remember reading somewhere that the real competitive advantage of Tesla was electric battery supply lines - that it might take another company 10 years to catch up in terms of materials, relationships/contracts, owning the full supply line, etc from the raw materials to a finished consumer product. 
+
+While attaining a competitive advantage is difficult, discovering and categorizing them is not. Here are some common ones / examples:
+
+Economies of Scale. Larger businesses in some industries can product things at lower cost - think Amazon or Walmart. Ethics aside, it is tough to compete with a business that can operate a large factory at a loss - before they put you out of business, and then raise prices to make up for the cost.
+
+Similarly, see example above about supply chain control with Tesla. As much as I dislike Musk on every level, he did find several companies that broke into fields where it did not seem possible to create more competitors due to manufacturing scale (i.e. auto manufacturers via Tesla and rockets via SpaceX).
+
+Intellectual Property / Proprietary technology. Think pharmaceutical companies patenting drugs, or even Disney characters. If another company cannot legally make those drugs due to the unexpired patent or use Mulan in a movie, a moat exists. 
+
+The GenAI rush illustrates a desire for this moat (e.g. highly developed models), especially if it becomes the platform or foundation for other products.
+
+Network Effects. Think Facebook or Uber/Lyft. One challenge in creating a competitor is attracting enough users on on both sides (e.g. riders and drivers) across multiple cities to make the product viable. The value comes in part from popularity.
+
+Side note, another spillover moat-effect of popularity is data. For example, Facebook/Instagram have real-time data that no one else in the world has. Granted, their main value is that the feed is effectively a personalized newspaper and ATTENTION means add money (see colonized attention blog post).
+
+Brand Recognition. For example, Coca-Cola and Pepsi. If you make a new, extremely delicious drink that is low cost to product, the first response might be 'who are you / what is this?' However, if you sell that to Coca-Cola, they can just be like 'this is Coke version 998' and boom, big sales. These brands are over a century old, they're in old movies and a part of history - it's hard to take that away.
+
+A fun example of this as well: Have you heard the latest Taylor Swift or Beyonce song? There is an automatic boost to streams, which cannot really be matched if someone wrote and performed the same exact song in an alternate universe but didn't have the name recognition.
+
+Low Costs. When I worked at SoFi, one advantage they had was the CEO's relationships with lenders - ie they could borrow at lower rates than competitors, meaning the same loan amounts result in more profits on margins.
+
+This can sometimes depend on relationships and contracts. For example, having a 10 year exclusive contract with a large distributor is a very strong moat (but with a potential expiration date and clear dependency).
+
+Geography. You ever moved to an area where Comcast is only option for internet? Yeah, that's a local monopoly, and is probably the biggest type of competitive advantage there is: having no alternatives for a utility. The only thing holding them back from charging 100% of your discretionary income and spending $0 on customer service is anti-trust laws.
+
+Note: one of my favorite terms from economics is monopolistic competition. For example maybe in a small town you are not the only restaurant, BUT you are the only VIETNAMESE restaurant. Giving you a competitive advantage, because where else can people get hot Pho on a cold day? Some could just get a hot burrito somewhere else, so it's not actually a monopoly. But opening up the store is a big risk - what if this is a chicken noodle soup town!?
+
+Regulatory Protection. Drug companies are probably the best example, but my mind starts to think of the growth of social media. They have been effectively unregulated for decades, leading to a lot of new problems in the world. But, maybe one day they get heavily regulated - but even if that happens, who are the experts? Who has the power? Probably the ones who already are established, meaning it'll just create higher barriers to entry - like if your social media app needs to have a large, certified, compliance team - it just means fewer apps would get made.
+
+Side note: You can see why companies would spend money on lobbying. Like Intuit stopping the government from make filing taxes easier for turbotax revenue (article).
+
+That's by no means an exhaustive list. Any exclusive relationships on any level (e.g. international for governments, local with politicians, etc), can create a competitive advantage. People like to think of competitive advantages creating superior products, or having the best people or culture (e.g. American exceptionalism) - but that often just entitlement and arrogance. "When you're accustomed to privilege, equality feels like oppression." Its the believe that I'm better because I'm me, duh - not my habits/practices.
+
+Granted, sometimes products are truly superior for the market, in a scalable and generalizable way, but if nothing really stops competitors from copying them. To the benefit of the customer, fortunately, but sometimes to the detriment of the first mover. For example, when Square created the smart phone credit card reader in the US, they were effectively the first one to do so, arguably creating a new part of the economy. However, when they went to the UK years later, there were already many competitors.
+
+Philosophically, competition is good, because it means companies try harder to appease customers, on price, quality, availability, etc. And monopolies are bad, because there is no incentive to innovate or make customers happy. The thing is, investors like Warren Buffet LOVE monopolies - because they are more likely to grow and make him more money. Arguable, the idea of creating a monopoly is what motivates a lot of startups, etc - or the idea of toppling a monopoly (which is also very motivating). 
+
+These are the power games corporations play and work towards. Sometimes trying to build a moat completely backfires, like with SoftBank's 'money moat' strategy - giving a few companies billions of dollars to beat the competition - but also resulting in some fraud like with WeWork (article). Greed is definitely a problem here when some people cheat the rules and regulations to complete - but I also think a lot of real damage in the world comes from fear of losing a competitive advantage (blog post on high interest rates, GenAI, and Crypto). Granted, there is always a time caveat here, since sometimes a moat can last a long time due to switching costs or asymmetric information.
+
+One way to understand a competitive moat is to ask 'what's to stop someone else from copying this?' Esp if it's a big competitor, like Wells Fargo. Imagine adding a banking service in the fintech sector, one quick question is 'what's to stop Wells Fargo from doing this?' If the answer is nothing but investment, the moat is weaker.
+
+Career Competitive Advantage
+
+There are other rules - Bert Cooper (Mad Men Clip)
+
+https://www.youtube.com/watch?v=moH1Dctkozw&t=196s
+
+The above is about corporations and companies (i.e. products and services), but what about individuals? i.e. the market of skills and labor.
+
+There are a few different type of career 'moats' - ie unique value and competitive advantage of an individual. None last forever, and some scale all the way up the corporate ladder. Let's explore some:
+
+Political Connections. Watch the above Mad Men clip - it shows how politics can make it so you cannot fire certain people. It's not fair, and not very controllable, but it is what it is. You never know if someone you dislike at work is a board member's cousin.
+
+Reputation/Likability (and your network). It's amazing how far some people can get in their careers based on luck and likability alone. Sure, they're not as smart as other people - but they are so fun to work with that I want them on my project! Also, imagine hiring someone who brings in a bunch of experts - that's definitely clear value.
+
+Imagine being the person who crafted the original designs for the iPhone. Even if you did nothing else worthwhile, that achievement cannot really be replicated by anyone who wasn't on that project.
+
+Technical Skills. Tech folks think about this a lot - whether it's knowing the latest technology, algorithms, or deep expertise in a domain like risk or site reliability. 
+
+This is IMO a surprisingly weak moat, since most difficult things like coding are very learnable with effort - and a lot of resources are available now. However, for example, being an expert in statistics is quite an accomplishment that the average person would find challenging - it improves a baseline competitive job market value. Similarly for coding, learning one language well makes it easier to learn other languages. If this was a sport analogy, this one would be 'being very physically strong.'
+
+Creativity/Identifying Opportunities. The ability to creatively solve problems, as distinct from just implementing solutions. This is an entrepreneurial skill.
+
+I would put diversity of thinking and experience under creativity. I'm not going to make a big diversity argument beyond that people with different backgrounds think differently, and having employees who can connect to a diverse set of customers is valuable. Diverse experience is helpful to solve complex problems - for example, thinking 'how would someone from Netflix try to solve this problem? Let's ask XYZ person who worked there!'
+
+Critical Thinking. This overlaps with a few other skillsets, but I'm going to specifically call this out as the ability to update beliefs based on evidence. That is, to recognize when something is off with logic.
+
+Technical skills (e.g. coding) might help improve critical thinking, but just knowing Java doesn't mean you have the adaptive ability to respond to feedback and new information in other areas. This is independent of specialization in a particular technology.
+
+Persuasiveness/Influence/Storytelling. Given you know the right choice, can you persuade others to follow your line of thinking? Clear thinking and logic is not enough for influence - you have to be able to tell a good story. I wrote about this a bit more in my DS career progression blog post past a certain competency level.
+
+I'd argue this corresponds to 'geography' in the business moat section above, since influence fluctuates based on the group you are talking to. Trying to convince an exec a decision is correct is very different from trying to convince an HOA.
+
+Leadership and Collaboration. Collaboration brings more out of a group than the set of individuals. Granted, this can be difficult to measure beyond recognizing when someone is really, really bad at it.
+
+A good illustrative quote from Pierce Brown's Red Rising Books: You do not follow me because I am the strongest. Pax is. You do not follow me because I am the brightest. Mustang is. You follow me because you do not know where you are going. I do. 
+
+Adaptiveness (learning). This one overcomes all the rest over time - because every skillset is specific to the situation. The ability to learn, and recognize skill vs luck, is something that is very pervasive (blog post). Although, part of being adaptive is being able to move/change environments when things are not set up well for you, not to 'win' in EVERY situation.
+
+Note: while this overlaps with formal education, it can sometimes be difficult to show and advertise quickly. It's just simpler to say 'this person went to Harvard' compared to 'this person is smart' in  a hiring panel. That might limit some opportunities, but not others  , and shouldn't be a barrier to actually learning things after a certain point (graduate degrees I wish I could download into my brain).
+
+Some of these are more controllable than others. Connections can sometimes just be due to chance. But technical skill is at least learnable and testable in a structured setting (like technical interviews). Sometimes I'll ask myself 'what's to stop someone else from being able to do this?' when evaluating the marketability of a skill - if it's difficult, the moat is higher. For me specifically, a weakness I've had in the past around statistics, it is difficult to stay sharp here (and just focus over time can create an unique value add):
+
+Misinterpretation and abuse of statistical tests, confidence intervals, and statistical power have been decried for decades, yet remain rampant. A key problem is that there are no interpretations of these concepts that are at once simple, intuitive, correct, and foolproof -- Greenland et al (2016) A/B Testing Intuition Busters.
+
+For statistics, part of this is because frequentist tests give the probability of the data given the parameter, but really we care about the parameter given the data. Also, even if you run a perfectly designed AB test and get good results, you don't truly know if it will generalize to the future, other times of the year, etc. And even if you run it all year, it still might be that this happened to be the 2020 of years. We don't really know the future here.
+
+This all being said, the real foundation of all of these actionable skill sets and abilities is good self-care. The ability to survive in the long-run and take good enough care of yourself to be around and vital for opportunities (soft skills blog post). Ultimately, similar to a business, there is no true long term competitive advantage, but even just putting in effort to learn and stay sharp will very quickly stand out in most fields/careers, even if it's not always recognized. As economists put it, there is no such thing as a free lunch, and nothing truly comes for free - though some things are more advantageous than others. That being said, we live in a world where one simple phrase going viral might make your whole career.
+
+Overview
+
+My biggest image of the power of an old moat is Walder Frey from Game of Thrones - he owned one bridge, and leveraged it to the hilt. The other end of extreme competition might be the attention economy on the internet - because there is a LOT of content. 
+
+Arguably this goes back to monopolistic competition. Where there are lots of alternatives, but each person is truly unique. Staying in your lane is important for authenticity - everyone is on the top end of a distribution in something, even if it's knowledge of your neighborhood plant life or ability to get your dog to eat his food. Especially in a hyper-competitive world, comparison is the thief of joy. It is much better to know thyself, ground yourself in your community and network, and leverage them.
