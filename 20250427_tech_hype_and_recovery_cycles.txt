@@ -1,0 +1,64 @@
+A Brief Overview of Tech Hype and Recovery Cycles
+
+Parallels between 1999 and 2021 tech bubbles
+When I think of venture capital and entrepreneurs, I often think of Christopher Columbus getting funding from the King of Spain to find a new route to India – and instead connecting Europe to the Americas. Someone has a vision, sells that vision, and sets off to explore with funding. Tech isn’t so different today, except the process is more formalized around funding and interest rates. When the cost of lending goes up, there are fewer ‘Kings’ willing to fund their Columbuses. When lending is cheap, everyone starts looking like a potential Columbus. Too little funding and the society stagnates; too much and weird religions form around the hype.
+
+Switching gears, I wanted to rank the last 30 years of how hard it was to find a job in tech – but I’ll just show the top & bottom 5. Note: I’m talking about the overall landscape, not each personal situation (i.e. getting a job in 1999 or 2021 doesn’t mean you weren’t qualified and not getting one doesn’t mean you were a failure, etc). Also, while the early 2000s and 2009 recessions were plagued by high unemployment too, this is specific to getting a job in tech:
+
+Top 5 easiest years to find a tech job (ranked easiest to hardest):
+
+1999 – Peak of the dotcom bubble.
+2021 – Peak of remote work and post-pandemic tech demand.
+2019 – Build-up of AI, cloud, Saas more sustainably.
+1998 – Lead-up to the dotcom boom.
+2015 – Mobile, cloud, ML explosion more sustainably.
+(Note: 2017-2018, 1997, 2016, and late 2020 were also pretty strong.)
+
+Bottom 5 hardest years to find a tech job (ranked hardest to least hard):
+
+2001 – Full dot-com bubble collapse, mass layoffs.
+2002 – More dot-com aftermath.
+2023 – Post-pandemic recalibration, mass layoffs (see layoffs.fyi).
+2024 – Uncertainty around AI automation, interest rates, political instability.
+2000 – Late in the year, the tech market started tanking.
+(Note: 2000s could arguably be ahead of 2024 in difficulty, but it hit peak late in the year, while 2024 had broader issues with a more mature tech industry).(Late 2022, 2003/2025, 2008, and 2009 were also pretty rough.)
+
+Notice the parallel of the 2000s dot-com bubble with the 2020s pandemic/cloud+mobile bubble (though 2000s was more ‘demand’ driven for websites and the 2020’s was more ‘supply’ driven by extended cheap lending): 
+
+Dot-com era: Build up 1995-1998 -> Peak 1999 -> Burst late 2000 -> Slow and painful hangover 2001-2002 -> Stabilization in 2003. 
+Cloud/Mobile/Post-Pandemic tech boom: Build up 2015-2019 -> Pandemic dip and rebound late 2020 -> Peak 2021 -> Burst mid-2022 -> Slow and painful hangover 2023-2024 -> Stabilization (so far) in 2025. 
+Of course, global instability could always change things. But generally, these cycles are driven more by investment behavior (FOMO, buyers remorse) and lending costs than by executive branch or short-term politics (e.g. Tech bubble burst before 9/11 happened, but both together was very rough I’m sure). Also, this is not to say the buildups are bad (i.e. 1995-1998 and 2015-2019), a lot of good things were done then, but the wild once-in-a-decade hype usually follows a burst and slow and painful recovery. 
+
+However, what about between these boom and bust cycles? Or before? Here’s a quick timeline:
+
+1980s-early 1990s: PC + enterprise software (‘computers will run the world’)
+1995-2000: Internet/dot-com (‘the internet will run the world’)
+2003-2007: Housing (‘well, at least real estate never goes down’)
+2010s: Mobile/SaaS (‘apps and cloud everywhere’)
+2017-2021: Crypto (‘own your own internet money’)
+2022-Present: GenAI (‘AI will change how humans work’)
+These are hype cycles – not to say that there’s no real value (obviously housing is important for living), but that the collective excitement extends beyond reality into fantasy. One exception I might add here is that in my opinion the crypto mania was an extension of cheap money, where tech oligarchs thought they could extend their power/territory into money itself, even if there was an optimistic decentralized currency goal to combat historic wall street greed (perhaps from the impact of the housing bubble). Maybe this is where human irrationality at scale from the wars of the 1900s to techno-ideological battles of the 2000s (from de-regulation in the 1980s). Who knows? 
+
+But the pattern I keep seeing is: Next big thing -> Hype/Over-investment -> Crash -> Search for the Next Big Thing. It’s like a collective addiction. People aren’t necessarily “wrong,” but as investment surges and everyone jumps on board, numbers go up, beliefs crystalize, and then when the number falls, it all unravels. In a more rational world we might diversify our ambition, addressing broader societal problems once growth reaches a stable point. But investors and ‘tech geniuses’ tend to see the world a narrow way – after all, that’s what got them there in the first place (e.g. tech people often just see tech problems and tech solutions). Success, unfortunately, can be a terrible teacher.
+
+
+Source
+
+When the economy struggles (unemployment, instability), policymakers like the Fed lower interest rates to stimulate activity. But when money stays cheap for too long, people get addicted, risk-taking surges, and inflation spikes, and so rates must go up so money still means something real. The market is messy and irrational, but it’s the world we live in. Hype cycles have fueled massive technological progress – and left behind plenty of corporate wastelands.
+
+Though in a way, collectively, each step oddly makes sense:
+
+After the 2000s dot-com burst, we entered a recession
+9/11 happened soon after (welcome to the new millenium…), reinforcing instability.
+Rates were lowered, and people wanted safe investments like housing, maybe coming from instability and fear, so housing inflated until it crashed in 2008. 
+The slow recovery set up the next big thing – the mobile/cloud/tech boom – which then exploded during the pandemic, soon causing inflation when things opened up.
+And then, to deal with inflation, rates went back up, bursting the tech bubble as we entered today’s weird post-pandemic, post-crypto, GenAI world (blog post).
+Only recently (the past ~4 months) have interest rates decreased slightly to balance out the economy now that inflation has stabilized.
+Add Elon/Trump chaos and it clouds planning for the future. People are always slow to recognize patterns as they’re happening, and are quick to blame whoever is in charge at the time, even if they are actually cleaning things up (e.g. Biden). Nobody likes paying the pied piper, especially for other people’s mistakes, even if it benefits everyone long term.
+
+All that said, I mainly wanted to validate to those who struggled finding a job in 2023-2024 (especially in tech) that it was a very difficult time (hardest in 15 years at least), though 2025 seems to be stabilizing (hopefully!), similar to the post-dot-com bubble recovery. While the last couple years were tough, it was nice to see the Fed/economic leadership stabilizing and acting like adults who care about both inflation AND unemployment long term but recognize these things change by quarters and years, not weeks and months. They may not get the credit for a more stable economy during a time of growing political instability, but it is better to have a recovery over two years than one that takes ten.
+
+TL;DR: trust your gut around hype bubble skepticism. Focus on real people and real value. Hype cycles are inevitable, but fundamentals and learning matter more over time. Don’t put all your eggs in one basket and be open to unexpected futures and outcomes. Diversify your financial, social, skill, and emotional investments in your work.
+
+Regarding hype, if you don’t understand it but see the number goes up, it doesn’t mean you’re wrong to be skeptical. Tech growth often outpaces regulation – and just like with Enron, 2008, Theranos, and WeWork, irrational bubbles often take years to unreval. Even if they seem obvious at the time, when and how bubble burst is impossible to know.
+
