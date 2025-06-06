@@ -1,0 +1,475 @@
+An Overview of Regression Analysis
+Background
+Before machine learning, multivariate regression provided an efficient way to condition on multiple things, without the need to calculate dozens, hundreds, or thousands of conditional averages. – Ajay Agrawal
+
+Linear regression is one of the most widely used tools in statistics (blog post on essential statistics & probability concepts), dating back over a century to Francis Galton’s work in the 1880s. As an example, imagine if we wanted to find the relationship between two variables (e.g. height and weight), why not try to fit a straight line over the data points in a scatter plot? Regression analysis finds the best-fit trend line that passes through or sits close to as many data points as possible. Then, as we go from simple to multiple linear regression, we add more variables and determine more specific conditional correlations (e.g. predicting weight from height while also including time spent exercising per week, age, etc).
+
+Effectively, we’re trying to predict a target (or dependent) variable, Y, using linear combinations of independent variables, X. Each X is assigned a coefficient – a weight that represents the estimated change in Y for a one-unit change in that X, assuming all other variables are held constant. While correlation doesn’t imply causation, this setup can still be quite powerful for making predictions.
+
+Note: I am going into a bit of detail on the math of evaluating goodness of fit (R²) and evaluating residuals (errors, or differences between model predictions and actual data), but not on ML concepts like accuracy, train-test splits, etc.
+
+Simple Linear Regression
+Simple Linear Model
+
+If I fit a line between two variables, how do I determine how good the fit is? Visually, we might look for the line that goes through or near the most dots on a scatter plot. Formally, we measure how far off the predictions are by calculating residuals – the difference between actual values (dots) and predicted values (points on the line directly above or below each dot). Since residuals can be positive or negative, we square them before summing so they don’t cancel each other out. This gives us the Residual Sum of Squares (RSS) – the total of the squared differences between observed values and values predicted by the model (see visual below: the red boxes represent squared residuals). 
+
+Squaring isn’t just for convenience (e.g. we could use absolute value too) – it leads to different interpretations. Minimizing squared errors gives us a model that estimates the mean of the response variable, while minimizing absolute errors (MAE) estimates the median.
+
+
+
+Ordinary Least Squares (OLS)
+Now, we could try different straight-line formulas (e.g., Y=A+BX), testing values of A and B and calculate the RSS each time – this is essentially what gradient descent does to find the best-fitting line. But we can also solve this analytically using Ordinary Least Squares (OLS), which finds the values that minimize RSS. In simple cases, this means taking derivatives and solving directly. In practice, most software uses numerical optimization to do this, especially for more complex models.
+
+The intercept is easy to find once we have the slope, just plug in the mean of x (x̄) and mean of y (ȳ) and do a little algebra). But how do we find the best slope? OLS tells us to look at the covariance of X and Y (how much they move together) and divide it by the variance of X (how much X moves on its own), to normalize it. Some more detail on covariance and variance in my blog post on essential statistics & probability concepts for data science (i.e. correlation is just covariance normalized to be between 0 and 1). 
+
+
+This gives us:
+b₁ = ∑(x – x̄)(y – ȳ) / ∑(x – x̄)²
+Where the numerator is the covariance of X & Y, and the denominator is the variance of X. 
+
+Here is the OLS formula stated more explicitly:
+b₁ (slope) = ∑(x – x̄)(y – ȳ) / ∑(x – x̄)²
+b₀ (intercept) = ȳ – b₁ * x̄
+So the fitted line becomes:
+ŷ = b₀ + b₁x
+
+So, with two variables (one dependent Y, one independent X), we can calculate the slope, intercept, and RSS. But RSS is just a raw number (like 42) – it will change if we add more data, and it is hard to compare across different datasets or models. So there are two more calculations we’ll want:
+
+Mean Squared Error (MSE) = RSS / n (where n = the number of data points).
+Note: Root Mean Square Error (RMSE) = √(RSS / n) is also commonly used to bring the errors back to the original units (rather than squared).
+R² (said ‘R Squared’) which gives us a normalized (0-1) measure of goodness of fit, making it easier to compare across models or datasets.
+R² is the square of the correlation between actual values (y) and predicted values (ŷ), also known as Pearson correlation coefficient. 
+R² then gives us a percentage of how much the predictions improved by using the model we’re interested in instead of just the mean. – Josh Startmer (The StatQuest Illustrated Guide to Machine Learning)
+
+To calculate R², we normalize RSS between 0 and 1 by dividing it by the Total Sum of Squares (TSS), which measures the spread of the actual Y values around their mean:
+TSS = ∑(y – ȳ)²
+Then: 
+R² = 1 – RSS/TSS
+Or more intuitively:
+R² = (TSS – RSS) / TSS
+The second of which is saying: the total residuals using the mean of y minus the residuals using our fitted line (hopefully it’s a better fit than just a flat line at the mean of y…) divided by the residuals using the mean of y.
+
+If RSS = TSS, our model does no better than just inputting the mean, so R² = 0.
+If RSS = 0, our model predicts perfectly without any errors, so R² = 1.
+A simple example: If I’m predicting inches from feet, the relationship is deterministic: Y = 12X. When I calculate the slope, I’ll get 12. RSS and MSE will be 0, and R² will be 1.
+
+Recap of Definitions:
+
+Residual (ε) = y – ŷ (observed minus predicted value)
+RSS (Residual Sum of Squares) = ∑(y – ŷ)²
+MSE (Mean Square Error) = RSS / n
+RMSE (Root Mean Square Error) = √(RSS / n)
+TSS (Total Sum of Squares) = ∑(y – ȳ)²
+R² = 1 – RSS / TSS = (TSS – RSS) / TSS
+But what if I have two models with the same R² – one based on 3 data points and the other on 3,000? The larger sample gives us more confidence in the slope estimates (narrower confidence intervals, smaller p-values, higher t-statistics). To assess this, we’ll look at the standard error(SE) of the slope. 
+
+To calculate the SE of the slope, we first divide RSS by (n-2). Since we’re estimating two parameters (slope and intercept), we lose two degrees of freedom – hence dividing by n-2 instead of n. This gives an estimate of the variance of the residuals. Then we divide by the variance in X to scale it:
+SE(b₁) = √(RSS / (n – 2)) / √(∑(x – x̄)²)
+SE will become more relevant when we move to multiple regression (i.e. start adding more variables to X).
+
+Note: it’s always helpful to plot the residuals in a regression. For example, if the residuals get larger as X increases (a pattern called heteroscedasticity), then even if our trend line is valid, the standard errors will be biased. Since some level of heteroscedasticity is common in real-world data, a typical fix is to use robust standard errors that adjust for it. In more severe cases, methods like Weighted Least Squares (WLS) – which down-weights noisier points – might be used.
+
+Variable Adjustments
+One downside of linear regression is that it’s very sensitive to outliers. Since residuals are squared, a single large outlier can significantly shift the slope. There are many ways to address this, like transforming the data (e.g. taking the log or square root) or clipping extreme values, but these approaches involve judgment and depend on context..
+
+Another common issue is when the relationship between variables isn’t actually linear. For example, suppose we’re modeling academic test performance (Y) based on hours studied (X). Performance may improve as study time increases – up to a point. After that, returns might diminish or even reverse due to fatigue (e.g. pulling an all-nighter and falling asleep during the test). This kind of relationship produces an inverted U-shape, which linear regression can’t fully capture. Still, linear regression can often give a reasonable estimate of the average effect, which is useful if we care more about the overall trend than capturing every nuance. In our example, we might just care about the average impact of studying one additional hour, rather than how that effect varies at different levels – that is, the heterogeneity of that effect.
+
+A good way to check this is to plot the residuals. If they appear randomly scattered, that’s a good sign. But if you see a clear pattern (like a curve), it suggests the model is missing something.
+
+To address this non-linearity, there are a few options:
+
+Transform the variable: center the data around its peak or average. For instance, using the squared deviation from the mean study time might better capture the relationship (i.e. performance drops off the further you get from the optimal study time).
+Bucket the variable: Divide X into bins, like ‘too little,’ ‘moderate,’ and ‘too much’ study time. Then use dummy variables (0/1) for each group. This may require some domain knowledge to choose reasonable cutoffs and not risk overfitting (i.e. choosing segments that fit only for non-generalizable situation).
+Add nonlinear terms: Add a transformed version of X to the regression, like X² – to model the curved relationship directly. 
+Multiple Linear Regression
+Multiple linear regression is just simple linear regression with more variables (X). Instead of fitting a line in two dimensions, we’re now fitting a plane (or hyperplane) in n dimensions. This adds complexity around standardizing variables, interpreting coefficients, and handling interactions between variables.
+
+We won’t go into the matrix algebra in depth, but here is the formula for estimating the coefficients (including the intercept):
+β = (Xᵀ X)⁻¹ Xᵀ y
+This is just a generalization of the closed-form solution for simple linear regression – derived in the same way, but extended to handle multiple predictors.
+
+The error metrics (RSS, MSE, RMSE, TSS, R²) remain largely the same. What changes is the emphasis on standard errors (SE), p-values, and the interpretation of coefficients. Each coefficient answers the question: ‘Holding all other variables constant, how much does a 1 unit change in this variable affect the predicted outcome?’ This is immensely useful in practice. For example, we can estimate the effect of 1 extra hour of exercise a week on predicted weight, controlling for height, age, etc – and also assess how confident we are in that estimate.
+
+Another change when adding variables is the use of Adjusted R² which accounts for the number of predictors (independent variables). Unlike R², which always increases or stays the same when new variables are added, Adjusted R² can decrease if new variables don’t improve the model sufficiently (helping to prevent overfitting). Here is the formula:
+Adjusted R² = 1 – [(1 – R²) * (n – 1) / (n – k – 1)]
+where n = number of data points and k = number of predictors.
+
+Let’s look at a few simple examples (for X):
+
+One useful variable and one useless random variable.
+Two highly correlated variables (e.g. one is the negative of another).
+Standardization
+It is important to standardize units, especially when comparing the influence of different variables. For example, converting height from inches to cm shouldn’t change your model’s conclusions – but without standardization, it might affect how coefficients are interpreted. Standardizing the inputs puts variables on the same scale, so their coefficients can be compared more meaningfully (you can always convert them back later for interpreting).
+
+There are several common ways to standardize:
+
+Z-scores (subtract mean and divide by standard deviation) – most common.
+Min-max scaling (0 to 1) – less common, but sometimes used for ML.
+Rank or percentile transformation (more robust to outliers, but less typical)
+Using percentiles is often a simple and effective approach (some detail in my blog post on essential statistics & probability concepts).
+
+Example 1: Including a Random Number
+Let’s look at our overly simple ‘inches to feet’ example modified by adding a little noise and a random variable that has no relationship with the dependent variable in a tiny (5 data point) dataset. Code:
+
+import pandas as pd
+import numpy as np
+import statsmodels.api as sm
+np.random.seed(0)
+
+df = pd.DataFrame({'feet': [1, 2, 4, 5, 7],})
+
+# add a little noise to our 'inches' calculation (+/- 1 inch)
+noise = np.random.uniform(-1, 1, size=len(df))
+df['inches'] = df['feet'] * 12 + noise
+
+# Add a random (unrelated) variable with no predictive power
+df['random_x'] = np.random.randn(len(df))
+
+print(df)
+
+X = sm.add_constant(df[['feet', 'random_x']])
+#X = df[['feet', 'random_x']] # without a constant
+model = sm.OLS(df['inches'], X).fit()
+print(model.summary())
+Output:
+
+   feet     inches  random_x
+0     1  12.097627 -0.842724
+1     2  24.430379  1.969924
+2     4  48.205527  1.266119
+3     5  60.089766 -0.505877
+4     7  83.847310  2.545201
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 inches   R-squared:                       1.000
+Model:                            OLS   Adj. R-squared:                  1.000
+Method:                 Least Squares   F-statistic:                 4.548e+04
+Date:                Thu, 05 Jun 2025   Prob (F-statistic):           2.20e-05
+Time:                        18:09:11   Log-Likelihood:                 3.5256
+No. Observations:                   5   AIC:                            -1.051
+Df Residuals:                       2   BIC:                            -2.223
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.3775      0.173      2.179      0.161      -0.368       1.123
+feet          11.9228      0.045    267.261      0.000      11.731      12.115
+random_x       0.0563      0.071      0.794      0.511      -0.249       0.362
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.897
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.747
+Skew:                          -0.339   Prob(JB):                        0.688
+Kurtosis:                       1.232   Cond. No.                         9.61
+==============================================================================
+ Key regression output:
+
+`feet` coefficient is 11.92 (basically 12) with a very small standard error (0.045) and p-value of 0.000 (very statistically significant).
+`random_x` coefficient is 0.056 with a p-value of 0.51, indicating no real relationship (though statistical inference with 5 data points is not very reliable).
+R² is 1, as expected – since we’re effectively feeding the model a near-exact formula and the noise is so small, even with irrelevant predictors like `random_x`.
+In real life, getting an R² anywhere near 1 is a major red flag that something is broken and the model is reading a formula.
+There is a constant of 0.38, but it’s not statistically significant with a p-value of 0.161 (and we know that in reality it’s 0). 
+This demonstrates that even with noise and an irrelevant variable, the model correctly identifies the important signal and filters out the random input.
+
+Example 2: Including a Correlated Variable (Multicollinearity)
+Now let’s add a variable that is negatively correlated with another independent, but predictive variable (constructed using a -1 relationship with ‘feet’ plus some noise). Additional code: 
+
+# Add a negative 0.5 correlated var
+noise2 = np.random.uniform(-1, 1, size=len(df))
+corr_strength = -1
+df['corr_with_feet'] = corr_strength * df['inches'] + noise2
+
+print(df)
+
+X = sm.add_constant(df[['feet', 'random_x', 'corr_with_feet']])
+model = sm.OLS(df['inches'], X).fit()
+print(model.summary())
+Output:
+
+   feet     inches  random_x  corr_with_feet
+0     1  12.097627 -0.842724      -11.246434
+1     2  24.430379  1.969924      -25.288307
+2     4  48.205527  1.266119      -49.031268
+3     5  60.089766 -0.505877      -61.049330
+4     7  83.847310  2.545201      -83.182070
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 inches   R-squared:                       1.000
+Model:                            OLS   Adj. R-squared:                  1.000
+Method:                 Least Squares   F-statistic:                 2.104e+06
+Date:                Thu, 05 Jun 2025   Prob (F-statistic):           0.000507
+Time:                        18:13:24   Log-Likelihood:                 15.858
+No. Observations:                   5   AIC:                            -23.72
+Df Residuals:                       1   BIC:                            -25.28
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              0.2993      0.022     13.710      0.046       0.022       0.577
+feet              10.3875      0.131     79.350      0.008       8.724      12.051
+random_x           0.0442      0.009      5.150      0.122      -0.065       0.153
+corr_with_feet    -0.1289      0.011    -11.738      0.054      -0.268       0.011
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   3.219
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.864
+Skew:                          -0.996   Prob(JB):                        0.649
+Kurtosis:                       2.577   Cond. No.                         684.
+==============================================================================
+Regression highlights:
+
+`feet` coefficient drops from 11.92 to 10.39 (p-value is still very low at 0.008)
+`random_x` p-value drops from 0.51 to 0.12, even though it’s still irrelevant.
+`corr_with_feet` has a p-value of 0.054 (nearly significant), with a negative coefficient.
+The constant becomes statistically significant (0.3, with p-value 0.046) – though we know in reality it is zero.
+Despite R² still being 1, the individual coefficients shifted dramatically. This is due to multicollinearity.
+
+What happened?
+This is a classic case of multicollinearity – when two or more independent variables are highly correlated. It doesn’t affect the models predictions much (R² remains high), but it hurts interpretability:
+
+Coefficients become unstable.
+Standard errors (and p-values) become inflated, making it harder to trust the precision of estimates.
+The model splits signal across correlated variables in arbitrary ways (e.g. given overlapping information in ‘feet’ and ‘corr_with_feet’).
+One way to detect multicollinearity is by checking the Variance Inflation Factor (VIF) for each independent variable. A. I usually plot a correlation matrix to flag anything with correlation higher than 0.3 – but it depends on the context.
+
+The best practice here is to remove one of the correlated variables, ideally whichever one contains the least unique information (often a judgement call). For example we might remove the variable that is least correlated with any other variables (or use domain knowledge). We also can use some dimension reduction techniques.
+
+Dimensionality Reduction
+Even if your variables aren’t highly correlated, including too many of them in a linear regression can still cause problems. This is part of the bias-variance tradeoff: adding more features/variables may reduce bias (since you’re fitting closer to the data) but can increase variance, leading to overfitting (memorizing instead of generalizing). There are some other downsides too:
+
+Interpretability suffers, especially when trying to explain results to non-technical stakeholders.
+Diminishing returns kick in (new variables might add very little info).
+Computation slows down (either in feature engineering or running a model on a very large dataset with a lot of columns).
+Statistical noise increases – you lose degrees of freedom, variance of estimates rises, and validating assumptions becomes harder (and more work).
+Sometimes it is worth accepting a bit of bias in order to reduce variance. – Matheus Facure, Causal Inference in Python
+
+Three common ways to reduce dimensionality:
+
+L1 Regularization (Lasso). Here we add a penalty on the sum of the absolute values of the coefficients. This often pushes some coefficients to exactly zero, effectively removing them from the model.
+L2 Regularization (Ridge). This adds a penalty on the sum of the squared values of the coefficients, shrinking all of them (but usually keeping them in the model).
+Stepwise Regression (forwards or backwards). This adds (or removes) variables one at a time based on their statistical contribution. This is a bit more manual (though pretty straight-forward to code) and heuristic, but it can still be useful.
+These approaches increase bias slightly, but usually reduce variance significantly, making the model more stable, generalizable, and explainable. Principal Component Analysis (PCA) can also reduce dimensionality by creating new features that are summaries of variables, which can improve model performance, but it’s a lot less interpretable (e.g. linear combinations of variables), so we won’t go into it here.
+
+Example: Lasso Regression
+Code:
+
+import pandas as pd, numpy as np
+from sklearn.linear_model import Lasso
+from sklearn.preprocessing import StandardScaler
+
+# Same data as above example
+np.random.seed(0)
+df = pd.DataFrame({'feet': [1,2,4,5,7]})
+df['inches'] = df['feet']*12 + np.random.uniform(-1,1,len(df))
+df['random_x'] = np.random.randn(len(df))
+df['corr_with_feet'] = -1*df['inches'] + np.random.uniform(-1,1,len(df))
+
+X = df[['feet','random_x','corr_with_feet']]
+y = df['inches']
+
+# standardize data + run lasso regression
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+lasso = Lasso(alpha=0.1).fit(X_scaled, y)
+
+# Coefficient outputs + changed back to original scale
+coef_orig = lasso.coef_ / scaler.scale_
+print(pd.DataFrame({'Feature': X.columns, 'Coef': coef_orig}))
+
+# from sklearn.linear_model import Ridge
+# ridge = Ridge(alpha=0.1).fit(X_scaled, y)
+# coef_ridge_orig = ridge.coef_ / scaler.scale_
+# print(pd.DataFrame({'Feature': X.columns, 'Coef': coef_ridge_orig}))
+Output:
+
+          Feature       Coef
+0            feet  11.130319
+1        random_x   0.000000
+2  corr_with_feet  -0.063909
+   Lasso regression highlights:
+
+We standardized the data using z-score standardization (mean to 0, standard deviation of 1), ran the lasso regression, then rescaled the coefficients back to interpret.
+`random_x` was dropped entirely (coefficient = 0), which is what we’d hope.
+`corr_with_feet` was shrunk significantly (coefficient cut in half from -0.12 to -0.06).
+`feet` was emphasized and moved closer to its true value of 12 (from 10.39 before to 11.13).
+Note: lasso includes an intercept by default, but we’re focusing on the coefficients.
+Keep in mind this dataset only has 5 rows, so these results aren’t highly reliable here, but in general this is reducing our dimensionality appropriately.
+
+The alpha=1 setting (parameter) controls how aggressively we regularize. The higher the alpha, the larger the penalty, the more coefficients pushed to 0 (and vice versa). Ridge regression (commented out above) won’t push coefficients here to zero, and funny enough actually spreads the coefficients more evenly across variables due to the small data size.
+
+Some Statistics Notes
+T-tests
+A t-test comparing the means of two groups is mathematically equivalent to running a linear regression with a binary indicator for group membership. Here is a simple code example:
+
+import numpy as np
+import statsmodels.api as sm
+from scipy import stats
+
+# Simple data: group 0 and group 1
+group = np.array([0, 0, 1, 1])
+values = np.array([1.1, 1.3, 2.2, 2.4])
+
+# T-test comparing means of two groups
+t_stat, p_val = stats.ttest_ind(values[group==1], values[group==0])
+print(f"T-test: t={t_stat:.3f}, p={p_val:.3f}")
+
+# Linear regression: values ~ group (with intercept)
+X = sm.add_constant(group)
+model = sm.OLS(values, X).fit()
+print(model.summary())
+
+# The t-value for the group coefficient in regression equals the t-test statistic
+print(f"Regression coef t-stat = {model.tvalues[1]:.3f}, p-value = {model.pvalues[1]:.3f}")
+Output:
+
+T-test: t=7.778, p=0.016
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.968
+Model:                            OLS   Adj. R-squared:                  0.952
+Method:                 Least Squares   F-statistic:                     60.50
+Date:                Thu, 05 Jun 2025   Prob (F-statistic):             0.0161
+Time:                        18:22:51   Log-Likelihood:                 3.5346
+No. Observations:                   4   AIC:                            -3.069
+Df Residuals:                       2   BIC:                            -4.297
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          1.2000      0.100     12.000      0.007       0.770       1.630
+x1             1.1000      0.141      7.778      0.016       0.492       1.708
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   3.000
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.667
+Skew:                           0.000   Prob(JB):                        0.717
+Kurtosis:                       1.000   Cond. No.                         2.62
+==============================================================================
+As shown above, the t-test’s p-value (0.016) matches the p-value for the group coefficient on the regression exactly. The advantage of using the regression approach is that you can control for additional covariates. For example, if we’re comparing test scores from two teaching methods, we might want to account for age or prior scores, etc.
+
+Trying to slice the data (e.g. by age brackets) and run separate t-tests leads to multiple hypothesis testing, which inflates the risk of false positives. We can correct this (e.g. using a Bonferroni correction), but it’s cleaner to adjust for confounders in a regression model.
+
+ANOVA (Analysis of Variance) 
+ANOVA is used to compare means across three or more groups in a single test. This avoids the multiple testing problem that arises from pairwise t-tests. Mathematically, a one-way ANOVA is equivalent to a regression with a category variable. Below is a simple code example:
+
+import numpy as np
+import pandas as pd
+from scipy import stats
+import statsmodels.formula.api as smf
+
+# Test scores from 3 groups (e.g., 3 teaching methods)
+group1 = [85, 87, 90]
+group2 = [78, 75, 80]
+group3 = [92, 95, 91]
+
+# Combine data into a single DataFrame
+scores = group1 + group2 + group3
+groups = ['A'] * 3 + ['B'] * 3 + ['C'] * 3
+
+df = pd.DataFrame({'score': scores, 'group': groups})
+
+f_stat, p_val = stats.f_oneway(group1, group2, group3)
+print(f"ANOVA result: F = {f_stat:.2f}, p = {p_val:.6f}")
+
+model = smf.ols('score ~ C(group)', data=df).fit()
+print(model.summary())
+Output:
+
+ANOVA result: F = 30.61, p = 0.000711
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  score   R-squared:                       0.911
+Model:                            OLS   Adj. R-squared:                  0.881
+Method:                 Least Squares   F-statistic:                     30.61
+Date:                Thu, 05 Jun 2025   Prob (F-statistic):           0.000711
+Time:                        18:24:38   Log-Likelihood:                -18.752
+No. Observations:                   9   AIC:                             43.50
+Df Residuals:                       6   BIC:                             44.09
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept        87.3333      1.374     63.544      0.000      83.970      90.696
+C(group)[T.B]    -9.6667      1.944     -4.973      0.003     -14.423      -4.911
+C(group)[T.C]     5.3333      1.944      2.744      0.034       0.577      10.089
+==============================================================================
+Omnibus:                        2.104   Durbin-Watson:                   2.542
+Prob(Omnibus):                  0.349   Jarque-Bera (JB):                0.818
+Skew:                           0.118   Prob(JB):                        0.664
+Kurtosis:                       1.542   Cond. No.                         3.73
+==============================================================================
+Both the ANOVA and regression give the same F-statistic (30.61) and p-value (0.0007), as shown in the top-right of the regression output. The F-statistic reflects the ratio of between-group variability to within-group variability. 
+
+The regression also helps identify which group differences are contributing the most to that variance.. Since Group A is the reference category (by default), the coefficients compare Group B and C to Group A. The output shows Group B scores 9.67 points lower than Group A (p-value 0.003), while group C scores 5.33 points higher than Group A (p-value 0.034). This suggests that the large difference between group A and B is driving most of the between-group variance.
+
+ANCOVA (Analysis of Covariance), extends ANOVA by adjusting for one or more continuous covariates (e.g. age, prior test score). This allows you to test group differences while holding other variables constant, combining the strengths of regression and ANOVA.
+
+Linear to Logistic Regression
+Suppose instead of predicting a continuous value like inches, we wanted to determine whether the value is above or below a cutoff – say, 36 inches. This turns the problem into a binary classification task, and instead linear regression, we use logistic regression. Logistic regression estimates the probability of a binary outcome, which can then be converted into a class prediction by applying a threshold between 0 and 1 (typically 0.5).
+
+One key difference is that logistic regression coefficients represent log-odds of the outcome, which can be converted to odds ratios by exponentiating them (e^coef). In contrast, linear regression coefficients represent the change in the outcome per unit change in the predictor. Since this is a classifier model, we can also evaluate it using common Machine Learning (ML) metrics like precision, recall, AUC, etc – though I won’t go into those details here.
+
+Using the earlier setup, we’ll predict whether the number of inches exceeds 36, based on ‘feet,’ some added noise, and a random variable. Here is some simple code:
+
+import pandas as pd
+import numpy as np
+import statsmodels.api as sm
+np.random.seed(0)
+
+# Add a couple more data points than linear regression examples above
+df = pd.DataFrame({'feet': [1, 2, 3, 4, 5, 6, 7]})
+noise = np.random.uniform(-1, 1, size=len(df))
+df['inches'] = df['feet'] * 12 + noise
+
+# Random noise variable
+df['random_x'] = np.random.randn(len(df))
+
+# Change to binary target: inches > 36 (3 feet)
+df['inches_gt_36'] = (df['inches'] > 36).astype(int)
+
+# Flip a few labels to break perfect separation (ie 5x12 > 36, set to 0)
+df.loc[[5], 'inches_gt_36'] = 0
+
+X = sm.add_constant(df[['feet', 'random_x']])
+y = df['inches_gt_36']
+model = sm.Logit(y, X).fit()
+print(model.summary())
+Output:
+
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:           inches_gt_36   No. Observations:                    7
+Model:                          Logit   Df Residuals:                        4
+Method:                           MLE   Df Model:                            2
+Date:                Thu, 05 Jun 2025   Pseudo R-squ.:                  0.3303
+Time:                        18:26:12   Log-Likelihood:                -3.2015
+converged:                       True   LL-Null:                       -4.7804
+Covariance Type:            nonrobust   LLR p-value:                    0.2062
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -4.5054      4.262     -1.057      0.290     -12.858       3.847
+feet           0.8423      0.690      1.220      0.222      -0.511       2.195
+random_x       1.7187      1.840      0.934      0.350      -1.887       5.324
+==============================================================================
+Logistic regression notes:
+
+The Pseudo R² is 0.33, lower than the R² from our earlier linear regression, due to a binary outcome (less information), a small dataset (only 7 data points), and manually flipping a label to avoid perfect separation.
+The coefficient on ‘feet’ is positive (0.84), meaning longer ‘feet’ values increase the likelihood of exceeding 36 inches. However, it’s not statistically significant due to the small sample size, as reflected in the large standard error and high p-value (0.22).
+The random noise variable (‘random_x’) has a large coefficient but also a very large standard error and high p-values, reinforcing that it’s not meaningfully contributing to the prediction.
+There is much more to logistic regression (see image below from an example article), but this quick example shows how the shift from regression to classification changes both the goal and interpretation of the model.
+
+
+Appendix
+Some key check points:
+
+The response (dependent) variable needs to be continuous for linear regression and binary (1/0) for logistic regression.
+Regression doesn’t handle rows with null values, they need to either be removed or imputed (e.g. using the mean or median). Plotting variables can help get a sense of how much this changes the variable and its relationship to the target variable.
+Sometimes I’ll create a quick function to test imputing the mean vs median for a variable.
+Outliers can heavily skew the data, especially in small datasets.
+Check for correlation between variables (e.g. with VIF) to avoid multicollinearity. 
+Check residuals by plotting them. They should be independent and appear randomly scattered. If they don’t, then something may be wrong (e.g. they might be correlated to another variable or each other) – article.
+Here is a github example of a linear regression predicting data scientist salaries using categorical data.
+
+Thanks for the review Nick Topousis!
