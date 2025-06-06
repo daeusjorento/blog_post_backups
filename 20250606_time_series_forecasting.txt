@@ -1,0 +1,141 @@
+Time Series Forecasting
+Overview
+It is far better to foresee even without certainty than not to foresee at all. – Henri Poincaré
+
+No one knows the future. But sometimes we need to plan ahead. And sometimes a little effort and thoughtfulness can go a long way. 
+
+Time series data can be by the minute, hour, day, week, month, etc. It’s often autocorrelated, where today’s value predicts tomorrow’s pretty well. Many time series also follow a seasonal pattern and long-term trends, making them non-stationary. The best way to evaluate forecasting models is usually out-of-sample performance – like train-test splits in other models. If your forecast seems too accurate, it might be using information it wouldn’t actually have in a real-world setting. You can also get surprisingly far with simple methods like averages and naive baselines.
+
+A Call Center Example
+Suppose a business wants to staff its call center to meet the demand (of inbound customer calls). Sure, there’s more complexity (around workforce management) – people call in sick, there’s overtime, auto-routing, excess capacity, etc – but let’s just focus on forecasting inbound calls.
+
+If I had 1 minute, I’d just use today’s number for tomorrow. If we had 5,000 calls today, predict 5,000 tomorrow. Simple and digestible.
+With 10 minutes, I’d check the day of the week and any holidays. If tomorrow is Saturday, maybe we should look at last Saturday instead of using Friday. If it’s July 4th in the US, I’d compare to that same holiday last year.
+With 30 minutes, I’d look for trends: year-over-year, month-over-month, or seasonal changes. If customer count has doubled since last year, maybe calls have too.
+With 60 minutes, I’d dig into internal context: is there a product launch or press event? I’d also check related forecasts (emails, chats) if they exist.
+With a day, I’d break down calls by category – e.g. time zone, sales vs complaints, misdials. Trends can vary by type (e.g. maybe complaints spike on weekends, sales calls on Mondays).
+With a week, I’d build a basic forecasting model (e.g. SARIMA or Seasonal AutoRegressive Integrated Moving Average), evaluate it out-of-sample (e.g. forecast July 2nd using only data up to July 1st), and add lagged features (last day, week, month). I might also test out a linear regression, poisson regression, Prophet or even LSTM models (though I’m no expert). I’d look for prediction intervals to help decision makers plan staffing ranges. 
+With a month, I’d gather clearer requirements – how much buffer is needed, how flexible is overtime – and collaborate with other teams. I’d look at leading indicators like email volume, voicemails, or product usage to enrich the model and ground it in business context. Maybe we’d include inputs from other models to this model (e.g. if we have a new customer signup forecast based on marketing spend that might be predictive of future calls).
+With more time, I’d remind myself not to overfit. Just predicting based on the same weekday last week can often beat over-engineered models (and sometimes new features give decreasing marginal value). Much of the work becomes explaining why something changed or came in unexpectedly low or high – was it signal or noise? For example, a product manager might assume a launch will spike call volume, but the affected customers might only be 5% of the base. What looks like a ‘big signal’ internally might be rounding error noise in practice.
+Real-World Challenges
+It is worth defining how far ahead your forecast aims. A month out is often feasible. A year? That is much harder – especially with rare, macro-level shocks (e.g. Covid).
+
+Forecasts require ongoing maintenance. A model that worked well 3 months ago might have drifted and be off now.
+
+One caveat: sometimes forecasts themselves affect outcomes. If Berkshire Hathaway is selling stock based on a forecasted drop, that sale could cause a larger drop. Similarly, at the Fed: if their forecast predicts inflation to rise, the fed might raise interest rates to prevent that inflation, which makes their forecast seem ‘wrong’ in hindsight. Always evaluate predictions based on what you knew at the time, not hindsight data that may be revised or seasonally adjusted.
+
+Plans are worthless, but planning is everything. – Dwight D. Eisenhower
+
+Forecasting isn’t just about predicting the future. It’s about improving our understanding of the present – what’s changing, what matters, what doesn’t. When you expect calls to double and they triple, or come in half as much, the next natural question is why? Similar to an experiment in hypothesis testing, what premise that we had was incorrect? We wouldn’t know if we didn’t actually put our prediction out there on paper. A forecast makes you attune to real shifts. It can also be nerve-wracking: when you own a forecast, every new data point feels like a test of personal credibility. But there’s ultimately no perfect forecast – just ones that help people make decisions better than guessing. Sometimes prediction can feel like looking both ways to cross the street before being hit by a helicopter.
+
+Final Thoughts
+Forecast accuracy is often only part of the equation. Just as important is the trust of the people relying on the forecast. Stakeholders are often skeptical of updates, so interpretability and transparency helps. Including confidence intervals and assumptions is almost always a good idea. Visuals can make this much easier.
+
+Common Use Cases:
+
+Staffing: inbound calls, emails, or tickets.
+Revenue projections: to set goals or guide hiring.
+LTV models: forecasting future revenue from a customer (with a discount rate). This can get contentious if tied to incentives (e.g. around sales commission).
+Forecasting is a messy business. But a good forecast – even a rough one – helps teams plan better than if they are constantly reacting. There are diminished returns to effort here, but you always need someone sharp, trusted, and grounded in the data to make educated guesses about the future and degree of uncertainty. Don’t overengineer when a clear, thoughtful explanation will do just as well (or better).
+
+Appendix
+Here is a simple code example generating 5 years of monthly data, then plotting naive (most recent point), mean (overall average), and SARIMA forecasts: 
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from statsmodels.tsa.statespace.sarimax import SARIMAX
+from sklearn.metrics import mean_squared_error, mean_absolute_error
+
+# Generate synthetic monthly data with a slight upward trend (2023-2024)
+np.random.seed(0)
+months = pd.date_range(start='2020-01-01', periods=60, freq='MS')
+trend = np.linspace(10, 15, 60)
+noise = np.random.normal(0, 0.5, 60)
+data = trend + noise
+df = pd.DataFrame({'ds': months, 'y': data})
+
+# Train-test split (last 6 months as test set)
+train = df.iloc[:-6]
+test = df.iloc[-6:]
+
+# SARIMA forecast
+sarima_model = SARIMAX(
+    train['y'],
+    order=(1, 1, 1),
+    seasonal_order=(1, 1, 1, 12)
+).fit(disp=False)
+sarima_forecast = sarima_model.forecast(steps=6)
+
+# Naive forecast (latest data point)
+last_value = train['y'].iloc[-1]
+naive_forecast = np.repeat(last_value, 6)
+
+# Mean forecast (overall mean)
+mean_value = train['y'].mean()
+mean_forecast = np.repeat(mean_value, 6)
+
+# Combine forecasts
+comparison = pd.DataFrame({
+    'Actual': test['y'].values,
+    'SARIMA': sarima_forecast.values,
+    'Naive': naive_forecast,
+    'Mean': mean_forecast
+}, index=test['ds'])
+
+# Evaluation
+def evaluate(y_true, y_pred):
+    mae = mean_absolute_error(y_true, y_pred)
+    rmse = np.sqrt(mean_squared_error(y_true, y_pred))
+    return mae, rmse
+sarima_mae, sarima_rmse = evaluate(comparison['Actual'], comparison['SARIMA'])
+naive_mae, naive_rmse = evaluate(comparison['Actual'], comparison['Naive'])
+mean_mae, mean_rmse = evaluate(comparison['Actual'], comparison['Mean'])
+
+# Print results
+print("Forecast Comparison:\n")
+print(comparison.round(2))
+print("\nPerformance Metrics:\n")
+print(f"SARIMA -> MAE: {sarima_mae:.3f}, RMSE: {sarima_rmse:.3f}")
+print(f"Naive  -> MAE: {naive_mae:.3f}, RMSE: {naive_rmse:.3f}")
+print(f"Mean   -> MAE: {mean_mae:.3f}, RMSE: {mean_rmse:.3f}")
+
+## Plot
+plt.figure(figsize=(10, 5))
+plt.plot(train['ds'], train['y'], label='Train (Actual)', color='black')
+test_with_overlap = pd.concat([train.iloc[[-1]], test])
+plt.plot(test_with_overlap['ds'], test_with_overlap['y'], label='Test (Actual)', color='black', linestyle='--')
+forecast_dates = pd.concat([pd.Series([train['ds'].iloc[-1]]), test['ds']])
+plt.plot(forecast_dates, np.concatenate([[train['y'].iloc[-1]], sarima_forecast]), label='SARIMA Forecast')
+plt.plot(forecast_dates, np.concatenate([[train['y'].iloc[-1]], naive_forecast]), label='Naive Forecast')
+plt.plot(forecast_dates, np.concatenate([[train['y'].iloc[-1]], mean_forecast]), label='Mean Forecast')
+
+plt.title("Forecasts vs Actual")
+plt.xlabel("Date")
+plt.ylabel("Value")
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+Output:
+
+Forecast Comparison:
+
+            Actual  SARIMA  Naive   Mean
+ds                                      
+2024-07-01   14.56   13.99   13.9  12.29
+2024-08-01   14.88   14.63   13.9  12.29
+2024-09-01   14.78   13.94   13.9  12.29
+2024-10-01   14.98   14.29   13.9  12.29
+2024-11-01   14.60   14.35   13.9  12.29
+2024-12-01   14.82   14.89   13.9  12.29
+
+Performance Metrics:
+
+SARIMA -> MAE: 0.445, RMSE: 0.521
+Naive  -> MAE: 0.868, RMSE: 0.880
+Mean   -> MAE: 2.479, RMSE: 2.483
+In this example, it’s easy to see why the mean forecast was not effective (due to upward growth year-over-year), why the naive forecast was a reasonable simple choice, and why SARIMA, by capturing some seasonal patterns in the synthetic data, achieves the lowest mean absolute errors (MAE) and root mean square errors (RMSE).
+
+
+Thanks for the review Nick Topousis & Chandra Natarajan!
