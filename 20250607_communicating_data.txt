@@ -34,21 +34,21 @@ If you can't explain it, you don't understand it.
 
 One unexpected side effect of better communication skills is that I started thinking more deeply about my own premises - like why we even do experimentation, or why we hire data scientists at a company. Also, I may understand the logic behind one decision or project, but what about the organization's goals overall? How does my work fit in? 
 
-I began to think about sharing results while working still on projects, not just at the end. Thinking through how I'd explain something later helped me navigate more ambiguity in the moment. I started to write out plans in advance to leave room for feedback early too. For a product analogy, it's almost like submitting a minimum viable product for a test run.
+I began to think about sharing results while still working on a project, not just at the end. Thinking through how I'd explain something later helped me navigate more ambiguity in the moment. I started to write out plans in advance to leave room for feedback early too. For a product analogy, it's almost like submitting a minimum viable product for a test run.
 
-I even began choosing projects based on what I would later communicate to an executive or business lead. That shift changed how I perceived the entire business landscape. Not as a pile of work to do, but as a series of problems and bets. Going too deeply into everything was just too expensive in terms of time and resources. If I had to make a choice, one framework was to think of how I'd explain it later.
+I even began choosing projects based on what I would later communicate to an executive or business lead. That shift changed how I perceived the entire business landscape. Not as a pile of work to do, but as a series of problems and bets. Going too deeply into every curiosity was just too expensive in terms of time and resources. If I had to make a choice, and one decision-making framework was to think of how I'd explain it later.
 
 Rewriting is the essence of writing 
 - William Zinsser (On Writing Well)
 
-I'll note, to be honest, that sometimes my writing is still bad because I'm tired. It takes work to form an opinion and write clearly. Sometimes I overshare, under-edit, or just don’t do a final recap. Other times I’ve had to lean on reputation or just say 'I'll get back to you' if I'm caught off guard. I’m only human after all. When I started to see writing as its own task, I started treating it like any other work.
+I'll note, to be honest, that sometimes my writing is still bad because I'm tired. It takes work to form an opinion and write clearly. Sometimes I overshare, under-edit, or just don’t do a final recap. Other times I’ve had to lean on reputation or just say 'I'll get back to you' if I'm caught off guard. I’m only human after all. When I started to see writing as its own task, I started treating it like any other work that needs prioritization.
 
 Fear
 
 Wrong is better than vague.... if you're wrong people will tell you.
 - Tanya Reilly (The Staff Engineer's Path)
 
-A lot of communication challenges aren't about work or logic - it's about fear. Fear of being wrong. Fear of having an opinion that aged badly. Fear of failure. Fear of looking dumb or taking up too much space. But humility helps here. Pride and shame are often two sides of the same coin, and both can tie me too tightly to outcomes. Sharing my work lets others correct me, so we both learn. Otherwise the default opinion is usually the gut instinct of the highest paid person in the room. 
+A lot of communication challenges aren't about work or logic - they're about fear. Fear of being wrong. Fear of having an opinion that aged badly. Fear of failure. Fear of looking dumb or taking up too much space. But humility helps here. Pride and shame are often two sides of the same coin, and both can tie me too tightly to outcomes. Sharing my work lets others correct me, so we both learn. Otherwise the default opinion is usually the gut instinct of the highest paid person in the room. 
 
 It is easier to find men who will volunteer to die, than to find those who are willing to endure pain with patience.
 - Julius Caesar
@@ -58,7 +58,7 @@ One way I've worked through some fear is by trying to empathize with executives 
 The difference between misconstruing reality and being delusional is the willingness to revise a belief.
 - Peter Boghossian (A Manual for Creating Atheists)
 
-Taking up space can feel like stealing it. But I've come to believe that group engagement isn't zero-sum. Yes, time and energy are limited. But attention and curiosity can expand. A one-hour meeting can drag - or it can unlock new thinking. And one good story (or disproved myth) can ripple across a 100+ person org. A bad story might cause some fatigue, but the upside is worth it. All focus spent is somewhat of a gamble.
+Taking up space can feel like stealing it. But I've come to believe that group engagement isn't zero-sum. Yes, time and energy are limited. But attention and curiosity can expand. A one-hour meeting can drag - or it can unlock new thinking. And one good story (or disproved myth) can ripple across a 100+ person org. A bad story might cause some fatigue, but the potentual leveraged upside is worth it to share learnings. All focus spent is somewhat of a gamble.
 
 Communicating fully is the opposite of being traumatized.
 - Bessel van der Kolk (The Body Keeps the Score)
@@ -119,7 +119,13 @@ The Visual Display of Quantitative Information by Edward R. Tufte
 
 Graphic excellence is that which gives the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space.
 
+Lie factor = size of effect shown in graphic / size of effect shown in data.
+
+Graphical elegance is often found in simplicity of design and complexity of data.
+
 My writing has improved immensely not just by reading, but also by writing book reviews on Goodreads. Just by planning for a review I'm practicing thinking about what information I want to take with me (e.g. quotes), and how I might evaluate the book. This is not that dissimilar to looking through data and crafting a useful narrative. Another benefit is I have a quick reference for quotes to use (many of which I used above)! 
+
+Bonus: here's one of my favorite visuals in a chart (of change from quarter to quarter). Notice how there's no grid lines, and the story is very easy to follow about how we went from 800K to 860K customers (fake date obviously), and our quarterly churn and net new customers.
 
 Conclusion
 
