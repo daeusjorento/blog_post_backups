@@ -240,7 +240,8 @@ Even if your variables aren’t highly correlated, including too many of them in
 Interpretability suffers, especially when trying to explain results to non-technical stakeholders.
 Diminishing returns kick in (new variables might add very little info).
 Computation slows down (either in feature engineering or running a model on a very large dataset with a lot of columns).
-Statistical noise increases – you lose degrees of freedom, variance of estimates rises, and validating assumptions becomes harder (and more work).
+Statistical noise increases – we lose degrees of freedom, variance of estimates rises, and validating assumptions becomes harder (and more work).
+The curse of dimensionality: as we add more variables, the volume of space we’re working in expands so fast that data becomes sparse, and model estimates (like means or densities) get much noisier. Silverman (1986) showed that in ten-dimensions, even 824,000 data points offer the same estimation accuracy (in terms of MSE) as just 4 data points in one dimension.
 Sometimes it is worth accepting a bit of bias in order to reduce variance. – Matheus Facure, Causal Inference in Python
 
 Three common ways to reduce dimensionality:
