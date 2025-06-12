@@ -1,197 +1,274 @@
-Product Data Science Experimentation
 Introduction
-Observation is a passive science, experimentation an active science. – Claude Bernard
 
-This post shares practical lessons from product experimentation: when to run them, how to design them, and how to interpret results in real-world development. If you’re looking for foundational concepts, check out my Essential Probability & Statistics blog post. 
+Observation is a passive science, experimentation an active science. - Claude Bernard
+
+This post shares practical lessons from product experimentation: when to run them, how to design them, and how to interpret results in real-world product development. If you’re looking for foundational concepts, check out my Essential Probability & Statistics blog post. 
 
 Why do we Experiment?
-In business – whether product, platform, go-to-market, or risk – we run experiments to improve decision-making by testing hypotheses and uncovering causality. Experimentation is the gold standard of causal inference, and a cornerstone of the scientific method. But there are other benefits, too:
 
-Creating knowledge. We are not just analyzing data, we’re creating new knowledge and building a learning organization. Past experiments often inform future ones, helping us identify high-leverage business areas and methods. Over time, this institutional memory enables faster iteration by avoiding repeated dead ends. 
-Questioning beliefs. Because experiments must be falsifiable, we’re forced to think like scientists – challenging our assumptions in a structured way. When supported by psychological safety around failure and tinkering, this mindset can unlock deeper innovation and encourages principled risk-taking.
+In business – whether product, platform, go-to-market, or risk - we run experiments to improve decision-making by testing hypotheses and uncovering causality. Experimentation is the gold standard of causal inference, and a cornerstone of the scientific method. But there are other benefits, too:
+
+Creating knowledge. We are not just analyzing data, we’re creating new knowledge and building a learning organization. Past experiments often inform future ones, helping us identify high-leverage business areas and methods. Over time, this institutional memory enables faster iteration by avoiding repeated dead ends. 
+
+Questioning beliefs. Because experiments must be falsifiable, we’re forced to think like scientists - challenging our assumptions in a structured way. When supported by psychological safety around failure and tinkering, this mindset can unlock deeper innovation and encourages principled risk-taking.
+
 Grounding in reality. No matter how clever our ideas, experiments reveal how they perform with real customers. As Benjamin Brewster put it, ..in theory there is no difference between theory and practice, while in practice there is…. Experiments also help de-risk launches by isolating the specific impact of a change before rolling it out broadly.
-Establishing an independent authority. With a well-run experiment, no one is above the data. This forces ultimate deference to customer behavior over personal opinions and can help drive alignment and reduce political debates.
-Imagine a company that doesn’t experiment. They may move faster and save money in the short term, but when metrics shift after a launch, they won’t know why. If five features ship and performance drops, they won’t know which one(s) caused it. Over time, early luck may lead to false confidence and flawed assumptions, undermining decision-making and long-term impact. 
 
-Shipping code is, in fact, an experiment. It may not be a controlled experiment, but rather an inefficient sequential test where one looks at the time series; if key metrics (e.g. revenue, user feedback) are negative, the feature is rolled back…. If you are willing to ship something to 100% of users, shipping to 50% with the intent of going to 100% as an experiment should be fine. – Trustworthy Online Controlled Experiments by Ron Kohavi, Diane Tang, Ya Xu
+Establishing an independent authority. With a well-run experiment, no one is above the data. This forces ultimate deference to customer behavior over personal opinions and can help drive alignment and reduce political debates.
+
+Imagine a company that doesn’t experiment. They may move faster and save money in the short term, but when metrics shift after a launch, they won’t know why. If five features ship and performance drops, they won’t know which one(s) caused it. Over time, early luck may lead to false confidence and flawed assumptions, undermining decision-making and long-term impact. 
+
+Shipping code is, in fact, an experiment. It may not be a controlled experiment, but rather an inefficient sequential test where one looks at the time series; if key metrics (e.g. revenue, user feedback) are negative, the feature is rolled back.... If you are willing to ship something to 100% of users, shipping to 50% with the intent of going to 100% as an experiment should be fine. - Trustworthy Online Controlled Experiments by Ron Kohavi, Diane Tang, Ya Xu
 
 When do we Experiment?
-Not every change needs an A/B test, but every test should serve a clear purpose. Sometimes the goal is risk mitigation, not optimization (e.g. a platform migration). In those cases, we might be testing so that any harm stays within acceptable bounds rather than seeking improvements. Here is a practical playbook: 
+
+Not every change needs an A/B test, but every test should serve a clear purpose. Sometimes the goal is risk mitigation, not optimization (e.g. a platform migration). In those cases, we might be testing so that any harm stays within acceptable bounds rather than seeking improvements. Here is a practical playbook: 
 
 Is the change required? Is it urgent?
-Yes, and urgent: A pre/post analysis may be sufficient (e.g. for a bug fix, for adding a rule to address a sudden fraud spike, etc.).
-Yes, but not urgent: Consider an A/B test to validate impact.
-Is this a research-driven change?
-Yes: Formulate a testable hypothesis and define metrics accordingly (e.g. a painted door proof of concept experiment).
-No: Then ask:
-Is this a local optimization (e.g. a UI tweak)?
-Use fast curing metrics
-Is this a metrics mover / big bet?
-Use a broader set of metrics and allow for longer validation.
-General rule: If the results won’t change your decision (e.g. you are shipping something that’s absolutely table stakes), then skip the A/B test.
 
-Ideally, a company has an ‘ideas funnel’ for a product – a steady stream of upstream hypotheses to test for validity and scalability. These ideas can come from user research, competitor analysis, product intuition, data analysis, and more. They are often prioritized, if not generated, from product managers (PMs).
+Yes, and urgent: A pre/post analysis may be sufficient (e.g. for a bug fix, for adding a rule to address a sudden fraud spike, etc.).
+
+Yes, but not urgent: Consider an A/B test to validate impact.
+
+Is this a research-driven change?
+
+Yes: Formulate a testable hypothesis and define metrics accordingly (e.g. a painted door proof of concept experiment).
+
+No: Then ask:
+
+Is this a local optimization (e.g. a UI tweak)?
+
+Use fast curing metrics
+
+Is this a metrics mover / big bet?
+
+Use a broader set of metrics and allow for longer validation.
+
+General rule: If the results won’t change your decision (e.g. you are shipping something that’s absolutely table stakes), then skip the A/B test. 
+
+Ideally, a company has an 'ideas funnel' for a product - a steady stream of upstream hypotheses to test for validity and scalability. These ideas can come from user research, competitor analysis, product intuition, data analysis, and more. They are often prioritized, if not generated, from product managers (PMs).
 
 Designing an Experiment
+
 Designing a strong experiment involves deciding beforehand:
 
 Whom we are testing on (population)
+
 What we’re measuring (metrics)
+
 How + when we’re assigning groups (randomization & structure)
+
 How we are monitoring / experiment type (Frequentist or Bayesian)
+
 Experiment Population
+
 Who is included, and how are they bucketed?
 
 Is this across all platforms (Web, iOS, Android) or just one?
+
 Are we testing new customers, existing ones, or both?
+
 Are we testing only customers who take a specific action?
+
 What’s the unit of randomization? User, page/screen, session, region?
+
 Also consider timing around where we bucket: e.g. for onboarding, do we randomize at first visit or later in the funnel? There may be some technical limitations.
 
 Some strategic questions:
 
 Are we using a 50-50 split for speed?
+
 Is there a holdout group to measure long-term effects?
+
 Do we want to focus on (or exclude) a high-value customer segment?
+
 For recurring tests (e.g. ads or email), consider a global holdout to guard against cumulative harm. A classic example: every email test increases conversions, but over time, unsubscribe rates creep up, eroding the entire channel. For fraud detection, holdout groups can measure the cumulative performance of rules/models, and generate both insights into new fraud behaviors and high quality fraud labels.
 
 Experiment Metrics
+
 Connecting a hypothesis to a measurable, falsifiable metric is part art, part science. Ideally our metric is:
 
 Aligned closely with our hypothesis
+
 Sensitive enough to detect change
+
 Not easily distorted or overly noisy
+
 Examples:
 
 Button color change -> click-through rate (CTR)
+
 Platform migration -> error rate or latency
+
 Trust feature -> fraud loss
+
 Help flow update -> support tickets reduction (or faster time to resolution)
+
 Engagement feature -> daily active users (DAU)
+
 Onboarding -> conversion to paid
+
 We’ll usually want:
 
 A primary metric tied to the core hypothesis
-Secondary or guardrail metrics to ensure no unintended harm and paint a fuller picture
-You want a metric that’s both meaningful and measurable – not just aspirational. Ecosystem success metrics for example can be tricky, but also help create meaningful alignment across products (blog post). Guardrail metrics help balance local optimization with trustworthiness – for example, using Customer Satisfaction Score (CSAT) or Net Promoter Score (NPS) to offset click-through rate (CTR) and avoid turning a website into clickbait, or tracking platform reliability like latency to balance with design changes. They also support organizational alignment with broader strategy by discouraging efforts that optimize the wrong thing or send teams ‘rowing in the wrong direction.’
 
-Revenue is a tempting primary metric, but often too noisy. It’s continuous, generally of high variance (e.g. skewed or outlier-heavy where a few customers drive most value), and slow to reflect churn. To avoid being misled, we often need to reduce outlier effects using winsorizing, clipping, or log transformations. Alternative statistical tests like Mann-Whitney U – which ranks observations instead of using raw values – can handle skewed distributions, as can bootstrapping or other non-parametric tests when the CLT doesn’t hold. Instead of measuring revenue directly, we might also weight conversions by expected revenue or churn impact.
+Secondary or guardrail metrics to ensure no unintended harm and paint a fuller picture
+
+You want a metric that’s both meaningful and measurable - not just aspirational. Ecosystem success metrics for example can be tricky, but also help create meaningful alignment across products (blog post). Guardrail metrics help balance local optimization with trustworthiness - for example, using Customer Satisfaction Score (CSAT) or Net Promoter Score (NPS) to offset click-through rate (CTR) and avoid turning a website into clickbait, or tracking platform reliability like latency to balance with design changes. They also support organizational alignment with broader strategy by discouraging efforts that optimize the wrong thing or send teams 'rowing in the wrong direction.'
+
+Revenue is a tempting primary metric, but often too noisy. It’s continuous, generally of high variance (e.g. skewed or outlier-heavy where a few customers drive most value), and slow to reflect churn. To avoid being misled, we often need to reduce outlier effects using winsorizing, clipping, or log transformations. Alternative statistical tests like Mann-Whitney U - which ranks observations instead of using raw values - can handle skewed distributions, as can bootstrapping or other non-parametric tests when the CLT doesn’t hold. Instead of measuring revenue directly, we might also weight conversions by expected revenue or churn impact.
 
 We’ll also need to consider:
 
 Speed to cure: How quickly does the metric reflect change? Churn, for example, is slow to respond, requiring the experiment to run longer.
+
 Metric tradeoffs: One metric often improves at another’s expense (e.g. upsells may boost revenue per user but hurt conversion rates, and a navigation change might improve engagement but hurt customer satisfaction). Clear metric prioritization makes interpretation smoother.
+
 Short vs long term: Optimizing for short-term gains / fast money (e.g. fee hikes) can harm lifetime value or retention / smart money, so metrics must align with long term strategy.
-Whatever we pick as a primary metric becomes the focus of our null hypothesis in a frequentist test (i.e. assuming no change). But metrics are not a replacement for strategy (blog post): no metric alone can tell us whether it was worthwhile without a clear business goal. 
+
+Whatever we pick as a primary metric becomes the focus of our null hypothesis in a frequentist test (i.e. assuming no change). But metrics are not a replacement for strategy (blog post): no metric alone can tell us whether it was worthwhile without a clear business goal. 
 
 Choosing a good metric is about clarity of intent with statistical rigor. The goal is to distill strategy into actionable decisions with reasonable tradeoffs.
 
 An Aside on Ratio Metrics
-Sometimes, a ratio metric makes sense as our primary metric. For example, when randomizing visitors on a website, one visitor might view a page 100 times and click 20 times; another might view once and click once. Since we randomize on the visitor level (not the page views), we cannot treat all clicks and views as independent events, but looking at one click outcome per visitor disregards useful signal. In this case, a ratio like CTR (clicks/view) preserves both volume and individual variance. To analyze ratio metrics, common approaches include:
+
+Sometimes, a ratio metric makes sense as our primary metric. For example, when randomizing visitors on a website, one visitor might view a page 100 times and click 20 times; another might view once and click once. Since we randomize on the visitor level (not the page views), we cannot treat all clicks and views as independent events, but looking at one click outcome per visitor disregards useful signal. In this case, a ratio like CTR (clicks/view) preserves both volume and individual variance. To analyze ratio metrics, common approaches include:
 
 The Delta method approximates the variance of the ratio using Taylor expansion (see blog).
-Clustered experiment: group observations by user to preserve independence and reduce sample size requirements (see blog). 
-With a large enough sample size, the methods are effectively equivalent (article).
 
-If you incorrectly estimate the variance, then the p-values and confidence interval will be incorrect, making your conclusions from the hypothesis test wrong. Overestimated variance leads to false negatives and underestimated variance leads to false positives. – Trustworthy Online Controlled Experiments by Ron Kohavi, Diane Tang, Ya Xu
+Clustered experiment: group observations by user to preserve independence and reduce sample size requirements (see blog). 
+
+With a large enough sample size, the methods are effectively equivalent (article). 
+
+If you incorrectly estimate the variance, then the p-values and confidence interval will be incorrect, making your conclusions from the hypothesis test wrong. Overestimated variance leads to false negatives and underestimated variance leads to false positives. -  Trustworthy Online Controlled Experiments by Ron Kohavi, Diane Tang, Ya Xu
 
 Type of Experiment Frameworks
+
 Frequentist vs Bayesian
-Once we’ve defined our population and primary metric, we must choose a statistical framework: frequentist or Bayesian. 
+
+Once we’ve defined our population and primary metric, we must choose a statistical framework: frequentist or Bayesian. 
 
 Frequentist experiments (most common) define a null hypothesis, run a power analysis to determine run time, run the full experiment for a set duration, and apply a statistical test to assess significance. The key question is: If the null hypothesis is true, how likely is the data? This approach offers strong false positive control if assumptions hold, but it is rigid. Peeking mid-experiment invalidates results unless corrected (e.g., with sequential testing or alpha spending).
 
 Bayesian experiments (walkthrough video) ask a different question: Given the data, how confident are we in the result? Starting with a prior belief (e.g. historical data, which may introduce some bias), we update beliefs continuously to answer the question: how has my belief changed and is it strong enough to act? There’s no fixed sample size (we don’t need a power analysis), but we must define stopping criteria. Bayesian methods are more flexible and naturally support peaking, since they don’t rely on fixed probabilities like p-values. As an analogy:
 
-Frequentist: Cook a dish and taste it once at the end. If we taste it early, we might ruin the flavor. 
-Bayesian: Check the flavor as it cooks. At any point, if it tastes done and meets our standards, we serve it. If not, we keep cooking.
-Both need a maximum time – no one wants a never ending experiment. And remember: inconclusive does not mean useless. For example, a confidence interval from -1 to 7 contains zero, so it’s not statistically significant at our predetermined level, but it has upside worth considering. The goal isn’t certainty, it’s informed decisions under uncertainty (i.e. considering also the costs of inaction).
+Frequentist: Cook a dish and taste it once at the end. If we taste it early, we might ruin the flavor. 
 
-Note: In frequentist experiments, a confidence interval is based on long term patterns (e.g. ‘if we repeated this experiment 100 times, 95 of those CIs would contain the true value’). Whereas in Bayesian experiments, instead of a confidence interval, we end up with a credible interval (e.g. ‘there is a 95% chance the true value is in this interval’). 
+Bayesian: Check the flavor as it cooks. At any point, if it tastes done and meets our standards, we serve it. If not, we keep cooking.
+
+Both need a maximum time - no one wants a never ending experiment. And remember: inconclusive does not mean useless. For example, a confidence interval from -1 to 7 contains zero, so it’s not statistically significant at our predetermined level, but it has upside worth considering. The goal isn’t certainty, it’s informed decisions under uncertainty (i.e. considering also the costs of inaction).
+
+Note: In frequentist experiments, a confidence interval is based on long term patterns (e.g. ‘if we repeated this experiment 100 times, 95 of those CIs would contain the true value’). Whereas in Bayesian experiments, instead of a confidence interval, we end up with a credible interval (e.g. ‘there is a 95% chance the true value is in this interval’). 
 
 Now let’s explore how to set up frequentist and Bayesian experiments.
 
 Frequentist: Hypothesis Formation
-No matter what metric we chose, we eventually need to translate it into a null hypothesis. Broadly, there are three types of hypothesis tests in the frequentist framework: superiority, non-inferiority, and equivalence. 
+
+No matter what metric we chose, we eventually need to translate it into a null hypothesis. Broadly, there are three types of hypothesis tests in the frequentist framework: superiority, non-inferiority, and equivalence. 
 
 Superiority tests are the most common. The null hypothesis is that the treatment performs the same or worse than the control, which the alternative hypothesis is that the treatment performs better (i.e., is ‘superior’). Here we want to avoid implementing a solution that is not strictly better than what we have in control.
-Non-inferiority tests are used when the goal is to ensure the new version is not worse than control by more than an acceptable margin. The null hypothesis is that the treatment is inferior to control by at least this predefined margin – similar to the minimum detectable effect (MDE) size. The  alternative hypothesis is that it is not inferior – meaning it’s better to negligibly worse. This is useful when rolling out a required change, where small performance drops are acceptable.
+
+Non-inferiority tests are used when the goal is to ensure the new version is not worse than control by more than an acceptable margin. The null hypothesis is that the treatment is inferior to control by at least this predefined margin – similar to the minimum detectable effect (MDE) size. The  alternative hypothesis is that it is not inferior - meaning it’s better to negligibly worse. This is useful when rolling out a required change, where small performance drops are acceptable.
+
 Equivalence tests aim to demonstrate that two experiences perform similarly. The null hypothesis is that there is a significant difference between groups, and the alternative hypothesis is that any difference falls between a pre-specified, practically negligible range. This is often used when testing backend changes where we expect no meaningful impact.
+
 A key requirement: the union of the null and alternative hypothesis must fully cover all possible values that the treatment effect might take.
 
 Another consideration one-tailed vs two-tailed tests:
 
 A two-tailed test checks for any difference, regardless of direction. It is more conservative and requires a larger sample size.
+
 A one-tailed test checks for difference in a specific direction (e.g. only looking for a lift or ensuring no harm). These require a smaller sample size. A one-tailed superiority test is useful when we only care about improvement (e.g. a UI tweak) and a one-tailed non-inferiority test is useful when we want to confirm a change didn’t hurt performance beyond an acceptable threshold like a ‘do no harm’ change.
+
 Note: Many online calculators default to two-tailed superiority tests, where the null hypothesis is ‘no difference’ and the alternative hypothesis is ‘there is a difference.”
 
 Frequentist: Power Analysis
+
 Power analysis helps us estimate how long an experiment needs to run. The guiding question is: ‘assuming there is a true effect, how do we ensure we have enough data to detect it?’ To do this, we estimate the required sample sizes per group. Combined with daily volume and metric cure time, this gives us a practical time-to-run estimate. For binary (e.g. conversion rate) outcomes, three key inputs determine the required sample size:
 
-Significance level (α). This is the probability of a Type I error – seeing an effect that isn’t really there (a false alarm). A common default is 0.05 (i.e. 95% confidence), which means we are willing to accept a 5% chance of false positives. Lowering the significance level reduces the risk of a type I error, but increases the sample size requirement.
-Power (1 – β). This is the probability of correctly detecting a true effect (statquest) – the chance we’ll reject the null when we should. The standard is 80% power, corresponding to a Type II error rate (β) of 20%. In other words, we’re okay with missing a real effect 1 in 5 times. Higher power reduces false negatives (missing a real fire), but increases sample size requirements.
+Significance level (α). This is the probability of a Type I error - seeing an effect that isn’t really there (a false alarm). A common default is 0.05 (i.e. 95% confidence), which means we are willing to accept a 5% chance of false positives. Lowering the significance level reduces the risk of a Type I error, but increases the sample size requirement.
+
+Power (1 - β). This is the probability of correctly detecting a true effect (statquest) - the chance we’ll reject the null when we should. The standard is 80% power, corresponding to a Type II error rate (β) of 20%. In other words, we’re okay with missing a real effect 1 in 5 times. Higher power reduces false negatives (missing a real fire), but increases sample size requirements.
+
 Minimum Detectable Effect (MDE). This is the smallest effect we care to detect with our chosen power. For conversion rates, this is a relative percent lift from baseline. Smaller MDE requires larger sample sizes, since we’re trying to detect more subtle differences. For example, if the true effect is 5% and we use a 10% MDE in our calculations, we’re unlikely to see any impact from our experiment. Also, be sure to clarify if this is a relative or absolute percentage change.
+
 In practice, we’ll often want to show stakeholders trade-offs with a simple table, e.g:
 
-MDE	Estimated Duration
-10%	3 weeks
-5%	15 weeks
+MDEEstimated Duration10%3 weeks5%15 weeks
+
 This helps align on what’s reasonable based on business timelines. If we only have 4 weeks, maybe 10% MDE is acceptable (e.g. to catch only big, risky regressions). If the business decision hinges on cost-benefit analysis, and 5% really matters, we might need more time to be sure. Ideally we choose our MDE based on prior similar experiments (e.g. if we saw a 3% lift in iOS, and now we’re testing in Android, 3% is a reasonable starting estimate).
 
 Other considerations:
 
-Factor in metric curing time, ramp-up time, and day-of-week effects (i.e. ideally round to full weeks). 
+Factor in metric curing time, ramp-up time, and day-of-week effects (i.e. ideally round to full weeks). 
+
 We may also want to intentionally overpower a test (run longer than the required sample size) to handle attrition, ensure robustness, or enable segmentation later.
-For more detail, simulations and example power calculations are covered in this blog post. 
+
+For more detail, simulations and example power calculations are covered in this blog post. 
 
 Bayesian: Stopping Criteria
+
 Unlike frequentist methods, Bayesian experiments don’t require a power analysis to determine the sample size in advance. However we do need to determine stopping criteria. Common stopping criteria options are Expected Loss, Region of Practical Equivalence (ROPE), and Chance to Win.
 
-Expected Loss (blog) calculates the potential cost of choosing the worse variant, weighted by probability. For example, if there is a 2% chance that the treatment group is worse than control, and implementing it would reduce conversion by 0.2%, then our expected loss is 2% x 0.2% = 0.00004. Once our expected loss falls below our predetermined “threshold of caring,” the experiment stops and the version with the lowest expected loss is declared the winner. 
-Region of Practical Equivalence (ROPE) defines a range around the null effect where differences are considered negligible. For example, if a +/-1% relative change in our metric is not meaningful, our ROPE would be (-1%, +1%). If the highest posterior density (HPD) AKA credible interval lies entirely within the ROPE, we can declare the variants effectively equivalent. If the HPD lies outside the ROPE in favor of one variant, that variant can be declared the winner.
-Chance to Win estimates the probability that a variant is better than the others (somewhat related to expected loss). For example, if a treatment has 95% chance of beating control, we might decide that’s sufficient to stop the test. This is the criteria that Growthbook uses (article).
-Launching an Experiment
-Once we’ve defined the population, primary metric, and experiment design – including the hypothesis and power analysis (for frequentist tests) or stopping criteria (for Bayesian tests) – it might seem like we’re ready to start collecting data. In practice, there are some more considerations to address before and during launch.
+Expected Loss (blog) calculates the potential cost of choosing the worse variant, weighted by probability. For example, if there is a 2% chance that the treatment group is worse than control, and implementing it would reduce conversion by 0.2%, then our expected loss is 2% x 0.2% = 0.00004. Once our expected loss falls below our predetermined “threshold of caring,” the experiment stops and the version with the lowest expected loss is declared the winner. 
 
-Instrumentation Checks. Is the experiment implemented client-side or server-side? This decision affects engineering effort, iteration speed, and potential data issues like tracking loss or flickering (e.g. briefly showing the old version in treatment). Client-side experiments are typically faster to implement and ideal for UI changes, while server-side tests are better suited for core logic or secure features. The choice often depends on how the company’s experimentation platform is set up. Regardless of approach, it’s critical to align with engineers early in the build process to ensure proper logging, event tracking, and product analytics plans are in place before launch.
+Region of Practical Equivalence (ROPE) defines a range around the null effect where differences are considered negligible. For example, if a +/-1% relative change in our metric is not meaningful, our ROPE would be (-1%, +1%). If the highest posterior density (HPD) AKA credible interval lies entirely within the ROPE, we can declare the variants effectively equivalent. If the HPD lies outside the ROPE in favor of one variant, that variant can be declared the winner.
+
+Chance to Win estimates the probability that a variant is better than the others (somewhat related to expected loss). For example, if a treatment has 95% chance of beating control, we might decide that’s sufficient to stop the test. This is the criteria that Growthbook uses (article).
+
+Launching an Experiment
+
+Once we’ve defined the population, primary metric, and experiment design - including the hypothesis and power analysis (for frequentist tests) or stopping criteria (for Bayesian tests) - it might seem like we’re ready to start collecting data. In practice, there are some more considerations to address before and during launch.
+
+Instrumentation Checks. Is the experiment implemented client-side or server-side? This decision affects engineering effort, iteration speed, and potential data issues like tracking loss or flickering (e.g. briefly showing the old version in treatment). Client-side experiments are typically faster to implement and ideal for UI changes, while server-side tests are better suited for core logic or secure features. The choice often depends on how the company's experimentation platform is set up. Regardless of approach, it's critical to align with engineers early in the build process to ensure proper logging, event tracking, and product analytics plans are in place before launch.
+
 Sample Ratio Mismatch (SRM): we need to verify randomization is working correctly. For example, in a 50/50 split, we shouldn’t see a 47/53 distribution persist unless there is a good reason. One real-world cause I’ve seen is cookie opt-outs, where users in one variant had disproportionately blocked tracking due to how the experiment was served. Another common issue can be bots. A good way to catch SRM early (e.g. when testing out an unfamiliar experimentation platform) is to run an A/A test, where both variants are identical, but we verify assignment ratios and make sure our populations are correct.
-Multiple Exposures: The unit we are bucketing on (session, customer, etc) should only be experiencing one variant. If a single customer is seeing both control and treatment conditions, especially if an experiment is meant to persist over time, it can invalidate results. This often happens in practice in edge cases and typically we’ll just remove them from the analysis or fix the tooling if there was a bug.
+
+Multiple Exposures: The unit we are bucketing on (session, customer, etc) should only be experiencing one variant. If a single customer is seeing both control and treatment conditions, especially if an experiment is meant to persist over time, it can invalidate results. This often happens in practice in edge cases and typically we’ll just remove them from the analysis or fix the tooling if there was a bug. 
+
 Population integrity and segment coverage. Beyond overall counts, we’ll want to keep an eye on our population characteristics between groups and make sure we aren’t missing or underrepresenting key segments. Check distributions across groups is a good safeguard against subtle biases.
-Overlapping Experiments. Larger companies also often have to deal with overlap between experiments (article). Tools like Optimizely or Launchdarkly will help manage these situations. For example, maybe we have two overlapping 50-50 A/B tests, and when we check our control for test 1, we notice it has 80% of treatment from test 2 when it should be around 50% due to our random bucketing mechanism – something is wrong. If this risk is high and we still want to run two experiments, we can run them sequentially or split them 4 ways (ie A/B/C/D 25-25-25-25) but that doubles the time to gather the same sample size.
-Gradual Rollouts. Rather than a full population exposure to an experiment, we’ll want to ramp up gradually (e.g. starting with 1%, then 5%, then increasing to 50% or whatever our predetermined ratio is, while preserving the relative sizes of the groups). This can help catch any early bugs and limit a broken experience for customers before wide-scale impact. In frequentist setups, we’ll monitor early metrics mostly for health, not to make an early decision (since peeking inflates Type 1 error risk). In Bayesian setups, however, we can begin evaluating results throughout the ramp based on the stopping rule.
+
+Overlapping Experiments. Larger companies also often have to deal with overlap between experiments (article). Tools like Optimizely or Launchdarkly will help manage these situations. For example, maybe we have two overlapping 50-50 A/B tests, and when we check our control for test 1, we notice it has 80% of treatment from test 2 when it should be around 50% due to our random bucketing mechanism - something is wrong. If this risk is high and we still want to run two experiments, we can run them sequentially or split them 4 ways (ie A/B/C/D 25-25-25-25) but that doubles the time to gather the same sample size.
+
+Gradual Rollouts. Rather than a full population exposure to an experiment, we’ll want to ramp up gradually (e.g. starting with 1%, then 5%, then increasing to 50% or whatever our predetermined ratio is, while preserving the relative sizes of the groups). This can help catch any early bugs and limit a broken experience for customers before wide-scale impact. In frequentist setups, we’ll monitor early metrics mostly for health, not to make an early decision (since peeking inflates Type I error risk). In Bayesian setups, however, we can begin evaluating results throughout the ramp based on the stopping rule.
+
 Experiment Analysis
-Let’s explore how we would analyze an experiment with a frequentist vs Bayesian framework.
+
+Let's explore how we would analyze an experiment with a frequentist vs Bayesian framework.
 
 Frequentist Analysis
-Once we’ve gathered our data, we can begin analysis. Ideally, we’ve aligned with stakeholders beforehand so we have a plan for different outcomes and aren’t under pressure to get a certain answer. As data scientists, our goal is understanding the truth and limitations of what we know, not to push an agenda. This means avoiding p-hacking and sticking to predefined hypotheses and metrics. 
 
-In a well-designed experiment, we’ve also avoided peeking at the results too early (which has Type 1 error risk). Early checks might see a novelty effect – temporary spikes in behavior from reactions to a change (e.g. when Facebook added emojis they initially saw increased engagement which faded over time). Since most statistical tests assume a constant treatment effect over time, it helps to check this visually later on (while avoiding peeking!). If we did peek we’ll have to correct for some bias there.
+Once we’ve gathered our data, we can begin analysis. Ideally, we’ve aligned with stakeholders beforehand so we have a plan for different outcomes and aren’t under pressure to get a certain answer. As data scientists, our goal is understanding the truth and limitations of what we know, not to push an agenda. This means avoiding p-hacking and sticking to predefined hypotheses and metrics. 
+
+In a well-designed experiment, we’ve also avoided peeking at the results too early (which has Type I error risk). Early checks might see a novelty effect - temporary spikes in behavior from reactions to a change (e.g. when Facebook added emojis they initially saw increased engagement which faded over time). Since most statistical tests assume a constant treatment effect over time, it helps to check this visually later on (while avoiding peeking!). If we did peek we’ll have to correct for some bias there.
 
 With a clear null hypothesis and prior power analysis, the statistical tests should be pretty straight-forward:
 
-For continuous variables (e.g. revenue): Use a t-test to compare between means. Consider variance reduction techniques like outlier removal to get a more full picture (microsoft article). 
-For binomial outcomes (e.g. conversion): Use a Z-test or Chi-Square test (calculator – video – comparison between the two, though it doesn’t really matter which one you use here). 
-For multiple group comparisons: Use ANOVA to compare mean across groups. 
+For continuous variables (e.g. revenue): Use a t-test to compare between means. Consider variance reduction techniques like outlier removal to get a more full picture (microsoft article). 
+
+For binomial outcomes (e.g. conversion): Use a Z-test or Chi-Square test (calculator – video – comparison between the two, though it doesn’t really matter which one you use here). 
+
+For multiple group comparisons: Use ANOVA to compare mean across groups. 
+
 For the fundamental statistics behind these concepts, see my Essential Probability & Statistics blog post.
 
-In practice, confidence intervals are often more digestible for non-technical stakeholders than p-values – where non-statistical significance just means the confidence interval contains 0. We want to keep in mind that a non-significant (i.e. inconclusive) result does not necessarily mean there was no effect (article), it could be due to high variance or a low powered experiment (e.g. small sample size). We want to make sure we’re telling a full story, not just passing a yes/no gate based on a p-value <0.05. Ideally we frame this as learning, not a scoreboard. We also need to consider the business risks of a Type 1 error vs the potential benefits – e.g. if a false positive has a high cost, we want to be stricter on the p-value threshold. Additional analysis might include segmentation breakdowns (with corrections for multiple hypothesis comparisons like Bonferroni), partial pooling, or variance reduction techniques to improve signal (e.g. CUPED adjustment where we use pre-experiment data – example code).
+In practice, confidence intervals are often more useful (since they account for effect size) and more digestible for non-technical stakeholders than p-values - where non-statistical significance just means the confidence interval contains 0. A non-significant (i.e. inconclusive) result doesn't necessarily mean there was no effect (article), it could be due to high variance or a low-powered experiment (e.g. small sample size). Inconclusive means we don't have enough evidence to decide, whereas neutral means both variants performed similarly (no meaningful difference). 
 
-Ultimately, the thing to anchor our decision on is business context and cost-benefit tradeoffs, with confidence intervals and result interpretation being one input into the overall evaluation criteria (OEC). For example, a large lift with a high cost might not justify rollout – even if results are positive and statistically significant. Our goal is to make the best recommendation we can for the business, given the data, and to stay open to questions and clarifications around uncertainty. A common interview question, for instance, is how someone might handle an ambiguous case such as a p-value of 0.051. 
+We want to tell a full story, not just pass a yes/no gate based on a p-value <0.05. Ideally, we frame this as learning, not a scoreboard. We also need to weigh the business risks of a Type I error against potential upside - for example, tightening the p-value threshold if false positives are costly. Additional analysis might include segmentation breakdowns (with corrections for multiple hypothesis comparisons like Bonferroni), partial pooling, or variance reduction techniques to improve signal (e.g. CUPED adjustment using pre-experiment data - example code).
+
+Ultimately, the thing to anchor our decision on is business context and cost-benefit tradeoffs, with confidence intervals and result interpretation being one input into the overall evaluation criteria (OEC). For example, a large lift with a high cost might not justify rollout - even if results are positive and statistically significant. Our goal is to make the best recommendation we can for the business, given the data, and to stay open to questions and clarifications around uncertainty. A common interview question, for instance, is how someone might handle an ambiguous case such as a p-value of 0.051. 
 
 Bayesian Example
 
-
 Let’s walk through a concrete example of how we update our beliefs using Bayesian methods with our new data. Here we’ll model uncertainty using a Beta distribution here since it is defined over the [0, 1] interval and it’s the conjugate prior to the binomial likelihood, meaning that the posterior distribution is also a Beta (making the math neat and interpretable).
 
+Step 1: Define a Prior. 
 
-
-Step 1: Define a Prior. 
-
-Suppose we believe that the true conversion rate for a new feature is around 10%. To encode this belief, we use a Beta distribution: Prior = Beta (1,9). This reflects 1 prior “success”, 9 prior “failures” – lightweight but anchored around 10%. 
+Suppose we believe that the true conversion rate for a new feature is around 10%. To encode this belief, we use a Beta distribution: Prior = Beta (1,9). This reflects 1 prior “success”, 9 prior “failures” - lightweight but anchored around 10%. 
 
 Step 2: Observe New Data
 
-We run an experiment for some time period and observe that out of 100 more users, 20 converted to paid. That is a 20% observed conversion rate. 
+We run an experiment for some time period and observe that out of 100 more users, 20 converted to paid. That is a 20% observed conversion rate. 
 
 Step 3: Update to Posterior.
 
@@ -202,19 +279,18 @@ Step 4: Credible Interval and Probability Calculations
 We can use the 95% credible interval to quantify uncertainty (Note: beta.ppf = percent-point function, ie inverse CDF):
 
 from scipy.stats import beta
-lower = beta.ppf(0.025, 21, 89)  # = 12.3%
-upper = beta.ppf(0.975, 21, 89)  # = 26.9%
+lower = beta.ppf(0.025, 21, 89)  # = 12.3%
+upper = beta.ppf(0.975, 21, 89)  # = 26.9%
 
-95% Credible Interval: [12.3%, 26.9%]. This interval can be compared with a ROPE to determine practical significance. 
+95% Credible Interval: [12.3%, 26.9%]. This interval can be compared with a ROPE to determine practical significance. 
 
-We might also ask: what is the probability the true conversion rate is above 15%? 
+We might also ask: what is the probability the true conversion rate is above 15%? 
 
 Prob = 1- Beta.cdf(0.15,21,89) # = 86.6%
 
 P(θ>0.15) = 86.6%. If we had set a threshold to 95% to declare a win, this is not yet strong enough, but it’s getting close.
 
-
-Suppose 15% is our break-even point, meaning our expected loss is zero if the true conversion rate is above 15%. So we ask: if we act as if the rate is above 15%, what is the expected loss if we’re wrong? If the true conversion rate (θ) is below 15%, we lose money proportional to how far below 15% it is. For example, if the true rate is 10%, we lose 5 percentage points, if it’s 14.5%, we lose 0.5 percentage points. The expected loss is the average loss across all possible true rates weighted by belief AKA our Beta(21,89) posterior – i.e. our expected shortfall.
+Suppose 15% is our break-even point, meaning our expected loss is zero if the true conversion rate is above 15%. So we ask: if we act as if the rate is above 15%, what is the expected loss if we’re wrong? If the true conversion rate (θ) is below 15%, we lose money proportional to how far below 15% it is. For example, if the true rate is 10%, we lose 5 percentage points, if it’s 14.5%, we lose 0.5 percentage points. The expected loss is the average loss across all possible true rates weighted by belief AKA our Beta(21,89) posterior - i.e. our expected shortfall.
 
 from scipy.stats import beta
 from scipy.integrate import quad
@@ -223,23 +299,32 @@ quad(lambda theta: (0.15 - theta) * beta.pdf(theta, 21, 89), 0, 0.15)[0] # = 0.0
 So the expected loss for Beta(21,89) and a threshold of 15% is 0.21%, meaning we’ll lose 0.21% on average for being wrong and acting on it.
 
 Additional Considerations
-In practice, the impact of experimentation on decision-making often hinges on the soft skills of data scientists and buy-in from stakeholders. A well-run experiment that gets ignored doesn’t move the needle. In larger organizations, it also helps to consistently share experiment results to build trust and institutional knowledge (blog on experiment templates). Even a no-go decision can inform better future decisions. Trust matters more for long term impact than a short-term forced win – so keep in mind Twyman’s law: “Any figure that looks interesting or different is usually wrong” when deciding whether to investigate further. Also, in many leading technology companies that run regular experiments, it’s normal for the majority of experiments to fail, but the learnings from these experiments can still be of tremendous value (article).
 
-There is always a tradeoff between bias and variance. While we aim for unbiased results, reducing variance is just as important for generating confident, actionable insights. This might involve handling outliers, stratification, CUPED adjustments, and other variance reduction techniques. Another useful method is triggered analysis and overtracking (article) which can help exclude users who aren’t actually treatable in the experiment so they don’t dilute the signal.
+In practice, the impact of experimentation on decision-making often hinges on the soft skills of data scientists and buy-in from stakeholders. A well-run experiment that gets ignored doesn’t move the needle. In larger organizations, it also helps to consistently share experiment results to build trust and institutional knowledge (blog on experiment templates). Even a no-go decision can inform better future decisions. Trust matters more for long term impact than a short-term forced win - so keep in mind Twyman’s law: “Any figure that looks interesting or different is usually wrong” when deciding whether to investigate further. Also, in many leading technology companies that run regular experiments, it’s normal for the majority of experiments to fail, but the learnings from these experiments can still be of tremendous value (article). Really a failed experiment is when we learned nothing.
+
+There is always a tradeoff between bias and variance. While we aim for unbiased results, reducing variance is just as important for generating confident, actionable insights. This might involve handling outliers, stratification, CUPED adjustments, and other variance reduction techniques. Another useful method is triggered analysis and overtracking (article) which can help exclude users who aren’t actually treatable in the experiment so they don’t dilute the signal. 
 
 We also want to stay mindful of common sources of bias, such as:
 
-Hawthorne effect – when people alter their behavior simply because they know they’re being observed (e.g. realizing they are in an A/B test).
-Primacy effect – the tendency to overweight early impressions, which can manifest as customer’s resistance to change (somewhat the antithesis of the novelty effect).
-Survivorship bias – focusing only on successes or visible outcomes while ignoring failures or missing data, which can distort conclusions (e.g. when users evaluated at the end of an experiment don’t include those who churned or dropped off).
-Simpson’s Paradox – when a trend appears with several individual groups but reverses when the data is combined.
-Finally, there are many types of experiments beyond the standard A/B test: 
+Hawthorne effect - when people alter their behavior simply because they know they’re being observed (e.g. realizing they are in an A/B test).
 
-Multi-arm bandits (to maximize overall exposure to the best experience), 
-Stepped-wedge designs (where everyone eventually receives the treatment), and more. 
+Primacy effect - the tendency to overweight early impressions, which can manifest as customer's resistance to change (somewhat the antithesis of the novelty effect).
+
+Survivorship bias - focusing only on successes or visible outcomes while ignoring failures or missing data, which can distort conclusions (e.g. when users evaluated at the end of an experiment don't include those who churned or dropped off).
+
+Simpson's Paradox - when a trend appears with several individual groups but reverses when the data is combined.
+
+Finally, there are many types of experiments beyond the standard A/B test: 
+
+Multi-arm bandits (to maximize overall exposure to the best experience), 
+
+Stepped-wedge designs (where everyone eventually receives the treatment), and more. 
+
 Switch-back experiments (randomizing by time period rather than users, like for surge pricing),
-Geo experiments (to control for network effects between treatment and control units), 
-Even when a clean A/B test isn’t feasible (e.g. due to unavoidable selection bias), we can still use other causal inference methods such as difference-in-difference, regression discontinuity, interrupted time series, or propensity score matching to construct credible alternative scenarios. 
+
+Geo experiments (to control for network effects between treatment and control units), 
+
+Even when a clean A/B test isn’t feasible (e.g. due to unavoidable selection bias), we can still use other causal inference methods such as difference-in-difference, regression discontinuity, interrupted time series, or propensity score matching to construct credible alternative scenarios. 
 
 In terms of evidence, the general hierarchy moves from anecdotes, case studies, and expert opinion, to observational studies, to other controlled experiments (e.g. natural, non-randomized), to randomized controlled experiments, to systematic reviews of randomized controlled experiments (i.e. Meta-analysis). A great reference here is Trustworthy Online Controlled Experiments by Ron Kohavi, Diane Tang, Ya Xu.
 
