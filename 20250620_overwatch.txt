@@ -1,0 +1,126 @@
+Background
+Since August 2020, I’ve played over 2,000 hours of Overwatch on Xbox (averaging more than an hour a day). That’s more than double the total time I’ve spent on all other video games combined, ever. Overwatch was my first real online multiplayer game, outside of a brief StarCraft phase as a teenager. It’s the closest I’ve come to feeling the intense passion of high school and college sports again (mostly swimming for me).
+
+For people who don’t play video games, Overwatch is like basketball crossed with a sci-fi action movie. It’s 5v5 (formerly 6v6), with roles like tank, damage, and support. Each of the 43 heroes (currently) has unique abilities, creating a multitude of combinations and requiring tight teamwork, communication, and quick decision-making. It’s visually stunning and has a rich lore (with some Pixar-quality shorts, such as Bastion’s backstory).
+
+Overwatch even launched a professional league (OWL), with city-based teams around the world. But this post isn’t about OWL. It’s about my journey, starting with the lowest ranks and building skills and self-understanding (along with my journey in therapy starting just before the pandemic).
+
+Bronze to Silver: Learning How to Lose
+
+When I started competitive play, I immediately dropped to Bronze, the lowest rank, in all three roles. Fair enough, I was still learning. But when a random kid (probably) messaged me “You suck,” something in me snapped. I thought: I’m a grown adult. I don’t suck. I set out to prove that random kid wrong.
+
+I dove into YouTube guides, got my settings right, practiced my aim on AI robots, and studied the game…. and I kept losing. A lot. I almost fell so low they stopped recording my exact SR (skill rating).
+
+
+So I quit trying. I thought maybe competitive gaming just wasn’t for me. I decided to just play casually with the friend who introduced me. Ironically, that’s when I started climbing. I went up two full ranks in Support by only playing Lucio. I simplified my goal to just focusing on staying alive and keeping my teammates healed or speed boosted by sticking close to them. It felt like playing defense in soccer as a kid – reliable, but never the star.
+
+What frustrated me, though, was that I could ONLY play the Support role with friends competitively. My rank was too low to play any other roles with them. Whenever I played a Damage or Tank role alone, I immediately started tilting. 
+
+What is Tilt?
+Tilt is getting emotionally dysregulated and starting to make bad decisions. In poker, it’s what causes people to lose everything even if they were doing well. In Overwatch, it means chasing kills when I’m low health, ignoring my team and going in alone, and for some people, rage quitting mid-match. The theme, looking back, was always ‘I knew better,’ I just didn’t have the self-control in the moment.
+
+I learned to set boundaries for myself, where I would take a break if I lost two close games in a row and was starting to feel powerless. Another signal I was getting there was when I started blaming everything on my teammates or I couldn’t figure out what was happening in the fights. Those were signs I needed to stop playing.
+
+Recognizing tilt helped me off-screen too. Self-regulation, or even just noticing when I was dysregulated, was a transferable skill. 
+
+But what about my teammates? I couldn’t control their tilt (and pointing it out in the moment was rarely helpful, unless we already had a good relationship). So I started networking. I built a list of players who wouldn’t quit, stayed supporting and positive, and didn’t tilt easily. I avoided assholes, even if they were good. Good vibes win more games over the long term. If I could keep a team having fun, and no one rage-quitting, it boosted my odds.
+
+If you want to go fast, go alone. If you want to go far, go together – African Proverb
+
+Team Communication
+I usually turn the match chat off and only talk to friends. However, sometimes in games where we seem out of sync, I might turn on team comms – which opened up a different skill set entirely that I can sometimes find exhausting (I’d rather play with luck on who I match with).
+
+For example, one game our (randomly matched) Tank player was struggling and kept dying. Another randomly matched teammate typed in chat “idiot tank.” I was in match chat, so I asked them “Why did you say that?” They replied, “They should obviously switch from Rein to Zarya.” I said, “But how would they know that from what you said?”  The person was like “Okay fine” and typed “Please switch to Zarya, tank.” The tank switched and we won. The tank wasn’t bad mechanically, they just didn’t know what to do. The other teammate had the knowledge but couldn’t communicate it. Feedback only matters if it lands. I didn’t have the game knowledge, but I knew how to press people to clarify (I also didn’t think our Tank was actually bad). 
+
+Why People Stay in Bronze
+During my time in Bronze I noticed some themes of what kept people there:
+
+Some just wanted to goof off. Totally valid.
+Bad tech (e.g. wifi issues that caused lag)
+Poor player mechanics (rarer than people think, but still real)
+Poor situational awareness. A friend mentioned to me that a lot of people who play Overwatch already have some basic skills that I lacked (like learning to hide behind cover, etc) – since I didn’t start really fps gaming until age 28.
+Bad self-care: playing tired, drunk, or angry (tilted) and losing all they might have gained.
+Toxic behavior: throwing matches on purpose or bullying. This is unfortunately just part of competitive gaming at all levels.
+Learned helplessness: believing they cannot improve (part of a fixed mindset).
+Even if someone managed to climb out of Bronze through sheer luck, they’d fall back down unless they played like a Silver (or better) consistently. For example, a Bronze Moira or Zenyatta with good mechanics who could win duels, but often didn’t heal the team (similar to someone who never passes the ball playing basketball) – and individual skill always has a ceiling. 
+
+Ultimately my goal here was to avoid basic mistakes, and punish enemy teams who made mistakes (e.g. getting out of position, going into fights without the full team, etc). But my main issue was overwhelm, how do I figure out my strengths and weaknesses?
+
+Coaching and Climbing
+After months of flailing, I paid $20 for a pro coach (Gefest) to review my play for an hour. His advice:
+
+My mechanics were fine – don’t stress there.
+Warm up 15-30 minutes before competitive.
+Flank as Soldier 76: force the enemy team to split attention (even if I didn’t get a kill, the pressure was often enough to make a difference). 
+Target Support players first and avoid Tanks if possible.
+Prioritize survival – dead heroes deal no damage. Use the high ground so you can disengage on your own terms by backing up.
+1/3 of games, I’ll lose no matter what I do. 1/3 I’ll win no matter what I do. Focus on the 1/3 where my actions can make the difference.
+Specialize in 2-3 heroes, ideally with the same aim types (projectile, hitscan, or tracking).
+Playing to win isn’t always fun. Sometimes I had to make some personal sacrifices there for the team to win.
+These tips gave me things to remember (and what to let go of, like perfect aim) during close fights. I just needed some dedicated practice to improve them, but I had confidence now on which skills and tactics were most fruitful. Ultimately I never found a silver bullet, I just needed a lot of lead ones.
+
+The Gaming Ecosystem and Alternative Accounts
+Overwatch’s ranking system is zero-sum (rank gained must be taken from somewhere). However, the exception is new accounts – which start in Gold by default. 
+
+Now, the extreme end of alternative accounts is a smurf, i.e. an experienced player with a lower ranked account. I’ve also seen people just buy/sell accounts – but I didn’t want to achieve my goals this way (I would feel like a fraud). That being said, having an undervalued teammate (e.g. someone who was typically higher rank but fell recently, maybe due to wifi issues or something), was an excellent find. They were stronger than their rank showed, like drafting excellent talent in the late rounds.
+
+For my own confidence, I created a second account to gain experience in Gold (or just see where I placed). This was one silver bullet to achieve my goal immediately, as it helped me break through mental barriers and briefly escape the grind of playing in Bronze. But it bothered me that my main account was two ranks lower than what I had proven I was capable of playing at now.
+
+There was another benefit of belief in myself. For example, one time a Bronze teammate doubted my plan. I said “I did this on an alt account in Gold yesterday and it worked.” He was willing to try it. It worked and we won. Maybe it wasn’t the plan itself, it was the buy-in that made it effective.
+
+I also realized later on, that I joined Overwatch’s during its lowest point (GOATS Meta). There had been no new content or heroes, forced role lock, and the new player fan base had dried up. This was like an SR drought that caused upward rank mobility to slow. It also clicked for me that maybe I wasn’t meant to climb out of Bronze. Maybe I was meant to just start over and create a new account – since it added new SR to the collective pool. I also found out for PC new accounts cost money (unlike Console where they are free), so there was a slight monetary incentive to not have people climb out of Bronze.
+
+For some reason, this reminded me of poverty and some of my childhood. Some systems weren’t meant for people to improve, just endure – unless there was a paradigm shift in perspective or massive luck.
+
+Silver to Gold: Momentum and Mastery
+Silver was the most fun rank in the game for me. People know the basics, but it’s not sweaty. Gold is full of new accounts and regular grinders. Bronze is chaos. Silver is just fun, with occasional team wipes. 
+
+It took me 6 months of grinding to climb from Bronze to Silver in the Damage role. It took me 6 smooth weeks to get from Silver to Gold. 
+
+After I had reached gold in Support and Damage, I went for the Tank role. To identify my best tank (Sigma), I used statistics from playing Mystery Heros (where the game randomly selects heroes for you), specifically average damage per 10 minutes and eliminations per life. It took me 6 weeks to go from Bronze to Gold for Tank, my third role.
+
+Once I hit Gold and achieved my goals, fear kicked in. I didn’t want to fall back. I played fewer ranked games, and more quickplay. I clung to my rank.
+
+But I kept learning, for fun, and slowly expanding my hero pool to help cement my newfound position. I started watching streamers more for specific characters. Moreweth was my favorite as a solid strategist who felt very human to me – not a mechanical God. I was 30 and had been gaming for less than 2 years, not some teenager who grew up playing Halo. Strategy, stability, and team dynamic awareness were my edge. I also kept a Google Doc for notes and strategic tips (e.g. switch to Torbjorn to counter Genji and Tracer).
+
+At about 800 hours in, I had built a solid group of friends who hung out via Discord. 
+
+Gold to Platinum: Contentment and Overwatch 2
+
+Overwatch 2 (OW2) launched in October 2022 with 5v5 matches and a sign of change. Most fundamentals from Overwatch 1 carried over, but not having double shields was nice. 
+
+I managed to climb from Gold to Platinum in all 3 roles over the next 1.5 years (the same total time it took me to get from Bronze to Gold in all 3 roles, including long breaks). But it felt almost effortless. I played mostly for fun, with short bursts of competitive focus. I was actually coming close to Diamond in Support, but realized I didn’t want to grind any further. Higher ranks were dominated by META (Most Effective Tactics Available) chasers and keeping up with patch notes for hero buffs and nerfs. I wanted to play for fun with friends, not optimization.
+
+I oddly remember my friend who introduced me to the game saying I might end up climbing above him and being unable to play because my rank was too HIGH (rather than too low as it was when I started). I also remember one time not playing with him because I wanted to rank up so I could play with him more consistently – the irony didn’t hit me until long after.
+
+Overwatch became my virtual third place. A way to connect, laugh, and dabble in mastery without pressure. 
+
+Overwatch Stadium: Strategic Advantages
+
+In April 2025, Overwatch launched Stadium mode – a bigger shift, in my view, than even 5v5. It removes hero switches and adds a performance-based upgrade system between rounds, making it feel part MOBA, part deck builder, and part real-time strategy game.
+
+In 31 hours of play time I climbed from Novice to All-Star (arguably high Diamond to low Masters) in Damage. This mode fits me perfectly. As a data scientist, I love the upgrade economy – deciding where to invest resources in real time. Most players seem overwhelmed, picking upgrades randomly or just choosing what seems cool. Even streamers often showcase what works for them, without adapting to shift momentum in tough battles. The challenge isn’t Overwatch knowledge, it was spending limited money efficiently and effectively.
+
+I started building fluid strategies with contingency plans, adjusting based on the enemy team’s composition and performance. My go-to hero is Ashe, who has one of the lowest win rates in Stadium, but I think she’s undervalued. In non-Stadium overwatch, she’s very aim dependent, which can get shut down here. But I invest heavily in her non-aim abilities (Dynamite, Coach Gun, B.O.B), leading to a snowball effect of damage and ult charge.
+
+
+If I’m dying too often, I’ll add armor or shields – but sometimes I just double down on damage since the best defense is a good offense. If something isn’t working, I’ll sell everything and rebuild from scratch. I’m constantly scanning for high leverage and key gaps (like anti-armor if the enemy team went armor heavy). I try to communicate key threats and strengths to prioritize targets and focus our spend around neutralizing them. It’s like real-time hypothesis testing – and knowing when to go all in on a single strategy. 
+
+Almost no one is doing this well. This dynamic shift has created a temporary competitive moat for adaptive strategic thinkers. The rest are timeless basics, like self-care, taking breaks, etc to give yourself conditions for luck. I feel like I’m in the right place at the right time. I don’t want to get too sucked into competition or let something fun start to feel like work – I just want to have fun playing with friends. But damn does it feel good to feel tailor-made for a game.
+
+Rank Climbing Recap
+
+My lessons for climbing (out of Bronze) in Overwatch:
+
+Good self-care. Recognize tilt and take breaks (maybe get an alt account to practice at the level you want to reach).
+Find good teammates. Avoid toxic people. Build and occasionally prune my network.
+I often joke that climbing out of Bronze in Overwatch is 90% networking and 10% where you put your Torb turret. 
+Focus on developing high-leverage skills. Aim helps, but so does environmental awareness, team coordination, and mastering the basics like grouping up for a team fight.
+Letting go of long-time teammates who brought bad energy was the hardest part. Their skill might give a short term boost but lead to long term burnout and suffocate the vibe.
+
+Long term, uphill grinding can result in burnout or taking resources best spent elsewhere (outside of the game). The goal is fun and winning, not just winning. I don’t need to win to have fun, but I have more fun when I am clear what I am working on. 
+
+From Bronze to Platinum/All-Star, Overwatch helped me rediscover a part of myself: the athlete strategist who enjoys skill progression for its own sake. Everything else is just enjoying playing games with friends.
+
+Appendix
+Roughly 10% of players are in Bronze, 20% in Silver, 27% Gold, 27% Platinum, 12% diamond, 4% Masters, <2% Grandmasters (source) – this varies by season.
