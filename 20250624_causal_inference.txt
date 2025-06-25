@@ -132,7 +132,7 @@ DiD is especially useful when we have many units (e.g. users, cities, stores) an
 
 Interrupted Time Series (ITS)
 
-ITS is conceptually similar to DiD in that it compares outcomes before and after a treatment, but it lacks a control group. Instead, it relies on the treated unit’s own pre-treatment trend to serve as the counterfactual. This can feel even more intuitive - e.g. turning on a new feature and watching metrics shift - but it rests on a strong assumption: that the pre-treatment trend would have continued unchanged if the treatment hadn’t occurred.
+ITS is conceptually similar to DiD in that it compares outcomes before and after a treatment, but it lacks a control group. Instead, it relies on the treated unit’s own pre-treatment trend to serve as the counterfactual. This can feel even more intuitive - e.g. turning on a new feature and watching metrics shift - but it rests on a strong assumption: that the pre-treatment trend would have continued unchanged if the treatment hadn’t occurred. Some implementations use forecasting models (e.g. CausalImpact) to more formally estimate what the post-treatment trend would have looked like without the intervention.
 
 This assumption can be very risky, especially in environments with other ongoing changes (e.g. seasonality, product launches, external events). ITS is also prone to bias from factors like autocorrelation (yesterday's data affects today's), and fixed effects (unit-specific traits over time), both of which can inflate statistical significance if not accounted for.
 
@@ -759,4 +759,4 @@ Mastering Metrics by Joshua D. Angrist, Jörn-Steffen Pischke (also Mostly Harml
 
 There are many good blog posts out there (e.g. Uber, Doordash)
 
-Thanks for the review Jon Schellenberg & Nick Topousis!
+Thanks for the review Jon Schellenberg, Nick Topousis, and Mike Ash!
