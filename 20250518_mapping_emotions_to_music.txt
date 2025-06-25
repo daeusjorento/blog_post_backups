@@ -1,4 +1,3 @@
-Mapping Emotions to Music
 The General Idea
 
 The desire for more positive experience is itself a negative experience. And, paradoxically, the acceptance of one’s negative experience is itself a positive experience. – Mark Manson, The Subtle Art of Not Giving a F*ck
@@ -41,6 +40,7 @@ Anger	Indignant	Figure	Monster’s revenge
 Anger	Numb	Julie London	Cry Me a River
 Anger	Rage	Linkin Park	Lying from you
 Anger	Resentful	Eminem	Rock bottom
+Anger	Agitation	Sheet Music Boss	Rush E
 Song Details: Sadness
 
 [Sadness] Abandoned: Billie Eilish – When the party’s over
@@ -184,6 +184,10 @@ That’s rock bottom, when this life makes you mad enough to kill
 That’s rock bottom, when you want somethin’ bad enough to steal
 That’s rock bottom, when you feel like you’ve had it up to here
 ‘Cause you mad enough to scream, but you sad enough to tear
+
+[Anger] Agitation: Sheet Music Boss – Rush E
+
+This song has so much manic energy. It perfectly encapsulates that restless, frenetic feeling for me of wired & tired revenge bedtime procrastination.
 
 Song Details: Happiness
 
