@@ -654,7 +654,7 @@ The goal is always the same: to estimate causal effects as accurately as possibl
 
 There’s a rich body of applied research in policy analysis, economics, and tech that continues to push the field forward. Newer techniques like Double Machine Learning (DML) are gaining traction, especially in high-dimensional settings. Still, every method relies on assumptions, and the best practitioners are those who understand when those assumptions are reasonable, and when they are not.
 
-A well-designed A/B test remains the gold standard. But when that’s not possible, causal inference gives us a toolkit to approximate that rigor thoughtfully, transparently, and responsibly.
+A well-designed A/B test remains the gold standard. But when that’s not possible, causal inference gives us a toolkit to approximate that rigor thoughtfully, transparently, and responsibly. It can also help identify areas promising enough to justify the cost and effort of a future A/B test.
 
 In practice, the biggest challenges aren’t just technical - they’re about understanding the product, data, and incentives of the system we're studying. The more you know about the real-world context, the better your causal estimates will be.
 
