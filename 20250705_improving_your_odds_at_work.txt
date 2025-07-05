@@ -25,13 +25,16 @@ On staying at a company, if many of the strongest leaders I know all start leavi
 While no one knows the future and things can always change, a pattern I look for is that I start just waiting for things to improve. The question I usually ask myself is ‘how much more time do you want to give it?’
 
 Picking a Team
+
 This might seem obvious, but make sure you understand what your team/org does and how it adds value to the overall business. This can get tricky with white collar work. One thing I ask myself is ‘if everyone on the team quit today, would they urgently backfill it?’ If the answer isn’t clear, I start to look around. This is distinct from how well the team is executing on their specific or team-level goals.
 
 If the team is a high-risk bet, confirm leadership support. See if they’ve stayed engaged or gone silent. High-risk bets can ironically be safer, since strong talent often gets placed there. Meanwhile core business teams tend to be more stable, even if personal career growth is slower. There are different risk-reward trade offs in different areas of the business. Yet even core business functions can have risk, especially if bloated, redundant/duplicated, or overly dependent on specific leadership for how they function. If all the leadership above my manager changed, would this team still justify its existence? Teams further from the ripple effects of power can sometimes survive a long time through complex games of telephone.
 
 As an IC, it’s deceptively hard to tell if a team justifies its cost. Teams with too much valuable work to do are usually needed (stressful, but probably safe from layoffs). But teams with too little to do can get weird, often filling their time with politics, busywork, or constantly changing priorities. Long term, someone will probably notice. High turnover or general perception of the team more broadly is a good litmus test.
 
-Things like company wide meetings or leadership engagement can hint at whether a team’s goals are aligned with the broader business. Does the team drive revenue, infrastructure, or key bets? If the answer is unclear, it might be okay, but success odds are lower. Leadership can see more broadly than ICs, and much depends on the team leader’s ability to manage and communicate upwards.
+This is also the level (team or org) where layoff decisions are often made like when part of the business is shut down. It's rarely about individual merit and more often structural. As an illustration: if I were running a school and had to cancel the swim program due to budget cuts, I wouldn't remove a few staff from the baseball team, I'd just shut down the swim team. It's cleaner, even if the swimmers were strong athletes. The question then becomes: are any of them versatile enough to be retain elsewhere? Like if one of the swim coaches also taught math. These are tough calls, but usually not very personal.
+
+Things like company-wide meetings or leadership engagement can hint at whether a team’s goals are aligned with the broader business. Does the team drive revenue, infrastructure, or key bets? If the answer is unclear, that might be fine, but the odds of long-term success are lower. Leadership sees more broadly than ICs (e.g. headcount decisions), and much depends on the team leader's ability to manage and communicate impact and needs upwards.
 
 On Managers
 As a manager your job is not to teach people talent. Your job is to help them earn the accolade ‘talented’ by matching their talent to the role.
