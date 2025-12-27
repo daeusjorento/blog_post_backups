@@ -2,7 +2,7 @@ Tech Career Longevity
 
 I’m planning for a long tech career. I’m 12 years in so far. I might get lucky, or unlucky, and leave early, but financial independence is separate from career length if I’m still finding meaning. In the same way it’s wise to plan for a long life: if it ends earlier than expected, that stops being a planning problem.
 
-For me, career longevity comes down to employability and authenticity. 
+For me, career longevity comes down to employability and authenticity. 
 
 Employability is job marketability, the ability to reliably produce valuable work. Would I hire myself? Would others trust me with important work?
 
@@ -15,21 +15,23 @@ I have noticed people struggle here and often outsource judgment to their enviro
 This tension becomes sharper when the environment itself is changing.
 
 Career Longevity in a Changing Tech Landscape
+
 I do not have a grand theory of AI, but I have noticed two reactions that seem unhelpful over the long run. Some people are trying to hold on for a few more years before exiting tech entirely. Others are convinced the bubble will pop and reset expectations. Neither stance offers much guidance for how to work today.
 
 A lot of money has already been spent on AI. That alone buys it time, even if the hype cools. My working assumption is that things will continue to orient around products and customers, with AI showing up as a mix of product features, infrastructure, and increasingly capable tools that change how work gets done. In practice, the harder skill is not writing prompts, but deciding where AI meaningfully changes outcomes and where it does not.
 
 Google did not eliminate IT work, but it made the ability to search well an essential skill. My expectation is something similar here: continued uneven adoption, real usefulness in some areas, and gradual normalization over time.
 
-I also think broader macro uncertainty (inflation, interest rates, tariffs) is often being conflated with the effects of AI. The middle is thinning and low-accountability office roles are disappearing, but much of that seems driven by macroeconomics rather than AI alone (blog post). 
+I also think broader macro uncertainty (inflation, interest rates, tariffs) is often being conflated with the effects of AI. The middle is thinning and low-accountability office roles are disappearing, but much of that seems driven by macroeconomics rather than AI alone (blog post). 
 
 I don’t know how this will play out. Because of that, I do not want to optimize around predictions. What feels more durable is staying flexible: using new tools when they are helpful, setting them aside when they are not, and paying attention to real customer impact rather than narratives. Over long careers, usefulness compounds. That requires ongoing learning, some experimentation, and a willingness to let go of approaches that stop working.
 
 When the terrain is uncertain, I find it helpful to look at domains where longevity is measured without mercy, and where outcomes are more visible.
 
-A framework that helps me is to think of myself as a professional athlete. I am hired for my skills and expected to perform with a team. No one benefits if I get injured and sit on the sidelines. Performing at a high level over time requires care, not just effort. 
+A framework that helps me is to think of myself as a professional athlete. I am hired for my skills and expected to perform with a team. No one benefits if I get injured and sit on the sidelines. Performing at a high level over time requires care, not just effort. 
 
 A Story of Athletic Longevity: Dara Torres
+
 Dara Torres broke the 50m freestyle world record at age 15 in 1983 (only 7 years after goggles were first introduced at the Olympics). She became a three-time Olympian in 1984, 1988, and 1992, winning four medals (two gold), then retired at 25.
 
 Seven years later, at 33, she came back. She qualified for the 2000 Olympics, won five medals (two gold), broke the American 50m freestyle record, and became the oldest medalist in Olympic swimming history. At the time, this was considered nearly impossible. Elite swimmers were widely believed to peak during college. After the 2000 Olympics, she retired again.
@@ -49,6 +51,7 @@ Anthony Ervin is one example. He won Olympic gold at 19, retired at 22, then ret
 Torres did more than make a comeback. She created a blueprint.
 
 Work, Purpose, and Boundaries
+
 Tech careers still involve sprinting sometimes. Late nights, tight deadlines, intense learning periods. Avoiding stress entirely is not possible nor desirable. Avoidance feeds anxiety. Running from challenges does not make an easy life, internally. What really matters is purpose.
 
 Working late to hit an important milestone or learn a new tool feels different from working late to signal commitment. Good teams care about outputs, not time spent in a chair. What burns me out fastest is expending energy on work with no real customer or company value, or working for people who do not care whether I succeed.
@@ -62,14 +65,15 @@ Some people chose tech or finance initially for the money. That’s very underst
 That all being said, the environment really matters here. If a workplace is persistently toxic, I start planning an exit. Toxicity adds weight to everything and accelerates burnout. If I am stuck, I narrow my focus to what matters most to me, namely what my job enables in my life, my colleagues, and learning. I have to let things I cannot control go, and even in some situations use methods that work with toxic relationships like grey rocking. There are many reasons people might stay in a bad work environment and each person has their own cost-benefit analysis to make. Longevity comes from choosing battles consciously.
 
 Personal Recovery and Sustainability
-If you want to go fast, go alone, if you want to go far, go together
-– African Proverb
 
-Long careers depend on mental and physical health. My body is more truthful than my mind, which is more prone to distortion under stress. Ignoring those signs is one of the fastest ways I know to burn out.
+If you want to go fast, go alone, if you want to go far, go together
+- African Proverb
+
+Long careers depend on mental and physical health. My body is more honest than my mind, which is more prone to distortion under stress. Ignoring those signs is one of the fastest ways I know to burn out.
 
 One lesson I take directly from Dara Torres is that recovery is not a solo activity. Relationships outside of work create perspective and absorb stress. They pull me out of the day-to-day trenches and remind me that work is part of a larger life. When everything meaningful runs through my job, pressure compounds quickly.
 
-Over time, I have learned that my needs are simpler than I tend to assume. When I am tired, hungry, or overstimulated, my judgment degrades. I set weaker boundaries and default to people-pleasing or avoidance. Longevity requires thinking about the next season, not just the current sprint. It is hard to get back on a good wave once I’ve fallen off, and doing so requires deliberately resetting my energy, attention, and priorities, rather than expecting things to naturally return to normal.
+Over time, I have learned that my needs are simpler than I tend to assume. When I am tired, hungry, or overstimulated, my judgment degrades. I set weaker boundaries and default to people-pleasing or avoidance. Longevity requires thinking about the next season, not just the current sprint. It is hard to get back on a good wave once I've fallen off, and doing so requires deliberately resetting my energy, attention, and priorities, rather than expecting things to naturally return to normal.
 
 I try to pay attention to a small set of reliable signals rather than an exhaustive routine. Sleep is the clearest one. Staying up past a certain point usually means something is overloaded. A short walk helps reset my attention when I am stuck. Breaks matter more than I expect, because work has no built-in resets and burnout narrows my capacity to see alternatives.
 
@@ -77,14 +81,14 @@ Recovery also includes protecting my attention. Scrolling is not restorative for
 
 Play matters too. Video games with light social connection give me access to flow without tying my identity to performance.
 
-I have also meditated 10 to 20 minutes a day for over a decade. For me, it creates space to notice when my mind is spinning and gives it room to settle. Even simple awareness tends to re-anchor the rest of my day. It feels less like self-improvement and more like creating space.
+I have also meditated 10 to 20 minutes a day for over a decade. For me, it creates space to notice when my mind is spinning and gives it room to settle. Even simple awareness tends to re-anchor the rest of my day. 
 
 I think of therapy and close relationships as part of my recovery team, similar to how Torres treated recovery as a team sport. No one performs well for decades without support. Trying to do everything alone usually shows up later as anxiety, compulsive behavior, or disengagement.
 
-When my identity narrows too much around work, I become fragile and more vulnerable to compulsive behaviors. Recovery, in many forms, keeps that from happening. Over time, learning what actually stabilizes my nervous system has been one of the most productive skills I have developed.
+When my identity narrows too much around work, I become fragile and more vulnerable to compulsive behaviors. Recovery, in many forms, keeps that from happening. Over time, learning what actually stabilizes my nervous system has been one of the most productive skills I've developed.
 
 Recap
+
 Career longevity is less about pushing harder and more about avoiding predictable unhappiness traps. It comes from staying present, protecting recovery, and aligning effort with meaning. Everyone’s balance looks different. This is mine.
 
 The lesson I take from Dara Torres is simple. Sustainable excellence comes from staying in the game long enough to reach your real peak.
-
