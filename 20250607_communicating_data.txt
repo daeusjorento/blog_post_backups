@@ -26,7 +26,7 @@ My goal at the start was always to ‘get everyone on the same page.’ The righ
 
 Watching the audience helped (when I could) to see if people were engaged / nodding along or had mentally checked out. In a way, I started writing for a distracted version of myself – aiming so someone without context still wouldn’t get too lost.
 
-Disengagement often just means someone got lost. Not because the content was bad, but because the story moved too fast for them to follow or ask a question. So I’d build in recaps at key stages. Presentations and documents aren’t just deliverables – they’re dialogues. It’s a pain to get everyone aligned, but it’s better than the alternative. No one wants to sit through 30 minutes of content where it doesn’t click until minute 25. That leads people to feel stupid, or think the presentation was, when neither are true. 
+Disengagement often just means someone got lost. Not because the content was bad, but because the story moved too fast for them to follow or ask a question. So I’d build in recaps at key stages. Sometimes smooth is better than simple. Presentations and documents aren’t just deliverables – they’re dialogues. It’s a pain to get everyone aligned, but it’s better than the alternative. No one wants to sit through 30 minutes of content where it doesn’t click until minute 25. That leads people to feel stupid, or think the presentation was, when neither are true. 
 
 If you can’t explain it, you don’t understand it.
 – Edward B. Burger and Michael Starbird (The 5 Elements of Effective Thinking)
@@ -56,7 +56,7 @@ One way I’ve worked through some fear is by trying to empathize with executive
 The difference between misconstruing reality and being delusional is the willingness to revise a belief.
 – Peter Boghossian (A Manual for Creating Atheists)
 
-Taking up space can feel like stealing it. But I’ve come to believe that group engagement isn’t zero-sum. Yes, time and energy are limited. But attention and curiosity can expand. A one-hour meeting can drag – or it can unlock new thinking. And one good story (or disproved myth) can ripple across a 100+ person org. A bad story might cause some fatigue, but the potentual leveraged upside is worth it to share learnings. All focus spent is somewhat of a gamble.
+Taking up space can feel like stealing it. But I’ve come to believe that group engagement isn’t zero-sum. Yes, time and energy are limited. But attention and curiosity can expand. A one-hour meeting can drag – or it can unlock new thinking. And one good story (or disproved myth) can ripple across a 100+ person org. A bad story might cause some fatigue, but the potential leveraged upside is worth it to share learnings. All focus spent is somewhat of a gamble.
 
 Communicating fully is the opposite of being traumatized.
 – Bessel van der Kolk (The Body Keeps the Score)
@@ -70,6 +70,19 @@ The secret to gaining access to social connection and social contentment is bein
 
 I’d argue all communication is communion. Even if you’re writing alone, you’re in conversation. I think about other people as I write like I’m having a conversation. I’m doing it right now. If I am not thinking of someone in particular when I write, I don’t do it.
 
+Ambiguity in Language
+
+Natural languages are the languages people speak, like English, Spanish, and French. They were not designed by people; they evolved naturally… Formal languages are languages that are designed by people for specific applications… programming languages are formal languages that have been designed to express computations….. Natural languages are full of ambiguity, which people deal with by using contextual clues and other information. Formal languages are designed to be nearly or completely unambiguous, which means that any program has exactly one meaning, regardless of context…. Because we all grow up speaking natural languages, it is sometimes hard to adjust to formal languages.
+– Allen Downey (Think Python).
+
+Why is language so hard? Because ambiguity is often intentional.
+
+A mafioso says, “This is a nice store. It would be a shame if something happened to it.” The goal is pressure without an explicit (illegal) threat. In a formal language, it would be: if money then no burn store else burn store.
+
+A low pressure date request is, “What are you doing later?” It opens the door without explicit rejection risk. In code, that becomes: if interested then date else nevermind I was just curious.
+
+This structure allows people to stay vague and noncommittal. It takes more effort to be clear and direct, which is exactly why clarity is influential.
+
 School
 Academics write horribly because they write for an audience that’s out to destroy them. They’re writing not to be understood, they’re writing not to be misunderstood. They’re terrified of being wrong.
 – Michael Lewis (exact quote unverified)
@@ -78,13 +91,13 @@ Not all academics write poorly – this is a generalization. But it’s worth as
 
 Most people learn writing as students writing for teachers. And those teachers are paid to evaluate how their students think (e.g. why they might ask for definitions first, because it’s easier to correct).
 Writing to think is good, but writing to be read is different.
-“Value lies in readers… not in the thing [ideas].”
-“You think writing is conveying your ideas to your readers, it’s not… It’s changing their ideas.”
-“So now I don’t say to him, why do you think that? I say now, why should I think that?”
+Value lies in readers… not in the thing [ideas].
+You think writing is conveying your ideas to your readers, it’s not… It’s changing their ideas.
+So now I don’t say to him, why do you think that? I say now, why should I think that?
 Knowledge isn’t just a pile of facts. It is what today’s power structures define as knowledge (and it’s permeable). It’s not pretty, but it’s true of publishing academic papers as well as in business.
-[On getting a PhD] “half their time is spent learning more stuff. The other half is learning their readers.”
-“‘Hey readers, I’ve read your stuff. I’ve thought about what you think and I have something to say’ [versus] ‘Hey readers, I’ve read your stuff. I know what you think, but you’re wrong.’ Which one are they gonna pay attention to?”
-“Do not explain, argue.”
+[On getting a PhD] half their time is spent learning more stuff. The other half is learning their readers.
+‘Hey readers, I’ve read your stuff. I’ve thought about what you think and I have something to say’ [versus] ‘Hey readers, I’ve read your stuff. I know what you think, but you’re wrong.’ Which one are they gonna pay attention to?
+Do not explain, argue.
 In a world of endless content, using the attention we do get well is crucial.
 
 Some Resources and Tips
