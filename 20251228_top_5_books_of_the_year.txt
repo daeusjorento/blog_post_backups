@@ -1,0 +1,236 @@
+Shown in no particular order... (Goodreads)
+
+2025
+
+Endurance: Shackleton’s Incredible Voyage by Alfred Lansing
+Unlike the land, where courage and the simple will to endure can often see a man through, the struggle against the sea is an act of physical combat, and there is no escape. It is a battle against a tireless enemy in which man never actually wins; the most that he can hope for is not to be defeated.
+
+How to Keep House While Drowning by K.C. Davis
+Keeping everything done isn’t the point. Keeping things functional is the point.
+…
+That’s the funny thing about doing your best, it never feels your best at the time. In fact, it almost always feels like failing when you’re in it. When I look back at 16 year old me in rehab, sobbing alone and feeling worthless. Constantly being told I wasn’t making enough process. I see now, she was doing her best. I sometimes wish someone at the time could have seen it and told me so. But that’s okay, I tell her myself now all the time.
+
+All of Statistics by Larry Wasserman
+The basic problem that we study in probability is: Given a data generating process, what are the properties of the outcomes?… the basic problem of statistical inference is the inverse of probability: given the outcomes, what can we say about the process that generated the data?
+
+The Upside of Stress by Kelly McGonigal
+Stress is what arises when something you care about is at stake.
+…
+When you believe that stress is harmful, anything that feels a bit stressful, can start to feel like an intrusion in your life. Whether it’s waiting in line at a grocery store, rushing to meet a deadline at work, or planning a holiday dinner for your family. Everyday experiences can start to seem like a threat to your health and happiness. You may find yourself complaining about these experiences, as if your life has gone off course, and that there is some stress free version out there waiting for you.
+
+Prisoner’s Dilemma by William Poundstone
+The only satisfying solution to the prisoner’s dilemma is to avoid prisoner’s dilemmas.
+…
+No strategy is good or bad out of context.
+
+2024
+
+Master of the Senate by Robert Caro
+While shame could move the House it couldn’t budge the Senate.
+
+The Smartest Guys in the Room by Bethany McLean and Peter Elkind
+Rick’s the right guy to evaluate the risk. He’s not the right guy to stand down the guys who want their deals done, they’d ram it down his throat.
+…
+The entire arrangement was an accounting artifice, protecting Enron from having to book an accounting loss, but doing nothing to protect it from an actual economic loss.
+
+The Staff Engineer’s Path by Tanya Reilly
+Start with the overwhelm…. It takes time and energy to build the mental maps that let you navigate it all.
+…
+Wrong is better than vague…. if you’re wrong people will tell you.
+This book helps complement The Manager’s Path by Camille Fournier and gives labels to vague but real terms like ‘glue work’ or ‘radiating intent.’
+
+The Baby Decision by Merle Bombardieri
+Decision-making by its very nature, involves loss.
+
+How to Hide an Empire by Daniel Immerwahr
+For most who served [in WWII], it wasn’t about combat, it was about logistics…. Neal Stevenson got it right when he described the US military in World War Two as ‘First and foremost an unfathomable network of typists and file clerks, secondarily a stupendous mechanism for moving stuff from one part of the world to another, and last and least, a fighting organization.’
+
+2023
+
+
+The Power Broker by Robert A. Caro
+He went ahead and built his bathhouses, I invoked all the elements of law enforcement available, but before they got around to making the inspections, issuing the orders, getting them to court, and coping with the various postponements he was able to get, the bathhouses were done and people were going swimming out of them. I think the court rebuked him, but even the court didn’t have the nerve to tear them down.
+
+The StatQuest Illustrated Guide to Machine Learning by Josh Stamer
+R^2 then gives us the percentage of how much the predictions improved by using the model we’re interest in instead of just the mean.
+
+Lightbringer by Pierce Brown (Red Rising#6)
+People can endure anything except false summits
+
+Troy by Stephen Fry
+‘I know,’ said Helen. ‘Like all sacred and truly precious objects it is very plain. Only profane things are beautiful.‘
+
+The Persuaders by Anand Giridharadas
+Changing your mind is not actually about flipping a light switch, one second you think one thing and the next second you think another. Changing your mind is about navigating through this morass of conflicting emotions and trying to pick your way through it and come out somewhere that makes you feel a little bit more resolved.
+
+2022
+
+
+Cracking the PM Interview by Gayle Laakmann McDowell and Jackie Bavaro
+I often joke that much of the time your job is to be the advocate for whoever isn’t currently in the room – the customer, engineering, sales, executives, marketing. This means you need to be capable of doing other people’s jobs, but smart enough to know not to.
+This book introduced to me a preparation grid with 3 go-to stories for behavioral interviews (eg an example of you navigating ambiguity). Failure is okay; helplessness is not.
+
+Red Rising (Red Rising#1) by Pierce Brown
+You do not follow me because I am the strongest. Pax is. You do not follow me because I am the brightest. Mustang is. You follow me because you do not know where you are going. I do.
+
+Dark Age (Red Rising #4) by Pierce Brown
+There’s never a right call, just people who make the hard ones.
+
+The Two Towers (LOTR #2) by JRR Tolkien
+War must be, while we defend our lives against a destroyer who would devour all; but I do not love the bright sword for its sharpness, nor the arrow for its swiftness, nor the warrior for his glory. I love only that which they defend.
+
+The Score Takes Care of Itself by Bill Walsh
+Success disease…. When you reach a large goal, or finally get to the top, the distractions and new assumptions can be dizzying. First comes heightened confidence, followed quickly by overconfidence, arrogance and a sense that ‘we’ve mastered it, we’ve figured it out, we’re golden.’ But the gold can tarnish quickly. Mastery requires endless remastery. In fact, I don’t believe there is ever true mastery. It is a process, not a destination. That’s what few winners realize and explains to some degree why repeating is so difficult. Having triumphed, winners come to believe that the process of mastery is concluded and that they are its proud new owners. Success disease makes people begin to forgo to different degrees the effort, focus, discipline, teaching, teamwork, learning, and attention to detail that brought mastery and its progeny, success. The hunger is diminished, even removed in some people….. and an assumption that you can win at will, turn it on when it counts. The time to turn it on and leave it on is before it counts.
+
+2021
+
+
+Adult Children of Emotionally Immature Parents by Lindsay C. Gibson
+The one thing all emotionally deprived children have in common is coming up with a fantasy of how they will eventually get what they need….everyones healing fantasy begins with ‘if only’….unfortunately, the healing fantasy is a child’s solution that comes from a child’s mind, so it often doesn’t fit adult realities. But whatever the healing fantasy, it gives a child the optimism to get through a painful upbringing in hopes of a better future.
+…
+Most mammals have stressful lives, but thanks to their instinct of engaging with others, calming comfort and restorative energy are just a friendly contact away. This gives mammals a tremendous advantage over other animals when it comes to dealing with stress in an energy efficient way. Since they don’t have to go into fight, flight, or freeze every time they sense a threat.
+
+Complex PTSD by Pete Walker
+Perfectionism also provides a sense of meaning and direction for the powerless and unsupported child. Striving to be perfect offers her a semblance of a sense of control.
+
+The Rise and Fall of the Third Reich by William L. Shirer
+Except for occasional spells of depression, he [Hitler] remained confident that he would achieve his goal. Not by force, and scarcely by winning a parliamentary majority, but by the means that had carried Schleicher and Papen to the top, by backstairs intrigue, a game that two can play.
+
+The Wind-Up Bird Chronicle by Haruki Murakami
+To know one’s own state is not a simple matter. One cannot look directly at one’s own face with one’s own eyes, for example. One has no choice but to look at one’s reflection in the mirror. Through experience, we come to believe that the image is correct, but that is all.
+
+A Manuel for Creating Atheists by Peter Boghossian
+The difference between misconstruing reality and being delusional is the willingness to revise a belief.
+
+Bonus: In the Realm of Hungry Ghosts by Gabor Mate
+Addictions, even as they resemble normal human yearnings, are more about desire than attainment. In the addicted mode, the emotional charge is in the pursuit and the acquisition of the desired object, not in the possession and enjoyment of it. The greatest pleasure is in the momentary satisfaction of yearning. The fundamental addiction is in the fleeting experience of not being addicted. The addict craves the absence of the craving state. For a brief moment, he is liberated from emptiness, from boredom, from lack of meaning, from yearning, from being drive or from pain. He is free. His enslavement to the external… consists of the impossibility in his mind of finding within himself the freedom from longing or irritability.
+Great 9m video from Gabor Mate:
+
+
+2020
+
+
+Circe by Madeline Miller
+I had been old and stern for so long, carved with regrets and years like a monolith, but that was only a shape I had been poured into, I did not have to keep it.
+
+Antifragile by Nassim Nicholas Taleb
+What is non-measurable and non-predictable will remain non-measurable and non-predictable, no matter how many PhDs you put on the job.
+…
+Lack of vigilance is not the cause of the death of a mafia don. The cause of death is making enemies, and the cure is making friends.
+
+Maybe you Should Talk to Someone by Lori Gottlieb
+Before successful therapy it’s the same damn thing over and over. After successful therapy, it’s one damn thing after another.
+…
+it’s not that people want to get hurt again, its that they want to master a situation in which they felt helpless as children.
+
+The New Jim Crow by Michelle Alexander
+Slavery didn’t end, it evolved.
+
+The Body Keeps the Score by Bessel van der Kolk
+the most important job of the brain is to ensure our survival even under the most miserable conditions, everything else is secondary.
+…
+Communicating fully is the opposite of being traumatized.
+
+Bonus: Thanks for the Feedback by Douglas Stone and Sheila Heen
+Feedback… is about the quality of the relationship
+This book introduced me to 3 kinds of feedback (ie not just positive and negative): appreciation (thanks), coaching (here’s a better way to do it), and evaluation (here’s where you stand). Often the receiver wants or hears one kind of feedback while the giver actually means another.
+
+2019
+
+
+Nonviolent Communication by Marshall B. Rosenberg
+At the core of all anger is a need that is not being fulfilled.
+…
+As we’ve seen, all criticism, attack, insults, and judgments vanish when we focus attention on hearing the feelings and needs behind a message. The more we practice in this way, the more we realize a simple truth: behind all those messages we’ve allowed ourselves to be intimidated by are just individuals with unmet needs appealing to us to contribute to their well-being. When we receive messages with this awareness, we never feel dehumanized by what others have to say to us.
+
+Debt: The First 5,000 Years by David Graeber
+We did not begin with barter, discover money, and then eventually develop credit systems. It happened precisely the other way around. What we not call virtual money came first, coins came much later, and their use spread only unevenly, never completely replacing credit systems.
+…
+…honor and credit became effectively the same thing.
+
+How to Be Yourself by Ellen Hendriksen
+the mantra of overcoming anxiety is specify specify specify. Why? Anxiety is often vague.
+….
+popular didn’t actually mean a kid was well-liked, it meant they were dominant…because dominant kids get a lot of attention.
+How to turn friendly people into friends:
+(1) repetition
+(2) disclosure (give them something to work with…although disclosure is different from confession).
+(3) show them that you like them (ex. unnecessary conversation like ‘just saying hello’).
+
+The Library at Mount Char by Scott Hawkins
+‘That’s the risk in working to be a dangerous person,’ she said. ‘There’s always the chance you’ll run into someone who’s better at it than you.‘
+
+How to Prove It by Daniel J. Velleman
+To make sure your assertions are adequately justified, you must be skeptical about every inference in your proof. If there is any doubt in your mind about whether the justification you have given for an assertion is adequate, the it isn’t.
+…
+When mathematicians write proofs, they usually just write the steps needed to justify their conclusions with no explanation of how they thought of them…. Although this lack of explanation sometimes makes proofs hard to read, it serves the purpose of keeping two distinct objectives separate: explaining your thought process and justifying your conclusions. The first is psychology, the second is mathematics….
+
+Bonus: Genderqueer by Maia Kobabe
+I remember when I first realized I never had to have children. It was like walking out of a narrow alley into a wide open field. I never have to get married. I never have to date anyone. I don’t even have to care about sex. These realizations were like gifts that I gave myself.
+
+2018
+
+
+The Big Short by Michael Lewis
+It’s really hard to know when you’re lucky and when you’re smart.
+…
+Charlie and Jamie had always sort of assumed that there was some grown-up in charge of the financial system whom they had never met; now, they saw there was not.
+
+Team of Rivals by Doris Kearns Goodwin
+We needed the strongest men of the party in the Cabinet…. I had looked the party over and concluded that these were the very strongest men. Then I had no right to deprive the country of their services.
+
+Thinking, Fast and Slow by Daniel Kahneman
+A reliable way to make people believe in falsehoods is frequent repetition, because familiarity is not easily distinguished from truth. Authoritarian institutions and marketers have always known this fact.
+
+The Hard Thing About Hard Things by Ben Horowitz
+People always ask me, ‘what’s the secret to being a successful CEO?’ Sadly, there is no secret, but if there is one skill that stands out, it’s the ability to focus and make the best move when there are no good moves.
+…
+If CEOs were graded on a curve, the mean on the test would be 22 out of 100. This kind of mean can be psychologically challenging for a straight-A student. It is particularly challenging because nobody tells you that the mean is 22.
+
+Ten Million Aliens by Simon Barnes
+No sex please, we’re bdelloids [Chapter Title]
+…
+Flatworm, flatworm, burning bright [Chapter Title]
+
+Bonus: Lab Girl by Hope Jahren
+Now you ask a question about your leaf. Guess what? You are now a scientist. People will tell you that you have to know math to be a scientist, or physics or chemistry. They’re wrong. That’s like saying you have to know how to knit to be a housewife, or that you have to know Latin to study the Bible. Sure, it helps, but there will be time for that. What comes first is a question, and you’re already there. It’s not nearly as involved as people make it out to be. So let me tell you some stories, one scientist to another.
+…
+A cactus doesn’t live in the desert because it likes the desert; it lives there because the desert hasn’t killed it yet.
+
+Pre-2018 top 10
+
+
+The 5 Elements of Effective Thinking by Edward B. Burger and Michael Starbird
+If you can’t explain it, you don’t understand it.
+…
+But, ironically, focusing on the impending test itself is not the best way to improve your performance on it. Suppose in a few months you were going to be asked to do thirty push-ups. You could concentrate on what to eat the day before the push-up competition, and what shirt to wear that’s not too tight or too loose, and how to give 110% at the time of the challenge. Or you could slowly, over time, increase the number of push-ups you can do each day between now and then so that it would be no effort to pump out thirty push-ups at test time.
+
+Getting Things Done by David Allen
+How much of this planning model do you really need to flesh out, and to what degree of detail? The simple answer is, as much as you need to get the project off your mind.
+
+Way of the Peaceful Warrior by Dan Millman
+If you don’t get what you want, you suffer; if you get what you don’t want, you suffer; even when you get exactly what you want, you still suffer because you can’t hold on to it forever.
+
+The Name of the Wind by Patrick Rothfuss
+You have to be a bit of a liar to tell a story the right way.
+
+1984 by George Orwell
+Past events, it is argued, have no existence, but survive only in written records and in human memories. The past is whatever the records and memories agree upon.
+
+All Quiet on the Western Front by Erich Maria Remarque
+But now, for the first time, I see you are a man like me. I thought of your hand-grenades, of your bayonet, of your rifle; now I see your wife and your face and our fellowship. Forgive me, comrade. We always see it too late. Why do they never tell us that you are poor devils like us, that your mothers are just as anxious as ours, and that we have the same fear of death, and the same dying and the same agony–Forgive me, comrade; how could you be my enemy?
+
+Slaughterhouse-Five by Kurt Vonnegut Jr.
+And so it goes…
+
+The Phantom Tollbooth by Norton Juster
+You must never feel badly about making mistakes … as long as you take the trouble to learn from them. For you often learn more by being wrong for the right reasons than you do by being right for the wrong reasons.
+
+Frankenstein by Mary Wollstonecraft Shelley
+Life, although it may only be an accumulation of anguish, is dear to me, and I will defend it.
+
+A Storm of Swords Quotes by George R.R. Martin
+Rhaegar fought valiantly, Rhaegar fought nobly, Rhaegar fought honorably. And Rhaegar died.
+
+Bonus: The Hunger Games by Suzanne Collins
+Happy Hunger Games! And may the odds be ever in your favor.
