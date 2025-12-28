@@ -2,26 +2,26 @@ Shown in no particular order... (Goodreads)
 
 2025
 
-Endurance: Shackleton’s Incredible Voyage by Alfred Lansing
-Unlike the land, where courage and the simple will to endure can often see a man through, the struggle against the sea is an act of physical combat, and there is no escape. It is a battle against a tireless enemy in which man never actually wins; the most that he can hope for is not to be defeated.
-
-How to Keep House While Drowning by K.C. Davis
-Keeping everything done isn’t the point. Keeping things functional is the point.
-…
-That’s the funny thing about doing your best, it never feels your best at the time. In fact, it almost always feels like failing when you’re in it. When I look back at 16 year old me in rehab, sobbing alone and feeling worthless. Constantly being told I wasn’t making enough process. I see now, she was doing her best. I sometimes wish someone at the time could have seen it and told me so. But that’s okay, I tell her myself now all the time.
-
-All of Statistics by Larry Wasserman
-The basic problem that we study in probability is: Given a data generating process, what are the properties of the outcomes?… the basic problem of statistical inference is the inverse of probability: given the outcomes, what can we say about the process that generated the data?
-
 The Upside of Stress by Kelly McGonigal
 Stress is what arises when something you care about is at stake.
 …
 When you believe that stress is harmful, anything that feels a bit stressful, can start to feel like an intrusion in your life. Whether it’s waiting in line at a grocery store, rushing to meet a deadline at work, or planning a holiday dinner for your family. Everyday experiences can start to seem like a threat to your health and happiness. You may find yourself complaining about these experiences, as if your life has gone off course, and that there is some stress free version out there waiting for you.
 
+Endurance: Shackleton’s Incredible Voyage by Alfred Lansing
+Unlike the land, where courage and the simple will to endure can often see a man through, the struggle against the sea is an act of physical combat, and there is no escape. It is a battle against a tireless enemy in which man never actually wins; the most that he can hope for is not to be defeated.
+
 Prisoner’s Dilemma by William Poundstone
 The only satisfying solution to the prisoner’s dilemma is to avoid prisoner’s dilemmas.
 …
 No strategy is good or bad out of context.
+
+All of Statistics by Larry Wasserman
+The basic problem that we study in probability is: Given a data generating process, what are the properties of the outcomes?… the basic problem of statistical inference is the inverse of probability: given the outcomes, what can we say about the process that generated the data?
+
+How to Keep House While Drowning by K.C. Davis
+Keeping everything done isn’t the point. Keeping things functional is the point.
+…
+That’s the funny thing about doing your best, it never feels your best at the time. In fact, it almost always feels like failing when you’re in it. When I look back at 16 year old me in rehab, sobbing alone and feeling worthless. Constantly being told I wasn’t making enough process. I see now, she was doing her best. I sometimes wish someone at the time could have seen it and told me so. But that’s okay, I tell her myself now all the time.
 
 2024
 
