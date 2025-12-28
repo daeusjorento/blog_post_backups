@@ -1,0 +1,71 @@
+A Question to Ponder
+What hypothetical evidence, if true, would get you to permanently stop using your smartphone? Take a minute to consider what would change your beliefs and behavior.
+
+For me, the list looks like this:
+
+I’m dead or in a coma.
+Everyone else stops using them.
+There’s something better to use instead.
+It becomes illegal or extremely risky.
+Maintenance costs go up 1000x.
+My body starts having a bad reaction.
+If no hypothetical evidence could change your mind, it’s not an area worth debating. Some beliefs are not falsifiable; they cannot change based on new evidence.
+
+Beliefs and Business Decisions
+Now imagine you are a company leader. What information would you need to make decisions like:
+
+Selling part of the business? Some parts will have a clear number. Others do not.
+Spend an extra $10M on marketing? For me, if I got more than $10M of expected value, probably measured by LTV (Lifetime Value).
+Spend $10M less on marketing? For me, if there were better places to spend limited money, such as product development.
+Let’s also distinguish between needs and wants. I need to eat to live. That is a fact. I may want sushi, but that part is negotiable. It’s important to focus on areas that can actually be influenced. No one can debate with me that I need to eat to live.
+
+Similarly, revenue or profit is non-negotiable long term for a business, but how to achieve it is debatable. Facts are immutable. Opinions are negotiable.
+
+At Ramp, bottoms-up product velocity is a core value. It is not worth debating slowing down iteration at our current stage. Over time, the shape of immutable beliefs embodied by leadership becomes clear. Meanwhile, weakly held positions, such as two way door decisions, can be changed with evidence. Recognizing which decisions are reversible versus foundational is key.
+
+Evidence Needs a Representative
+As a data person, it is helpful to ask how often your insights or reports actually change anyone’s mind.
+
+Data is only one type of evidence. Product decisions also rely on customer quotes, platform constraints, regulatory or external deadlines, leadership priorities, and the cost of doing nothing. All these forces shape the decision framework. 
+
+Sometimes data moves decisions directly. Sometimes it is one pass-fail input in a complex system. For example, a PM might initially believe customers will love a new feature. Evidence shows adoption is low. They try increasing exposure. Retention remains low. Over time, good PMs learn to treat the signal as evidence against the initial instinct.
+
+Being wrong is usually better than being vague here. Vague statements are hard to falsify. Wrong statements invite correction and learning. If I say, “this is our best bet,” and better evidence comes along, I will change my belief. True influence comes from owning your position, not just reporting data. I need skin in the game, since putting my reputation on the line carries more weight. If I do not believe what I am communicating, why should anyone else?
+
+Where Decisions are Made
+Having a what (your point of view), and a why (the evidence), is not enough. You also need to know who and how. Influence grows from understanding whose beliefs will affect outcomes. In product data science, this is often a PM or an executive sponsor. Convincing a peer is useful practice, but if they cannot act, nothing changes.
+
+Here, the quality of relationships is important. Whether someone truly listens depends on trust and timing. Build trust by being consistently honest and clear. Leaders often make decisions in specific forums, like a Slack channel or a quarterly business review. Catching someone before lunch can be a bad idea if they are hungry or trying to escape. They will focus on leaving, not on understanding your perspective. Over time, learning when and how to share information strengthens that trust.
+
+There is also a tradeoff between clarity and digestibility. People do not enter meetings or read documents as empty cups. They arrive with beliefs and mental models already in place. Influence depends on meeting them where they are and presenting information in a way they can follow.
+
+Communicating a Position
+I have written about communicating data elsewhere, but a few principles matter for influence:
+
+Always be honest, especially when you mess up.
+Avoid constant hedging. If asked, “Do you think this is a good deal?” say yes, no, or I don’t know. You can follow up with what information is missing.
+Understand your audience’s pre-existing beliefs. Showing that you understand opposing perspectives helps your argument land. Observe when people have changed their minds in the past to learn what resonates.
+Sales offers a useful reference. If a customer says, “I like my current product,” a salesperson might respond, “Have you considered these benefits, or getting the same thing for less?” If the customer is engaged, they might reconsider.
+
+In data roles, the agenda is usually more complex. We first have to create new knowledge, often revising our own beliefs along the way, and then make sure it is distilled so it lands in a way that influences decisions.
+
+Data Roles
+The main struggle I see for data folks is not having an opinion. Dumping data like a homework assignment leaves stakeholders thinking, “You spent a day on this. What should we do?” Tailored, documented, and opinionated insights lift that weight. The reasoning becomes clear. Decisions become easier.
+
+Part of the reason this is difficult is that forming insights and delivering them are different skills. Forming insights is about rigor: validating data, checking assumptions, and ensuring hypotheses are falsifiable. Delivering insights is about empathy: understanding why the question mattered and guiding someone toward a confident conclusion. 
+
+Sometimes sharing data feels like being a priest consulted to see if the all-mighty Data blesses an agenda.
+
+The alternative is HiPPO: the highest-paid person’s opinion. Imagine driving a car without a dashboard. You have no idea how fast you are going or how much gas is left, but you are responsible for getting from A to B. Now imagine hiring a data person to install a clear dashboard. At first it feels like a relief. Then they start explaining fuel efficiency details or measurement quirks, when all you need is to know whether you will make it to the next gas station. That is the tension data folks need to navigate. The goal is to provide clarity without overwhelming the person using it.
+
+A Note on Statistics
+Misinterpretation and abuse of statistical tests, confidence intervals, and statistical power have been decried for decades, yet remain rampant. A key problem is that there are no interpretations of these concepts that are at once simple, intuitive, correct, and foolproof
+– Greenland et al (2016)
+
+Communicating uncertainty will always be difficult. Statistics brings two paradoxical things into organizations: rigor and humility. It helps counter overconfidence, especially in environments where success and power can make people forget how much luck was involved.
+
+Progress and Mastery
+The parable of the blind men and the elephant illustrates how people claim absolute truth based on limited perspective. Each perspective is incomplete, but still valuable. Information at organizations operates similarly. Initially there are just builders. Later, managers, designers, product thinkers, and data professionals contribute additional perspectives.
+
+I am not always great at influence, but I know how to improve over time in a new environment. Every attempt to convey an idea is a product launch. My success metric is simple: did it land and change anything for the better? The goal is learning how to engage minds across an organization so the collective knowledge grows and shapes decisions for the better.
+
