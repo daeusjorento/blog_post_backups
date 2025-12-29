@@ -2,15 +2,15 @@ The General Idea
 
 The desire for more positive experience is itself a negative experience. And, paradoxically, the acceptance of one’s negative experience is itself a positive experience. – Mark Manson, The Subtle Art of Not Giving a F*ck
 
-I often turn to music to attune to how I am feeling, sometimes potentially as a proxy to a friend, therapist, or close confidant. Not necessarily hiding it anymore, but just to explore the different flavors. 
+I often turn to music to attune to how I am feeling, sometimes as a proxy to a friend, therapist, or close confidant. Not necessarily hiding it anymore, but just to explore the different flavors. 
 
-I did this a lot when I was younger, like trying on different identities and stories through an empathetic emotional experience as I formed who I was. Maybe it was Alexithymia from deeper and lagging emotions due to my own time blindness. Regardless of why, I think this is fairly common. For example, people often turn to sad songs during a breakup – maybe to just help the negative emotion pass through more directly rather than running from it – or just to feel it more. As to what song, it depends on what lands with each person. Someone angry after a breakup might turn to You Oughta Know by Alanis Morissette (or Fuck You by Ceelo Green), and someone who is more so just sad or even perhaps further along in the grieving process might turn to Someone Like You by Adele.
+I did this a lot when I was younger, like trying on different identities and stories through an empathetic emotional experience as I formed who I was. Maybe it was alexithymia from deeper and lagging emotions due to my own time blindness. Regardless of why, I think this is fairly common. For example, people often turn to sad songs during a breakup – maybe to just help the negative emotion pass through more directly rather than running from it – or just to feel it more. As to what song, it depends on what lands with each person. Someone angry after a breakup might turn to You Oughta Know by Alanis Morissette (or Fuck You by Ceelo Green), and someone who is more so just sad or even perhaps further along in the grieving process might turn to Someone Like You by Adele.
 
-But what of the emotion? Sure, it’s a painful experience, but there is a more specific emotion to define. I remember turning to emotion wheels to understand what I might be feeling more precisely, rather than generally. Going back to the break up example, the extreme end or early on people might say they feel nothing. Then they might proceed to start realizing they feel sad. Then, perhaps, more specifically they feel disappointed, or isolated, or ashamed. It can be helpful to also rule out what the feeling is not, as a breakup might not make someone feel guilty, so much as hurt or lonely (or vice versa depending on the role they played and their interpretation of it). 
+But what of the emotion? Sure, it’s a painful experience, but there is a more specific emotion to define. I remember turning to emotion wheels to understand what I might be feeling more precisely, rather than generally. Going back to the breakup example, the extreme end or early on people might say they feel nothing. Then they might proceed to start realizing they feel sad. Then, perhaps, more specifically they feel disappointed, or isolated, or ashamed. It can be helpful to also rule out what the feeling is not, as a breakup might not make someone feel guilty, so much as hurt or lonely (or vice versa depending on the role they played and their interpretation of it). 
 
 What led me to map specific emotions to music was the song Overwhelmed by Royal & the Serpent, which came out mid-2020 during the pandemic while I had just transitioned to doing some deeper cognitive behavioral therapy. Stories can also often fill this role, but music just hits faster.
 
-Over the past 5 years I’ve built a mapping for myself, focusing primarily on the 3 big negative emotions: sadness, anger, and fear. This is personal to me and my own experiences and interpretations of certain feelings. Sometimes they are me trying to feel the emotion in its most raw form. Other times it’s me just trying to hear someone confidently describe a feeling. The specific emotion is not always on the emotions wheel, but it’s the closest I could come to describing the feeling.
+Over the past 6 years I’ve built a mapping for myself, focusing primarily on the 3 big negative emotions: sadness, anger, and fear. This is personal to me and my own experiences and interpretations of certain feelings. Sometimes they are me trying to feel the emotion in its most raw form. Other times it’s me just trying to hear someone confidently describe a feeling. The specific emotion is not always on the emotions wheel, but it’s the closest I could come to describing the feeling.
 
 And so, I wanted to share.
 
@@ -19,12 +19,13 @@ The Mapping
 Primary	Specific	Artist	Song
 Sadness	Abandoned	Billie Eilish	When the party’s over
 Sadness	Ashamed	Between Friends	Affection
-Sadness	Elegy (Loss)	The Antlers	Kettering
+Sadness	Bored	Erik Satie	Gymnopédie No.1
+Sadness	Loss (Elegy)	The Antlers	Kettering
 Sadness	Empty	Nymano	I wish I could sleep
 Sadness	Fragile	Liz Callaway	Once Upon a December (Anastasia)
 Sadness	Grief	Dabl	Not me
+Sadness	Nostalgia	Chronic Future	Memories in F minor
 Sadness	Old	Feist	Caught a Long Wind
-Sadness	Bored	Erik Satie	Gymnopédie No.1
 Fear	Exposed	Metric	Help I’m alive
 Fear	Helpless	Muse	Time is running out
 Fear	Inadequate	Jessica Darrow	Surface pressure (Encanto)
@@ -33,6 +34,8 @@ Fear	Nervous	Illy	Tightrope
 Fear	Overwhelm	Royal and The Serpent	Overwhelmed
 Fear	Unknown	Idir	A Vava Inouva
 Fear	Weak	Royal and The Serpent	I can’t get high
+Fear	Worry	ToonFanatic	I’ll Be Your Keeper (Hazbin Hotel)
+Anger	Agitation	Sheet Music Boss	Rush E
 Anger	Annoyed	Faded Paper Figures	Spare me
 Anger	Disrespected	Halsey	Gasoline
 Anger	Frustrated	Shiny Toy Guns	Le Disko
@@ -41,7 +44,6 @@ Anger	Numb	Julie London	Cry Me a River
 Anger	Rage	Linkin Park	Lying from you
 Anger	Resentful	Eminem	Rock bottom
 Anger	Self-Contempt	The Offspring	Self Esteem
-Anger	Agitation	Sheet Music Boss	Rush E
 Song Details: Sadness
 
 [Sadness] Abandoned: Billie Eilish – When the party’s over
@@ -55,7 +57,11 @@ And we’ll keep falling on each other to fill the empty spaces
 
 This song conveys confidence of acknowledging the mistake but being unable to stop it. An insider version perspective that matches the tone of All My Friends by Snakehips ft Tinashe, Chance the Rapper – which has this brilliant music video of waiting in line at a night club and never getting in.
 
-[Sadness] Elegy (Loss): The Antlers – Kettering
+[Sadness] Bored: Erik Satie – Gymnopédie No.1
+
+Most folks know this song but don’t remember the name. It is intentionally very simple and unstimulating. Much like the six-word story of tragedy: For sale: baby shoes, never worn.
+
+[Sadness] Loss (Elegy): The Antlers – Kettering
 
 Having lost a few family members recently to cancer, this song really tells a story of hospice in a tender and tragic way. I first heard it in Sense8 and it pulled me in.
 
@@ -71,13 +77,19 @@ Anyone who saw Anastasia growing up knows this song of nostalgia and a lost memo
 
 More specific to a breakup, but I find the slurred, faded grief beautiful. With an odd maturity in accepting that it is not them someone chose no matter how much pain they are in.
 
+[Sadness] Nostalgia: Chronic Future – Memories in F Minor.
+
+Wistfulness. Calmer than grief.
+
+Memories of better days
+Turn the pages back to a faded photograph of
+Memories of yesterdays
+The years’ll pass by but they’ll never bring me back to
+Never bring me back to you
+
 [Sadness] Old: Feist – Caught a Long Wind
 
 Sometimes I just feel…. old. It’s a mixture of sadness, shame, and maybe longing. But it’s just a part of going on in life. This song seems to capture it floating on the wind.
-
-[Sadness] Bored: Erik Satie – Gymnopédie No.1
-
-Most folks know this song but don’t remember the name. It is intentionally very simple and unstimulating. Much like the six-word story of tragedy: For sale: baby shoes, never worn.
 
 Song Details: Fear
 
@@ -129,7 +141,15 @@ This song is a Kabyle (Algerian) lullaby that I first heard in my Musics of Afri
 
 Once again, Royal and the Serpent nails the feeling here of feeling weak. Described as coming down from a high and being absent a chemical.
 
+[Fear] Worry: ToonFanatic – I’ll Be Your Keeper (Hazbin Hotel)
+
+Modified from the Hazbin Hotel original song whatever it takes. Feels like a ferocious mother’s love.
+
 Song Details: Anger
+
+[Anger] Agitation: Sheet Music Boss – Rush E
+
+This song has so much manic energy. It perfectly encapsulates that restless, frenetic feeling for me of wired & tired revenge bedtime procrastination.
 
 [Anger] Annoyed: Faded Paper Figures – Spare me
 
@@ -195,23 +215,17 @@ That’s okay, man, ’cause I like the abuse
 I know she’s playing with me
 That’s okay ’cause I’ve got no self-esteem
 
-[Anger] Agitation: Sheet Music Boss – Rush E
-
-This song has so much manic energy. It perfectly encapsulates that restless, frenetic feeling for me of wired & tired revenge bedtime procrastination.
-
 Song Details: Happiness
 
-If you made it this far, I salute you. Some of these songs were pretty heavy. So, as a reward, I’ll add what I consider my four main happy songs – about vindication, reverence, hope, and being claimed, without toxically ignoring the negative aspects of life.
+If you made it this far, I salute you. Some of these songs were pretty heavy. So, as a reward, I’ll add what I consider my main happy songs, without toxically ignoring the negative aspects of life.
 
 Primary	Specific	Artist	Song
-Peace	Reverence	Adventure Time (Rebecca Sugar)	Everything Stays
 Joy	Hopeful	Machineheart	Circles
 Loved	Claimed	Meg Myers	Lemon Eyes
-Relief	Vindication	Kesha	Praying
-[Peace] Reverence: Adventure Time – Everything Stays
-
-This is such a beautiful lullaby on how in little ways things stay even when it feels like everything is swirling and leaving. It always makes the child in me feel safe.
-
+Peace	Content	Smash Mouth	I Just Wanna See
+Peace	Reverence	Adventure Time (Rebecca Sugar)	Everything Stays
+Relief	Grateful	Chronic Future	Thank You
+Relief	Vindicated	Kesha	Praying
 [Joy] Hopeful: Machineheart – Circles
 
 It’s hard to find the original of this, but the Vanic remix is pretty accessible (Youtube, Spotify, etc). But this song makes me feel resilient like none other, and that everything comes back around.
@@ -227,7 +241,23 @@ I bet you wanna walk away, runaway, look away
 Turn away, honey you can’t hide
 Lemon eyes, all mine
 
-EDIT: [Relief] Vindication: Kesha – Praying
+[Peace] Content: Smash Mouth – I Just Wanna See
+
+Like relaxing on a comfy lawn on a beautiful summer day.
+
+[Peace] Reverence: Adventure Time – Everything Stays
+
+This is such a beautiful lullaby on how in little ways things stay even when it feels like everything is swirling and leaving. It always makes the child in me feel safe.
+
+[Relief] Grateful: Chronic Future – Thank You
+
+When I was an adolescent I remember sharing this with some adults in my life who I wanted to thank, but didn’t know how to express how much they meant to me.
+
+Because I want to thank you for all your time
+You see you don’t even know
+How much you ease my mind
+
+[Relief] Vindication: Kesha – Praying
 
 Vindication is a release that follows an often long and painful period of self-doubt, shame, and effort. It’s a moment of being proven right to yourself and having the work finally pay off. It’s returning to a place where you feel safe and loved, after so long spent feeling behind and alone.
 
