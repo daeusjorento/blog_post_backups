@@ -1,0 +1,33 @@
+For the thousands affected by Block’s 40% layoffs, this is a difficult and painful change, and it will take time to adjust and figure out next steps. Before the “AI taking everyone’s jobs” narrative takes over, I wanted to share some perspective. I worked at Block for eight years (2017–2025), and everything I reference here is public information.
+
+
+Total headcount more than tripled during the pandemic, from 3.8K in 2019 to 12.4K in 2022. Cash App revenue grew roughly 10× from 2019 to 2021, driven by Bitcoin trading and stimulus checks. In 2020, interest rates were 0.25% and Block was growing over 100% YoY. It looked like a good investment and the stock rose ~3×. That gave the company a lot of capital to hire (and acquire Afterpay).
+
+By late 2022, year-over-year growth dropped to essentially 0% (interest rates ~5%, Bitcoin price down, no more stimulus checks). It no longer looked like a good investment and the stock fell ~3×. Yet headcount stayed high.https://www.finextra.com/pressarticle/91278/jack-dorseys-block-completes-29-billion-acquisition-of-afterpay
+
+Over the next three years, growth remained low and headcount stayed elevated, slightly lagging YoY growth, with adjustments from two ~10% layoffs. Cutting costs, e.g., through layoffs, is how you lift profit without growth. After yesterday’s 40% reduction, headcount is roughly back to pre-pandemic levels.
+
+Now, I use AI tools all the time and barely code anymore. With billions invested in infrastructure, AI is here to stay, even if the bubble bursts. Block’s layoffs are mostly a correction for adjusting after a period of rapid growth during unprecedented market conditions and a shift in strategy given low growth.
+
+Many other companies that overhired during the pandemic low-interest-rate era are in a similar boat, with varying degrees of revenue growth, stock price, and headcount. These are macroeconomic realities. Some companies will adjust slower or faster, as leaders are all different, though they often copy each other.
+
+To be clear to those affected by layoffs: none of this is your fault. Working 80-hour weeks or being super geniuses would not have changed the outcome. Even $2B of new revenue in a year didn’t fix it (Block’s increase from 2023 to 2024). Some of this reflects marginal growth slowing in a public international corporation without a new homerun product to create another S curve. Much of the fallout from late 2022 onward reflected growth evening back out after the extraordinary spikes in 2020 and 2021. The company also faced strategic, structural, and leadership challenges like any company, but some macroeconomic effects hit everywhere like a tsunami.
+
+AI tools are currently growing very fast and represent a major, unexpected shift in the industry. Many investors and companies are pivoting to them strategically. They may make bets that require capital, which can lead to additional layoffs. No one is ever 100% safe from layoffs, as there is always a significant element of randomness. Block framed this layoff as AI-related, almost like an advertisement for future products, while in practice the layoffs were primarily a correction for pandemic overhiring and headcount adjustments.
+
+AI
+
+AI Won’t Replace Humans — But Humans With AI Will Replace Humans Without AI
+– Karim R. Lakhani
+
+Two analogies I think of with AI:
+
+The self-checkout at the grocery store. There is someone watching over it, but fewer people are working when customers self-checkout their groceries. There are still grocers checking out people because not everyone wants to do it themselves. The future is not evenly distributed, and customers dictate what works best for them.
+Guns vs swords. Swords require honing a craft, but guns usually win in a fight. There are exceptions for people who don’t know how to use guns properly, but would you rather be in an army where everyone used swords or guns? AI is a gun and coding manually is a sword. The battle is product velocity and matching customer needs in an ever-adapting world. For dev ops alone, AI is a clear winner.
+In the past year, I switched from using ChatGPT every now and then to brainstorm and ‘Google’ things to using it heavily to plan, brainstorm, edit, and refine my thinking in Codex, as well as Claude Code and custom skills/agents in Conductor and more. There’s a learning curve: navigating context windows, making more precise requests / feeding the right context, feedback loops and review, permissions, etc. It’s like learning to manage a robot intern (or an army of them) with a goldfish memory if things aren’t written in a Markdown file. But you get better at it over time.
+
+Much like learning to code in the first place, it’s just learning a new tool to achieve the same end: adding value to customers and helping the business grow. Getting over the fear and frustration of being a beginner is the hard part.
+
+I might be using totally different tools in six months. If these tools stop being useful or become too expensive, I’ll stop using them. But right now they matter, so I’m learning them, not because I worship them, but because staying adaptable is part of the job.
+
+To those impacted by the layoffs or feeling survivor’s guilt, it’s okay to feel anger, confusion, or grief. Take time to process before planning next steps. For anyone navigating career changes, here’s a post on job application strategy.
