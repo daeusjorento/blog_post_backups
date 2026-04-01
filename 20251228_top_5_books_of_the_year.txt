@@ -164,7 +164,7 @@ The Library at Mount Char by Scott Hawkins
 ‘That’s the risk in working to be a dangerous person,’ she said. ‘There’s always the chance you’ll run into someone who’s better at it than you.‘
 
 How to Prove It by Daniel J. Velleman
-To make sure your assertions are adequately justified, you must be skeptical about every inference in your proof. If there is any doubt in your mind about whether the justification you have given for an assertion is adequate, the it isn’t.
+To make sure your assertions are adequately justified, you must be skeptical about every inference in your proof. If there is any doubt in your mind about whether the justification you have given for an assertion is adequate, then it isn’t.
 …
 When mathematicians write proofs, they usually just write the steps needed to justify their conclusions with no explanation of how they thought of them…. Although this lack of explanation sometimes makes proofs hard to read, it serves the purpose of keeping two distinct objectives separate: explaining your thought process and justifying your conclusions. The first is psychology, the second is mathematics….
 

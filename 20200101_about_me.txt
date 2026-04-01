@@ -1,0 +1,27 @@
+About Me – Daeus Jorento
+
+Hello! I'm Daeus Jorento, a data scientist with 10+ years of experience, focused on product strategy and experimentation. I live in Oakland, CA, and enjoy uncovering knowledge gaps and creating structure from ambiguity. This blog is a personal library, including some study guides, that I built to consolidate and refine my own learnings and decided to make public.
+
+Connect:
+- LinkedIn
+- Goodreads
+- Github
+- YouTube Music Playlists (also on Spotify)
+
+Published Works:
+
+Williams College Alumni Blog:
+- Tech Career Longevity (2026)
+- Four Graduate Degrees I Wish I Could Download Into My Brain (2024)
+
+Square Data Science Blog:
+- Revamping Data Science Interviews (2025)
+- Ecosystem Success Metrics (2023)
+- Success Metrics for Product Analytics (2022)
+
+Federal Reserve Board FED's Notes (co-author):
+- Did the Fed's Announcement of an Inflation Objective Influence Expectations? (2015)
+- Will Household Expectations Follow Professional Forecasters'? (2015)
+
+Spouse's Projects:
+- If Grapes Could Talk (Rhi's YouTube channel)

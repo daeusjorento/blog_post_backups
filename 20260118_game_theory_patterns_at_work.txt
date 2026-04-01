@@ -50,7 +50,7 @@ There is currently an AI arms race in job applications. Candidates mass-apply wi
 
 I don’t like LeetCode as a post-college SAT, but pass-fail technical screens do filter out candidates who cannot break down and solve problems in the language they will actually use, even with AI. I’ve seen data orgs without any coding or SQL screens devolve into politics as a substitute for technical skill.
 
-When Square added a Python screen, people hired after liked it. People hired before often didn’t. They were both favoring the processes that validated them. Tenured employees value tenure. New hires value credentials. Both are understandable, and neither is unbiased.
+When Square's data science org added a Python screen, people hired after liked it. People hired before often didn’t. They were both favoring the processes that validated them. Tenured employees value tenure. New hires value credentials. Both are understandable, and neither is unbiased.
 
 Revamping interviews is also a way to clarify what a role actually needs and to quietly uplevel a discipline. Crowdsourcing structured interview questions helps keep both the bar and interviewers sharp.
 
