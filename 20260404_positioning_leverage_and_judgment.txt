@@ -1,0 +1,97 @@
+Intro
+When you do things right, people won’t be sure you’ve done anything at all.
+– God (Futurama)
+
+In many environments, people value logical reasoning, effort, and speed. These are measurable, visible skills, all useful. But a few less visible traits often matter just as much: positioning, leverage, and judgment.
+
+Positioning is where to stand before acting. Leverage is how much an action can move things. Judgment is knowing which action to take.
+
+If these work together, things that might have failed can work so well they look inevitable. Without them, even the strongest lead can be lost.
+
+Positioning
+All the power in all the worlds means nothing if it is in the wrong place.
+– Pierce Brown (Morning Star).
+
+Over my ten years playing soccer, I gravitated to sweeper: the last line of defense before the goalkeeper. Very quickly I learned the pain of being caught out of position. On a breakaway, the other team got behind us and only had the goalkeeper left to beat. Since no one is faster than the ball, it became a prediction problem: make sure no one ever got behind me, except on a clear offsides trap where the other team moved too early. The strategy I learned was to keep moving so that my body stayed between the ball and our goal, even if the play was far from me. In retrospect, I was learning to prioritize good positioning under uncertainty.
+
+Odysseus had told me once that half of a duel is maneuvering around the sun, trying to get the light to stab at your enemy’s eyes.
+– Madeline Miller (Circe).
+
+Once you start paying attention to how people, teams, and companies get into strategic positions, you see it everywhere. They are reading the field, looking for the first domino and the main bottlenecks before their competition does. The best position is buying land with a gold mine before it is discovered. That would require knowing the future, which is impossible, but there are still ways to improve your odds.
+
+The worst positioning is thinking you are standing on a gold mine when you are really standing on a volcano. It is acting on false information, or assuming you are safe when you are not. This is where analysts and data scientists come in, or really anyone who can test beliefs and find blind spots.
+
+As a simple example, imagine thinking the interview is at 11 when it was really at 10. No matter how smart or socially skilled you are, you are starting with headwinds. It might not rule you out, but it’s a bad look. In interviews, more generally, the power goes to the person who needs the other side less. The best position is already having a good job or another offer, though not easy to achieve.
+
+Within a team, I often find myself moving toward what the team needs most. If the engineering is strong, I will spend less time there. If there are already too many voices in the room for decisions, I will ease back. It feels very similar to playing sweeper. The key to my positioning is knowing where our goals and anti-goals are.
+
+Part of positioning is who I put myself around. One of the best ways I’ve found to improve at anything is to spend time with people who are better than me. This creates tailwinds I might never have anticipated. The downside is that my ego gets bruised more often, but it also acts like a humility vaccine. It exposes me to small failures and corrections all the time, so I am better prepared for the important ones.
+
+Once my positioning is directionally right, the next question is leverage.
+
+Leverage
+Give me a lever long enough and a fulcrum on which to place it, and I shall move the world.
+– Archimedes
+
+Leverage is how much output I get from effort. Effort is often more visible, so a lot of effort with low leverage can look similar to a little effort with high leverage. The opposite of leverage is not laziness, but dependency. In that sense, leverage is deeply tied to freedom.
+
+Trying to do something without leverage is like swimming upstream. I see a lot of strong, smart people struggle with it, like powerful cannons mounted on sand instead of concrete.
+
+Better learn balance. Balance is key. Balance good, karate good. Everything good. Balance bad, better pack up, go home. Understand?
+– Mr Miyagi (The Karate Kid)
+
+In school, a high-leverage study method is taking and reviewing past exams. It is much more effective than trying to memorize lecture notes because it more directly mirrors the actual exam conditions.
+
+Early in my career, I over-focused on fixing weaknesses instead of identifying where I could build leverage. In organizations, leverage often comes from knowing something others need and knowing where I fit in to help meet that need. Where have I spent time that could help others reach their goals? Product domain knowledge, for example, or decision records.
+
+At this point in my career, one of my main sources of leverage is influencing which problems to focus on through data exploration. If the team solves this problem, what does it unlock for us? If the answer is that it is a cool technical project but has no real impact, we do not start it. The exception right now is tinkering with AI, because the upside of a new high-leverage technology may justify it.
+
+The highest leverage is strong relationships. People I trust and who trust me. That can last in some form for the rest of my life. Having options or a moat also creates leverage. Both let me shape outcomes instead of just reacting to them. Scalable activities, like teaching or writing, can also be high leverage.
+
+Writing this blog is a high-leverage activity for my goals. It lets me crystallize and communicate how I think at scale, and it makes more of my value independent of any one job or company.
+
+Thinking about leverage is different from simply putting effort into completing a project. It means comparing possible outcomes to their costs and asking where the highest upside is for the least time and effort. Doing that well requires clear thinking and good judgment. Leverage without judgment often amplifies the wrong things.
+
+Judgment
+Good judgment comes from experience, and a lot of that comes from bad judgment.
+– Will Rogers
+
+A lot of good judgment comes down to detachment. That means emotional regulation and ego management. It is the ability to see myself as part of a broader team mechanism, like looking from above at myself as a piece on a chessboard. This becomes much harder when the stakes are high and the pressure is real, but it also unlocks deep creativity.
+
+Bad judgment is usually obvious right away. Showing up drunk for work. Showing up unprepared. Being unable to let criticism go. Doubling down on a failure. It can be hard to learn from major failures, but they are often the best teachers. In almost every case, it is better to win the game than win the argument about the game.
+
+Experience helps me see around corners and recognize when a path is going to end in a ditch. I can say that with some confidence because I have been in that ditch before. Part of good judgment is framing the decision properly. Is this reversible, or is it consequential enough to need more thought?
+
+Besides framing and detachment, another key part of good judgment is taste, or discernment. Taste is how I evaluate an outcome. Without that, how would I even know if an outcome was good? Becoming a proxy for the taste of my stakeholders or customers helps me hear the intent behind the language.
+
+For a data science example, senior-level judgment is knowing the rules, while staff-level judgment is knowing when to break them. Discernment from experience might look like seeing 100 variables and knowing which two actually matter, or knowing how to find out quickly.
+
+Most of my successes come down to positioning myself where leverage exists and using good judgment. The rest is reps and staying around long enough for those skillsets to compound. In the end, the goal is simply to get the important things done consistently. Everything else is a bonus, or luck.
+
+Luck
+The enemy gets a vote
+– Military maxim, often attributed to Helmuth von Moltke
+
+A lot of outcomes can look like luck from the outside. Once I found some success in collegiate swimming, after seven years of intense training, new teammates started attributing it to being tall and strong. As if that alone explained it, despite the fact that I had been tall and strong for years while still losing to smaller, weaker opponents. It gave me some perspective on how easily I had reduced other people’s success to innate ability or luck in the past.
+
+Part of managing luck is deciding where to allow randomness to operate. Many day-to-day decisions are unconscious, and my brain can only make so many deliberate choices in a day. AI adds to that decision fatigue.
+
+As an example, the acceptable range for being late to a work meeting is usually narrow, maybe 0-5 minutes. People are not randomly 15 minutes late without letting others know. For a friend or family party, the tolerated range can be much wider, say 0-90 minutes late.
+
+If my bands were narrow for everything, I would live an unrealistically controlled life. If they were too wide, then I wouldn’t be reliable at all. I get to choose where to narrow my tolerance bands. I compress variance in high stakes areas. In low-stakes areas, I allow more variance due to chance.
+
+This is a decision I try to make consciously, rather than leave to chance. It is not that I do not care about showing up to a friend’s party, but I am not going to stress about being 15 minutes late the way I would for an important work meeting.
+
+For big things, I want to slow down and think clearly. For little things, I can move fast and tolerate some sloppiness. Ironically, this can make me feel unlucky in day-to-day life, like I am losing a lot of small bets. But that focus means I make fewer mistakes where it really matters. It is a form of conscious attention allocation. In a sense, I am running low-stakes experiments all the time.
+
+Losing every now and then is inevitable, and can even be useful, like taking an ego vaccine. Better for it to be something small that keeps me humble than something big that closes major doors.
+
+Life is unfair but remember sometimes it is unfair in your favour.
+– Peter Ustinov
+
+Ultimately, a lot of outcomes are just pure luck. Some people are born on third base without realizing it, or have far more leverage than they know. I just try to be aware of my position and environment before acting when I can. It’s better to be lucky than good, but luck can run out.
+
+Wrap Up
+Leverage without positioning solves the wrong problem. Positioning without leverage has no impact. Leverage without judgment creates problems.
+
+Two people with the same skills can often end up in very different places. Outcomes depend on doing the right thing, in the right place, at the right time. I used to oscillate between thinking my successes were pure skill and then pure luck. Neither is quite right. There’s more to the story of what I can actually do to influence outcomes. 
