@@ -33,7 +33,7 @@ Leverage
 Give me a lever long enough and a fulcrum on which to place it, and I shall move the world.
 – Archimedes
 
-Leverage is how much output I get from effort. Effort is often more visible, so a lot of effort with low leverage can look similar to a little effort with high leverage. The opposite of leverage is not laziness, but dependency. In that sense, leverage is deeply tied to freedom.
+Leverage is how much output I get from effort. Effort is often more visible, so a lot of effort with low leverage can look similar to a little effort with high leverage. The opposite of leverage is not laziness, but dependency.
 
 Trying to do something without leverage is like swimming upstream. I see a lot of strong, smart people struggle with it, like powerful cannons mounted on sand instead of concrete.
 
