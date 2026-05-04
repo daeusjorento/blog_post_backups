@@ -1,5 +1,3 @@
-Mapping Emotions to Music
-Personal
 The General Idea
 
 The desire for more positive experience is itself a negative experience. And, paradoxically, the acceptance of one’s negative experience is itself a positive experience.
@@ -86,7 +84,7 @@ Fear	Overwhelm	Royal and The Serpent	Overwhelmed
 Fear	Unknown	Idir	A Vava Inouva
 Fear	Weak	Royal and The Serpent	I can’t get high
 Fear	Worry	ToonFanatic	I’ll Be Your Keeper (Hazbin Hotel)
-[Fear] Exposed: Metric – Help I’m alive
+[Fear] Exposed: Metric – Help I’m Alive
 
 I tremble
 They’re gonna eat me alive
@@ -180,7 +178,7 @@ I think this is the first song I ever bought on iTunes (2006?). It really nailed
 
 [Anger] Indignant: Figure – Monster’s revenge
 
-Though primary a dubstep track from Figure’s Monster series, the clips are a brilliant example of an indignant monster furious at Frankenstein for creating him.
+Though primarily a dubstep track from Figure’s Monster series, the clips are a brilliant example of an indignant monster furious at Frankenstein for creating him.
 
 (I didn’t know what I was doing when I created you)
 But you did create me
@@ -299,6 +297,7 @@ If you made it this far, I salute you. Some of these songs were pretty heavy. So
 
 Primary	Specific	Artist	Song
 Joy	Elation	Chappell Roan	Red Wine Supernova
+Joy	Excited	Janelle Monáe	Make Me Feel
 Joy	Hopeful	Machineheart	Circles
 Loved	Accepted	Middle Kids	Don’t Be Hiding
 Loved	Claimed	Meg Myers	Lemon Eyes
@@ -311,9 +310,19 @@ Relief	Vindicated	Kesha	Praying
 
 This song makes me extremely happy whenever I hear it.
 
+[Joy] Excited: Janelle Monáe – Make Me Feel
+
+Janelle Monáe is one of my favorite performers. She brings such a unique, colorful, and expansive joy. I sometimes struggle to feel excited about the future without feeling like I’m setting myself up for disappointment. Dread and anxiety feel safer. This song helps me access excited anticipation without overthinking it.
+
+It’s like I’m powerful with a little bit of tender
+An emotional, sexual bender
+Mess me up, yeah, but no one does it better
+There’s nothin’ better
+That’s just the way you make me feel
+
 [Joy] Hopeful: Machineheart – Circles
 
-It’s hard to find the original of this, but the Vanic remix is pretty accessible (Youtube, Spotify, etc). But this song makes me feel resilient like none other, and that everything comes back around.
+It’s hard to find the original of this, but the Vanic remix is pretty accessible (YouTube, Spotify, etc). This song makes me feel resilient like none other, and that everything comes back around.
 
 [Loved] Accepted: Middle Kids – Don’t Be Hiding
 
@@ -361,7 +370,7 @@ Vindication is a release that follows an often long and painful period of self-d
 
 Kesha’s story (13 years trying to escape her abuser while locked into a contract forcing her to keep making music for his label) is a hero’s journey in every sense (see the lawsuit on wikipedia). I never expected that the artist behind Tik Tok and Blah Blah Blah in 2010 would become one of the most brilliant, courageous voices of the decade.
 
-Praying came out after years of lawsuits and while she was only two albums into a five-album contract. Her final song on that fifth, legally obligated album (Gag Order) is called Happy. Her first song on her first fully self-produced album, Period, is called Freedom (released on July 4th, 2025). I was actually at that concert in Mountain View, CA. She said it was the happiest day of her life, triumphantly closing a 13-year struggle, where she declared “these are OUR songs. I made them for YOU.”
+Praying came out after years of lawsuits and while she was only two albums into a five-album contract. Her final song on that fifth, legally obligated album (Gag Order) is called Happy. Her first song on her first fully self-produced album, Period, is called Freedom (released on July 4th, 2025). I was actually at that concert in Mountain View, CA. She said it was the happiest day of her life, triumphantly closing a 13-year struggle, where she declared, “these are OUR songs. I made them for YOU.”
 
 She took the pink dot from Period and overlaid it across all her previous albums as a symbolic reclaiming. The song Praying itself is pure poetry.
 
@@ -380,4 +389,3 @@ I hope you’re somewhere praying, praying
 I hope your soul is changing, changing
 I hope you find your peace
 Falling on your knees, praying
-
