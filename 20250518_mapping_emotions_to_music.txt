@@ -41,7 +41,7 @@ A dark and haunting song even older than when Leadbelly sang it (video).
 Oh, I’m looking for affection in all the wrong places
 And we’ll keep falling on each other to fill the empty spaces
 
-This song conveys confidence of acknowledging the mistake but being unable to stop it. An insider version perspective that matches the tone of All My Friends by Snakehips ft Tinashe, Chance the Rapper – which has this brilliant music video of waiting in line at a night club and never getting in.
+This song conveys an awareness of the mistake while being unable to stop repeating it. An insider version perspective that matches the tone of All My Friends by Snakehips ft Tinashe, Chance the Rapper – which has this brilliant music video of waiting in line at a night club and never getting in.
 
 [Sadness] Bored: Erik Satie – Gymnopédie No.1
 
@@ -80,6 +80,7 @@ Sometimes I just feel…. old. It’s a mixture of sadness, shame, and maybe lon
 Fear
 
 Primary	Specific	Artist	Song
+Fear	Dread	White Lies	Death
 Fear	Exposed	Metric	Help I’m alive
 Fear	Helpless	Muse	Time is Running Out
 Fear	Inadequate	Jessica Darrow	Surface pressure (Encanto)
@@ -89,6 +90,10 @@ Fear	Overwhelm	Royal and The Serpent	Overwhelmed
 Fear	Unknown	Idir	A Vava Inouva
 Fear	Weak	Royal and The Serpent	I can’t get high
 Fear	Worry	ToonFanatic	I’ll Be Your Keeper (Hazbin Hotel)
+[Fear] Dread: White Lies – Death
+
+Spiritually uplifting, yet grounded in a gripping fear of death.
+
 [Fear] Exposed: Metric – Help I’m Alive
 
 I tremble
@@ -146,6 +151,7 @@ Anger
 Primary	Specific	Artist	Song
 Anger	Agitation	Sheet Music Boss	Rush E
 Anger	Annoyed	Faded Paper Figures	Spare me
+Anger	Defiant	Rage Against The Machine	Killing in the Name
 Anger	Disrespected	Halsey	Gasoline
 Anger	Frustrated	Shiny Toy Guns	Le Disko
 Anger	Indignant	Figure	Monster’s revenge
@@ -167,6 +173,10 @@ Only half the time
 I lived your gorgeous dream
 For only half a life
 Only half a life
+
+[Anger] Defiant: Rage Against The Machine – Killing in the Name
+
+This song pretty much speaks for itself.
 
 [Anger] Disrespected: Halsey – Gasoline
 
@@ -304,11 +314,13 @@ Primary	Specific	Artist	Song
 Joy	Elation	Chappell Roan	Red Wine Supernova
 Joy	Excited	Janelle Monáe	Make Me Feel
 Joy	Hopeful	Machineheart	Circles
+Joy	Playful	Queen	Fat Bottom Girls
 Loved	Accepted	Middle Kids	Don’t Be Hiding
 Loved	Belonging	Old Crow Medicine Show	Wagon Wheel
 Loved	Claimed	Meg Myers	Lemon Eyes
 Peace	Content	Smash Mouth	I Just Wanna See
 Peace	Reverence	Adventure Time (Rebecca Sugar)	Everything Stays
+Proud	Confident	Brother Ali	Forest Whitaker
 Proud	Triumphant	Huntrix	How It’s Done
 Relief	Grateful	Chronic Future	Thank You
 Relief	Vindicated	Kesha	Praying
@@ -330,9 +342,13 @@ That’s just the way you make me feel
 
 It’s hard to find the original of this, but the Vanic remix is pretty accessible (YouTube, Spotify, etc). This song makes me feel resilient like none other, and that everything comes back around.
 
+[Joy] Playful: Queen – Fat Bottom Girls
+
+This song makes me feel so goofy and silly.
+
 [Loved] Accepted: Middle Kids – Don’t Be Hiding
 
-This song simply makes me feel like I belong.
+This song makes me feel accepted exactly as I am.
 
 Oh, don’t be hiding, I am not that bothered by
 The stuff you’re fighting, for no other reason
@@ -345,7 +361,7 @@ I used to sing this with my swim team in the shower after meets. It was one of t
 
 [Loved] Claimed: Meg Myers – Lemon Eyes
 
-I just love this song. It’s sort of obsessive and about jealousy, but Meg Myers has explicitly said she makes music so people can feel things more deeply (another good example, her song Desire). Lemon eyes gives me the feeling that someone wants me, they claimed me, and that I can’t hide from that.
+I just love this song. It’s sort of obsessive and about jealousy, but Meg Myers has explicitly said she makes music so people can feel things more deeply (another good example, her song Desire). Lemon Eyes gives me the feeling that someone wants me, has claimed me, and that I can’t hide from that.
 
 All your worries such a waste of time
 You can’t even see how much you’re mine
@@ -361,6 +377,15 @@ Like relaxing on a comfy lawn on a beautiful summer day.
 [Peace] Reverence: Adventure Time – Everything Stays
 
 This is such a beautiful lullaby on how in little ways things stay even when it feels like everything is swirling and leaving. It always makes the child in me feel safe.
+
+[Proud] Confident: Brother Ali – Forest Whitaker
+
+Brother Ali gave me a taste of real confidence growing up with his songs.
+
+I’mma be all right, you ain’t gotta be my friend tonight
+(You ain’t gotta love me)
+An I’mma be okay, you would probably bore me anyway
+(You ain’t gotta love me)
 
 [Proud] Triumphant: Huntrix – How It’s Done
 
@@ -399,3 +424,4 @@ I hope you’re somewhere praying, praying
 I hope your soul is changing, changing
 I hope you find your peace
 Falling on your knees, praying
+
