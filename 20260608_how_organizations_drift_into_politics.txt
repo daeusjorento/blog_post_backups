@@ -1,0 +1,127 @@
+A zoomed-out follow-up to Game Theory Patterns at Work.
+
+Introduction: Trending Towards Disorder
+The law that entropy always increases holds, I think, the supreme position among the laws of Nature.
+– Sir Arthur Stanley Eddington
+
+An organization is like a living, breathing board game. The game is a complex exercise in applied social logic and strategy. It needs clear structure and enough buy-in to navigate cross-functional dependencies, align departmental incentives, and build coalitions to get projects greenlit.
+
+Without clear rules, like any board game, it devolves into chaotic bickering or just hanging out.
+
+Now, I love a good hangout. What bothers me is the impact on real customers. When people are just hanging out, shit breaks. Feature improvements don’t ship. The vacuum gets filled with politics, favoritism, and performative busywork. If it goes on long enough, the game can even get taken over by another organization that actually solves customer problems. But in the short term, real people suffer.
+
+For human organizations, disorder is always waiting. If a teacher stops showing up for class, what happens? Gossiping, goofing off, maybe eventually arguments or fights. The students start creating their own rules. Politics, in that sense, is the default state. Shared direction has to be intentionally cultivated.
+
+If the game devolves, people who care about structure often leave to play somewhere else. Those who remain are often not paying attention to the overall drift; they are just doing their jobs. And those who benefit from the disorder start to rise.
+
+Why Politics Exists
+You do not follow me because I am the strongest. Pax is. You do not follow me because I am the brightest. Mustang is. You follow me because you do not know where you are going. I do.
+– Pierce Brown (Red Rising)
+
+Organizations are coordination machines. Coordination is expensive. When clarity is high, politics is low. When clarity drops, politics rises.
+
+Ambiguity is gasoline for politics. Like many recurring game theory patterns, the problem is not that people are irrational. The problem is that they are adapting to the incentives and information available to them. Politics is often what rational actors do when clarity disappears.
+
+As organizations grow, people naturally lose visibility into the whole system. Companies increasingly rely on trusted intermediaries to translate strategy and maintain alignment across teams. Without regular leadership rituals around strategic direction, communication, and feedback, people start to look around and realize they have no idea what is going on. A journey consists of many small corrections. If those corrections stop happening, we gradually deviate from the mission and eventually become profoundly lost.
+
+When people lose shared context, they naturally optimize for local context. Teams develop their own priorities and narratives.
+
+It’s not that anyone is evil, though some may be more politically inclined. It’s hard not to care and try to influence outcomes when your livelihood is on the line.
+
+Ironically, temporary order in the absence of leadership is evidence of good leadership. Strong cultures can continue functioning well without constant guidance. But after a year or two without clear direction, people naturally start asking:
+
+What are we doing?
+Do the old rules still apply?
+Am I growing anymore?
+When formal structure fails, informal power takes over. That’s culture, largely driven by consequences.
+
+At scale, this makes accountability crucial. People need to know what they own and who answers when something breaks. If everyone owns it, eventually no one owns the consequences. Someone has to decide, prioritize, and answer for the outcome.
+
+Successful businesses are often especially vulnerable because the damage is easier to ignore while times are good. Standards slip, ownership gets fuzzier, and companies often only start asking what happened once they stop winning.
+
+With true accountability, people sometimes lose status, influence, or even their jobs when things go wrong. Unsurprisingly, they fight to protect those things. Accountability requires consequences.
+
+Political power is not just measured by accomplishment or claiming credit, but by the ability to avoid consequences or shift blame.
+
+Politics is partly all the small meetings before the big meeting. Disagreement is expensive in large forums, so the real negotiation moves upstream. By the time everyone enters the room, the decision is often already made. Power belongs to the people with access to the rooms before the room.
+
+Politics is also the maintenance of ownership boundaries. Every organization runs on a division of labor no one can verify end to end, so teams manage the seams through trust and relationships. Tended well, this is good citizenship: the heads-up before a surprising change, the quiet agreement about who owns what. Tended poorly, coordination becomes turf defense, and nothing moves without layers of signoff.
+
+How Growth Changes the Game
+Success creates growth. Growth creates complexity. Complexity creates coordination costs. Coordination costs create new organizational structures. Those structures require new forms of tending, and influence becomes increasingly important. 
+
+The first thing to disappear is shared context. Smart people start missing important information simply because there is too much happening. For example, the customer success team might learn about a new feature from customers instead of from their internal teams. Nobody is necessarily incompetent here. There is just more information moving through the system than any one person can reasonably track.
+
+As complexity increases, what was once a small village starts to resemble a town. There are more dependencies, more specialization, and more territory to coordinate. Big companies are collections of smaller companies trying to move in roughly the same direction. As the company changes, the reward system changes with it.
+
+As organizations grow, influence starts to matter more. Not because people got worse, but because coordination got harder. The people who helped a company survive are not always the same people best suited to scale it, creating tension as the game begins rewarding different skills. Teams start optimizing for their own success. The anchor has to be the company’s overall strategy. Otherwise, big companies become collections of smaller companies competing with each other.
+
+守业更比创业难. (Sustaining success is harder than creating it.)
+– Chinese proverb
+
+Complexity does not just make work harder. It makes value harder to see. As organizations grow, leadership increasingly has to make decisions with incomplete information, relying on proxies, trust, and judgment to navigate the system.
+
+Managing a company starts to resemble portfolio management. Every organization needs a clear directive for how to contribute to the larger system, and leadership needs ways to understand which investments are creating value.
+
+How Politics Gets Rewarded
+Politics emerges because influence becomes valuable. As organizations get more complex, someone has to build relationships, frame decisions, manage stakeholders, and keep work moving across teams with different incentives. ICs often cannot do all of that because they are busy producing the work, not managing around it. So companies start rewarding people who can navigate the organization itself. At that point, being liked becomes part of the job.
+
+Politics becomes harder to avoid when growth slows. During periods of rapid growth, opportunities are plentiful. New teams form, new projects appear, and advancement comes naturally from solving the next problem. But when growth stalls, opportunities become scarce. Advancement increasingly comes from sponsorship, visibility, and access to leadership. It starts to pay more to be liked by the right people than to simply be right. Politics is often a symptom of slowing growth, which itself is often a symptom of lost clarity.
+
+Why hire someone skilled in politics? Usually because the environment is already political. Someone has to navigate competing incentives, manage upward, and build alignment across groups that do not naturally agree.
+
+A good politician does not just try to win. They try to avoid losing. Somebody has to absorb ambiguity when projects fail, deadlines slip, or priorities conflict. At its best, this means protecting a team from distractions and providing air cover. At its worst, it means finding a scapegoat.
+
+One practical survival strategy is to find the most powerful stakeholder nearby and help them succeed. This is not necessarily cynical. In a political environment, proximity to power is protection.
+
+Political behavior is often associated with taking credit for successes and shifting blame for failures, though ICs do it too. The difference is power and visibility. As work gets more complex, contribution gets harder to verify, making influence over the narrative more valuable. In some environments, “we’re working on it” earns credit without the risk of actually shipping. The trick is sounding smart without committing to falsifiable goals. A more aggressive version is claiming territory before building (e.g. a migration), making it socially costly for anyone else to start while the project sits unfinished.
+
+Part of what makes this so frustrating is that a manager can sometimes survive by feeding one IC to the machine at a time. Their manager may eventually recognize the pattern, but one scapegoated employee rarely creates enough evidence to act on. At the ugliest extreme, some people even optimize for control when hiring, preferring weaker or more dependent employees because they are easier to manage, blame, or sacrifice later. That is not competence optimization. It is political risk management.
+
+Why reward a bully? Because speed sometimes beats harmony. Being aggressive, creating pressure, and forcing decisions can generate visible short-term results. Deadlines get hit. Projects move. Promotions follow. The long-term damage is harder to measure because burned bridges, lost trust, and departing employees rarely show up with clear causality. Eventually, people stop blaming individuals and start blaming “the culture”, even though culture is often just rewarded behavior at scale.
+
+People pay attention to who gets promoted, who gets invited to important meetings, and whose opinions carry weight. New employees learn the rules by observing what succeeds, not by reading cultural values documents.
+
+When managers promote friends, allies, or agreeable people over stronger contributors, everyone learns the real rule. Performance is the stated currency; proximity is the actual one. Cliques reproduce themselves by selecting for loyalty over capability.
+
+Culture becomes a reflection of incentives. If influence is rewarded, people become more influential. If politics is rewarded, people become more political.
+
+Late-Stage Failure Modes
+Left unchecked, organizations start creating work about work. More meetings. More alignment. Slower growth. Scarcer opportunities. More politics. The company gradually spends more energy coordinating than building, preserving than creating.
+
+When a company grows, people eventually reach positions they might not easily get elsewhere. Something changes. They start worrying more about risking what they have than what they can gain. The disruptors become incumbents. The job shifts from building the future to preserving the past. This often shows up as ownership of stale processes. The person who built the old deployment system, hiring pipeline, or planning ritual starts deriving status from maintaining it. Defending the process becomes defending their own relevance.
+
+Then comes the influence arms race. One team hires someone to coordinate, persuade, and get a better seat at the table. Other teams respond in kind. As relationships grow shallower, titles and tenure become tickets into important meetings. Headcount becomes currency, and growing the team becomes a way to accumulate standing whether or not the work requires it. Eventually the company balloons in the middle. The politicians stop coordinating the work and start coordinating each other.
+
+As systems become more complex, people increasingly rely on transmitters: managers, planning documents, strategy reviews, and organizational narratives. It starts to resemble a giant game of telephone. The people closest to the work lose visibility into why decisions are being made, while the people making decisions lose visibility into the work itself.
+
+Layoffs are organizational tech debt coming due. The original strategy was wrong, or the business needs to adapt, but first it has to pay the toll for years of deferred decisions. The cut is rarely a clean response to present conditions. It is the bill for accumulated drift, paid with interest.
+
+Overnight, the currency moves from growth to essentiality. Everyone wants to look indispensable, and the same skills that created the bloat often win again: narrative, visibility, and proximity to power. The org does not always cut what matters least; it cuts what is least sponsored. 
+
+The Only Real Solution
+A society grows great when old men plant trees in whose shade they shall never sit.
+– Greek proverb
+
+When the real thing is hard to measure, people optimize for whatever looks measurable. Organizations naturally drift toward disorder. Good leadership continually restores clarity.
+
+When things go bad, some people stay and try to fix the game from a position of little influence. One approach is to reconnect the organization to a coherent history and narrative: what game people are playing, why it exists, and how the rules fit together. But these are treatments, not cures. The only lasting fix is leadership buy-in around a clear strategic direction.
+
+Unfortunately, “don’t be political” is not much of a strategy. Clear strategy, explicit decision rights, ownership, and accountability all reduce politics. The strategy needs to be clear enough that when disagreements happen, people can break ties by asking what best serves the company and customers rather than what best serves their team, career, or local incentives. Without that anchor, every decision becomes a negotiation between competing perspectives.
+
+Leaders are not outside the game. They are players too. Every leader has strengths, weaknesses, and blind spots. If they are successful, their strengths often become the organization’s strengths through hiring, culture, and decision making. Eventually, though, their weaknesses also show up in the organization and need to be offset. Great leaders build systems, teams, and feedback loops that compensate for their own limitations rather than amplifying them.
+
+…today’s gap represents a failure of planning sometime in the past. By analogy, forcing ourselves to concentrate on the decisions needed to fix today’s problem is like scurrying after our car has already run out of gas. Clearly we should have filled up earlier. To avoid such a fate, remember that as you plan you must answer the question: What do I have to do today to solve – or better, avoid – tomorrow’s problem?
+– Andy Grove (High Output Management)
+
+Organizations are gardens that need tending and pruning. Leaders rarely control outcomes directly, but they shape the conditions under which people play the game. Left untended, a garden fills with whatever grows fastest and crowds out the rest. Organizations do the same, becoming dense with whatever behavior the local incentives happen to reward.
+
+Leadership itself has a lifecycle. The traits that help a company survive at ten employees can become liabilities at ten thousand. The founder whose involvement in every decision was once the company’s greatest asset may become its bottleneck. The operator who brings discipline to a sprawling org might have smothered it when it was still finding its shape. Different stages need different things.
+
+A litmus test for caring and skin in the game is simple: would you replace yourself if that was best for the company?
+
+Sometimes the highest act of stewardship is handing the garden to someone better suited to its next stage. This is hard because identity and position grow together over time. But the alternative is turning a living thing into a monument to whoever built it. A leader who cannot let go starts optimizing the organization to keep needing them.
+
+One useful exercise is asking: if we hired the best possible replacement for this role today, what would they do differently?
+
+Thanks Rob Wang for review and discussions!
