@@ -1,3 +1,5 @@
+How Organizations Drift Into Politics
+Career
 A zoomed-out follow-up to Game Theory Patterns at Work.
 
 Introduction: Trending Towards Disorder
@@ -115,6 +117,8 @@ Leaders are not outside the game. They are players too. Every leader has strengt
 – Andy Grove (High Output Management)
 
 In volatile environments, leaders cannot always provide certainty. But they still need to provide tie-breakers. The antidote to internal politics is a leadership team willing to commit to a clear near-term direction: which market they are targeting, what falsifiable goals they are pursuing, and what they are willing to give up.
+
+As roles become more senior, ambiguity becomes unavoidable. Strategic bets are inherently political because there is rarely an obvious answer. Healthy politics depends on leaders assuming positive intent and believing the argument is still in service of the company.
 
 Organizations are gardens that need tending and pruning. Leaders rarely control outcomes directly, but they shape the conditions under which people play the game. Left untended, a garden fills with whatever grows fastest and crowds out the rest. Organizations do the same, becoming dense with whatever behavior the local incentives happen to reward.
 
