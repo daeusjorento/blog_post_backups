@@ -1,27 +1,35 @@
 About Me – Daeus Jorento
 
-Hello! I'm Daeus Jorento, a data scientist with 10+ years of experience, focused on product strategy and experimentation. I live in Oakland, CA, and enjoy uncovering knowledge gaps and creating structure from ambiguity. This blog is a personal library, including some study guides, that I built to consolidate and refine my own learnings and decided to make public.
+Hello! I’m Daeus Jorento, a data scientist with 13 years of experience focused on product strategy and experimentation. I currently work at Ramp and live in Oakland, CA. I enjoy uncovering knowledge gaps and creating structure from ambiguity. This blog is a personal library I built for fun, including some study guides that help me consolidate and refine my own learning. I decided to make it public. Across work, macroeconomics, product data science, gaming, and therapy, I’m mostly interested in strategy: how people make decisions, navigate systems, and improve their odds.
 
-Connect:
-- LinkedIn
-- Goodreads
-- Github
-- YouTube Music Playlists (also on Spotify)
+I treat the Data Systems and Statistics Refresher posts as living documents. If you know me or we’re connected on LinkedIn and spot something wrong or missing, send me a message. If I update a post based on something new I learn from you, I’ll credit you as a contributor.
 
-Published Works:
+Linkedin
+Goodreads
+Github
+Quiz App (daeus.vercel.app)
+Youtube Music Playlists (top 10 playlists by year - also on Spotify)
 
-Williams College Alumni Blog:
-- Tech Career Longevity (2026)
-- Four Graduate Degrees I Wish I Could Download Into My Brain (2024)
+Williams College Alumni blog:
+
+Tech Career Longevity (2026)
+
+Four Graduate Degrees I Wish I Could Download Into My Brain (2024)
 
 Square Data Science Blog:
-- Revamping Data Science Interviews (2025)
-- Ecosystem Success Metrics (2023)
-- Success Metrics for Product Analytics (2022)
+
+Revamping Data Science Interviews (2025)
+
+Ecosystem Success Metrics (2023)
+
+Success Metrics for Product Analytics (2022)
 
 Federal Reserve Board FED's Notes (co-author):
-- Did the Fed's Announcement of an Inflation Objective Influence Expectations? (2015)
-- Will Household Expectations Follow Professional Forecasters'? (2015)
 
-Spouse's Projects:
-- If Grapes Could Talk (Rhi's YouTube channel)
+Did the Fed's Announcement of an Inflation Objective Influence Expectations? (2015)
+
+Will Household Expectations Follow Professional Forecasters'? (2015)
+
+My spouse's projects:
+
+If Grapes Could Talk (Rhi's youtube channel)
