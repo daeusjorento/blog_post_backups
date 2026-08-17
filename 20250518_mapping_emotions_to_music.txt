@@ -383,6 +383,7 @@ Loved	Accepted	Middle Kids	Don’t Be Hiding
 Loved	Belonging	Old Crow Medicine Show	Wagon Wheel
 Loved	Claimed	Meg Myers	Lemon Eyes
 Loved	Cuddly	Cigarettes After Sex	Sweet
+Loved	Tenderness	Ocie Elliot	I Got You, Honey
 Peace	Awe	Hans Zimmer	Interstellar Main Theme
 Peace	Content	Smash Mouth	I Just Wanna See
 Peace	Cozy	Mounika	Cut My Hair
@@ -424,6 +425,15 @@ It’s so sweet, knowing that you love me
 Though we don’t need to say it to each other, sweet
 Knowing that I love you, and running my fingers through your hair
 It’s so sweet
+
+[Loved] Tenderness: Ocie Elliot – I Got You, Honey
+
+The tenderness of being held: I got you, honey.
+
+Water’s wet and light is light
+Got upset and now I’m doing fine
+When I come home, when I calm down
+Well I have you, and you have me, honey
 
 [Peace] Awe: Hans Zimmer – Interstellar Main Theme
 
@@ -586,4 +596,3 @@ Blow steam in the face of the beast
 The sky could fall down, the wind could cry now
 The strong in me, I still smile
 I love myself
-
