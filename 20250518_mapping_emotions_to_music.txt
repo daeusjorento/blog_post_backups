@@ -511,6 +511,7 @@ This section started because I wasn’t sure where this feeling fit. It isn’t 
 
 Primary	Specific	Artist	Song
 Drive	Agency	Bon Jovi	It’s My Life
+Drive	Crave	Alison Wonderland	I Want U
 Drive	Defiance	The White Stripes	Seven Nation Army
 Drive	Endurance	Sia	Alive
 Drive	Inspiration	The Cars	Just What I Needed
@@ -527,6 +528,10 @@ It’s my life
 It’s now or never
 I ain’t gonna live forever
 I just want to live while I’m alive
+
+[Drive] Crave: Alison Wonderland – I Want U
+
+Craving pulls energy from a deficit: the kinetic force of wanting something I don’t have, drawing me forward.
 
 [Drive] Defiance: The White Stripes – Seven Nation Army
 
