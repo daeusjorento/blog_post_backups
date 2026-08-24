@@ -10,7 +10,7 @@ Anyone who has worked with data will eventually encounter a query that runs and 
 
 Data modeling in relational databases is about deciding what tables to create. What does the application need to do? What data does it need to persist? How should that data be organized into relational tables to serve that purpose? Then come a million painful migrations as those needs shift.
 
-In analytics, the end use is analysis rather than, say, ordering food. Most of the data has already been saved, so the work is to filter it and transform it into a useful shape. The data moves forward through a DAG or pipeline, with each model shaped around the questions it needs to answer. Storage and compute are cheap enough to prioritize usefulness over minimizing size or avoiding duplication.
+In analytics, the end use is analysis rather than, say, ordering food. Most of the data has already been saved, so the work is to filter it and transform it into a useful shape. The data moves forward through a pipeline, with downstream models shaped around recurring questions that warrant a reusable model rather than ad hoc queries. Relative to operational systems, storage and compute for analytics are often cheap enough to prioritize usefulness over minimizing size or avoiding duplication.
 
 I recently had an incremental data model grow large enough that its size could no longer be ignored. It began slowing down and putting downstream workflows at risk. The company growth behind it was a good thing, but the slowdown felt like a good reason to return to the basics of data modeling and query performance, especially as I use AI to write more of my code and work in unfamiliar domains.
 
