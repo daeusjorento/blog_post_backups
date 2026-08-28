@@ -17,7 +17,7 @@ Imagine waiting alone at an outdoor train station in a foreign country. There is
 
 Few people would leave after one minute or remain for several hours without investigating. After a few minutes, I might check my ticket or confirm that I am in the right place. After fifteen, I might look for a schedule, search online, or find someone to ask. At some point, waiting stops being patience and becomes stubbornness.
 
-The value of a trustworthy, patient colleague is that they can make good judgment calls in these situations. They recognize early when something is off, but can endure discomfort when the available evidence suggests things are still on track. Active patience means continuing to gather information and periodically reevaluating the bet.
+The value of a trustworthy, patient colleague is that they can make good judgment calls in these situations. They recognize early when something is off, but can endure discomfort when the available evidence suggests things are still on track. Active patience means continuing to gather information and periodically reevaluating the bet. It also means keeping focus on the main business goal even when a wave of urgent tasks prevents me from working on it for a few days.
 
 In data work, high-value exploration often requires sitting in uncertainty long enough for real pattern recognition to emerge. Rushing to declare an answer just to end the ambiguity forfeits the deeper, non-obvious insight. High-leverage analytical work can look like staring at an unstructured mess for a week without panicking. If my discomfort threshold is 48 hours, I will constantly settle for shallow, immediate answers.
 
@@ -94,4 +94,4 @@ AI is changing much of the tech landscape, but change itself is constant. Prompt
 
 I can feel myself losing patience in my work, my scaffolding needing adjustment, and the importance of attuning to my colleagues and myself. I need to keep adapting to the modern world while preserving enough of myself to remain effective over the long term.
 
-Patience, scaffolding, and attunement form the framework I have gradually converged on, supporting better positioning, leverage, and judgment. Patience lets me endure uncertainty. Scaffolding lets me survive complexity. Attunement lets me adapt to the current reality.
+Patience, scaffolding, and attunement form the framework I have gradually converged on, supporting better positioning, leverage, and judgment. Patience lets me endure uncertainty and resist distraction. Scaffolding lets me survive complexity. Attunement lets me adapt to the current reality.
