@@ -1,0 +1,119 @@
+Eye-watering valuations of AI companies have felt mysterious to me, so I wanted to understand what they actually measure. If you know me or we’re connected on LinkedIn and spot something wrong or missing, please reach out. If I learn something new and update the post, I’ll credit you.
+
+Price at the Margin
+No one knows exactly what a company is worth. If a company has one million shares, we rarely observe what someone would pay for the entire business. Instead, we infer its value from the latest transaction. If one share sells for $10, the company has an implied value of $10 million. Price reflects someone’s willingness and ability to pay, but value is something broader: the company’s capital, talent, influence, future earnings, and everything else ownership provides.
+
+At one extreme, a single transaction can imply an absurd valuation. In 2022, Max Fosh claimed to become the world’s richest man for seven minutes by incorporating Unlimited Money Limited, issuing 10 billion shares, and selling one for £50. That implied a valuation of £500 billion, briefly making him richer than Elon Musk on paper. He dissolved the company after a valuation adviser warned that the figure was unsupported by any assets or revenue and could be considered fraudulent.
+
+At the other end of the spectrum, a small retail business with reliable cash flow and equipment can be valued based on what it earns or what its assets could be sold for. The business may be worth more intact than in pieces, but tangible assets still anchor its value: inventory, equipment, cash in the bank, and anything else the business owns.
+
+Most companies fall somewhere between these extremes. The latest share price is often the best available estimate, but it reflects what someone paid for a small piece under particular conditions. Investors and lenders still ask what the business earns, owns, or could realistically be sold for if it failed. Price comes from willingness and ability to pay. Value is an estimate of what ownership will ultimately provide.
+
+Value and the Future
+Valuation gets wonky when it depends on what the future might hold. The fundamental anchor is the present value of future cash flows, while multiples are shortcuts for estimating it. Most of the uncertainty lies in how large, durable, and probable those cash flows are.
+
+The useful shortcut changes with the business. For a fast-growing company, revenue can be a better proxy for its trajectory than current profits. As growth slows, the valuation framework may shift toward earnings or free cash flow rather than simply applying a lower revenue multiple.
+
+Equity value is not quite the same as the value of the underlying business. Imagine a restaurant with a $400,000 loan and $100,000 in cash. If its shares sell for $1 million, its enterprise value is $1.3 million: equity plus debt minus cash. A quoted valuation may refer to either one.
+
+Even with the right measure, the possible outcomes for AI companies, SpaceX, and other big bets span an enormous range. Many of these companies may flop, while a small number could become extraordinarily powerful.
+
+An investor might believe the outcomes follow a fat-tailed distribution: perhaps there is a 1% chance that a company becomes worth $30 trillion and accumulates more power than many governments. That extreme outcome alone contributes $300 billion to its expected future value, before discounting to today. Both inputs are highly speculative, but a small probability of an extreme outcome can support a very large valuation. At the portfolio level, venture capital often relies on the same power-law pattern: in a simplified portfolio of equally sized investments, one 100x winner can offset ninety-nine complete write-offs and recover the fund’s entire investment.
+
+The potential upside of a sandwich shop or a local Burger King franchise is comparatively bounded. An AI company could plausibly serve a global market and become worth trillions. Investors therefore fear having no exposure to the eventual winners.
+
+This creates a tension between FOMO and buyer’s remorse. We may be approaching the flatter part of an S-curve, or we may be in the middle of exponential growth on a financially unprecedented scale. Growth could slow soon or continue for ten years longer than expected. Many powerful people have bought in, and enormous sums are being spent to build the infrastructure and preserve the ability to keep investing. For a fund that can survive a total loss, that possibility can make investing feel safer than sitting out.
+
+Scarcity and Liquidity
+Total shares are not the same as shares available for sale. Founders, employees, strategic investors, index funds, and long-term institutions can make the effective supply much smaller than the total share count suggests. During the pandemic, empty shelves made people panic about finding toilet paper, which caused them to buy more whenever they found it. Scarcity became self-reinforcing. Shares in a hot company can follow a similar pattern.
+
+Suppose I own that company. It has raised billions of dollars and doubled in size, but many employees cannot sell their equity. They might want to leave for better offers, but their shares or options create golden handcuffs. They are wealthy on paper, yet remain heavily exposed to the company until they can sell and diversify. Options can make this worse because exercising may require cash and trigger taxes on gains that cannot yet be realized.
+
+A higher valuation is not necessarily artificial. If the company has doubled in size, increased its revenue, or improved its position, the previous valuation may no longer reflect what investors are willing to pay. The logic is similar to getting a raise after a promotion. If I earned $50,000 as a junior employee, I may command a higher salary after gaining experience and operating at the next level. An external offer can test my market value, or my employer can recognize it through a promotion. The raise reflects what my employer is willing to pay to retain me, based on the value it expects me to create and my bargaining power in the labor market.
+
+A new funding round performs a similar function for a company. Outside investors test its value by offering a new price. A higher price also lets the company raise the same amount of money while issuing fewer shares and giving up less control. Investors face the same tradeoff: buy a larger stake early and risk the company failing, or buy a smaller stake once it is established. The latest transaction then marks everyone else’s holdings higher, even if they cannot sell at that price. This can become reflexive: a higher valuation gives the company more resources, which can help it grow into that valuation. In AI, the loop can become more literal: major suppliers invest in AI companies, which then use some of that funding to buy compute from their investors.
+
+The company’s negotiating position depends both on how much it needs the money and how productively it can use it. If it needs capital to survive and few investors want its shares, investors have the upper hand. If it already has plenty of cash and can turn more money into growth, the company does. Money and hype create a kind of potential energy by giving the company more options and less pressure to take a bad deal.
+
+Investor demand is not purely financial. In Norse mythology, Tyrfing was a perfect sword that never missed and could cut through iron, but it was cursed to kill every time it was drawn. AI creates a similar incentive. Once the weapon exists, everyone wants to make sure they are holding one.
+
+Scarcity can amplify that strategic demand. When many investors want in and few shares are available, the company can create a bidding war. The marginal price may rise far beyond what current earnings justify because investors are partly buying insurance against dependency or being left out.
+
+Private companies also do not have a single share price. Preferred shares, common shares, 409A valuations used to price employee equity, funding rounds, and secondary sales may all value the same company differently. Headline valuations can also hide structural protections: preferred investors are often paid before common shareholders if the company is sold or liquidated, leaving employees with common stock more exposed. The price also depends on what comes with the shares. How much more would someone pay for control of the company rather than just a seat at the table?
+
+Large public companies have shares bought and sold in high volumes every day. Investors can express disagreement by selling or shorting, although being right about overvaluation is not enough if the timing is wrong. Continuous trading makes the price less stale and more reflective of a broader, current consensus. Private valuations are anchored to occasional funding rounds reflecting what a small number of investors believed and were willing to pay at that moment.
+
+When everyone wants out, the process reverses. Falling prices create panic, which creates more selling, much like a bank run. Bank deposits have FDIC insurance as a backstop, but stocks do not. If a company fails, shareholders do not owe its old valuation, but their shares can become worthless.
+
+Leverage and Wealth
+The term paper billionaire has been going around recently, describing someone who owns a valuable business but has relatively little cash in the bank. Calling that wealth “paper” is misleading because of the power and control it provides. If I had no cash but owned a majority stake in Apple, I would still be enormously wealthy. I could influence the company, sell some of my shares, or borrow against them. Borrowing can turn value into dollars without requiring a sale.
+
+Being house poor is a familiar version of this. Someone might have substantial equity in a million-dollar home while spending most of their income on the mortgage and living frugally. Much of their wealth is tied up in the house, leaving them with little liquidity. If they wanted to buy a $5,000 used car with cash, they might still need a loan.
+
+Borrowed money eventually needs to be repaid, but the buying power it provides is real. Debt lets me pull future buying power into the present. A mortgage lets me live in a house decades before I could afford to buy it with cash. I pay interest for that earlier access, but I also get years of use while repaying the loan.
+
+Lenders consider both my ability to repay and what they could recover if I default. A bank will not lend me $2 million against a house worth $1 million because selling the house would not cover the loan. A house worth $2 million provides much stronger collateral for a $1 million loan.
+
+The same logic applies to business ownership. If I own a $1 billion company but have little cash, I may be able to borrow against my shares and spend that money on real things. If the value of those shares falls, the lender may demand more collateral, require repayment, or sell the shares. Paper wealth creates real borrowing power, but leverage makes that power conditional.
+
+The cost also depends on interest rates. Higher rates make borrowing more expensive and may reduce how much I can borrow. They also reduce what future profits are worth today because investors can earn more on their money in the meantime. The Federal Reserve influences both through monetary policy.
+
+The Queen of Versailles captures how quickly leverage can unravel. In 2008, the Siegel family went from building a 90,000-square-foot house to flying commercial and shopping at Walmart when cheap credit dried up and their heavily leveraged business began falling apart.
+
+The balance of power between borrower and lender also changes with the size of the debt. I have less leverage when I desperately need money. But once a bank has enough money at risk, keeping me alive may become part of its problem too.
+
+If you owe the bank $100, that’s your problem. If you owe the bank $100 million, that’s the bank’s problem.
+– J. Paul Getty
+
+Wealthy people can also borrow against their shares rather than sell them, allowing the assets to remain invested and potentially continue appreciating without triggering capital gains taxes from a sale. When they die, their debts can be repaid by the estate and their heirs may inherit the assets with a new tax basis. This is known as “buy, borrow, die.”
+
+The strategy works best when borrowing remains available and no sale is required. A forced seller may owe taxes, lose control, or accept a bad price because everyone knows they need the money.
+
+What Is Actually Real?
+A business’s revenue and growth are real. Living in a house you own provides real value. How revenue and growth will scale in the future is a guess. A marginal share price also does not tell us what every share could be sold for because making more shares available could change the price. Comparable companies provide a baseline, but if the entire category is inflated by hype, those comparisons offer a weak anchor.
+
+At a larger scale, world GDP measures economic activity, not a price at which the world could be bought or sold. If we ever had to sell the entire world economy, we would have bigger problems than its dollar valuation.
+
+Economic value created is also not the same as revenue captured. AI could affect trillions of dollars of work without AI companies collecting anything close to trillions themselves. Similarly, Google’s value is not limited to the revenue it earns today; it controls one of the primary gateways through which billions of people find information and can turn that position into future revenue.
+
+AI can create real product value while also producing negative externalities. Data centers can shift costs associated with power, water, land, and grid upgrades onto communities and public infrastructure. AI companies are also effectively monetizing knowledge and creative work gathered from across the internet, much of it without directly paying the people who produced it. Whether particular uses constitute fair use or infringement is still being fought over.
+
+Within the AI ecosystem, everyone wants to sell picks and shovels because that was the winning strategy during the last gold rush, but there may not be enough gold for every shovel seller. At some point, customers outside the AI ecosystem must create or save enough value to pay for all the chips, data centers, models, and software.
+
+Traditional SaaS usually has relatively low marginal costs, while many AI products carry meaningful, ongoing compute costs with each query. Those ongoing compute costs can put pressure on margins, even as individual queries become cheaper. It also helps explain the push to build massive data centers and secure power: control over compute capacity and energy efficiency can lower costs and become an important competitive moat.
+
+There are also limits to which activities people want automated. Consumers often pay for an experience rather than greater productivity. I do not see robots replacing the NBA because human competition is part of the appeal, although robot racing could attract its own audience. Shopping can also be entertainment rather than a task to automate. AI may shape what people see and choose, just as recommendation systems already do, without replacing the activity itself. AI-generated art could simply be tagged as AI, much like songs are tagged “explicit,” and coexist with work made by people.
+
+At least in the near term, I have a harder time seeing AI fully replace doctors, lawyers, or other high-accountability roles, although it may do far more of their work while leaving fewer people responsible for final decisions. Repetitive work seems the most exposed, and large teams may become much smaller.
+
+Living With Uncertainty
+Under uncertainty, having more options is generally better than having fewer. A forced buyer or forced seller is likely to accept worse terms. Power often goes to the person who needs the deal least.
+
+Long-term safety is better understood as resilience rather than certainty. You cannot secure the future, but you can make yourself harder to ruin across many possible futures.
+
+The general wisdom under uncertainty is:
+
+don’t require any one asset, employer, or technology to work out;
+own diversified productive assets;
+keep enough liquidity that you don’t become a forced seller;
+avoid debts or commitments that require everything to go right;
+maintain useful skills and relationships;
+preserve your health and ability to work.
+Luck still matters enormously. Someone can do all of that and get unlucky. Someone else can behave recklessly and become fabulously wealthy. Strategies don’t guarantee outcomes. They change the distribution of outcomes.
+
+Price, Value, and Uncertainty
+A dollar figure does not always represent the same kind of value. Ownership can provide influence and control whose value depends on who holds it. A business can have a collateral value, market value, marginal share price, and liquidation value, each fixed to a particular context and point in time. Markets give us a price, fundamentals give us an estimate, and liquidity determines how much of that price can actually be realized.
+
+Finance often presents itself in precise numbers. An estimate of 11.2% can sound more legitimate than 10%, even when both are based on uncertain assumptions. Underneath that precision is our best estimate given an unknowable future.
+
+Valuation is often more of a distribution than a number, with fears of losing out on an utterly dominant company in the future reflected in its total market value. Price reflects possible future outcomes with probabilities attached. The market price is one aggregation of those beliefs.
+
+None of this makes a high valuation a Ponzi scheme. A Ponzi scheme is an investment fraud in which money from new investors is used to pay existing investors. AI companies are building products, earning revenue, and buying compute. Their valuations can collapse without fraud. Hype and fraud can overlap, but they are not the same. Fraud involves material deception, while hype can grow from real facts, aggressive assumptions, and predictions that later prove wrong.
+
+Railroads transformed the world, but Railway Mania still ruined investors. Being right about the technology does not mean being right about the price. Likewise, knowing there is a bubble does not mean knowing when, how, or where it will burst.
+
+More broadly, money is socially constructed, but it is an extraordinarily durable coordination system. A stock price is an uncertain mark, but ownership of a productive business is real. Ownership is not the same as control, and power and value do not have a true dollar figure, only estimates built on assumptions.
+
+So where does that leave AI? It has real value, and one or a few AI companies will likely become and remain enormous. I suspect some of today’s AI valuations will prove hard to justify. AI can be enormously important while some AI assets are still bad investments at today’s prices.
+
+Thanks to Morgan Engel and Leonid Krashanoff for the review!
