@@ -16,9 +16,9 @@ The useful shortcut changes with the business. For a fast-growing company, reven
 
 Equity value is not quite the same as the value of the underlying business. Imagine a restaurant with a $400,000 loan and $100,000 in cash. If its shares sell for $1 million, its enterprise value is $1.3 million: equity plus debt minus cash. A quoted valuation may refer to either one.
 
-Growth often requires money. Asset-light businesses need little physical infrastructure, and some collect customer payments before paying their own bills (e.g. prepaid, made-to-order products), letting customers help finance growth. Meanwhile, railroads, airlines, and companies building AI infrastructure may spend enormous sums before revenue arrives, then keep spending to expand or replace aging equipment.
+Growth often requires money. Asset-light businesses need little physical infrastructure. Some businesses use upfront payments to fund made-to-order products, or collect from customers before supplier bills come due, as Dell famously did. Both reduce the outside funding needed to grow. Meanwhile, railroads, airlines, and companies building AI infrastructure may spend enormous sums before revenue arrives, then keep spending to expand or replace aging equipment.
 
-That leaves less cash for owners. If the business cannot cover those costs itself, it may need debt, which must be repaid, or new shares, which dilute existing ownership. Two businesses could reach the same equity valuation but deliver very different returns to today’s investors, depending on how much new equity the companies issue along the way.
+That leaves less cash for owners. If the business cannot cover those costs from operations, it may need debt, which must be repaid, or new shares, which dilute existing ownership. Two businesses could reach the same equity valuation but deliver very different returns to today’s investors, depending on how much new equity is issued along the way.
 
 Beyond the cost of getting there, the possible outcomes for AI companies, SpaceX, and other big bets span an enormous range. Many of these companies may flop, while a small number could become extraordinarily powerful.
 
@@ -121,4 +121,3 @@ More broadly, money is socially constructed, but it is an extraordinarily durabl
 So where does that leave AI? It has real value, and one or a few AI companies will likely become and remain enormous. I suspect some of today’s AI valuations will prove hard to justify. AI can be enormously important while some AI assets are still bad investments at today’s prices.
 
 Thanks to Morgan Engel, Leonid Krashanoff, and Ian Macomber for the review!
-
