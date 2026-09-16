@@ -7,7 +7,7 @@ At one extreme, a single transaction can imply an absurd valuation. In 2022, Max
 
 At the other end of the spectrum, a small retail business with reliable cash flow and equipment can be valued based on what it earns or what its assets could be sold for. The business may be worth more intact than in pieces, but tangible assets still anchor its value: inventory, equipment, cash in the bank, and anything else the business owns.
 
-Most companies fall somewhere between these extremes. The latest share price is often the best available estimate, but it reflects what someone paid for a small piece under particular conditions. Investors and lenders still ask what the business earns, owns, or could realistically be sold for if it failed. Price comes from willingness and ability to pay. Value is an estimate of what ownership will ultimately provide.
+Most companies fall somewhere between these extremes. The latest share price is often the best available estimate, but it reflects what someone paid for a small piece under particular conditions. Investors and lenders still ask what the business earns, owns, or could realistically be sold for if it failed. Value is an estimate of what ownership will ultimately provide.
 
 Value and the Future
 Valuation gets wonky when it depends on what the future might hold. The fundamental anchor is the present value of future cash flows, while multiples are shortcuts for estimating it. Most of the uncertainty lies in how large, durable, and probable those cash flows are.
@@ -16,7 +16,11 @@ The useful shortcut changes with the business. For a fast-growing company, reven
 
 Equity value is not quite the same as the value of the underlying business. Imagine a restaurant with a $400,000 loan and $100,000 in cash. If its shares sell for $1 million, its enterprise value is $1.3 million: equity plus debt minus cash. A quoted valuation may refer to either one.
 
-Even with the right measure, the possible outcomes for AI companies, SpaceX, and other big bets span an enormous range. Many of these companies may flop, while a small number could become extraordinarily powerful.
+Growth often requires money. Asset-light businesses need little physical infrastructure, and some collect customer payments before paying their own bills (e.g. prepaid, made-to-order products), letting customers help finance growth. Meanwhile, railroads, airlines, and companies building AI infrastructure may spend enormous sums before revenue arrives, then keep spending to expand or replace aging equipment.
+
+That leaves less cash for owners. If the business cannot cover those costs itself, it may need debt, which must be repaid, or new shares, which dilute existing ownership. Two businesses could reach the same equity valuation but deliver very different returns to today’s investors, depending on how much new equity the companies issue along the way.
+
+Beyond the cost of getting there, the possible outcomes for AI companies, SpaceX, and other big bets span an enormous range. Many of these companies may flop, while a small number could become extraordinarily powerful.
 
 An investor might believe the outcomes follow a fat-tailed distribution: perhaps there is a 1% chance that a company becomes worth $30 trillion and accumulates more power than many governments. That extreme outcome alone contributes $300 billion to its expected future value, before discounting to today. Both inputs are highly speculative, but a small probability of an extreme outcome can support a very large valuation. At the portfolio level, venture capital often relies on the same power-law pattern: in a simplified portfolio of equally sized investments, one 100x winner can offset ninety-nine complete write-offs and recover the fund’s entire investment.
 
@@ -116,4 +120,5 @@ More broadly, money is socially constructed, but it is an extraordinarily durabl
 
 So where does that leave AI? It has real value, and one or a few AI companies will likely become and remain enormous. I suspect some of today’s AI valuations will prove hard to justify. AI can be enormously important while some AI assets are still bad investments at today’s prices.
 
-Thanks to Morgan Engel and Leonid Krashanoff for the review!
+Thanks to Morgan Engel, Leonid Krashanoff, and Ian Macomber for the review!
+
