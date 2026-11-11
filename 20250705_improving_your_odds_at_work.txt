@@ -1,4 +1,5 @@
 Introduction
+
 Those who were unlucky in life in spite of their skills would eventually rise. The lucky fool might have benefited from some luck in life; over the longer run he would slowly converge to the state of a less-lucky idiot. Each one would revert to his long-term properties.
 – Nassim Nicholas Taleb (Fooled by Randomness)
 
@@ -14,9 +15,10 @@ We often overestimate how much we, or others, can control. This premise helps de
 Nothing here guarantees success (e.g. getting jobs, promotions, or protection from layoffs). But these are ways I’ve found to improve my odds. I hope this saves you some time and heartache. First off, by avoiding dead-end situations that don’t serve goals.
 
 Picking a Company
+
 For tech folks, we’d all love to work at undervalued, strong companies in fast-growing markets, but that’s not always feasible. There are too many factors. Maybe a company has a solid strategy and great people, but shifting macroeconomic or competitive landscapes can undermine this. It is helpful to understand a company’s core strategic moat. Would I invest money in this company?
 
-The safest bet is to develop transferable skills like good communication, analysis/judgment, self-management, and networking (and interviewing). But eventually I have to build somewhere. I just want to avoid investing too much in a company without a future I believe in.
+The safest bet is to develop transferable skills like good communication, analysis/judgment, self-management, ability to learn/adapt well, and networking (and interviewing). But eventually I have to build somewhere. I just want to avoid investing too much in a company without a future I believe in.
 
 Unless someone has an elite background and minimal obligations, few people have full control over where they work. But learning how to better pick a well-positioned company when starting a job search is a useful skill (see a simple job application strategy blog post). It’s a great sign when strong peers I enjoy working with are moving there as well.
 
@@ -25,17 +27,19 @@ On staying at a company, if many of the strongest leaders I know all start leavi
 While no one knows the future and things can always change, a pattern I look for is that I start just waiting for things to improve. The question I usually ask myself is ‘how much more time do you want to give it?’
 
 Picking a Team
+
 This might seem obvious, but make sure you understand what your team/org does and how it adds value to the overall business. This can get tricky with white collar work. One thing I ask myself is ‘if everyone on the team quit today, would they urgently backfill it?’ If the answer isn’t clear, I start to look around. This is distinct from how well the team is executing on their specific or team-level goals.
 
 If the team is a high-risk bet, confirm leadership support. See if they’ve stayed engaged or gone silent. High-risk bets can ironically be safer, since strong talent often gets placed there. Meanwhile core business teams tend to be more stable, even if personal career growth is slower. There are different risk-reward trade offs in different areas of the business. Yet even core business functions can have risk, especially if bloated, redundant/duplicated, or overly dependent on specific leadership for how they function. If all the leadership above my manager changed, would this team still justify its existence? Teams further from the ripple effects of power can sometimes survive a long time through complex games of telephone.
 
 As an IC, it’s deceptively hard to tell if a team justifies its cost. Teams with too much valuable work to do are usually needed (stressful, but probably safe from layoffs). But teams with too little to do can get weird, often filling their time with politics, busywork, or constantly changing priorities. Long term, someone will probably notice. High turnover or general perception of the team more broadly is a good litmus test.
 
-This is also the level (team or org) where layoff decisions are often made like when part of the business is shut down. It’s rarely about individual merit and more often structural. As an illustration: if I were running a school and had to cancel the swim program due to budget cuts, I wouldn’t remove a few staff from the baseball team, I’d just shut down the swim team. It’s cleaner, even if the swimmers were strong athletes. The question then becomes: are any of them versatile enough to be retain elsewhere? Like if one of the swim coaches also taught math. These are tough calls, but usually not very personal.
+This is also the level (team or org) where layoff decisions are often made like when part of the business is shut down. It’s rarely about individual merit and more often structural. As an illustration: if I were running a school and had to cancel the swim program due to budget cuts, I wouldn’t remove a few staff from the baseball team, I’d just shut down the swim team. It’s cleaner, even if the swimmers were strong athletes. The question then becomes: are any of them versatile enough to be retain elsewhere? Like if one of the swim coaches also taught math. These are tough calls based on the information available, but usually not very personal.
 
 Things like company-wide meetings or leadership engagement can hint at whether a team’s goals are aligned with the broader business. Does the team drive revenue, infrastructure, or key bets? If the answer is unclear, that might be fine, but the odds of long-term success are lower. Leadership sees more broadly than ICs (e.g. headcount decisions), and much depends on the team leader’s ability to manage and communicate impact and needs upwards.
 
 On Managers
+
 As a manager your job is not to teach people talent. Your job is to help them earn the accolade ‘talented’ by matching their talent to the role.
 – Marcus Buckingham, Curt Coffman (First, Break All the Rules)
 
@@ -48,6 +52,7 @@ Another piece of advice I’ve heard is that people are not a good enough reason
 There’s a lot to say here, and I’ve been fortunate to have had some really good managers. A good manager can help with everything else in this post. Really I just have to know what I want and ask for it. A manager cannot help me achieve a goal if I don’t ask. For example, I wouldn’t assume everyone wants a promotion if an opportunity comes up, because sometimes they don’t want to add additional responsibilities (e.g. if they just had a child or want to move).
 
 Picking Projects
+
 Projects get cancelled when the confidence execs have in their expected net benefits are lower than other projects they could fund for similar risk, and/or they need to lower their aggregated risk. (You can only have so many “bold bets”.)
 – Xavier Shay (Avoiding Project Cancellation)
 
@@ -58,45 +63,52 @@ Typically, for a project, customer value creation is more important than learnin
 Taking on any work or project is like signing a contract. I want to make sure that I am known for high quality contracts, and am not distracted by work that is ‘under the table’ (like work from a Slack DM where no one else is aware of it). This is more about how to take on projects than how to do them well. It’s tough, but I want to set myself up well by accounting for unexpected things in order to underpromise and overdeliver and build my reputation over time as reliable and predictable.
 
 IC Visibility
-An IC’s internal brand is like a business. There are allocations of time and effort spent on product development and marketing. If I do excellent work, but no one sees it, I might be worse off than delivering good enough but visible work. 
+
+An IC’s internal brand is like a business. There are allocations of time and effort spent on product development and marketing. If I do excellent work, but no one sees it, I might be worse off than delivering good enough but visible work.
 
 Spending 100% of my time on visibility is a wasteful distraction, but spending 0% is a common mistake. I hate seeing someone super impactful and talented get passed over due to visibility issues, which hurts the whole company. Some managers are good at doing this for their team, but it’s a skill that I don’t want to leave up to chance.
 
 As an anecdote, I once played foosball with coworkers who were new to the game, while I had years of experience they didn’t know about. I played defense so I could control the field more by blocking shots and giving my teammate on offense more opportunities to score. They had assumed the best player was whoever spun and scored the most goals. Only after someone noticed I had won all five games, regardless of teammates, did they recognize how much I was influencing the outcome. This reminded me: skill doesn’t always get recognized in unfamiliar spaces, especially without clear data. People can miss impact if they don’t know what to look for. Sometimes, I have to make it clearer, even if it seems obvious to me.
 
-To be blunt, I can’t get promoted past a certain level if key people don’t know who I am, or what I do. Similarly, work relationships are real, and people don’t want to lay off their friends. I’m not saying I have to play politics or be a suck up (which can often build a bad reputation), but internal visibility is armor. 
+To be blunt, I can’t get promoted past a certain level if key people don’t know who I am, or what I do. Similarly, work relationships are real, and people don’t want to lay off their friends. I’m not saying I have to play politics or be a suck up (which can often build a bad reputation), but internal visibility is armor.
 
 Nothing destroys trust faster than surprising your manager.
-– Will Larson, Author of Staff Engineer (Staying Aligned with Authority) 
+– Will Larson, Author of Staff Engineer (Staying Aligned with Authority)
 
 All the above being said, I need to make sure to keep my manager in the loop here. They are often very good at visibility and can help me directly or indirectly build my brand, because my success usually directly benefits them. They cannot help me if I don’t tell them what I want.
 
 Some ways to increase visibility positively:
 
-Give a presentation every few months to share learnings from a project to peers and stakeholder teams (see my communicating data blog post). If there isn’t a forum here, create one! Even a short demo is good.
-Answer some questions in public Slack channels or give tips if they can save the team time like for a migration if I did it first, etc. Unblocking folks gets me a reputation for being helpful.
-Give updates on projects to key stakeholders regularly at meetings. Sometimes people just want to know that someone is still working on a project and where it’s at. Good updates are brief and clear.
-Build a hype doc and share it. This is good insurance if my org is restructured, and I’ll want to remember what I’ve accomplished (for feedback cycles, interviews, etc). If there isn’t much to add, that’s useful feedback.
-Organize a team outing or have some coffee chats. Ask people what they’re working on, and share what I’m working on too.
+- Give a presentation every few months to share learnings from a project to peers and stakeholder teams (see my communicating data blog post). If there isn’t a forum here, create one! Even a short demo is good.
+
+- Answer some questions in public Slack channels or give tips if they can save the team time like for a migration if I did it first, etc. Unblocking folks gets me a reputation for being helpful.
+
+- Give updates on projects to key stakeholders regularly at meetings. Sometimes people just want to know that someone is still working on a project and where it’s at. Good updates are brief and clear.
+
+- Build a hype doc and share it. This is good insurance if my org is restructured, and I’ll want to remember what I’ve accomplished (for feedback cycles, interviews, etc). If there isn’t much to add, that’s useful feedback.
+
+- Organize a team outing or have some coffee chats. Ask people what they’re working on, and share what I’m working on too.
+
 Organizations are made up of people, and community glue work helps by building genuine relationships. If I’m established, I can start mentoring or help new people get set up. If I feel like I’m not getting invited to things, I can start hosting, like going out to lunch and invite coworkers. Influence often happens in small 1-on-1s before a group meeting, and small talk builds rapport.
 
-Some people hate this type of work and will call it fluff, assuming their work will stand on its merits alone. But nothing at work truly exists in a vacuum. Visibility helps with things like internal mobility and can help make earned promotions more of a formality because those involved already are aware of my work. 
+Some people hate this type of work and will call it fluff, assuming their work will stand on its merits alone. But nothing at work truly exists in a vacuum. Visibility helps with things like internal mobility and can help make earned promotions more of a formality because those involved already are aware of my work.
 
 Being Known for Something
 
-If there's something strange
+If there’s something strange
 In your neighborhood
 Who you gonna call?
 (Ghostbusters!)
-- Ray Parker Jr (Ghostbusters)
+– Ray Parker Jr (Ghostbusters)
 
-If my house were on fire, I'd call the fire department. But at work, who do I call when I need to check if an Android system is compatible with iOS? Or if I want to pull data from a past marketing campaign?
+If my house were on fire, I’d call the fire department. But at work, who do I call when I need to check if an Android system is compatible with iOS? Or if I want to pull data from a past marketing campaign?
 
-Being known as the go-to person for something (i.e. a tool, topic, or domain) is incredibly valuable. It could be a method like causal inference or a product area like web onboarding. Anything that makes me an extension of the company's institutional knowledge makes me harder to replace. Big projects often involve many teams, and the first step is having a team (and then a directly responsible individual, or DRI) to call. The real value comes when people already know I'm the one with the answer or the final sign-off.
+Being known as the go-to person for something (i.e. a tool, topic, or domain) is incredibly valuable. It could be a method like causal inference or a product area like web onboarding. Anything that makes me an extension of the company’s institutional knowledge makes me harder to replace. Big projects often involve many teams, and the first step is having a team (and then a directly responsible individual, or DRI) to call. The real value comes when people already know I’m the one with the answer or the final sign-off.
 
-On the flip side, building a mental map of who to call for what is part of becoming effective at an company. It's often the hidden reason someone with one extra year of tenure feels more influential, they simply know who to talk to and how to get unblocked faster.
+On the flip side, building a mental map of who to call for what is part of becoming effective at an company. It’s often the hidden reason someone with one extra year of tenure feels more influential, they simply know who to talk to and how to get unblocked faster.
 
 Collaboration
+
 Never pass up the opportunity to shore up your foundation.
 – Pierce Brown (Dark Age, Red Rising Saga #5)
 
@@ -104,16 +116,21 @@ Being easy to work with is a strength. People tend to think of networking from t
 
 Some underrated skills (see blog post on debugging soft skills):
 
-Emotional regulation (e.g. processing anxiety or stress without blaming or overly disrupting anyone).
-Doing what I say I am going to do. 
-Showing that I care about what the other person is saying (even something as simple as repeating back the idea to make sure I get it or nodding along in a meeting). 
-Taking responsibility, especially for my mistakes or omissions.
+- Emotional regulation (e.g. processing anxiety or stress without blaming or overly disrupting anyone).
+
+- Doing what I say I am going to do.
+
+- Showing that I care about what the other person is saying (even something as simple as repeating back the idea to make sure I get it or nodding along in a meeting).
+
+- Taking responsibility, especially for my mistakes or omissions.
+
 Reputation matters. If I’m seen as difficult to work with, others may avoid working with me. If people regularly want me on their projects, that’s a strong signal I’m adding value.
 
-For the record, having a big ego here is fine, it just needs to be channeled and broadened to include the whole team (along with taking ownership and correcting things when I’m wrong). See Ted talk on Superchickens. 
+For the record, having a big ego here is fine, it just needs to be channeled and broadened to include the whole team (along with taking ownership and correcting things when I’m wrong). See Ted talk on Superchickens.
 
 Recap
-I hope this was helpful. It took me years to really internalize this, and I know that much of it is easier said than done. Nothing is guaranteed, and no job is ever 100% secure (because most employment is at-will, anyone can be let go at any time). The important thing is to stay aware of the environment and be honest with myself. Careers are long, and when things change, I can adapt. 
+
+I hope this was helpful. It took me years to really internalize this, and I know that much of it is easier said than done. Nothing is guaranteed, and no job is ever 100% secure (because most employment is at-will, anyone can be let go at any time). The important thing is to stay aware of the environment and be honest with myself. Careers are long, and when things change, I can adapt.
 
 Life is unfair, but remember sometimes it is unfair in your favor
 – Peter Ustinov
@@ -122,12 +139,18 @@ I used to blame myself for all failures, even if they were mostly coin flips. No
 
 Key skills to build:
 
-Spotting companies that have a future (or at least aren’t doomed).
-Understanding my team’s value to the business deeply.
-Building a strong working relationship with my manager by being clear about what I want.
-Choosing projects that align with strategic priorities.
-Building a reputation for delivering good work that others recognize.
-Being easy to work with.
+- Spotting companies that have a future (or at least aren’t doomed).
+
+- Understanding my team’s value to the business deeply.
+
+- Building a strong working relationship with my manager by being clear about what I want.
+
+- Choosing projects that align with strategic priorities.
+
+- Building a reputation for delivering good work that others recognize.
+
+- Being easy to work with.
+
 The worst odds: No high-impact work, low visibility, company in decline. Best odds: Clear impact, high visibility, team is in a core strategic area. Once these factors are in place, the rest is up to me.
 
 None of this is about working harder. If I work hard spinning in circles no one’s going to reward me for that. It’s about getting into a position where the effort pays off. The best safety net is when firing me or my team would clearly hurt the company and leadership knows it. Hopefully being strategic in my environment selection can help ward off long-term demoralization and burnout. That being said, layoffs (especially) can happen to anyone, so it’s best to stay sharp regardless.

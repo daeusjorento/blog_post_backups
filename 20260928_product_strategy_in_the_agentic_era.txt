@@ -1,0 +1,112 @@
+I wrote this to prepare for a panel discussion on product leadership in the agentic era at the October 2026 [SPM Summit at Berkeley]. I ended up giving a talk instead: [Product Data Science and the Limits of AI] (23 minutes; captions recommended). [Slides (PDF)]. These views are my own.
+
+The core questions I prepared for the panel:
+
+- How does AI change product strategy?
+
+- When should AI act autonomously vs. keep a human in the loop?
+
+- What skills do product leaders need to orchestrate humans and agents as execution gets cheaper?
+
+- How do we automate without losing the human value our metrics miss?
+
+How does AI change product strategy?
+
+Short Answer:
+
+Strategy is about choice. Cheap execution creates more good options, which can obscure the best ones. Choosing well requires understanding where you have an advantage, seeing what actually lands with customers, and telling a clear story that builds consensus.
+
+Full Answer:
+
+But the essential difficulty in creating strategy is not logical; it is choice itself.
+– Richard P. Rumelt, Good Strategy/Bad Strategy
+
+Imagine a magic wand that builds exactly what you ask for (set aside the risk of a Monkey’s Paw curse or Mickey from Fantasia). It gives me the power of creation without telling me what deserves to exist or what creates customer value.
+
+The bottleneck shifts toward the precision of my request, my ability to recognize a good outcome, and distribution. A million fully executed ideas with zero traction have little more value than a million ideas that were never executed. Cheap execution can create false velocity, or the illusion of progress through output.
+
+Imagine a VC choosing between a product struggling because it became more popular than its platform could handle and a polished product no one has used. I know which one I would bet on. Building was never the only bottleneck. I still need to understand where I have an advantage, reach customers, and find product-market fit. AI can make a product faster and cheaper to build, but it cannot make customers care.
+
+More good options make choosing harder. When execution took longer, teams had more time to deliberate and learn while building. As iteration accelerates, our feedback mechanisms have to keep pace so we can tell what actually worked.
+
+Abundance also makes it easier to dilute focus. My mind can generate a million scenarios before the game begins, but strategy determines what I commit to once I am on the field, with skin in the game and my team’s reputation on the line.
+
+Organizations face a similar constraint. Leaders have to explain why they are choosing one path and eschewing others, then build enough commitment for people to act together. Clear strategy supports clear storytelling, faster buy-in, and more consistent decisions.
+
+When execution becomes abundant, deciding what to believe and what to do becomes scarce.
+
+When should AI act autonomously vs. keep a human in the loop?
+
+Short Answer:
+
+This comes down to trust and risk. It’s similar to onboarding a new employee. You don’t immediately give them full autonomy. You start with lower-stakes or reversible decisions, learn where they can operate independently, and expand their responsibility as trust builds.
+
+Full Answer:
+
+This is sort of the automation serenity prayer: what can we automate, what should we keep under human control, and how do we know the difference? I think it ultimately comes down to trust and risk.
+
+Autonomy is a risk and control decision as much as a technical capability. I think about the likelihood of an error, its cost, whether the action is reversible, and how much context the agent has. For example, I have much more tolerance for miscategorizing a $10 transaction than I do for a $10,000 one.
+
+With humans, trust often involves some skin in the game. It is like asking a financial advisor what they do with their own money. An agent does not have personal consequences in the same way, so the organization has to provide the guardrails and accountability.
+
+Context is especially important. Suppose an agent only knows that an employee spent $25 on a company card. It has almost no idea what was bought and might guess something like office supplies. Add the fact that the merchant was Chipotle, and it can infer that the purchase was food. Add that it happened at an airport during a business trip, and it was probably a travel meal. The same model can become much more accurate with better context. Even a highly intelligent agent cannot recover context it was never given.
+
+Expense categorization is extremely important to an organization, but it consists of many small decisions and checks. Some add very little value, while others can prevent material errors. The goal is to understand that distinction so humans can focus on the decisions where their judgment changes the outcome.
+
+I think of human review like security in a bank. Having no guards is very risky, but putting a guard in every room is excessive. So you put guards at the entrance and the vault, not in the hallway or bathroom. If the human is not bringing unique context that could change the decision or improve the outcome, we can often reduce the level of review or automate the step entirely. But automation is not free, so its benefits still have to justify the costs and risks.
+
+Trust should also develop over time, like onboarding a new employee. There is a meaningful difference between an agent saying, “I drafted this email to your customer,” and, “I sent this email to your customer.” We can begin with narrower, reversible actions, monitor what happens, and gradually expand autonomy as we understand where the agent performs well.
+
+In practice, the pendulum may swing between expanding automation and ensuring quality as we learn more about a new frontier. The goal is to give agents enough autonomy to be useful while keeping human attention where the consequences justify it.
+
+What skills do product leaders need to orchestrate humans and agents as execution gets cheaper?
+
+Short Answer:
+
+Healthy skepticism and influence. I think healthy skepticism is the foundation of critical thinking: the ability to update my beliefs as new evidence arrives. AI makes it easier to spin up a lot of work and go very far in the wrong direction quickly. Product leaders need to pause, look around, and accept hard truths when something is not working so they can redirect as the ground shifts beneath them. Then they need the social capital and clear storytelling to bring others with them and rebuild consensus around a shared direction.
+
+Full Answer:
+
+I think the two most important skills are healthy skepticism and influence.
+
+AI is extraordinary leverage, but leverage without positioning and judgment can amplify the wrong thing. Positioning is where I stand before I act. Having the right answer at the wrong time does not help.
+
+Framing determines what I ask humans and agents to do in the first place. If I can get whatever I want, what matters is what I ask for. That requires customer empathy. What job is being done? What do people actually need? If I frame the wrong problem, cheaper execution just lets me solve it faster.
+
+Judgment and taste help me recognize whether I got what I wanted and whether it will actually land. Healthy skepticism keeps that judgment open to correction. What evidence, if true, would change my beliefs? What would make me roll back something I genuinely believed was good and had put my reputation behind? Like in poker, how do I recognize a good fold?
+
+This also requires patience and attunement. Patience means sitting with uncertainty long enough to avoid a premature conclusion. Attunement means looking around and continuously updating my understanding of the customer, the organization, and the current bottleneck. AI makes it easier to generate something immediately, which can make it more tempting to accept a shallow answer just to end the ambiguity.
+
+The other half is influence. Recognizing that something is wrong does not help much if I cannot change what the organization does next. Having a point of view and evidence is not enough. To build consensus, I need to understand the social environment around the decision: who can act, who they trust, what incentives they have, how they form beliefs, and when and where the decision is actually made.
+
+Influence also depends on communicating so the idea actually lands. People do not enter meetings as empty cups. They bring their own beliefs, incentives, and context. Clear storytelling has to meet them where they are and give them a reason to change direction.
+
+This becomes more important when orchestrating humans and agents. They need clear roles, enough context, checkpoints, and a way to escalate when something does not fit. That is a form of scaffolding. If I give conflicting direction, humans and agents will both produce confused results. Clear storytelling, trusted relationships, and enough consensus around a shared direction help the whole system move together.
+
+It is the easiest time in history to be confidently wrong about many things very quickly. Healthy skepticism helps me notice when all that leverage is pointed in the wrong direction. Influence helps me bring others with me when it is time to change course.
+
+How do we automate without losing the human value our metrics miss?
+
+Short Answer:
+
+Understand the whole job, not just the visible task. Rory Sutherland’s doorman fallacy captures this: a doorman opens doors, but also answers questions, notices problems, and makes people feel safe. If we automate only what is easy to measure, we can improve efficiency while making the overall product worse. When we condense information and reduce ambiguity, we inevitably lose some context. Staying intellectually honest about that loss helps us adapt and notice what we missed.
+
+Full Answer:
+
+Automation usually starts with the visible task: What is this person doing that a machine could perform? But the visible task may only be a small part of the actual job.
+
+Humans can provide trust, flexibility, context, empathy, social connection, and exception handling that are difficult to put into a metric. Understanding what to preserve requires understanding the job deeply, including the parts customers may not explicitly ask for.
+
+To me, translating product data into a narrative has always been about distilling customer pain at scale. Something is always lost in that translation. Metrics can show patterns across millions of people, but they compress the texture of any individual experience.
+
+That creates a risk from Goodhart’s law. If we optimize only the measurable task, we can improve the metric while making the product worse. Metrics are a map, not the terrain. If the map does not match what customers are actually experiencing, the map is wrong.
+
+That is why I want to pair metrics with customer feedback and behavioral signals. Are people complaining, repeatedly correcting the automation, rage clicking, abandoning the workflow, or asking for a human? I also want to sample the output and look closely at exceptions. The automation may complete the task while making the overall experience worse.
+
+Organizations also need clear accountability. Relying on someone else means giving up some control for convenience, like taking an Uber instead of driving. Competency concerns aside, the driver has skin in the game because we are both in the car. An agent does not experience the consequences of its decisions, so the organization deploying it has to provide that accountability. Regulation can help, but it often arrives slowly.
+
+A good technology organization internalizes that responsibility beforehand. Product leaders have enormous power over time to shape how people interact with the world. I get annoyed when I can see a product has been designed to juice a metric rather than delight the customer. A series of locally rational decisions can produce a globally inefficient outcome.
+
+The best automation eventually becomes boring. Trains and cars are boring now. The goal is to remove work while preserving the trust, flexibility, and human value that made the original system function.
+
+Thanks Rob Wang and Ian Macomber for the review!

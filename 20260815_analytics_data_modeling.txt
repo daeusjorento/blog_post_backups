@@ -3,6 +3,7 @@ Diagnosing a Slow Query
 This is a living document. If you know me or we’re connected on LinkedIn and spot something wrong or missing, please reach out. If I learn something new and update the post, I’ll credit you.
 
 Introduction
+
 Data! Data! Data!…I can’t make bricks without clay.
 – Arthur Conan Doyle (Sherlock Holmes: The Adventure of the Copper Beeches)
 
@@ -10,13 +11,14 @@ Anyone who has worked with data will eventually encounter a query that runs and 
 
 Data modeling in relational databases is about deciding what tables to create. What does the application need to do? What data does it need to persist? How should that data be organized into relational tables to serve that purpose? Then come a million painful migrations as those needs shift.
 
-In analytics, the end use is analysis rather than, say, ordering food. Most of the data has already been saved, so the work is to filter it and transform it into a useful shape. The data moves forward through a pipeline, with downstream models shaped around recurring questions that warrant a reusable model rather than ad hoc queries. Relative to operational systems, storage and compute for analytics are often cheap enough to prioritize usefulness over minimizing size or avoiding duplication.
+In analytics, the end use is analysis rather than, say, ordering food. Most of the data has already been saved, so the work is to filter it and transform it into a useful shape. The data moves forward through a pipeline, with downstream models shaped around recurring questions that warrant a reusable model rather than ad hoc queries. Relative to operational systems, storage and compute for analytics are often cheap enough to prioritize usefulness over minimizing size or avoiding duplication. Eventually, though, the accumulated complexity can catch up.
 
 I recently had an incremental data model grow large enough that its size could no longer be ignored. It began slowing down and putting downstream workflows at risk. The company growth behind it was a good thing, but the slowdown felt like a good reason to return to the basics of data modeling and query performance, especially as I use AI to write more of my code and work in unfamiliar domains.
 
 Data engineering is the broader practice of ingesting, moving, storing, transforming, and serving data reliably. This post focuses on one part of that system: analytical data modeling inside and around the warehouse. I am primarily covering table structure, transformations, pipelines, and query performance from the perspective of a data scientist who builds and uses these models, rather than an engineer operating the entire data platform.
 
 How I Learned Data
+
 I loved numbers for a long time, mostly through math and swim statistics, but I didn’t work seriously with data until after college. At the Federal Reserve, I helped manage databases and handle new data releases. At SoFi, I was introduced to SQL.
 
 We had been working with CSVs and dashboards when I finally gained access to the underlying Postgres and MySQL databases. I learned reactively. When something didn’t work, I would get frustrated, discover I had the wrong tool or assumption, and add something new to my toolkit.
@@ -29,6 +31,13 @@ Today, I might start by looking for existing documentation or asking someone who
 
 Ad hoc requests taught me to clarify the question before touching the data. If someone asked for “customers with a credit score above 750 and a loan above $5,000,” I had to ask what they meant and what they intended to do with the data. Did they want the latest credit score? Open loans or every loan in the customer’s history? Once the definitions were clear, I could narrow down the tables, validate a few known cases, check the joins, and ship the result.
 
+Them: Can you just quickly pull this data for me?
+
+Me: Sure, let me just:
+
+SELECT * FROM some_ideal_clean_and_pristine.table_that_you_think_exists
+
+— Seth Rosen (@sethrosen) April 20, 2020
 
 We couldn’t create temporary tables on my team at the time at SoFi, so every query had to be self-contained. That pushed me toward Common Table Expressions, or CTEs, as the questions became more complicated.
 
@@ -50,6 +59,7 @@ More recently, I used AI much more heavily to explore and structure data. It mad
 This was my formal education in data modeling: almost entirely practice, with little theory. I learned by answering business questions, breaking things, validating the results, and building models for product launches, monitoring dashboards, and recurring analysis. This post is my attempt to work backward from those experiences and better understand what the database is actually doing, especially when a table becomes large and slow.
 
 The Grain of the Table Is the Grain of the Question
+
 Data interviews taught me to start with the grain: what does one row represent? Rows are observations, while columns record their attributes and measurements. Common grains include an event, transaction, user, business, or day. They can also combine, such as one row per user per day.
 
 Most of my career has involved loans, payments, and transactions, but the same principle holds across domains. Fact tables usually record events or measurements, dimensions describe entities, and snapshots capture their state at a particular time. Dimensions can also preserve changes over time, often by creating a new row whenever an entity’s attributes change (known as an SCD).
@@ -67,6 +77,7 @@ A schema organizes this constellation of tables, usually with a tradeoff between
 Every model also determines which information survives. Aggregating transactions to one row per user per day makes many queries faster, but removes the individual transaction details. If an event was never logged, no later model can recover it. This is part of why AI struggles with data. Code may show what a function does, but the usefulness of a data model depends on definitions, questions, and context that may not appear in the SQL.
 
 Rows, Columns, and Joins
+
 Analytical data modeling is first and foremost about managing complexity, not cost efficiency or warehouse performance. Once data has been ingested and organized, we can query it ad hoc or schedule transformations that feed dashboards, ML systems, and other data models. Upstream data infrastructure focuses on reliably collecting and storing data. Downstream work shapes that data for particular uses. Both are constrained by compute, cost, freshness, and maintenance.
 
 At a high level, query cost depends on how much data the engine must read and what it must do afterward. Rows, columns, and data types determine how much data exists. Filters determine how much can be skipped. Joins, aggregations, and sorts determine how much work happens after the initial scan.
@@ -77,9 +88,7 @@ Columns work similarly. Core tables often accumulate hundreds of columns over ti
 
 Joins generally do two things: bring in features that live in another table, change the set of rows, or both. A one-to-one or many-to-one left join can add columns while preserving the starting row count and grain. An inner or anti-join can remove rows without changing what each remaining row represents. A one-to-many or many-to-many join can multiply rows and change the grain. Cardinality describes how many rows on one side match each row on the other. Null keys usually do not match, while duplicate keys can create unexpected fanout.
 
-Joining on too few columns is a common interview mistake. If two tables contain one row per user per day, joining only on user_id matches every date on one side to every date on the other. This creates more rows, not more columns. The query then has to carry those rows through later aggregations, sorts, and joins. Validating key uniqueness and checking row counts before and after a join catches many of these problems. 
-
-
+Joining on too few columns is a common interview mistake. If two tables contain one row per user per day, joining only on user_id matches every date on one side to every date on the other. This creates more rows, not more columns. The query then has to carry those rows through later aggregations, sorts, and joins. Validating key uniqueness and checking row counts before and after a join catches many of these problems.
 
 Venn diagrams are a common way to illustrate the basic SQL join types, although they do not show cardinality or fanout. One useful property of inner joins is that their written order generally does not change the logical result, so the optimizer can rearrange them.
 
@@ -91,9 +100,10 @@ Packing the payload into JSON can make logging simpler and more flexible for pro
 
 I have noticed that engineers vary in how much they optimize logging for downstream analytics. There is a real tradeoff between making the data convenient for analysts and taking engineering time away from shipping the product. Often, I would rather clean up the JSON downstream and build a small reusable model than ask engineers to perfectly structure every field at the source.
 
-Sometimes when I get stuck, I find I need to solve the problem on paper first with one example before coding it out. For a join, that might mean writing out a few rows from each table and the result I expect. 
+Sometimes when I get stuck, I find I need to solve the problem on paper first with one example before coding it out. For a join, that might mean writing out a few rows from each table and the result I expect.
 
 Tables, Views, and Pipelines
+
 Say I have worked out my joins and written the final query. The next decision is whether to store the logic or its results.
 
 A view stores the SQL instructions and runs them when someone queries it. The view itself takes up little space and reflects the current state of its sources, but complicated views can repeatedly perform the same expensive work. A table stores the result. It is usually faster to query, but requires storage and must be rebuilt or updated when the underlying data changes. A materialized view sits between the two: it stores a precomputed result that must be refreshed as its sources change.
@@ -121,6 +131,7 @@ A common warehouse flow starts with raw source data, then moves through staging 
 Every company names and divides these layers differently. I do not need to understand every domain and use case to follow the general flow from raw data toward increasingly structured and specialized models.
 
 What the Warehouse Actually Does
+
 I’m not going to get deeply into clusters and distributed computing, but it helps to understand what happens after I submit a query.
 
 The warehouse first creates an execution plan. Although SELECT is written first, the logical order of a basic SQL query starts with FROM and JOIN, followed by WHERE, GROUP BY, HAVING, SELECT, ORDER BY, and LIMIT. Window functions are calculated after grouping and HAVING but before the final ordering. The optimizer can rearrange the physical work while preserving this logic, deciding which data to scan, which filters to apply early, how to order the joins, and where to aggregate or sort the results. In a distributed warehouse, that work is divided across multiple workers and combined at the end.
@@ -140,6 +151,7 @@ Finally, production performance includes more than the query itself. Other workl
 A local tool like DuckDB is useful for isolating individual effects under controlled conditions. Snowflake exposes the operational reality of shared workloads, caching, warehouse size, and cost. Synthetic tests can teach me why something is slow, but production tells me whether it is actually a problem.
 
 Databases and Data Warehouses
+
 I have worked with several systems that store and query data, but they were designed around different workloads. Postgres and MySQL are commonly used as row-oriented transactional databases, where applications frequently read or update individual records.
 
 Vertica, Redshift, Snowflake, and BigQuery are distributed analytical warehouses built to scan and aggregate large datasets. With the Vertica and Redshift clusters I used, everyone shared a limited pool of compute, so performance declined as more people and pipelines piled on. Snowflake made scaling much easier by separating storage from compute and allowing teams to resize or isolate their warehouses. That flexibility can become expensive if the compute is not managed carefully, but it is also a major reason Snowflake has become so common. BigQuery manages most of the infrastructure serverlessly.
@@ -151,7 +163,9 @@ Other databases are more specialized. ClickHouse is a columnar analytical databa
 The important question is what work I need the system to do: transactional updates, large batch analysis, interactive dashboards, local exploration, or search.
 
 Diagnosing a Slow Query
+
 Start With the Workload
+
 Calling a table slow is only the beginning. First, I need to define what is actually failing. Is this a transactional lookup or an analytical query? Is one query slow, or is it a dbt build, dashboard, or entire warehouse? Does it happen consistently, or only when other workloads are running?
 
 The goal also changes what counts as slow. A scheduled model that takes 20 minutes might be acceptable, while a dashboard that takes 20 seconds may be unusable. I might be optimizing for latency, cost, freshness, or the number of queries that can run concurrently. Improving one does not always improve the others.
@@ -159,6 +173,7 @@ The goal also changes what counts as slow. A scheduled model that takes 20 minut
 Consistent slowness usually points toward the query or data model. Intermittent slowness may come from queueing, warehouse startup, competing workloads, caching, or data skew. Comparing a slow run with a normal one is often more useful than examining it alone.
 
 Query Plans and Profiles
+
 In Snowflake, I can start with Query History. It shows how long the query took, which warehouse ran it, how many bytes it scanned, and how many rows it returned. I can also separate time spent executing from time spent waiting in a queue. If execution is fast but the query waits several minutes to begin, rewriting the SQL may not solve the problem.
 
 The query profile breaks the work into operators such as scans, joins, filters, aggregations, sorts, and window functions. I do not need to understand every symbol immediately. I can start with the most expensive operator, then follow how many rows enter and leave each step.
@@ -174,48 +189,75 @@ Finally, I compare the rows returned with the work performed. Returning millions
 For my original incremental model, I could compare the normal incremental run with the much more expensive full rebuild. The incremental version scanned only recent data, while the rebuild exposed the cost of processing the entire history. Incrementality had made the daily workload manageable, but it had also hidden how expensive the complete model had become.
 
 Putting It to the Test
+
 I ran some local DuckDB experiments to see how several basic modeling choices affect query performance. Increasing a table from 100,000 to 100 million rows added 1,000 times as many rows but took 144 times as long to query. Reading 25 columns instead of one took 16 times as long. Randomly ordered data took 5.6 times as long as data sorted by the filtered date, while a join producing five matches per key took 4.6 times as long as a one-match join. Finally, rebuilding 10.1 million rows took 37 times as long as appending 100,000 new rows.
 
 These are educational demonstrations, not production benchmarks. Each experiment changed one major variable and used one warm-up followed by 10 measured runs. Relative runtimes should only be compared within each experiment.
 
 Row Count
+
 Rows	Median runtime	Relative runtime
+
 100K	0.19 ms	1.0×
+
 1M	0.43 ms	2.2×
+
 10M	2.43 ms	13×
+
 30M	7.15 ms	38×
+
 100M	27.41 ms	144×
+
 Increasing the table from 100,000 to 100 million rows added 1,000 times as many rows but took about 144 times as long to query. Row count clearly mattered, but it was not a direct proxy for runtime across the full range. At larger sizes, the relationship was much closer: moving from 10 million to 100 million rows increased the row count 10 times and query time about 11 times (GitHub).
 
 Columns Read
+
 Columns read	Median runtime	Relative runtime
+
 1	4.50 ms	1.0×
+
 5	15.94 ms	3.5×
+
 25	73.92 ms	16×
+
 Reading 25 columns took about 16 times as long as reading one. Each query returned only a few aggregates, so the experiment measured reading and processing the columns rather than transferring or displaying millions of rows (GitHub).
 
 Physical Organization
+
 Organization	Median runtime	Relative runtime	Eligible row groups	File size
+
 Sorted by date	1.22 ms	1.0×	3/82	49.3 MB
+
 Random order	6.83 ms	5.6×	82/82	98.5 MB
+
 Both files contained the same 10 million logical rows and returned the same 191,779 matching rows. In the sorted file, only 3 of 82 row groups had date ranges that overlapped the filter. All 82 were eligible in the randomly ordered file. The sorted file was also half the size, so the result reflects both better pruning and better compression (GitHub).
 
 Join Cardinality
+
 Matches per key	Output rows	Fanout	Median runtime	Relative runtime
+
 1	10M	1×	25.17 ms	1.0×
+
 5	50M	5×	116.80 ms	4.6×
+
 Joining the fact table to one dimension row per key produced 10 million rows. Allowing five matches per key produced 50 million rows and took about 4.6 times as long. A join does not merely add columns; its cardinality determines how many rows must be processed afterward (GitHub).
 
 Incremental Build
+
 Build strategy	Rows processed and written	Final rows	Median runtime	Relative runtime
+
 Incremental append	100K	10.1M	2.39 ms	1.0×
+
 Full rebuild	10.1M	10.1M	88.23 ms	37.0×
+
 Both approaches produced the same verified 10.1-million-row target. Rebuilding the complete table took 37 times as long as appending one new date. This was a simple append-only example and does not cover merges, updates, deletions, late corrections, or schema changes (GitHub).
 
 Methodology and Limitations
+
 The benchmarks ran locally using DuckDB 1.4.5 and Python 3.9.6 on an Apple Silicon Mac with eight logical CPUs and 16 GiB of memory. Absolute runtimes will vary across computers. The more useful result is how performance changed within each controlled experiment. Local DuckDB also cannot reproduce distributed-worker skew, warehouse congestion, concurrent workloads, or the operational behavior of systems such as Snowflake and BigQuery (GitHub).
 
 AI, Data, and Judgment
+
 LLMs are very good at writing SQL, but they do not escape the computational reality underneath it. The warehouse still has to scan the data, execute the joins, move intermediate results, and return an answer. AI can generate a query instantly that takes hours to run.
 
 AI also lets me work faster in unfamiliar domains, sometimes without learning the underlying models as deeply. It keeps me from getting bogged down in writing code and searching for context, but it can also tempt me to skip steps. The faster I move, the easier it is to make mistakes if I rely on it without validating the result.
@@ -223,6 +265,7 @@ AI also lets me work faster in unfamiliar domains, sometimes without learning th
 It is a little like driving instead of running. The car gets me farther, faster, but when it breaks down, I still need to understand how it works well enough to diagnose the problem. Moving faster makes judgment more important. I still need to clarify the question, understand the grain, validate the joins, and recognize when the result or runtime looks wrong.
 
 Wrap Up
+
 I have always seen data models as a means to an end: producing reliable information that improves decisions. This post was my attempt to build a deeper understanding of what happens underneath.
 
-Thanks to Manoj Krishnan, Dina Jankovic, Kasia Rachuta, Rob Wang, and Jay Sobel for the review!
+Thanks to Manoj Krishnan, Dina Jankovic, Kasia Rachuta, Rob Wang, Jay Sobel, and Will Martin for the review!

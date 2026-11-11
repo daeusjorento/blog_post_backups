@@ -1,4 +1,5 @@
 Intro
+
 When you do things right, people won’t be sure you’ve done anything at all.
 – God (Futurama)
 
@@ -9,6 +10,7 @@ Positioning is where to stand before acting. Leverage is how much an action can 
 If these work together, things that might have failed can work so well they look inevitable. Without them, even the strongest lead can be lost.
 
 Positioning
+
 All the power in all the worlds means nothing if it is in the wrong place.
 – Pierce Brown (Morning Star).
 
@@ -30,6 +32,7 @@ Part of positioning is who I put myself around. One of the best ways I’ve foun
 Once my positioning is directionally right, the next question is leverage.
 
 Leverage
+
 Give me a lever long enough and a fulcrum on which to place it, and I shall move the world.
 – Archimedes
 
@@ -53,10 +56,11 @@ Writing this blog is a high-leverage activity for my goals. It lets me crystalli
 Thinking about leverage is different from simply putting effort into completing a project. It means comparing possible outcomes to their costs and asking where the highest upside is for the least time and effort. Doing that well requires clear thinking and good judgment. Leverage without judgment often amplifies the wrong things.
 
 Judgment
+
 Good judgment comes from experience, and a lot of that comes from bad judgment.
 – Will Rogers
 
-A lot of good judgment comes down to detachment. That means emotional regulation and ego management. It is the ability to see myself as part of a broader team mechanism, like looking from above at myself as a piece on a chessboard. This becomes much harder when the stakes are high and the pressure is real, but it also unlocks deep creativity.
+A lot of good judgment comes down to detachment. That means emotional regulation and ego management. It is the ability to see myself as part of a broader team mechanism, like looking from above at myself as a piece on a chessboard (or telling the story later). This becomes much harder when the stakes are high and the pressure is real, but it also unlocks deep creativity.
 
 Bad judgment is usually obvious right away. Showing up drunk for work. Showing up unprepared. Being unable to let criticism go. Doubling down on a failure. It can be hard to learn from major failures, but they are often the best teachers. In almost every case, it is better to win the game than win the argument about the game.
 
@@ -69,7 +73,8 @@ For a data science example, senior-level judgment is knowing the rules, while st
 Most of my successes come down to positioning myself where leverage exists and using good judgment. The rest is reps and staying around long enough for those skillsets to compound. In the end, the goal is simply to get the important things done consistently. Everything else is a bonus, or luck.
 
 Luck
-The enemy gets a vote
+
+The enemy gets a vote.
 – Military maxim, often attributed to Helmuth von Moltke
 
 A lot of outcomes can look like luck from the outside. Once I found some success in collegiate swimming, after seven years of intense training, new teammates started attributing it to being tall and strong. As if that alone explained it, despite the fact that I had been tall and strong for years while still losing to smaller, weaker opponents. It gave me some perspective on how easily I had reduced other people’s success to innate ability or luck in the past.
@@ -92,6 +97,9 @@ Life is unfair but remember sometimes it is unfair in your favour.
 Ultimately, a lot of outcomes are just pure luck. Some people are born on third base without realizing it, or have far more leverage than they know. I just try to be aware of my position and environment before acting when I can. It’s better to be lucky than good, but luck can run out.
 
 Wrap Up
+
 Leverage without positioning solves the wrong problem. Positioning without leverage has no impact. Leverage without judgment creates problems.
 
-Two people with the same skills can often end up in very different places. Outcomes depend on doing the right thing, in the right place, at the right time. I used to oscillate between thinking my successes were pure skill and then pure luck. Neither is quite right. There’s more to the story of what I can actually do to influence outcomes. 
+Two people with the same skills can often end up in very different places. Outcomes depend on doing the right thing, in the right place, at the right time. I used to oscillate between thinking my successes were pure skill and then pure luck. Neither is quite right. There’s more to the story of what I can actually do to influence outcomes.
+
+Companion post on internal operating mechanics: Patience, Scaffolding, and Attunement.

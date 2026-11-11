@@ -1,8 +1,7 @@
-How Organizations Drift Into Politics
-Career
 A zoomed-out follow-up to Game Theory Patterns at Work.
 
 Introduction: Trending Towards Disorder
+
 The law that entropy always increases holds, I think, the supreme position among the laws of Nature.
 – Sir Arthur Stanley Eddington
 
@@ -17,6 +16,7 @@ For human organizations, disorder is always waiting. If a teacher stops showing 
 If the game devolves, people who care about structure often leave to play somewhere else. Those who remain are often not paying attention to the overall drift; they are just doing their jobs. And those who benefit from the disorder start to rise.
 
 Why Politics Exists
+
 You do not follow me because I am the strongest. Pax is. You do not follow me because I am the brightest. Mustang is. You follow me because you do not know where you are going. I do.
 – Pierce Brown (Red Rising)
 
@@ -32,9 +32,12 @@ It’s not that anyone is evil, though some may be more politically inclined. It
 
 Ironically, temporary order in the absence of leadership is evidence of good leadership. Strong cultures can continue functioning well without constant guidance. But after a year or two without clear direction, people naturally start asking:
 
-What are we doing?
-Do the old rules still apply?
-Am I growing anymore?
+- What are we doing?
+
+- Do the old rules still apply?
+
+- Am I growing anymore?
+
 When formal structure fails, informal power takes over. That’s culture, largely driven by consequences.
 
 At scale, this makes accountability crucial. People need to know what they own and who answers when something breaks. If everyone owns it, eventually no one owns the consequences. Someone has to decide, prioritize, and answer for the outcome.
@@ -50,7 +53,8 @@ Politics is partly all the small meetings before the big meeting. Disagreement i
 Politics is also the maintenance of ownership boundaries. Every organization runs on a division of labor no one can verify end to end, so teams manage the seams through trust and relationships. Tended well, this is good citizenship: the heads-up before a surprising change, the quiet agreement about who owns what. Tended poorly, coordination becomes turf defense, and nothing moves without layers of signoff.
 
 How Growth Changes the Game
-Success creates growth. Growth creates complexity. Complexity creates coordination costs. Coordination costs create new organizational structures. Those structures require new forms of tending, and influence becomes increasingly important. 
+
+Success creates growth. Growth creates complexity. Complexity creates coordination costs. Coordination costs create new organizational structures. Those structures require new forms of tending, and influence becomes increasingly important.
 
 The first thing to disappear is shared context. Smart people start missing important information simply because there is too much happening. For example, the customer success team might learn about a new feature from customers instead of from their internal teams. Nobody is necessarily incompetent here. There is just more information moving through the system than any one person can reasonably track.
 
@@ -66,6 +70,7 @@ Complexity does not just make work harder. It makes value harder to see. As orga
 Managing a company starts to resemble portfolio management. Every organization needs a clear directive for how to contribute to the larger system, and leadership needs ways to understand which investments are creating value.
 
 How Politics Gets Rewarded
+
 Politics emerges because influence becomes valuable. As organizations get more complex, someone has to build relationships, frame decisions, manage stakeholders, and keep work moving across teams with different incentives. ICs often cannot do all of that because they are busy producing the work, not managing around it. So companies start rewarding people who can navigate the organization itself. At that point, being liked becomes part of the job.
 
 Politics becomes harder to avoid when growth slows. During periods of rapid growth, opportunities are plentiful. New teams form, new projects appear, and advancement comes naturally from solving the next problem. But when growth stalls, opportunities become scarce. Advancement increasingly comes from sponsorship, visibility, and access to leadership. It starts to pay more to be liked by the right people than to simply be right. Politics is often a symptom of slowing growth, which itself is often a symptom of lost clarity.
@@ -89,6 +94,7 @@ When managers promote friends, allies, or agreeable people over stronger contrib
 Culture becomes a reflection of incentives. If influence is rewarded, people become more influential. If politics is rewarded, people become more political.
 
 Late-Stage Failure Modes
+
 Left unchecked, organizations start creating work about work. More meetings. More alignment. Slower growth. Scarcer opportunities. More politics. The company gradually spends more energy coordinating than building, preserving than creating.
 
 When a company grows, people eventually reach positions they might not easily get elsewhere. Something changes. They start worrying more about risking what they have than what they can gain. The disruptors become incumbents. The job shifts from building the future to preserving the past. This often shows up as ownership of stale processes. The person who built the old deployment system, hiring pipeline, or planning ritual starts deriving status from maintaining it. Defending the process becomes defending their own relevance.
@@ -99,9 +105,10 @@ As systems become more complex, people increasingly rely on transmitters: manage
 
 Layoffs are organizational tech debt coming due. The original strategy was wrong, or the business needs to adapt, but first it has to pay the toll for years of deferred decisions. The cut is rarely a clean response to present conditions. It is the bill for accumulated drift, paid with interest.
 
-Overnight, the currency moves from growth to essentiality. Everyone wants to look indispensable, and the same skills that created the bloat often win again: narrative, visibility, and proximity to power. The org does not always cut what matters least; it cuts what is least sponsored. 
+Overnight, the currency moves from growth to essentiality. Everyone wants to look indispensable, and the same skills that created the bloat often win again: narrative, visibility, and proximity to power. The org does not always cut what matters least; it cuts what is least sponsored.
 
 The Only Real Solution
+
 A society grows great when old men plant trees in whose shade they shall never sit.
 – Greek proverb
 
@@ -130,4 +137,4 @@ Sometimes the highest act of stewardship is handing the garden to someone better
 
 One useful exercise is asking: if we hired the best possible replacement for this role today, what would they do differently?
 
-Thanks Rob Wang for review and discussions!
+Thanks Rob Wang for review and discussions, and thanks Xavier Shay and Patrick Anderson for thoughtful follow-up conversations that helped sharpen the piece.

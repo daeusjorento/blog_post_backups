@@ -58,10 +58,6 @@ https://ianwhitestone.work/good-ds-bad-ds/
 Great version of the Good/Bad PM article by Ben Horowitz.
 Good DS is obsessed with solving business problems. They relentlessly search for them, and then bring out the right tool once found. Bad DS is obsessed with applying a specific technology or tool. They’ll orient their search for problems around the tool they are looking to use.
 
-https://blog.pragmaticengineer.com/what-is-data-engineering/
-Great primer of distinguishing some different data terms and high level of the infrastructure.
-In short, data engineers play an important role in creating core data infrastructure that allows for analysts and end-users to interact with data which is often locked up in operations systems.
-
 https://medium.com/@gokulrajaram/the-second-most-important-metric-for-every-company-df958ff8c5ec
 Great article by the legendary Gokul Rajaram (former exec I worked with at Square) – his linkedin, twitter, etc posts are usually very solid. Another great article on his SPADE framework for decision-making.
 The second most important metric for every company is a check metric on the NSM. It’s a metric that constrains the NSM and ensures that the NSM grows in a way that is sustainable and creates long-term value.
@@ -77,10 +73,6 @@ The perceived bottleneck for these teams is not “insights”; it’s the manip
 https://www.kdnuggets.com/2021/03/ultimate-guide-acing-coding-interviews-data-scientists.html
 Excellent guide to data science coding interviews by my Square colleague Rob Wang! Another good followup article on product case interviews.
 Lots of real-world data science projects are highly collaborative, involving multiple stakeholders. Data scientists who are equipped with stronger fundamental CS skills will find it easier to work closely with engineers and other partners.
-
-https://www.abartholomew.com/writing/your-first-data-hire
-Great tips on hiring a first DS / what to expect there.
-You’re looking for someone whose responsibilities will straddle two realms: Analysis and Analytics Engineering.
 
 https://huyenchip.com/machine-learning-systems-design/design-a-machine-learning-system.html
 Excellent overview of ML end to end
@@ -112,7 +104,7 @@ However, as interest rates hovered near zero over the next decade and so much of
 
 https://alexdanco.com/2020/02/07/debt-is-coming/
 Interesting view of the interplay of business and funding.
-The view of production capital is exemplified by Peter Drucker: ‘Securities analysts believe that companies make money. Companies make shoes.’”
+The view of production capital is exemplified by Peter Drucker: ‘Securities analysts believe that companies make money. Companies make shoes.'”
 …
 However, investors and operators are often deeply misaligned: investors think in bets, while operators think in consequences.
 
@@ -134,23 +126,20 @@ https://www.upworthy.com/bartender-explains-why-he-swiftly-kicks-nazis-out-of-hi
 Great example for the ‘tolerance paradox‘ – that is:
 Karl Popper describes the paradox as arising from the self-contradictory idea that, in order to maintain a tolerant society, the society must retain the right to be intolerant of intolerance.
 
+https://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail
+Great reminder: We run into a fundamental property of the universe and mistake it for a personal failing.
+
 Memes & Gifs
 
 For Wednesdays
 
-
 For Fridays: https://www.youtube.com/watch?v=kfVsfOSbJY0
-
 
 For stakeholders with ridiculous expectations: https://www.youtube.com/watch?v=2wA-8yrjEpQ
 I want everything in one bag, but I don’t want that bag to be heavy
 
-
 When meeting a new teammate: https://media3.giphy.com/media/3PAL5bChWnak0WJ32x/giphy-downsized.gif?cid=6104955e057b30a0cd6a1c8db8f3e8b584d59bf428c50944&rid=giphy-downsized.gif
 
-
-For when you submit a PR as a DS:
-
+For when you submit a production PR as a DS/A:
 
 And lastly, the power of teamwork: https://media0.giphy.com/media/4LZMbupmy8i3NLzbW2di/giphy.gif
-

@@ -1,4 +1,7 @@
+This is a working map I’m building for myself.
+
 What is Anxiety
+
 Life can only be understood backwards; but it must be lived forwards.
 – Søren Kierkegaard
 
@@ -9,23 +12,34 @@ When anxiety feeds too heavily into action, especially avoidance, it becomes sel
 When the mind mistakes a prediction for reality, the body responds. Attention follows perceived threats. The more something triggers anxiety, the more attention it gets, which online algorithms amplify. This is how doomscrolling works. The brain and the algorithm reinforce each other, creating a feedback loop that feels like vigilance but behaves like addiction.
 
 Types of Anxiety
+
 Main categories:
 
-Time: what will happen / what happened
-Identity: who am I
-Reality: what is real
-Social: how I’m seen / interpreted
-Empathy: concern for others
-Decisions: what should I do
-Capacity: can I handle it
-Subconscious: my body detects a threat without a clear reason
+- Time: what will happen / what happened
+
+- Identity: who am I
+
+- Reality: what is real
+
+- Social: how I’m seen / interpreted
+
+- Empathy: concern for others
+
+- Decisions: what should I do
+
+- Capacity: can I handle it
+
+- Subconscious: my body detects a threat without a clear reason
+
 Amplifiers:
 
-Ambiguity: multiple stories
-Anxiety about anxiety
-Main Types
-Time (future): The future will never be in focus, no matter how hard I try. Planning and the future are not the same. I sometimes take control to my own detriment. When running a race, the possibility of winning is out of my control, but I can guarantee I lose by not starting.
+- Ambiguity: multiple stories
 
+- Anxiety about anxiety
+
+Main Types
+
+Time (future): The future will never be in focus, no matter how hard I try. Planning and the future are not the same. I sometimes take control to my own detriment. When running a race, the possibility of winning is out of my control, but I can guarantee I lose by not starting.
 
 Time (past): The past cannot be changed. I did my best with what I knew at the time. Regret means I have values. I can’t fix the past by replaying it, only by absorbing the lesson.
 
@@ -50,6 +64,7 @@ Adulthood is like looking both ways before you cross the street and then getting
 Subconscious: I can feel anxious and not know why. My body detects a threat before conscious awareness. It could be evolution introducing randomness, spiritual intuition, or pattern recognition I don’t have access to. Not every alarm has a story. I can feel anxiety or panic in my body without knowing if it’s a false trigger, a flashback, or something else. It can show up hours later when I can’t sleep, bridging the conscious and unconscious.
 
 Amplifiers
+
 Anxiety should match the task at hand.
 – Ellen Hendriksen
 
@@ -60,13 +75,19 @@ Anxiety about anxiety creates a vicious circle (Alan Watts video). I used to fea
 I push back on the urge to understand anxiety in the moment with the mantra ‘don’t sharpen your sword while in battle.’ Fear needs to be processed. When it gets stuck, it becomes anxiety. I don’t always have all the puzzle pieces.
 
 Non-solutions
+
 Attempts to escape anxiety take many forms, but they all try to get out of the feeling. Some non-solutions I’ve noticed in myself:
 
-Blame: Fight response. Projecting outward onto “tribal enemies,” a pattern as old as humanity.
-Escapism: Leaving reality for a fantasy. Internal flight response.
-Perfectionism / Rumination: Procrastination through overthinking or overpreparing. Delaying action until uncertainty is reduced. Can be a freeze response.
-Numbing: Blunting the feeling directly. Hacking chemicals. This can be a cold shower or limerence.
-Nihilism / Rationalization: Minimizing meaning or invalidating my own experience.
+- Blame: Fight response. Projecting outward onto “tribal enemies,” a pattern as old as humanity.
+
+- Escapism: Leaving reality for a fantasy. Internal flight response.
+
+- Perfectionism / Rumination: Procrastination through overthinking or overpreparing. Delaying action until uncertainty is reduced. Can be a freeze response.
+
+- Numbing: Blunting the feeling directly. Hacking chemicals. This can be a cold shower or limerence.
+
+- Nihilism / Rationalization: Minimizing meaning or invalidating my own experience.
+
 The same action can either help or harm. Exposure and repetition can reduce anxiety, like giving presentations or improv. Other times they can retraumatize, like returning to dangerous areas after being robbed to regain a sense of control.
 
 The more a thing tends to be permanent, the more it tends to be lifeless.
@@ -75,23 +96,30 @@ The more a thing tends to be permanent, the more it tends to be lifeless.
 What matters is telling the difference between working through it and escaping it. Comfort isn’t bad. During a panic attack, 5-4-3-2-1 grounding or box breathing can turn a crash into a glide. When my nervous system settles and I think it’s gone for good, that’s a form of escapism. There is no permanent fix, and nothing lasts forever.
 
 Solutions
+
 What is the opposite of anxiety? It’s not more certainty or control.
 
-Anxiety is an attempt by the mind to control uncertainty. The alternative is not eliminating uncertainty, but changing my relationship to it. That’s what this section is about.
+Anxiety is an attempt by the mind to control uncertainty. The alternative is not eliminating uncertainty, but changing relationship to it. That’s what this section is about.
 
 This shift happens gradually. A friend showed me this with their cat. They wanted the cat to sit on their shoulder, but it resisted. Each time it struggled, they put it down. Over time, they lifted the cat a little higher each attempt. The cat learned it could leave whenever it wanted, and as that trust built, it eventually stayed on the shoulder, relaxed.
 
 Anchors
+
 At the center of that shift are a few anchors:
 
-Presence: This is what’s happening right now. Sensations, my immediate environment, and my breath. My breath is always there. This stops feeding the simulation. My worries about the future don’t exist outside of my head. When everything feels like too much, the only move is one thing at a time.
-Reality: Anchor on facts, not predictions. Clarify. Anxiety is often vague.
-Trust: I can respond when things happen. Sometimes this is action first, and confidence comes later with experience.
-Connection: I don’t have to carry everything alone. Talking to someone is taking action and can help unburden it. Being seen and understood helps.
+- Presence: This is what’s happening right now. Sensations, my immediate environment, and my breath. My breath is always there. This stops feeding the simulation. My worries about the future don’t exist outside of my head. When everything feels like too much, the only move is one thing at a time.
+
+- Reality: Anchor on facts, not predictions. Clarify. Anxiety is often vague.
+
+- Trust: I can respond when things happen. Sometimes this is action first, and confidence comes later with experience.
+
+- Connection: I don’t have to carry everything alone. Talking to someone is taking action and can help unburden it. Being seen and understood helps.
+
 Trauma is not what happens to us, but what we hold inside in the absence of an empathetic witness
 – Peter A. Levine
 
 Working With Anxiety
+
 Not all anxiety is cognitive. It can be a physiological response. Recognition and regulation matter more than understanding, especially in the moment. A cold plunge, a walk, a shower, or a nap can help the nervous system settle. It may be something physical, and the best thing I can do is breathe and accept it. Trying to fix it in the moment often makes it worse. At times, it’s just a blocked process that needs to continue.
 
 The hard part is that I won’t know if my response is right or wrong in the moment. It takes time to learn. Like getting stuck on the same level of a video game, challenges come up in different forms until they’re mastered.
@@ -109,9 +137,14 @@ Ideally, navigating my anxiety is like brushing my teeth, or meditating to clear
 
 A playbook recap:
 
-Presence: what’s actually happening?
-Specify: what exactly am I feeling or worried about?
-Reality check: what is actually true?
-Start small: what can I do next? Who can I talk to?
-Trust: I can handle this. I’ve handled everything up to now.
+- Presence: what’s actually happening?
+
+- Specify: what exactly am I feeling or worried about?
+
+- Reality check: what is actually true?
+
+- Start small: what can I do next? Who can I talk to?
+
+- Trust: I can handle this. I’ve handled everything up to now.
+
 Decomposing my anxiety has been the work of my whole life. Now I’m sharing it with you.

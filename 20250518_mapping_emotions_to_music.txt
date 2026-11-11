@@ -3,11 +3,11 @@ The General Idea
 The desire for more positive experience is itself a negative experience. And, paradoxically, the acceptance of one’s negative experience is itself a positive experience.
 – Mark Manson, The Subtle Art of Not Giving a F*ck
 
-I often turn to music to attune to how I am feeling, sometimes as a proxy to a friend, therapist, or close confidant. Not necessarily hiding it anymore, but just to explore the different flavors. 
+I often turn to music to attune to how I am feeling, sometimes as a proxy to a friend, therapist, or close confidant. Not necessarily hiding it anymore, but just to explore the different flavors.
 
 I did this a lot when I was younger, like trying on different identities and stories through an empathetic emotional experience as I formed who I was. Maybe it was alexithymia from deeper and lagging emotions due to my own time blindness. Regardless of why, I think this is fairly common. For example, people often turn to sad songs during a breakup – maybe to just help the negative emotion pass through more directly rather than running from it – or just to feel it more. As to what song, it depends on what lands with each person. Someone angry after a breakup might turn to You Oughta Know by Alanis Morissette (or Fuck You by Ceelo Green), and someone who is more so just sad or even perhaps further along in the grieving process might turn to Someone Like You by Adele.
 
-But what of the emotion? Sure, it’s a painful experience, but there is a more specific emotion to define. I remember turning to emotion wheels to understand what I might be feeling more precisely, rather than generally. Going back to the breakup example, at the extreme end, people might say they feel nothing. Then they might proceed to start realizing they feel sad. Then, perhaps, more specifically they feel disappointed, or isolated, or ashamed. It can be helpful to also rule out what the feeling is not, as a breakup might not make someone feel guilty, so much as hurt or lonely (or vice versa depending on the role they played and their interpretation of it). 
+But what of the emotion? Sure, it’s a painful experience, but there is a more specific emotion to define. I remember turning to emotion wheels to understand what I might be feeling more precisely, rather than generally. Going back to the breakup example, at the extreme end, people might say they feel nothing. Then they might proceed to start realizing they feel sad. Then, perhaps, more specifically they feel disappointed, or isolated, or ashamed. It can be helpful to also rule out what the feeling is not, as a breakup might not make someone feel guilty, so much as hurt or lonely (or vice versa depending on the role they played and their interpretation of it).
 
 What led me to map specific emotions to music was the song Overwhelmed by Royal & the Serpent, which came out mid-2020 during the pandemic while I had just transitioned to doing some deeper cognitive behavioral therapy. Stories can also often fill this role, but music just hits faster.
 
@@ -18,16 +18,27 @@ And so, I wanted to share.
 Sadness
 
 Primary	Specific	Artist	Song
+
 Sadness	Abandoned	Billie Eilish	When the party’s over
+
 Sadness	Anguish	Nirvana	Where did you sleep last night
+
 Sadness	Ashamed	Between Friends	Affection
+
 Sadness	Bored	Erik Satie	Gymnopédie No.1
+
 Sadness	Empty	Nymano	I wish I could sleep
+
 Sadness	Fragile	Liz Callaway	Once Upon a December (Anastasia)
+
 Sadness	Grief	Dabl	Not me
+
 Sadness	Loss (Elegy)	The Antlers	Kettering
+
 Sadness	Nostalgia	Chronic Future	Memories in F minor
+
 Sadness	Old	Feist	Caught a Long Wind
+
 [Sadness] Abandoned: Billie Eilish – When the party’s over
 
 Billie Eilish and her brother Finneas are absolutely brilliant in their musical storytelling.
@@ -82,16 +93,27 @@ Sometimes I just feel…. old. It’s a mixture of sadness, shame, and maybe lon
 Fear
 
 Primary	Specific	Artist	Song
+
 Fear	Dread	White Lies	Death
+
 Fear	Exposed	Metric	Help I’m Alive
+
 Fear	Helpless	Muse	Time is Running Out
+
 Fear	Inadequate	Jessica Darrow	Surface Pressure (Encanto)
+
 Fear	Liminality	Mitski	Heat Lightning
+
 Fear	Nervous	Illy	Tightrope
+
 Fear	Overwhelm	Royal and The Serpent	Overwhelmed
+
 Fear	Unknown	Idir	A Vava Inouva
+
 Fear	Weak	Royal and The Serpent	I can’t get high
+
 Fear	Worry	ToonFanatic	I’ll Be Your Keeper (Hazbin Hotel)
+
 [Fear] Dread: White Lies – Death
 
 Spiritually uplifting, yet grounded in a gripping fear of death.
@@ -151,16 +173,27 @@ Modified from the Hazbin Hotel original song whatever it takes. Feels like a fer
 Anger
 
 Primary	Specific	Artist	Song
+
 Anger	Agitation	Sheet Music Boss	Rush E
+
 Anger	Annoyed	Faded Paper Figures	Spare me
+
 Anger	Defiant	Rage Against The Machine	Killing in the Name
+
 Anger	Disrespected	Halsey	Gasoline
+
 Anger	Frustrated	Shiny Toy Guns	Le Disko
+
 Anger	Indignant	Figure	Monster’s revenge
+
 Anger	Numb	Julie London	Cry Me a River
+
 Anger	Rage	Linkin Park	Lying from you
+
 Anger	Resentful	Eminem	Rock Bottom
+
 Anger	Self-Contempt	The Offspring	Self Esteem
+
 [Anger] Agitation: Sheet Music Boss – Rush E
 
 This song has so much manic energy. It perfectly encapsulates that restless, frenetic feeling for me of wired & tired revenge bedtime procrastination.
@@ -238,15 +271,25 @@ Shame
 Shame is adjacent to sadness, fear, and anger, but not quite any of them. Sadness says something was lost. Fear says something might happen. Anger says something is wrong. Shame says something is wrong with me.
 
 Primary	Specific	Artist	Song
+
 Shame	Cringe	Matt Maeson	Cringe
+
 Shame	Irredeemable	Jaymes Young	Dark Star
+
 Shame	Low-Status	Local H	Bound for the Floor
+
 Shame	Needy	Marina	Starring Role
+
 Shame	Rejected	Puddle of Mudd	She Hates Me
+
 Shame	Remorseful	Death Cab for Cutie	I Dreamt We Spoke Again (Louis The Child Remix)
+
 Shame	Small	P!nk	Lonely Girl (ft. Linda Perry)
+
 Shame	Unlovable	Billie Eilish	When I Was Older
+
 Shame	Unworthy	Radiohead	Creep
+
 [Shame] Cringe: Matt Maeson – Cringe
 
 This song is about driving away the people you care about because of how you live. Harsh, but it pulls no punches. It captures the feeling of seeing yourself from the outside and recoiling.
@@ -313,15 +356,25 @@ Happiness (Joy)
 If you made it this far, I salute you. Some of these songs were pretty heavy. So, as a reward, I’ll add what I consider my main happy songs, which I’ve split into feeling joy, loved, peace, pride, and relief.
 
 Primary	Specific	Artist	Song
+
 Joy	Becoming	Faul & Wad Ad	Changes
+
 Joy	Carefree	Lil Nas X	Old Town Road
+
 Joy	Elation	Chappell Roan	Red Wine Supernova
+
 Joy	Excited	Janelle Monáe	Make Me Feel
+
 Joy	Flow	Overwerk	Contact
+
 Joy	Hopeful	Machineheart	Circles
+
 Joy	Playful	Queen	Fat Bottom Girls
+
 Joy	Trance	Deadmau5	I Remember
+
 Joy	Unity	Amadou & Mariam	M’Bifé
+
 [Joy] Becoming: Faul & Wad Ad – Changes
 
 Conveys the feeling of optimistic liminality and becoming while growing into a new chapter of life. I first heard it around the time I was getting married.
@@ -379,20 +432,35 @@ As an American, I first heard this African song while I was studying abroad in C
 Happiness (Loved, Peace, Proud, Relief)
 
 Primary	Specific	Artist	Song
+
 Loved	Accepted	Middle Kids	Don’t Be Hiding
+
 Loved	Belonging	Old Crow Medicine Show	Wagon Wheel
+
 Loved	Claimed	Meg Myers	Lemon Eyes
+
 Loved	Cuddly	Cigarettes After Sex	Sweet
+
 Loved	Tenderness	Ocie Elliot	I Got You, Honey
+
 Peace	Awe	Hans Zimmer	Interstellar Main Theme
+
 Peace	Content	Smash Mouth	I Just Wanna See
+
 Peace	Cozy	Mounika	Cut My Hair
+
 Peace	Reverence	Rebecca Sugar (Adventure Time)	Everything Stays
+
 Peace	Stillness	The XX	Intro
+
 Proud	Confident	Brother Ali	Forest Whitaker
+
 Proud	Triumphant	KPop Demon Hunters (Huntrix)	How It’s Done
+
 Relief	Grateful	Chronic Future	Thank You
+
 Relief	Vindicated	Kesha	Praying
+
 [Loved] Accepted: Middle Kids – Don’t Be Hiding
 
 This song makes me feel accepted exactly as I am.
@@ -489,7 +557,6 @@ Praying came out after years of lawsuits and while she was only two albums into 
 
 She took the pink dot from Period and overlaid it across all her previous albums as a symbolic reclaiming. The song Praying itself is pure poetry.
 
-
 Well, you almost had me fooled
 Told me that I was nothing without you
 Oh, but after everything you’ve done
@@ -510,16 +577,27 @@ Drive
 This section started because I wasn’t sure where this feeling fit. It isn’t pain, hope, or anger. It’s a forward force under constraint and resistance. Almost an animal instinct to keep going. Drive can take different forms. Momentum is about motion. Endurance is about tolerating pain. Agency is internal ownership. Defiance is resistance against external pressure.
 
 Primary	Specific	Artist	Song
+
 Drive	Agency	Bon Jovi	It’s My Life
+
 Drive	Crave	Alison Wonderland	I Want U
+
 Drive	Defiance	The White Stripes	Seven Nation Army
+
 Drive	Endurance	Sia	Alive
+
 Drive	Inspiration	The Cars	Just What I Needed
+
 Drive	Momentum	Noga Erez	End of the Road
+
 Drive	Reclamation	Rilo Kiley	A Better Son/Daughter
+
 Drive	Resilience	Sia	Elastic Heart
+
 Drive	Resolve	Eminem	Lose Yourself
+
 Drive	Self-Preservation	Kendrick Lamar	i
+
 [Drive] Agency: Bon Jovi – It’s My Life
 
 One of my favorite songs of all time. When I’m uncertain whether choosing my own path will be accepted by others, this is the reminder that I’m not going to be here forever. I have to make my own choices while I have the chance to make them.

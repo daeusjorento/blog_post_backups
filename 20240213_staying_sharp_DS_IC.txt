@@ -1,5 +1,3 @@
-Staying Sharp as a Data Scientist
-
 The thing I really want to avoid is specializing myself into one company, getting really out of shape, and then being let go and realizing I no longer know how things work and have to start over with my career. The tech sector moves fast, and layoffs have been happening for a while. How do I inoculate myself against that? Or at least minimize the impact and make it easier to bounce back?
 
 Where to Go
@@ -12,7 +10,7 @@ By the end of that list, some of these directions blur together. Managers can st
 
 Tools and Skillsets
 
-In terms of staying sharp in data science, toolsets can change dramatically. Vertica becomes Snowflake. Excel VBA becomes Airflow/DBT. SAS, Matlab, or SPSS becomes Python or R. Tableau becomes Looker, Amplitude or Logrocket, though there’s still plenty of SQL underneath. Googling becomes ChatGPT or Claude Code. Each of these tools is a business, and platforms shift as contracts end, companies outgrow solutions, or industries move on. Some skills transfer cleanly, others don’t. It can be surprisingly painful to lose a UI you’ve used for years and realize how many shortcuts you relied on without noticing. 
+In terms of staying sharp in data science, toolsets can change dramatically. Vertica becomes Snowflake. Excel VBA becomes Airflow/DBT. SAS, Matlab, or SPSS becomes Python or R. Tableau becomes Looker, Amplitude or Logrocket, though there’s still plenty of SQL underneath. Googling becomes ChatGPT or Claude Code. Each of these tools is a business, and platforms shift as contracts end, companies outgrow solutions, or industries move on. Some skills transfer cleanly, others don’t. It can be surprisingly painful to lose a UI you’ve used for years and realize how many shortcuts you relied on without noticing.
 
 Even ideas about skill sets change. Generalists versus specialists. T-shaped people. PaintDrip people. The hard truth is that even if you do everything right, you might learn a skill that doesn’t matter in five or ten years. I specialized in FAME and RATS at the Federal Reserve Board. Have you even heard of them? Nothing lasts forever, and not everything transfers directly. What mattered more was what sat underneath. I learned how to code, debug, and run regressions. RATS stands for Regression Analysis Time Series and FAME stands for Forecasting And Modeling Environment. With the full names, they sound a lot closer to modern data science, and much of what I learned during those years transferred, even if the language changed.
 
@@ -34,8 +32,12 @@ Core Transferable Skills
 
 Some skills transfer across almost any role:
 
-Communication, being able to tell a clear story to influence and understand others (to improve writing, reading helps). 
-Management, including managing your own time, energy, and identity outside of work (See my soft skills debugging article).
-Analysis, being able to read a situation, develop a strategy, and execute on that insight. Said simply: keep your BS detector strong and keep learning. 
-Networking, knowing real people and building trust over time. Real people sit behind every decision, even the ones mediated by algorithms. 
+- Communication, being able to tell a clear story to influence and understand others (to improve writing, reading helps).
+
+- Management, including managing your own time, energy, and identity outside of work (See my soft skills debugging article).
+
+- Analysis, being able to read a situation, develop a strategy, and execute on that insight. Said simply: keep your BS detector strong and keep learning.
+
+- Networking, knowing real people and building trust over time. Real people sit behind every decision, even the ones mediated by algorithms.
+
 What you don’t work on intentionally doesn’t grow. Staying sharp requires making it a priority and having a plan, even a loose one. Sometimes you get out of shape and get back into shape. That’s fine. Life is messy. I also find it helpful to zoom out beyond data science and even beyond the business itself. How is the industry doing? Does the company create real value for its customers? Connecting those bigger questions back to your work helps keep things grounded. Companies need data to avoid flying blind. They need experiments and insights to learn and make decisions. Someone has to do that work. It might as well be you.

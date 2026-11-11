@@ -1,4 +1,5 @@
-Overview 
+Overview
+
 This blog post is the tactical, internal counterweight to Positioning, Leverage, and Judgment. It’s about navigating uncertainty, sustaining momentum, and reading the room.
 
 Patience means enduring uncertainty long enough to gather the inputs intuition needs. Scaffolding creates supports and checkpoints that make progress consistent. Attunement means noticing what the situation actually requires so work can move forward.
@@ -6,6 +7,7 @@ Patience means enduring uncertainty long enough to gather the inputs intuition n
 Together, they form an operating system built around areas I have struggled with and needed to develop deliberately.
 
 Patience
+
 It is easier to find men who will volunteer to die, than to find those who are willing to endure pain with patience.
 – Julius Caesar
 
@@ -28,6 +30,7 @@ The underlying capacity depends on emotional and physical regulation: the abilit
 I have spent more than a decade meditating daily in some form, along with many years in therapy, unintentionally developing my ability to be present and sit with ambiguity. A more immediate way to increase that capacity is by creating my own scaffolding.
 
 Scaffolding
+
 Give me six hours to chop down a tree and I will spend the first four sharpening the axe.
 – Abraham Lincoln
 
@@ -47,8 +50,10 @@ An underrated form is social scaffolding. It helps to have someone to rubber duc
 
 The value of scaffolding is undeniable. However, it has two distinct failure modes:
 
-Under-scaffolding: pure chaos, with context continually lost and work restarted.
-Over-scaffolding: hiding in preparation as a form of procrastination.
+1. Under-scaffolding: pure chaos, with context continually lost and work restarted.
+
+2. Over-scaffolding: hiding in preparation as a form of procrastination.
+
 Building scaffolding is not the work itself; it’s the setup. Some forms, such as writing, good habits, and version control, remain permanently useful. Others help me through a particular stage until practice turns them into skills or instincts. Their purpose is to help me reach the next checkpoint, then adapt or advance to the next problem. The danger is that temporary supports, or the instincts they create, can persist after the situation they were built for has changed.
 
 Instincts are internal scaffolding built through experience. Often, they allow us to react effectively without conscious thought. In an active combat zone, a veteran ducking for cover after an explosion may save their life. At a neighborhood fireworks show, the same learned response is physiological overkill. Trauma responses are protective instincts that continue operating after the environment they were built for has disappeared.
@@ -61,6 +66,7 @@ It is often said that the Buddha’s teaching is only a raft to help you cross t
 Scaffolding is powerful, sometimes powerful enough that I cling to it after it has served its purpose. Its usefulness depends on the situation. Knowing what support the present environment actually requires depends on my ability to read it clearly and remain present with others. That requires attunement.
 
 Attunement
+
 Your assumptions are your windows on the world. Scrub them off every once in a while, or the light won’t come in.
 – Alan Alda
 
@@ -83,11 +89,13 @@ Ironically, I have found that reading others helps me read myself. Seeing someon
 Attunement supplies the live information that good judgment requires. It helps me notice when to remain patient, when scaffolding is still useful, and when the situation has changed enough that I need to let go and adjust. It is the ability to see the situation clearly enough to act accordingly. Sometimes, that means stopping to restore the capacity these skills depend on.
 
 Restoring Capacity
+
 Patience, scaffolding, and attunement may be softer skills, but they can still require immense effort. Holding uncertainty, maintaining systems, and continuously updating my understanding of a situation all consume energy. I can tell I need rest when these start to deteriorate: my patience grows thin, my scaffolding breaks down, and my attunement gives way to tunnel vision.
 
 Rest restores my capacity to use this framework effectively. It gives my intuition time to process, makes breaking down complexity possible again, and broadens my awareness beyond what is directly in front of me. Sometimes the most productive action I can take is to rest.
 
 Wrap Up
+
 Holding ambiguity and uncertainty for extended periods is difficult, like holding a heavy weight. Managing the anxiety it creates requires remaining present even when the outcome is unclear. Developing that capacity improves my ability to learn and adapt quickly to new situations.
 
 AI is changing much of the tech landscape, but change itself is constant. Prompting is work, and perhaps also a new form of scrolling. It requires the same care as any other kind of work: patience, scaffolding, attunement, and rest. I have found AI to be a useful scaffolding tool, but one that still requires thoughtful use.

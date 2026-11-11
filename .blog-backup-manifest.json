@@ -1,0 +1,372 @@
+{
+  "excluded_slugs": [
+    "my-favorite-memes-of-the-year-since-2020"
+  ],
+  "posts": {
+    "a-brief-overview-of-tech-hype-and-recovery-cycles": {
+      "file": "20250427_tech_hype_and_recovery_cycles.txt",
+      "modified": "2026-08-21T23:34:08",
+      "plain_text_sha256": "e25930e730ea52b8806be90d45a240bf689941081dbb8bd1d02310e698594f81",
+      "source": "https://daeus.blog/2025/04/27/a-brief-overview-of-tech-hype-and-recovery-cycles/",
+      "title": "A Brief Overview of Tech Hype and Recovery Cycles"
+    },
+    "a-decomposition-of-anxiety": {
+      "file": "20260321_a_decomposition_of_anxiety.txt",
+      "modified": "2026-03-22T19:40:09",
+      "plain_text_sha256": "02069dbf60a440bcd7654237c2eb9ac22d7e32057a814ad092b56012c8328e0d",
+      "source": "https://daeus.blog/2026/03/21/a-decomposition-of-anxiety/",
+      "title": "A Decomposition of Anxiety"
+    },
+    "a-simple-job-application-strategy": {
+      "file": "20240928_job_application_strategy.txt",
+      "modified": "2025-06-09T12:49:01",
+      "plain_text_sha256": "f1f1e96c3962276bc267a05cdd7ab33cc8547216ff5e6b68357179b78ac83ab0",
+      "source": "https://daeus.blog/2024/09/28/a-simple-job-application-strategy/",
+      "title": "A Simple Job Application Strategy"
+    },
+    "a-simple-overview-of-regression-analysis": {
+      "file": "20250605_overview_regression_analysis.txt",
+      "modified": "2026-08-16T11:29:44",
+      "plain_text_sha256": "0fbe39eb0c86eaad9c558679cb6b9673117474af36efe5ad3ef3aa71139fc508",
+      "source": "https://daeus.blog/2025/06/05/a-simple-overview-of-regression-analysis/",
+      "title": "An Overview of Regression Analysis"
+    },
+    "a-therapy-allegory": {
+      "file": "20260621_therapy_allegory.txt",
+      "modified": "2026-06-21T23:36:08",
+      "plain_text_sha256": "d993e78eba85bd6181cd654cf198c1c8efe692fd77d1226ec4827c3f21137ab6",
+      "source": "https://daeus.blog/2026/06/21/a-therapy-allegory/",
+      "title": "A Therapy Allegory"
+    },
+    "about-me": {
+      "file": "20200101_about_me.txt",
+      "modified": "2026-10-22T21:25:39",
+      "plain_text_sha256": "c39485fd6db10400dd990333615dd80e58538f1042d0f81edead5e8600701677",
+      "source": "https://daeus.blog/2020/01/01/about-me/",
+      "title": "About Me"
+    },
+    "career-and-business-moats": {
+      "file": "20240928_career_business_moats.txt",
+      "modified": "2026-01-05T00:23:07",
+      "plain_text_sha256": "5b3704ef1efa2455023f2a8e4755327c2f6af2358d7a1e83d921aecd26792292",
+      "source": "https://daeus.blog/2024/09/28/career-and-business-moats/",
+      "title": "Career and Business Moats"
+    },
+    "colonized-attention": {
+      "file": "20220530_colonized_attention.txt",
+      "modified": "2026-08-21T23:35:30",
+      "plain_text_sha256": "bb5661dc632afea9414599fb9d233175078ed15d5cf0e1c8d1446306a253b5fc",
+      "source": "https://daeus.blog/2022/05/30/colonized-attention/",
+      "title": "Colonized Attention"
+    },
+    "communicating-data": {
+      "file": "20250607_communicating_data.txt",
+      "modified": "2025-12-28T12:44:48",
+      "plain_text_sha256": "6ea3584df97a407f411b30eb99a236f1ed670415fc740b59aacbc5aa2f195298",
+      "source": "https://daeus.blog/2025/06/07/communicating-data/",
+      "title": "Communicating Data"
+    },
+    "cultivating-drive": {
+      "file": "20260812_cultivating_drive.txt",
+      "modified": "2026-08-27T09:22:28",
+      "plain_text_sha256": "cc3dffe2f6235d2f2fbd0c750e0493a45605b4a1fe5fe43e0026276fbd3ad53a",
+      "source": "https://daeus.blog/2026/08/12/cultivating-drive/",
+      "title": "Cultivating Drive"
+    },
+    "data-influence": {
+      "file": "20251228_data_influence.txt",
+      "modified": "2026-03-22T15:06:27",
+      "plain_text_sha256": "10270ef587edae63e8154d3295ff29fc0836fe1c7bd8131637c646edd81a839a",
+      "source": "https://daeus.blog/2025/12/28/data-influence/",
+      "title": "Influence for Data Scientists"
+    },
+    "data-modeling": {
+      "file": "20260815_analytics_data_modeling.txt",
+      "modified": "2026-08-26T19:21:35",
+      "plain_text_sha256": "f269907fdc5be18b4f9d9440a95f82318c956e9f72a094ab05b8157bdd179317",
+      "source": "https://daeus.blog/2026/08/15/data-modeling/",
+      "title": "Analytics Data Modeling"
+    },
+    "data-scientist-ic-career-progression-junior-to-staff": {
+      "file": "20240831_data_scientist_ic_career_junior_to_staff.txt",
+      "modified": "2026-04-01T21:23:42",
+      "plain_text_sha256": "a7f15a06721781b722a3be65119913fed00df4ac38d062a9266e8f7dd2313d4c",
+      "source": "https://daeus.blog/2024/08/31/data-scientist-ic-career-progression-junior-to-staff/",
+      "title": "Data Scientist IC Career Progression: Junior to Staff+"
+    },
+    "ds-career-skill-progression-benchmarks": {
+      "file": "20240106_tech_career_skill_progression_benchmarks.txt",
+      "modified": "2026-08-21T23:31:58",
+      "plain_text_sha256": "6ae2d9250d7c55d89383803762e46b13791793876ad1834ea5199807dec153e0",
+      "source": "https://daeus.blog/2024/01/06/ds-career-skill-progression-benchmarks/",
+      "title": "Tech Career & Skill Progression Benchmarks"
+    },
+    "essential-probability-statistics-concepts-for-data-science-excluding-ml": {
+      "file": "20240219_essential_prob_stats.txt",
+      "modified": "2026-08-16T11:30:02",
+      "plain_text_sha256": "e8d397a44832e4c2d41e7b79ea2fb4543b3958fade9ee894fa10810d2c2f81e9",
+      "source": "https://daeus.blog/2024/02/19/essential-probability-statistics-concepts-for-data-science-excluding-ml/",
+      "title": "Essential Probability & Statistics Concepts for Data Science (Excluding ML)"
+    },
+    "four-graduate-degrees-i-wish-i-could-download-into-my-brain": {
+      "file": "20240609_four_graduate_degrees.txt",
+      "modified": "2025-05-03T12:58:04",
+      "plain_text_sha256": "1d952a76504915550968861ad51d49635d0e08e012dff596c18c77abf17ade7c",
+      "source": "https://daeus.blog/2024/06/09/four-graduate-degrees-i-wish-i-could-download-into-my-brain/",
+      "title": "Four Graduate Degrees I Wish I Could Download into My Brain"
+    },
+    "frequently-used-statistics-in-product-experiments": {
+      "file": "20240228_frequently_used_statistics.txt",
+      "modified": "2026-08-21T23:44:23",
+      "plain_text_sha256": "de274c4ada6c69fc1d14e8332275d306db0020839583858b270da2fb199b2292",
+      "source": "https://daeus.blog/2024/02/28/frequently-used-statistics-in-product-experiments/",
+      "title": "Frequently Used Statistics In Product Experiments"
+    },
+    "game-theory-patterns-at-work": {
+      "file": "20260118_game_theory_patterns_at_work.txt",
+      "modified": "2026-06-08T21:01:11",
+      "plain_text_sha256": "76055386fa8f0b5aed0d58b7fee368c582be0679e239be4b574a176da5fb3a80",
+      "source": "https://daeus.blog/2026/01/18/game-theory-patterns-at-work/",
+      "title": "Game Theory Patterns at Work"
+    },
+    "great-resources-i-refer-to-often": {
+      "file": "20240227_great_resources.txt",
+      "modified": "2026-08-21T23:31:23",
+      "plain_text_sha256": "40ad0170e22070aeaefc6a25a165f8c0809bab1743b2ea0395394a984d6cfcf6",
+      "source": "https://daeus.blog/2024/02/27/great-resources-i-refer-to-often/",
+      "title": "Excellent Resources"
+    },
+    "how-organizations-drift-into-politics": {
+      "file": "20260608_how_organizations_drift_into_politics.txt",
+      "modified": "2026-06-11T09:49:32",
+      "plain_text_sha256": "93472f2c0da90cdcabd0a0e255bc5a03532b1cd953aea887031973fe82a6b255",
+      "source": "https://daeus.blog/2026/06/08/how-organizations-drift-into-politics/",
+      "title": "How Organizations Drift Into Politics"
+    },
+    "improving-your-odds-at-work": {
+      "file": "20250705_improving_your_odds_at_work.txt",
+      "modified": "2025-07-16T23:02:47",
+      "plain_text_sha256": "be59b6782a5293c8ae65540d85f524a4387f06ffc224d6e88a3ced17f79f889a",
+      "source": "https://daeus.blog/2025/07/05/improving-your-odds-at-work/",
+      "title": "Improving Your Odds at Work"
+    },
+    "leaving-space-for-grief": {
+      "file": "20250410_leaving_space_for_grief.txt",
+      "modified": "2026-01-16T01:32:06",
+      "plain_text_sha256": "a3ca356d89b2fabda319cc9be6595bb4c2a9cd83ffa71967ca8ee8a7c4ba5981",
+      "source": "https://daeus.blog/2025/04/10/leaving-space-for-grief/",
+      "title": "Leaving Space for Grief"
+    },
+    "letting-go-of-old-fears": {
+      "file": "20230628_letting_go_of_old_fears.txt",
+      "modified": "2026-08-21T23:16:24",
+      "plain_text_sha256": "75f7b3c411c0fe0854791399c0e57ad4b9ba7ba8ab066690a9c7e5533b45f6d4",
+      "source": "https://daeus.blog/2023/06/28/letting-go-of-old-fears/",
+      "title": "Letting Go of Old Fears"
+    },
+    "machine-learning-in-practice": {
+      "file": "20260416_machine_learning_in_practice.txt",
+      "modified": "2026-08-16T11:30:40",
+      "plain_text_sha256": "78e258a00de9885d9f6d3b29c2139a2b1989e6142527fd3995cc9a8a02d15c8d",
+      "source": "https://daeus.blog/2026/04/16/machine-learning-in-practice/",
+      "title": "Machine Learning in Practice"
+    },
+    "mapping-emotions-to-music": {
+      "file": "20250518_mapping_emotions_to_music.txt",
+      "modified": "2026-08-20T19:51:59",
+      "plain_text_sha256": "d5c017aaec72867566b523a3f373af83a2b9e65d16e434e4c2c9412784c6f0ed",
+      "source": "https://daeus.blog/2025/05/18/mapping-emotions-to-music/",
+      "title": "Mapping Emotions to Music"
+    },
+    "my-college-personal-essay-2008": {
+      "file": "20080101_my_personal_essay_2008.txt",
+      "modified": "2026-08-21T23:27:38",
+      "plain_text_sha256": "0f6e05096f77a6467a94dc1ee4beacd9bf02b0a7b464ace0a0e49237155d54cb",
+      "source": "https://daeus.blog/2021/01/01/my-college-personal-essay-2008/",
+      "title": "My College Personal Essay (2008)"
+    },
+    "my-final-swim-race": {
+      "file": "20220622_my_final_swim_race.txt",
+      "modified": "2025-06-09T13:46:13",
+      "plain_text_sha256": "ae81a4d87f5b6aa2d238db514d42a78d04a8275e592680f63b190bbbb325e7ef",
+      "source": "https://daeus.blog/2022/06/22/my-final-swim-race/",
+      "title": "My Final Swim Race"
+    },
+    "my-three-politics-principles": {
+      "file": "20240628_three_politics_principles.txt",
+      "modified": "2026-08-21T23:40:57",
+      "plain_text_sha256": "02c670e2eeb4c2229fb031d17f24b71a29ace9e17934e9c057cacee0273bde44",
+      "source": "https://daeus.blog/2024/06/28/my-three-politics-principles/",
+      "title": "Three Politics Principles"
+    },
+    "my-top-5-books-of-the-year-2018-2023": {
+      "file": "20251228_top_5_books_of_the_year.txt",
+      "modified": "2026-02-10T00:30:53",
+      "plain_text_sha256": "f1da43145c871f349a6534a0fb288047d02d18cf3bda1ff7424d26250a449699",
+      "source": "https://daeus.blog/2025/12/28/my-top-5-books-of-the-year-2018-2023/",
+      "title": "My Top 5 Books Of The Year (2018-2025)"
+    },
+    "navigating-interesting-times": {
+      "file": "20250217_navigating_interesting_times.txt",
+      "modified": "2026-08-21T23:30:11",
+      "plain_text_sha256": "26b47a170d77bee4375f3288123d4b5bfcc81f8e749e41fd8161f669cd52b3cb",
+      "source": "https://daeus.blog/2025/02/17/navigating-interesting-times/",
+      "title": "Navigating Interesting Times"
+    },
+    "navigating-major-disappointment-at-work": {
+      "file": "20230103_navigating_major_disappointment.txt",
+      "modified": "2025-06-09T13:45:02",
+      "plain_text_sha256": "4c727e186a2c46644631ec0f5d4c501eec3b29eac21a3d81d88057ffb19d9ab0",
+      "source": "https://daeus.blog/2023/01/03/navigating-major-disappointment-at-work/",
+      "title": "Navigating Major Disappointment At Work"
+    },
+    "overwatch": {
+      "file": "20250620_overwatch.txt",
+      "modified": "2025-06-23T23:29:54",
+      "plain_text_sha256": "2e238ed4a43e1dd0524e9e5a53256895a4aa58fba19078ee501d43089d4b8ae2",
+      "source": "https://daeus.blog/2025/06/20/overwatch/",
+      "title": "Overwatch"
+    },
+    "patience-scaffolding-and-attunement": {
+      "file": "20260802_patience_scaffolding_attunement.txt",
+      "modified": "2026-08-27T23:43:30",
+      "plain_text_sha256": "c124fb48d0c1c644cd8aa799fbf5055ba86fdfc9d7b17cea391243c45e2a993e",
+      "source": "https://daeus.blog/2026/08/02/patience-scaffolding-and-attunement/",
+      "title": "Patience, Scaffolding, and Attunement"
+    },
+    "perspective-on-blocks-40-layoffs": {
+      "file": "20260227_perspective_on_blocks_40pct_layoffs.txt",
+      "modified": "2026-09-13T10:06:16",
+      "plain_text_sha256": "06e9d0aa23efa0225996222c75e625ab138deb8be4a90e1cd64b90c81ff39e8d",
+      "source": "https://daeus.blog/2026/02/27/perspective-on-blocks-40-layoffs/",
+      "title": "Perspective on Block’s 40% Layoffs"
+    },
+    "positioning-leverage-and-judgment": {
+      "file": "20260404_positioning_leverage_and_judgment.txt",
+      "modified": "2026-08-12T23:29:54",
+      "plain_text_sha256": "1b54ee56ecb4de244c9c723c22f34a29cde322b6f85413e223518fdb353e39ac",
+      "source": "https://daeus.blog/2026/04/04/positioning-leverage-and-judgment/",
+      "title": "Positioning, Leverage, and Judgment"
+    },
+    "product-data-science-experimentation": {
+      "file": "20250502_product_ds_experimentation.txt",
+      "modified": "2026-08-16T11:29:52",
+      "plain_text_sha256": "33fa614ee5d747695e5361da5ae0ea9c0aee62bbb7eada506bf42278b4655cb4",
+      "source": "https://daeus.blog/2025/05/02/product-data-science-experimentation/",
+      "title": "Product Data Science Experimentation"
+    },
+    "product-strategy-in-the-agentic-era": {
+      "file": "20260928_product_strategy_in_the_agentic_era.txt",
+      "modified": "2026-10-03T20:51:19",
+      "plain_text_sha256": "0db076d9fc6758799abf0df44af0a01147906115b123dad4f00cb11c77a7c238",
+      "source": "https://daeus.blog/2026/09/28/product-strategy-in-the-agentic-era/",
+      "title": "Product Strategy in the Agentic Era"
+    },
+    "relentless-dread": {
+      "file": "20250309_relentless_dread.txt",
+      "modified": "2025-06-09T12:38:26",
+      "plain_text_sha256": "8b66e1a3e697e085607650f2d886c526c89079720e5a367495a05360a1c64aca",
+      "source": "https://daeus.blog/2025/03/09/relentless-dread/",
+      "title": "Relentless Dread"
+    },
+    "soft-skill-debugging": {
+      "file": "20230210_debugging_soft_skill_gaps.txt",
+      "modified": "2025-06-09T13:43:15",
+      "plain_text_sha256": "1f7a1d9d34dba920b7798df5149fa3d6839713a41e9fad7296db55fc88893fa2",
+      "source": "https://daeus.blog/2023/02/10/soft-skill-debugging/",
+      "title": "Debugging Soft Skill Gaps"
+    },
+    "staying-sharp-in-the-market-as-an-ds-ic": {
+      "file": "20240213_staying_sharp_DS_IC.txt",
+      "modified": "2026-01-01T18:15:20",
+      "plain_text_sha256": "4f4ad7633d5b484104a9656f09889b939e302abcd94ec91116f3877061861738",
+      "source": "https://daeus.blog/2024/02/13/staying-sharp-in-the-market-as-an-ds-ic/",
+      "title": "Staying Sharp as a Data Scientist"
+    },
+    "stories-and-lessons-from-my-career-at-square-so-far-therapy-and-a-few-hobbies": {
+      "file": "20250212_career_at_square_therapy_a_few_hobbies.txt",
+      "modified": "2025-10-02T10:42:27",
+      "plain_text_sha256": "8f7c37021c8208d70bddcf67c050a11bd98694c3599aee24614acb0a4a2eb14e",
+      "source": "https://daeus.blog/2025/02/12/stories-and-lessons-from-my-career-at-square-so-far-therapy-and-a-few-hobbies/",
+      "title": "Stories and Lessons from my Career at Square (so far), Therapy, and a few Hobbies"
+    },
+    "stories-and-lessons-from-my-career-before-square": {
+      "file": "20250209_career_at_the_fed_and_sofi.txt",
+      "modified": "2025-10-02T10:17:34",
+      "plain_text_sha256": "9a2731bc42d9cd12328517805d6fb167585b7f7362e440a81f0a9221a9784d3b",
+      "source": "https://daeus.blog/2025/02/09/stories-and-lessons-from-my-career-before-square/",
+      "title": "Stories and Lessons from my Career at the Fed and SoFi (Before Square)"
+    },
+    "stories-and-lessons-from-school-games-sports-and-odd-jobs-growing-up-before-i-graduated-college": {
+      "file": "20250208_school_games_and_odd_jobs.txt",
+      "modified": "2025-10-02T09:44:46",
+      "plain_text_sha256": "6415ccdb45facaf906db9465a40375b4e697fca55bd2c689a51a904e8f2eba0c",
+      "source": "https://daeus.blog/2025/02/08/stories-and-lessons-from-school-games-sports-and-odd-jobs-growing-up-before-i-graduated-college/",
+      "title": "Stories and Lessons from School, Sports, and Odd Jobs (Before College Graduation)"
+    },
+    "tech-career-longevity": {
+      "file": "20251226_tech_career_longevity.txt",
+      "modified": "2026-06-21T23:47:33",
+      "plain_text_sha256": "13f6f3b1e0431014c933b5b7acf4803543254336b975cb0ee4e5f23e47421f58",
+      "source": "https://daeus.blog/2025/12/26/tech-career-longevity/",
+      "title": "Tech Career Longevity"
+    },
+    "the-power-of-social-networks-against-fascism": {
+      "file": "20230318_social_networks_against_fascism.txt",
+      "modified": "2026-08-21T23:29:07",
+      "plain_text_sha256": "a6e04f055c3c1af66600f9c4c6c76496573df0baea1dfa6725db225ff3e9b626",
+      "source": "https://daeus.blog/2023/03/18/the-power-of-social-networks-against-fascism/",
+      "title": "The Power of Social Networks Against Fascism"
+    },
+    "time-series-forecasting": {
+      "file": "20250606_time_series_forecasting.txt",
+      "modified": "2026-08-16T11:29:41",
+      "plain_text_sha256": "4dd34d68e26dd958eb94dcbe0304dcb95e2ee946829fedd6da3c38b4fa7caba8",
+      "source": "https://daeus.blog/2025/06/06/time-series-forecasting/",
+      "title": "Time Series Forecasting"
+    },
+    "understanding-and-combating-conspiracy-theories": {
+      "file": "20201213_understanding_and_combating_conspiracy_theories.txt",
+      "modified": "2026-08-21T23:47:28",
+      "plain_text_sha256": "af322d7286d2ac43c1cbfd4a14fd9ba252c790ff1f29f58d58a77a35250b593e",
+      "source": "https://daeus.blog/2020/12/13/understanding-and-combating-conspiracy-theories/",
+      "title": "Understanding and Combating Conspiracy Theories"
+    },
+    "value-under-uncertainty": {
+      "file": "20260913_value_under_uncertainty.txt",
+      "modified": "2026-09-15T21:38:45",
+      "plain_text_sha256": "d212a334f9b1177f2df3815248a54e318794311b4ca24dcbb3d48595973519c5",
+      "source": "https://daeus.blog/2026/09/13/value-under-uncertainty/",
+      "title": "Value Under Uncertainty"
+    },
+    "when-you-cant-a-b-test-causal-inference-in-product-data-science": {
+      "file": "20250624_causal_inference.txt",
+      "modified": "2026-08-16T11:29:15",
+      "plain_text_sha256": "10850c43d6f67919fd461367ea9baaaf5f5f237f97577fd2cd8cea6644276f1d",
+      "source": "https://daeus.blog/2025/06/24/when-you-cant-a-b-test-causal-inference-in-product-data-science/",
+      "title": "When You Can’t A/B Test: Causal Inference in Product Data Science"
+    },
+    "why-are-so-many-stocks-down-right-now": {
+      "file": "20220929_why_are_tech_stocks.txt",
+      "modified": "2026-08-21T23:28:35",
+      "plain_text_sha256": "c483995231e7e4c02835e7d1eeb1e006f0552057a5d3060d56295801be1e9931",
+      "source": "https://daeus.blog/2022/09/29/why-are-so-many-stocks-down-right-now/",
+      "title": "Why are so many tech stocks down right now?"
+    },
+    "wisdom-to-know-the-difference": {
+      "file": "20240910_wisdom_difference.txt",
+      "modified": "2026-08-21T23:38:15",
+      "plain_text_sha256": "30e3d91d209976bce17fd4b4868b507d491d290f55a5e585d03e82b7fcf7378e",
+      "source": "https://daeus.blog/2024/09/10/wisdom-to-know-the-difference/",
+      "title": "Wisdom To Know The Difference"
+    },
+    "working-in-tech-in-the-era-of-high-interest-rates-crypto-and-genai": {
+      "file": "20240815_working_in_tech_era_genai.txt",
+      "modified": "2026-08-21T23:30:54",
+      "plain_text_sha256": "9d8fb9e27c0ce94e9a70dbee6ae29a847da0d31c3c142aa5cfd2f37d722de077",
+      "source": "https://daeus.blog/2024/08/15/working-in-tech-in-the-era-of-high-interest-rates-crypto-and-genai/",
+      "title": "Working In Tech In The Era of High Interest Rates, Crypto, and GenAI"
+    }
+  },
+  "site": "https://daeus.blog/"
+}
